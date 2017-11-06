@@ -1,0 +1,20 @@
+1. https://www.mongodb.com/
+
+2. Community, complete version으로 설치
+
+3. set up db enviornment
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+Run MongoDB Community Edition
+follow upper steps
+
+4-1. 환경변수에 mongod 설정
+C:\Program Files\MongoDB\Server\3.4\bin
+
+4-2. DB path D드라이브 설정
+** 관리자 모드에서 할 것
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#configure-a-windows-service-for-mongodb-community-edition
+a. mongodb 경로에 mongod.cfg
+
+** mongod.cfg의 default값들은
+net start mongodb 할 때만 먹힌다.
+mongod로 시작하면 안 먹힘

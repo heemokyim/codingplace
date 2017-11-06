@@ -1,0 +1,5 @@
+1. 코드를 읽음
+
+2. V8 위에 덧붙여진 사람들이 짜놓은 코드를 통해 머신코드로 컴파일됨
+
+코드 -> Node.JS engine (extended V8 engine) -> Machine code

@@ -1,0 +1,17 @@
+V8 Engine (invented for chrome web)
+= JS Engine that converts JS to machine-code
+= based on ECMAScript(like ES6)
+= designed to embedd any c++ program
+( make something in c++ available to JS)
+
+Node.JS = c++ programme that V8 embedded that has added with features
+			to be suitable for server technology (also a framework)
+		(we can add some features in C++)
+		(and then order it thru JS)
+
+Javascript Engine (based on ECMAScript)
+= program that converts 
+JS code into something processor can understand
+------------------------------------
+Node is written in C++
+V8 is written in C++

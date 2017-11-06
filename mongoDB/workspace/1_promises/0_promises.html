@@ -1,0 +1,54 @@
+<head>
+    <body>
+        <button>Click</button>
+        <script>
+        // vanilla = 평범한, 특별할 것 없는
+        // ex) vanilla javascript = 그냥 자바스크립트
+        // AngoularJS, NodeJS가 아닌 그냥 vanilla
+
+        function startGame(){
+            console.log('game starting !');
+            let counter = 0;
+
+            document.querySelector('button').addEventListener('click',()=>{
+              ++counter;
+            });
+            // document.querySelector('button').addEventListener('click',function(){
+            //   ++counter;
+            // })
+
+            // setTimeout(()=>{
+            //   if(counter>5){
+            //     alert('you won! Your clicks'+counter)
+            //   }else{
+            //     alert('sorry you lost')
+            //   }
+            // },2000);
+
+            // too complicated for if-else statement
+            // How can solve this briefly?
+            // == Promises !
+
+            return new Promise((resolve,reject)=>{
+              setTimeout(()=>{
+                if (counter>5){
+                  resolve();
+                } else{
+                  reject();
+                }
+              },2000)
+            });
+          }
+
+          startGame()
+            // Promise.then() -> resolve()
+            .then(()=>alert('you win !'))
+            // Promise.catch() -> reject()
+            .catch(()=>alert('you lost !'))
+
+            // once promise gets into state,
+            // that's it, it never changes
+
+        </script>
+    </body>
+</head>

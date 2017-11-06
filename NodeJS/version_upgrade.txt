@@ -1,0 +1,7 @@
+1. sudo apt-get install nodejs
+2. sudo apt-get install npm
+3. sudo npm cache clean -f
+4. sudo npm install -g n
+5. sudo n stable
+6. sudo ln -sf /usr/local/n/versions/node/VERSION/bin/node /usr/bin/nodejs
+7. sudo n latest

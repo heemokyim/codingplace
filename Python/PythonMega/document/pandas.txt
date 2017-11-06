@@ -1,0 +1,13 @@
+SettingWithCopyWarning
+
+** 사건의 발단
+테이블에 column 추가 후 데이터 넣는데 SettingWithCopyWarning이 뜸
+data[column][index]=new_val
+
+1. data[column] 호출 (= tmp라 가정)
+2. tmp[index] 호출
+3. tmp[index].__getitem__
+
+** 해결방법
+data.loc[row,col]=new_val
+1. 바로 .__getitem__ 호출

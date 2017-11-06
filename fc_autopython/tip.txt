@@ -1,0 +1,30 @@
+** Efficient way to put string in python?
+==> input_str = ','.join(list)
+
+** How to \n without '\n' character in python?
+==> """ """  or ''' '''
+
+
+** 특정 디렉토리에서 cmd여는 법
+1. Shift + 오른쪽 클릭
+2. 주소창에서 cmd
+
+** 문자열에 특정 인덱스 문자 바꿀 때
+str = str.replace(old,new)
+
+** break, continue pattern
+while True:
+  if data== 없음:
+    break
+
+**
+emails = ['a','b','c']
+for e in emails:
+  if is_not_valid(e):
+    continue
+  send_email(e)
+
+set, multiset/bag, sequence
+
+** Where to find e-books?
+== Wikidocs

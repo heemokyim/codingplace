@@ -1,0 +1,4 @@
+1. C++ core libuv genreates a custom JS event
+
+2. JS side event is faking real event
+	== JS doesn't have event object

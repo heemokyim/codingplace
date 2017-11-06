@@ -1,0 +1,23 @@
+** Usually, normal architecture doesn't allow users
+to directly hits database for security reasons
+That's why there's web-server between app and DB
+
+** Mongoose is
+1. library to work with MongoDB easier
+2. it is also called ORM, ODM
+  2-1. ORM = Object Relational Mapper
+  2-2. ODM = Object Data Mapping
+3. industry standard
+
+** Feature of MongoDB
+1. Multiple internal database instances
+2. In each database of MongoDB, it has collection
+which is core unit of storing data inside Mongo
+(same kinds under same collection)
+
+** Core operations of Mongoose and MongoDB
+= CRUD (SIDU for RDB's DML)
+1. Create
+2. Read
+3. Update
+4. Destroy

@@ -1,0 +1,4 @@
+Advantage of using same language
+on both Frontend and Backend
+==> easy for maintenance
+==> only consider one language

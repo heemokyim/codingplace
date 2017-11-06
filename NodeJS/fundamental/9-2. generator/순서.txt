@@ -1,0 +1,13 @@
+What kind of architecture we should take?
+and How to make one?
+
+1. expressjs.com
+
+2. Getting Started - Express Generator
+
+3. npm install express-generator -g
+
+4. express myapp 
+
+5. now we have folders !
+(there will be sample dependencies)

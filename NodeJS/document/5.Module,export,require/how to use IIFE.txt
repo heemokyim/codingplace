@@ -1,0 +1,7 @@
+(function(){
+
+}())
+
+(function(param1){
+
+}(arg1))

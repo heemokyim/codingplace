@@ -1,0 +1,22 @@
+TCP 자체가 data chunk를 packet으로 잘게 나눠서 보냄
+=> Stream
+
+-------------------------------------------
+joyent/http-parser
+== can be used elsewhere
+
+-------------------------------------------
+when client requests to server,
+client is not directly conntected to it's file.
+server doing various things.
+
+-------------------------------------------
+
+JSON      = 문자열
+JS Object = 객체
+
+객체 -> 문자열
+JSON.stringify(arg)
+
+문자열 -> 객체
+JSON.parse(arg)

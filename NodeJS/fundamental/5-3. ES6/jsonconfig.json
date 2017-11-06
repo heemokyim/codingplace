@@ -1,0 +1,7 @@
+// tells editor that this folder contains ES6 code,
+
+{// and let editor not warn about any missing features for version difference
+    "compilerOptions":{
+        "target":"ES6"
+    }
+}

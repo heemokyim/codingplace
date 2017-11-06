@@ -1,0 +1,42 @@
+v8 - running code synchrnous
+one line at a time
+
+libuv - library to deal with lower lvl
+	events occuring in OS
+ex) download something or open a file
+
+Event loop - loop that libuv is constantly checking what event is happening
+
+--------------------------------------------------------------
+
+libuv requests lower-level things(from events) to OS
+and OS process those events.
+
+When OS puts something(events) finished in queue, (event completed)
+libuv sees that, then pass it as callback to V8
+(the code that should be runned when the event is completed)
+
+When V8 is received Callback,
+it runs callback unless there is running code
+because JS is synchronous
+
+but this whole process is asynchronous
+because v8 and libuv are running same time
+
+Therefore, Node is Event Driven Non-Blocking I/O in V8 JS
+(Event Driven = drived by events)
+(I/O = something has to do with OS)
+(Non-blocking = doing other things while program is running)
+
+https://gist.github.com/Jxck/4305806
+----------------------------------------------------
+why use buffer?
+== because of performance difference between CPU and other devices, there is always bottle neck.
+To lower performance decrease for bottle neck, process data at one time, not every time it is pushed
+== gather some data and move it along
+== and data in buffer flow thru stream
+
+ex) buffering when watching film,
+it is gathering data for processing thru stream.
+-----------------------------------------------------
+

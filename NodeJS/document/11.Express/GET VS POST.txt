@@ -1,0 +1,5 @@
+Querystring is in URL of http request
+=GET Method
+
+Querystring is in body of http request
+=Post Method

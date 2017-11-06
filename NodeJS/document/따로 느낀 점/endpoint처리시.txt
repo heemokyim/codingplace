@@ -1,0 +1,7 @@
+endpoint = one url in web?
+
+-----------------------------
+url에 따라 endpoint처리 시
+if else-if else로 해줘야 효과적
+
+만약 전부 if로 박는다면?

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Xhtml 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-size: 9pt;
+        }
+        #panel {
+            width: 600px;
+            height: 300px;
+            border: 1px solid #999;
+            position: relative;
+        }
+
+        #bar {
+            position: absolute;
+            left: 50px;
+            top: 190px;
+            width: 500px;
+            height: 20px;
+            background: #F30;
+        }
+
+        #img1 {
+            position: absolute;
+            left: 50px;
+            top: 120px;
+        }
+
+        #nav {
+            text-align: center;
+            width: 600px;
+        }
+    </style>
+
+    <script type="text/javascript"  src="../../libs/jquery-1.11.0.min.js"></script>
+    <script>
+        var input=window.prompt()
+
+        input=(parseInt(input)%2==0) ? '짝수' : '홀수';
+
+        document.write(input)
+
+
+    </script>
+</head>
+
+<body>
+    <div>
+
+        <div id="panel">
+            <div id="bar"></div>
+            <div id="img1">
+                <img src="fish.png">
+            </div>
+        </div>
+        <div id="nav">
+            <button id="btn_start">
+                좌표값 입력받기
+            </button>
+
+        </div>
+    </div>
+</body>
+</html>

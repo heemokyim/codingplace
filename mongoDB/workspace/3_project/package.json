@@ -1,0 +1,22 @@
+{
+  "name": "3_project",
+  "version": "1.0.0",
+  "description": "lecture for core features of MongoDB",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "mongoose": "^4.13.0"
+  },
+  "repository":{
+	"type":"git",
+	"url":"http://github.com/Anylee2142/nodejs"
+  }
+}

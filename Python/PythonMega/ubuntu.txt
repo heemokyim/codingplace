@@ -1,0 +1,133 @@
+1. 인터넷 북마크 설정 (파이어폭스)
+
+2. 키보드 설정 (윈도우 탐색기 win + e)
+
+3. gnome-system-monitor 단축키 설정 (단축키에 esc 들어가니까 안먹음)
+
+4. 윈도우에서 하는 것처럼 win 키누르고 화살표하면 알아서 땡겨지는 기능 쓸랬는데
+여기선 윈도우 가상윈도우 넘어가는 단축키다. 불편하지만 있는대로 써야겠당.
+
+5. Ubuntu 어도비 플래쉬 플레이어
+http://blog.daum.net/bagjunggyu/110
+
+6.원드라이브
+https://askubuntu.com/questions/676210/how-to-sync-onedrive-on-ubuntu-14-04
+	(python3 pip, git)
+http://www.omgubuntu.co.uk/2014/06/one-drive-ubuntu-integration
+
+ 구글드라이브
+ 디렉토리 셋업
+
+
+7. 팀뷰어
+https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
+
+** 팀뷰어 키려면 데몬이 실행되야 함
+sudo systemctl start teamviewerd
+sudo systemctl stop teamviewerd
+systemctl status teamviewrd
+sudo systemctl enable teamviewerd
+
+** 아이디에 attach된 컴퓨터들 비밀번호로 접속하게 하려면
+컴퓨터 오른쪽클릭 -> 속성 -> 비밀번호란 공백
+(캐쉬의 개념인듯)
+
+
+8. 우분투 파이썬3로 업그레이드
+https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get
+command aliasing
+https://askubuntu.com/questions/449555/how-to-install-python-3-4-on-ubuntu
+
+크롬 설치
+https://brunch.co.kr/@hancoma/90
+
+12. 파이썬3용 pip + 자주 쓰는 라이브러리
+https://m.blog.naver.com/PostView.nhn?blogId=post_human&logNo=220664252526&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+
+13. sudo apt-install git
+
+14. 프로세스 확인하기
+ps -ef
+t
+
+죽이기
+http://ody12.tistory.com/22
+ps pid
+kill -15 pid
+kill -9 pid
+
+좀비 죽이기
+https://zetawiki.com/wiki/%EC%A2%80%EB%B9%84_%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EC%B0%BE%EA%B8%B0,_%EC%A3%BD%EC%9D%B4%EA%B8%B0
+ps -ef | grep defunct | grep -v grep ( 'grep' 문자열이 들어간 스트링을 제외)
+kill -9 pid
+이래도 안죽으면 해당 프로세스의 부모를 죽이면 됨
+kill -9 ppid 
+
+15. grep
+(1)grep [옵션] [정규표현식(문자열)] [찾기 대상이 될 파일명]
+http://newmkka.tistory.com/89
+http://itpsolver.com/linux-grep-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%98%88%EC%A0%9C/
+http://www.myservlab.com/217
+
+10. apt, 배쉬, 쉘, daemon, grep과 xargs? 컴퓨터 용량확인하는 명령어, .deb, .rpm? 우분투 시스템이미지
+
+11. 네트워크 인터페이스 끄고 켜기
+sudo ifdown -a
+sudo ifup -a
+
+12. 디렉토리 전부 지우기
+rm -rf directory_name
+
+13. 
+** Git 처음 repo 만들고 코드 올릴 때
+1. git init
+2. git add
+3. git config --global core.editor nano
+4. git config --global user.emial 'Anylee2142@gmail.com'
+5. git commit -m '1234'
+6. git push origin master
+
+** Git 기존 reop에서 로컬로 처음 코드 올릴 때
+1. git clone url
+2. 변경사항
+3. git config --global user.email 'Anylee2142@gmail.com'
+4. git commit -m '1234'
+6. git push origin master
+
+** repo의 변경사항을 로컬로 반영하고 싶을 때
+1. git remote add origin url
+2. git pull origin master --allow-unrelated-histories
+
+** git clone vs pull
+http://egloos.zum.com/nemonein/v/5301736
+1. clone = github에 있는걸 복사해옴
+2. pull = merge의 개념
+
+14. 브라우저 단축키
+** Ctrl 1,2,3... = 웹페이지 넘김
+** Ctrl Tab = 웹페이지 차례대로 넘김
+
+15.
+9. 리눅스 파일찾기
+find ./ -name 'os.py'
+리눅스 문자열찾기
+grep -r 'aaa' ./*
+
+16. ssh EJ@anylee.iptime.org -p 1205
+(포트포워딩에 해준대로)
+
+17. cat a.txt -> 졸라빠름
+
+18. pwd -> 현재 디렉토리 출력
+
+19. apt-get update 한국서버 안될 때 바꾸는 법
+http://webdir.tistory.com/201
+
+20. dpkg = debian package management system
+
+21. apt = advanced pakage manager
+
+22. apt repository change = software & updates -> 다운로드 위치
+
+23. 리눅스 터미널에서 실행하려면 /usr/bin에 링크가 정의되있어야 함
+윈도우로 치면 환경변수 설정인듯

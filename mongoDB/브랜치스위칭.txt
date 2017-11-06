@@ -1,0 +1,9 @@
+https://tapaswenipathak.wordpress.com/2014/12/18/clone-all-remote-branches-with-git/
+
+1. git clone repo.git
+2. cd repo
+3. git branch -a로 브랜치 확인
+4. git checkout -b branch_name
+
+** Ambiguous name 'head'?
+== git branch -m HEAD newbranch

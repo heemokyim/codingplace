@@ -1,0 +1,6 @@
+https://blog.outsider.ne.kr/649
+
+nodemon
+== 소스가 수정되면 자동으로 서버를 재시작
+
+npm install -g nodemon

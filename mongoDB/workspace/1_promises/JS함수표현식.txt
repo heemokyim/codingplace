@@ -1,0 +1,13 @@
+setTimeout(function(a,b),timeout)
+
+function tmp(a,b){
+  return a+b;
+}
+
+-------------------------------------
+
+setTimeout((a,b)=>{
+  return a+b;
+},timeout)
+
+위 두 개가 같음

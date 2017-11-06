@@ -1,0 +1,10 @@
+1. ejs
+	One of Template Engine
+
+2. express
+
+3. body-parser
+	To process HTTP body from POST
+
+4. nodemon
+	Restart Server automatically after modification of source

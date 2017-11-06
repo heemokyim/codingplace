@@ -1,0 +1,5 @@
+1. mongod (default path)
+
+2. net start mongodb (우분투랑 헷갈림)
+
+3. mond.bat (파일이라 전역으로 설정할 수가 없음)

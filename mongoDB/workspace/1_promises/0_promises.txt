@@ -1,0 +1,8 @@
+조건문이 많아지면 보기가 힘들어짐
+조금 더 간결하게 코드를 짜자
+==> Promises를 쓸 수 있음
+
+더 정확하게 !
+Promises
+==> 나중에 실행될 코드를 관리하는 문법임
+(some poins in the future, database etc)

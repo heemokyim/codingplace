@@ -1,0 +1,9 @@
+1. DB에서 타뷸라 데이터(튜플)을 불러옴
+
+2. JS에선 사진과 tabular_data와 같이 JSON으로 표현됨
+
+3. 튜플 -> JSON으로 어떻게 바꿀까?
+
+4. npmjs.com -> mysql
+
+5. npm install mysql --save

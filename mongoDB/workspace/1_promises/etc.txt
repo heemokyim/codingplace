@@ -1,0 +1,5 @@
+Standalone function
+1. A global function
+  which doesn't belong to any class or namespace.
+2. Serves a single purpose
+  of doing something (like a utility, say strcpy())

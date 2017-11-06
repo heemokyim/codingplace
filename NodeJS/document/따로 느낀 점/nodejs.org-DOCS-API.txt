@@ -1,0 +1,7 @@
+https://nodejs.org/dist/latest-v6.x/docs/api/
+somethings are global, others not
+
+* where is all that Node cores?
+== in nodejs install dir
+
+// takeaway = streams and asynchronous than any other if possible

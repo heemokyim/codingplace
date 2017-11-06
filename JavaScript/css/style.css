@@ -1,0 +1,21 @@
+        header{border-bottom:1px black solid;
+        width:767px;}
+
+        nav{float:left;
+        border-right:1px black solid;
+        width:200px;
+        height:600px;
+        padding-right:30px}
+
+        nav ol{
+        list-style:none;
+        }
+
+        article{float:left;
+        padding:20px;
+ }
+
+        h2{
+        font-size:50px;
+        color:gray;
+        }

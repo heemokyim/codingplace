@@ -1,0 +1,12 @@
+JS Wrapper
+= make it easy to add some features
+
+ex) 
+var binding = process.binding('zlib')
+loading process.binding() from c++
+and use it in JS
+=> wrapper
+
+==
+Javascript library 
+that wraps c++ feature

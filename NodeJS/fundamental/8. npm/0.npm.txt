@@ -1,0 +1,96 @@
+npm === package management system
+-----------------------------------------------------------
+
+npm is installed with nodeJS
+%nodejs/npm
+-----------------------------------------------------------
+
+1. npmjs.com
+
+2. find the package you want and install !
+ex) https://www.npmjs.com/package/express
+
+3. source file should include meta what package my app depends on
+-----------------------------------------------------------
+
+** how to make dependency file?
+
+1. locate to the root folder
+ex) NodeJS\8.npm
+
+2. npm init
+
+3. type features
+ex) feature(default):
+== when just enter with nothing, default is used for that feature
+
+4. you will get package.json in that folder
+	and package.json = file representing dependency
+	which only npm matters, not nodeJS
+------------------------------------------------------------
+
+** how to test app with package.json?
+
+1. npm 'script'
+
+ex) if package is 8.npm/package.json, (scripts.test)
+npm test
+
+-------------------------------------------------------------
+
+** how to install package?
+
+1. npm install pacakge --save
+ex)npm install moment --save
+
+// two things happen
+a. node_modules in root folder	(npm install pacakge)
+	==> good way to track of dependencies of current source code
+	
+b. 'dependencies' property in package.json (--save)
+
+// what is ^ from "moment":"^2.19.1" ?
+== ^ is called caret meaning MINOR or PATCH changed
+
+// what is ~ from "moment":"~2.19.1" ?
+== ~ is called tilde meaning PATCH changed
+-------------------------------------------------------------
+
+** how to install listed modules in pacakge.json?
+	
+1. npm install (in the folder with package.json)
+-------------------------------------------------------------
+
+** I don't want to put certain module in dependency list
+	but i need it when i develop.
+	==> --save-dev
+
+	1. npm install package --save-dev (in the folder with package.json)
+	ex)npm install jasmine-node --save-dev
+	
+-------------------------------------------------------------
+** how to download and use module(s) globally?
+	(NPM and Node can access it from anywhere, not for particular app above)
+	
+	1. npm install -g package
+	ex)npm install -g nodemon
+	
+	* where is it?
+	C:\Users\my pc\AppData\Roaming\npm\node_modules
+--------------------------------------------------------------
+
+npm install === install both "dependencies" and "devDependencies"
+npm install --production === only install "dependencies"
+npm install --dev === install "devDependencies"
+--------------------------------------------------------------
+
+** how to update dependencies to its newest version?
+
+	1. npm update (in the folder with package.json)
+-------------------------------
+
+1. npm init
+
+2. npm install package --save
+
+3. npm install (-g)

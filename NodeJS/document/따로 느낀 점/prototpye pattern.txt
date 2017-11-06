@@ -1,0 +1,12 @@
+when to add something in object,
+use prototype pattern.
+
+ex)
+function Constructr(){
+
+}
+
+// when to add something
+Constructr.prototype.function1(){};
+
+Constructr.prototype.function2(){};

@@ -1,0 +1,10 @@
+* var = function scoped
+
+* let = block-scoped
+ex)
+if (condition){
+	let tmp=1;
+}
+console.log(tmp); <- error
+
+* const = const is const

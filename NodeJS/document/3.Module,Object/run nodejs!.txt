@@ -1,0 +1,34 @@
+node.exe?
+= a file that compiles every source
+
+How to check if node is installed properly
+== 'node -v' on cmd
+
+How to run node on cmd?
+== 'node' on cmd
+
+How to quit when node is turned on?
+== Ctrl+C twice
+
+How to run *.js on cmd?
+== 'node file.js' on cmd
+
+How to debug with breakpoint?
+== click red-point left to the line
+and press debug
+and F10
+
+first-class-object
+= object that supports every appliable operations for other objects
+
+if requirer.js, requiree.js
+How to use something in requiree.js at requirer.js?
+ex)
+* requirer.js	(require something from somewhere)
+var getter=require('./requiree.js')
+
+* requiree.js	(exports that something == exposing)
+module.exports = greet
+
+* requirer.js	(and execute that something)
+getter()

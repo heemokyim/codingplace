@@ -1,0 +1,42 @@
+* what if require's file doesn't exist but folder ?
+== find index.js in that folder
+
+ex) var greet=require('./greet')
+greet/index.js
+
+*.json?
+= one of file-formats
+= isn't JS but text
+= JS read json file and convert it into JS object
+
+object-literal representation between JS and JSON
+
+*JS
+{
+	first:... ,
+	last:...
+}
+
+*JSON
+{
+	"first":... ,
+	"last":...
+}
+
+* don't need to put .js in require path
+
+* require function caches result
+== the wrapped script code for require only run once
+including module.exports
+
+ex) var greet = require('./greet3')
+	var greet1= require('./greet3')
+	greet and greet1 point same object
+	
+* In JS for exports and module.exports
+assignment to variable = making new spot in memory
+assignment to object   = pointing same spot in memory
+
+also, exports and module.exports are same
+and because of quirk about upper,
+just use module.exports!

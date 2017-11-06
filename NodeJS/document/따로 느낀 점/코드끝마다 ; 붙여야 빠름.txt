@@ -1,0 +1,7 @@
+1. Node can run code without ;
+
+2. but when run that, translator works something about ;
+
+3. so without ;, performance may decrease
+
+* takeaway = put ; at every code line

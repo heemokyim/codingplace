@@ -1,0 +1,13 @@
+1. npm init
+(To describe dependencies)
+
+2. npm install --save mocha nodemon mongoose
+mocha = testing framework
+nodemon = reflect changes automatically while running
+mongoose = library to work with mongoDB
+
+// goofy 바보같은, 얼빠진
+// totally with you 완전그럼
+//
+
+https://nodejs.org/api/

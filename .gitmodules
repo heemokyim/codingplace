@@ -1,0 +1,3 @@
+[submodule "Python/PythonMega/worldjson"]
+	path = Python/PythonMega/worldjson
+	url = https://github.com/Anylee2142/world.geo.json.git

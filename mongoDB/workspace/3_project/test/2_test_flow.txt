@@ -1,0 +1,9 @@
+0. test_helper.js : mongoose.connect
+
+1. MongoDB connect
+
+2. done() after beforeEach() (hook)
+
+3. *_test.js : describe(it(assert()))
+
+** done can be accessed thru every it and beforeEach block

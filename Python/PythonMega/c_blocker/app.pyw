@@ -1,21 +1,7 @@
-# In Windows,
-# how can i pass "\n" without break line in path?
-# how can i tell python to take simple string, not special letter?
-# host_path= r'C:\Windows\System32\drivers\etc\hosts'
-
-# How to copy hosts file in here?
-# == cp path .
-# ex) cp 'C:\Windows\System32\drivers\etc\hosts' .
-# ex) cp /etc/hosts .
-
 import time
 from datetime import datetime as dt
 import platform
 
-# Note that when you execute app by task scheduler,
-# directory will not be located here
-# so when you use local file system with task scheduler
-# Always use absolute path
 host_temp='D:\GoogleDrive\CodingPlace\Python\PythonMega\c_blocker\hosts'
 hosts_path=''
 redirect='127.0.0.1'
@@ -33,8 +19,6 @@ if platform_os=='windows':
 else:
     host_path='/etc/hosts'
 
-# 1. list of websites you want to block
-# 2. can be I/O from file
 website_list=["www.facebook.com","www.naver.com",'www.yahoo.com']
 
 while True:
@@ -47,7 +31,6 @@ while True:
                     if each not in content:
                         file.write(input_line(each))
                 isAdded=True
-
     else:
         if isAdded:
             print('fun time !')

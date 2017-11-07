@@ -6,3 +6,6 @@
 Promises
 ==> 나중에 실행될 코드를 관리하는 문법임
 (some poins in the future, database etc)
+
+resolve -> promise.then()
+reject -> promise.catch()

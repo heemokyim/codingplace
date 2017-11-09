@@ -33,5 +33,8 @@ set, multiset/bag, sequence
 ex) count는 str.count에 빌트인으로 구현되있음.
 따라서 count라는 이름은 함수로 지으면 안되겠지?
 
+** What is __pycache__ ?
+To make import faster once executed
+
 ** How to import folder/folder2/lib.py ?
 from folder.folder2.lib import something

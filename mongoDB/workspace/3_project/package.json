@@ -11,12 +11,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "mocha": "^4.0.1",
-    "mongoose": "^4.13.0"
-  },
-  "repository":{
-	"type":"git",
-	"url":"http://github.com/Anylee2142/nodejs"
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Anylee2142/nodejs"
   }
 }

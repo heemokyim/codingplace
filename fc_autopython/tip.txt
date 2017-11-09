@@ -28,3 +28,10 @@ set, multiset/bag, sequence
 
 ** Where to find e-books?
 == Wikidocs
+
+** 함수이름 지을 때 reserved된 애들이랑 안겹치게 !
+ex) count는 str.count에 빌트인으로 구현되있음.
+따라서 count라는 이름은 함수로 지으면 안되겠지?
+
+** How to import folder/folder2/lib.py ?
+from folder.folder2.lib import something

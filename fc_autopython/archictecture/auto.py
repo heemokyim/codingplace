@@ -13,9 +13,9 @@ m_email.to_email = 'jkl2142@naver.com'
 m_email.subject='MY DEAR SOMEONE'
 
 for news in news_list:
-    m_email.contents = m_email.contents + news + '\n'
+    m_email.contents = news + '\n'
 
 m_email.send_mail()
 
-m_excel.excel_find = 'result.xlsx'
+m_excel.excel_file = 'result.xlsx'
 m_excel.save_to_excel(news_list)

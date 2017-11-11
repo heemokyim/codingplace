@@ -74,6 +74,14 @@ for col in cols:
     for cell in col:
         print(cell.value)
 
+4. I don't want to load all data in one time
+But on the fly
+----------------------------------------------------------------------------------
+===> load_workbook(read_only=True)
+
+
+excel_file = load_workbook('EXCEL.xlsx',read_only=True)
+
 
 4. How to get every name of sheet
 ----------------------------------------------------------------------------------

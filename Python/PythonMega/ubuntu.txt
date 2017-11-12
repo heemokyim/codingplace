@@ -131,3 +131,7 @@ http://webdir.tistory.com/201
 
 23. 리눅스 터미널에서 실행하려면 /usr/bin에 링크가 정의되있어야 함
 윈도우로 치면 환경변수 설정인듯
+
+24. deb파일 -> /etc/apt/sources.list
+저 파일에 다운받을 링크 entry가 들어있어야 함
+entry넣고 sudo apt-get update

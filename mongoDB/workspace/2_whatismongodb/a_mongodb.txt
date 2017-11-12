@@ -17,7 +17,7 @@ which is core unit of storing data inside Mongo
 
 ** Core operations of Mongoose and MongoDB
 = CRUD (SIDU for RDB's DML)
-1. Create
-2. Read
-3. Update
-4. Destroy
+1. Create   = INSERT
+2. Read     = SELECT
+3. Update   = UPDATE
+4. Delete  = DELETE

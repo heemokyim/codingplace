@@ -1,0 +1,12 @@
+goofy 바보같은, 얼빠진
+
+totally with you 완전그럼, 전적으로 동의한다
+
+iffy 뭔가 부족한, 불확실한
+
+vanilla = 평범한, 특별할 것 없는
+ex) vanilla javascript = 그냥 자바스크립트
+
+AngoularJS, NodeJS가 아닌 그냥 vanilla
+
+piecemeal 처음부터 계획된 것이 아닌 그때그때 조금씩 하는

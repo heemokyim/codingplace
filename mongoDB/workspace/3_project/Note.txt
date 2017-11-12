@@ -1,0 +1,44 @@
+1. npm init
+(To describe dependencies)
+
+2. npm install --save mocha nodemon mongoose
+mocha = testing framework
+nodemon = reflect changes automatically while running
+mongoose = library to work with mongoDB
+
+3. When modifying some to test,
+you should reload mocha everytime.
+How can we automate this?
+==> nodemon
+-----------------------------------------------
+"scripts": {
+  "test": "nodemon --exec mocha -R min"
+}
+
+"scripts": {
+  "test": "nodemon --exec mocha"
+}
+-----------------------------------------------
+
+3-1. Why not use Mocha's builtin watcher?
+==> compatibility issue with mongoose
+
+4. Class based VS Instance based function
+function for every instance under same class
+function for designated instance
+
+5. Reason why user.validate((result)=>{})
+instead of user.validate().then() ?
+==> then() is for Promise instance
+So user.validate doesn't return Promise instance?
+
+
+6. Arrow function example
+  (name)=>name.length>2
+
+  (name)=>{
+    if(name.length>2) return true
+    else return false
+    }
+
+https://nodejs.org/api/

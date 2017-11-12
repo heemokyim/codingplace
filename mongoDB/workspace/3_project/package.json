@@ -7,13 +7,16 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "nodemon --exec mocha"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "mongoose": "^4.13.1"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/Anylee2142/nodejs"
+    "url": "http://github.com/Anylee2142/codingplace"
   }
 }

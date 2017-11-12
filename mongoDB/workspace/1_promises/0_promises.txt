@@ -8,4 +8,7 @@ Promises
 (some poins in the future, database etc)
 
 resolve -> promise.then()
+ex) DB에 저장하는데 성공했다, READ하는데 성공했다.
+
 reject -> promise.catch()
+ex) DB에 저장하는데 실패했다, READ하는데 실패했다.

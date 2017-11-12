@@ -1,0 +1,8 @@
+1. install anaconda
+http://blog.naver.com/PostView.nhn?blogId=linears_&logNo=220981987111&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
+2. export PATH="YOUR_PATH/bin:$PATH"
+
+3. install navigator
+conda install -c anaconda anaconda-navigator
+anaconda-navigator

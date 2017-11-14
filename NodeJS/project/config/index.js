@@ -1,9 +1,7 @@
-var configValues = require('./config');
-
 module.exports = {
-    
+
     getDbConnectionString: function() {
-        return 'YOUR_MONGO_URL';
+        return 'mongodb://test:test@ds125365.mlab.com:25365/nodetodosample';
     }
-    
+
 }

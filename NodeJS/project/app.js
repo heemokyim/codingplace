@@ -7,11 +7,13 @@ var apiController = require('./controllers/apiController');
 
 var port = process.env.PORT || 3000;
 
+mongoose.Promise=global.Promise;
+
 app.use('/assets', express.static(__dirname + '/public'));
 
 app.set('view engine', 'ejs');
 
-mongoose.connect(config.getDbConnectionString());
+mongoose.connect(config.getDbConnectionString(),{useMongoClient:true});
 setupController(app);
 apiController(app);
 

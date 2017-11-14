@@ -3,6 +3,9 @@
 # editor == bad testing good saving
 # Let's grab both == Jupyter notebook
 
+# Jupyter notebook?
+# several addons on ipython
+
 # How to install Jupyter?
 # pip install jupyter
 

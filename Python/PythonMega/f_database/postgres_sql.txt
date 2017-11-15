@@ -1,0 +1,49 @@
+** psql 터미널에서 명령시 마지막에 ; 반드시 붙일 것 !
+
+** Set root user credential for POstgreSQL on ubuntu
+0. sudo service postgresql start
+
+1. sudo -u postgres psql
+
+2. ALTER USER postgres PASSWORD 'newpassword';
+-----------------------------------------------
+
+1. PostgreSQL on Ubuntu
+user: postgres
+password: usual one
+port: 5432
+(nmap localhost로 체크)
+http://www.indjango.com/ubuntu-install-postgresql-and-pgadmin/
+
+** psql terminal
+sudo -u postgres psql
+
+** How to set password for postgres?
+sudo -u postgres psql
+\password postgres
+\q
+psql -U postgres -h localhost
+
+
+** Create another user, database, priviliges
+https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
+
+** How to check list of database
+sudo -u postgres psql
+\list
+
+** How to check list of table(relation)
+sudo -u postgres psql
+\dt
+
+** How to check list of user
+sudo -u postgres psql
+\du
+
+** How to check table schema
+sudo -u postgres psql
+\d+ TABLE_NAME
+
+
+** ALTER DATABASE OWNER
+https://www.postgresql.org/docs/9.1/static/sql-alterdatabase.html

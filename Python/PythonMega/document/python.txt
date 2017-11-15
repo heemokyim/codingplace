@@ -30,7 +30,7 @@
  -
  -==> With same resources(compute power, algorithm etc), providing more functionality means more work
  -ex) Pycharm vs Atm
- 
+
  -==> 편하면 느림, 어려우면 빠름
 
 
@@ -87,3 +87,8 @@ If you meet not installed error,
 1. which -a library name
 2. sudo rm -rf all relavant library keyword?
 
+
+** How to install library if pip not working?
+1. Download precompiled library from google
+2. file must be .whl
+3. pip install that.whl

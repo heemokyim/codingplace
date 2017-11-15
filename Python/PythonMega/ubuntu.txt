@@ -61,7 +61,7 @@ https://zetawiki.com/wiki/%EC%A2%80%EB%B9%84_%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A
 ps -ef | grep defunct | grep -v grep ( 'grep' 문자열이 들어간 스트링을 제외)
 kill -9 pid
 이래도 안죽으면 해당 프로세스의 부모를 죽이면 됨
-kill -9 ppid 
+kill -9 ppid
 
 15. grep
 (1)grep [옵션] [정규표현식(문자열)] [찾기 대상이 될 파일명]
@@ -78,7 +78,7 @@ sudo ifup -a
 12. 디렉토리 전부 지우기
 rm -rf directory_name
 
-13. 
+13.
 ** Git 처음 repo 만들고 코드 올릴 때
 1. git init
 2. git add
@@ -132,6 +132,23 @@ http://webdir.tistory.com/201
 23. 리눅스 터미널에서 실행하려면 /usr/bin에 링크가 정의되있어야 함
 윈도우로 치면 환경변수 설정인듯
 
-24. deb파일 -> /etc/apt/sources.list
+24. deb로 파일받으려면 -> /etc/apt/sources.list
 저 파일에 다운받을 링크 entry가 들어있어야 함
 entry넣고 sudo apt-get update
+
+25. 리눅스 환경변수 설정하기
+== 터미널에서 바로 실행하도록 경로 추가하는 방법
+export PATH="YOUR_PATH/bin:$PATH"
+
+이거 한 후 bin에 들어있는 실행파일 터미널에 치면 실행됨
+환경변수 등록 완료
+
+26. 우분투 버전 확인
+lsb_release -a
+
+27. 데이터베이스나 터미널에서 실행가능한 프로그램 설치 후 실행할 때
+sudo service 프로그램이름 start/stop
+ex) mongodb, postgresql
+
+28. 우분투 열린 포트 확인
+nmap localhost

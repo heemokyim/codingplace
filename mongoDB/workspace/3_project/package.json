@@ -13,10 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "mocha": "^4.0.1",
-    "mongoose": "^4.13.1"
+    "mongoose": "^4.13.2"
   },
   "repository": {
     "type": "git",
     "url": "http://github.com/Anylee2142/codingplace"
-  }
+  },
+  "devDependencies": {}
 }

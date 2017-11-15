@@ -41,4 +41,16 @@ So user.validate doesn't return Promise instance?
     else return false
     }
 
+7. Virtual Data Type?
+== property that not actually stored in DB
+like postCount from User collection
+postCount is virtual data type
+** Refer to user.js
+
+8. Arrow function VS function declaration
+If one of this, arguments, new are in code,
+Arrow function cannot replace function declaration
+https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declaration-expressions-are-they-equivalent-exch
+
+
 https://nodejs.org/api/

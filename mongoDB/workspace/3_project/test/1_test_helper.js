@@ -20,6 +20,8 @@ before((done)=>{
   // If there is users_test, use it
   // else make users_test database
 
+  // mongoose.set('debug',true);
+
   mongoose.connection
     // open은 pipe.on('data',callback)처럼 reserved된 놈인듯
     .once('open',()=>{ done(); })

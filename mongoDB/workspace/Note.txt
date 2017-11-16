@@ -50,7 +50,7 @@ postCount is virtual data type
 ** Refer to user.js
 
 8. Arrow function VS function declaration
-If one of this, arguments, new are in code,
+If one of 'this', 'arguments', 'new' are in code,
 Arrow function cannot replace function declaration
 https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declaration-expressions-are-they-equivalent-exch
 

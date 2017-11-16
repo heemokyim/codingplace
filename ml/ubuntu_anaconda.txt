@@ -6,3 +6,12 @@ http://blog.naver.com/PostView.nhn?blogId=linears_&logNo=220981987111&categoryNo
 3. install navigator
 conda install -c anaconda anaconda-navigator
 anaconda-navigator
+
+4. anaconda python will be set as default python
+But don;t worry,
+any python lib you installed before will be connected with anaconda-python
+** How to check? 
+1. I installed folium before anaconda
+2. open python console with anaconda
+3. import folium
+4. folium.__file__ == previous python directory

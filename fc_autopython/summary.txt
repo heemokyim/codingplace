@@ -1,3 +1,5 @@
+** 파이썬엔 상수가 업땅
+
 ** Efficient way to put string in python?
 ==> input_str = ','.join(list)
 
@@ -38,3 +40,9 @@ To make import faster once executed
 
 ** How to import folder/folder2/lib.py ?
 from folder.folder2.lib import something
+
+
+** Sending a email From A to B
+1. A requests to service proviers' server
+2. server receives request
+3. Respond to B with A's email

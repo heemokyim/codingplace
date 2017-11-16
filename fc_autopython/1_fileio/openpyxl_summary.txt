@@ -57,6 +57,7 @@ for cell in col_of_worksheet:
     print(cell.value)
 
 # picking up square
+          [left up:right low]
 area = worksheet['A1:B2']
 for row in area:
     for cell in row:

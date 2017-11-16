@@ -6,6 +6,8 @@ mocha = testing framework
 nodemon = reflect changes automatically while running
 mongoose = library to work with mongoDB
 
+2. "directories":"test" in package.json
+
 3. When modifying some to test,
 you should reload mocha everytime.
 How can we automate this?
@@ -52,5 +54,32 @@ If one of this, arguments, new are in code,
 Arrow function cannot replace function declaration
 https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declaration-expressions-are-they-equivalent-exch
 
+9. How to execute mocha recursively?
+  In package.json
+** To specify to people which folder is for test
+"directories": {
+  "test": "test"
+},
+** test command by npm run test
+"scripts": {
+  "test": "nodemon --exec mocha --recursive"
+},
+** Refer to 4_exercise/test folder
+
+10. Difference between sub-document VS referencing
+sub-document = simply embedding,nesting Schema into another one
+ ex) post.js
+referencing = passing reference to fuse them
+ ex) blogPost.js
+
+11. Why mongoose in nodejs for mongodb?
+even though there are many other library.
+==> one of reason is promise provided by ES6 JS
+
+12. deep populate
+https://github.com/buunguyen/mongoose-deep-populate
+Post.find().deepPopulate('comments.user').exec(function (err, posts) { ... });
+Post.findOne().deepPopulate('comments.user').exec(function (err, post) { ... });
+Post.findById(id).deepPopulate('comments.user').exec(function (err, post) { ... });
 
 https://nodejs.org/api/

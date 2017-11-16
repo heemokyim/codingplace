@@ -10,3 +10,30 @@ ex) vanilla javascript = 그냥 자바스크립트
 AngoularJS, NodeJS가 아닌 그냥 vanilla
 
 piecemeal 처음부터 계획된 것이 아닌 그때그때 조금씩 하는
+
+upside/ downside 괜찮은 면/ 나쁜 면
+
+mock up 실물 크기의 모형을 만들다
+
+downplay 대단치 않게 생각하다
+
+chances are  아마 ~일 것이다
+
+pushing the boundaries 경계를 무너뜨리다
+
+land/get someone in hot water 누군가를 궁지에 몰아넣다
+bog someone down in something
+
+legitimate 적당한, 타당한
+
+gotcha == takeaway
+
+resolve
+  1. 해결하다
+  2. 다짐하다
+  resolve relationship == 관계를 확실히 하다
+  디비 연산 수행하기 전에 확실하게 불러온다?
+
+erran (errantly)
+1. 잘못된
+2. 바람피우는, 딴짓하는

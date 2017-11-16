@@ -11,8 +11,10 @@ mongoose.connection
     console.warn('Warning !',error);
   });
 
-let joe = new User({name:'Joe'});
+// let joe = new User({name:'Joe'});
 
-joe.save();
+// joe.save();
 
-console.log('saved')
+// console.log('saved')
+
+// console.log(mongoose.connection.collections)

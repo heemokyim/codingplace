@@ -5,5 +5,5 @@ https://tapaswenipathak.wordpress.com/2014/12/18/clone-all-remote-branches-with-
 3. git branch -a로 브랜치 확인
 4. git checkout -b branch_name
 
-** Ambiguous name 'head'?
+** Ambiguous name 'head' error ?
 == git branch -m HEAD newbranch

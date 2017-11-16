@@ -1,7 +1,7 @@
 {
-  "name": "3_project",
+  "name": "4_exercise",
   "version": "1.0.0",
-  "description": "lecture for core features of MongoDB",
+  "description": "challenges",
   "main": "index.js",
   "directories": {
     "test": "test"

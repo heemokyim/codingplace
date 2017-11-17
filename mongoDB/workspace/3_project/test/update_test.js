@@ -75,3 +75,6 @@ describe('Updating records', ()=>{
 // nameUpdate(user);
 // emailUpdate(user);
 // user.save();
+
+// What can be inferred from upper?
+// Operation can be done thru whole collection

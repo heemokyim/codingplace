@@ -1,38 +1,36 @@
 const assert = require('assert');
 const User = require('../src/user');
 
-describe('Reading users out of database', ()=>{
+describe('Pagination : Skip and Limit', ()=>{
 
-  let joe;
+  let joe, maria, alex, zach;
 
   beforeEach((done)=>{
     joe = new User({name:'Joe'});
-    joe.save()
-      .then(() => done());
+    maria = new User({name:'Maria'});
+    alex = new User({name:'Alex'});
+    zach = new User({name:'Zach'});
+
+    // Why Promise.all?
+    // To keep in order for test
+    Promise.all([joe.save(),maria.save(),alex.save(),zach.save()])
+      .then(()=>done());
   });
 
-  it('finds all users with a name of joe', (done)=>{
-    // find all users
-    User.find({name:'Joe'})
-            // result of User.find
-      .then((listOfUsers)=>{
-        // console.log(listOfUsers[0]._id);
-        // console.log(joe._id);
-        // Upper two seem identical but below comparison will fail
-        assert(listOfUsers[0]._id.toString() === joe._id.toString());
-        // Why?
-        // because instance._id is object, not raw string
+  it('can skip and limit the result set', (done)=>{
+    // User.find({}) ? == there is no FILTER
+    // which means bring all records
+    User.find({})
+      .sort({ name: 1})
+      // sort({ criteria : 1 or -1 })
+      // 1 ascending, -1 descending
+      .skip(1)
+      .limit(2)
+      .then((users)=>{
+        assert(users.length == 2);
+        assert(users[0].name === 'Joe');
+        assert(users[1].name === 'Maria');
         done();
       });
-  });
-
-  it('finds a user with a particular id', (done)=>{
-      // In here, you don't need to toString
-      // Mongoose will take care internally
-      User.findOne({ _id:joe._id})
-        .then((user)=>{
-          assert(user.name === 'Joe');
-          done();
-        });
   });
 });

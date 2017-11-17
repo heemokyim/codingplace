@@ -27,4 +27,6 @@ beforeEach((done)=>{
       });
     });
   });
+  // Promise.all([users.drop(),comments.drop(),blogposts.drop()])
+  //  .then(()=>done());
 });

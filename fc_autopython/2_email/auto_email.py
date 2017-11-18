@@ -8,10 +8,11 @@ from email.mime.multipart import MIMEMultipart
 # ex) html = structure, MIME = content inside of it
 import smtplib
 
+f = open('/home/ej/older/password','r')
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 465
-SMTP_USER = 'dlxoghkqwer@gmail.com'
-SMTP_PASSWORD = 'fastcampus1'
+SMTP_USER = 'anylee2142@gmail.com'
+SMTP_PASSWORD = f.read()
 
 class Email():
     from_email = SMTP_USER
@@ -82,4 +83,4 @@ class Email():
 if __name__ == '__main__':
     e = Email()
     e.send_mail('이재웅','jkl2142@naver.com')
-    e.send_mail('재웅재웅','jkl2142@naver.com','email_address.xlsx')
+    # e.send_mail('재웅재웅','jkl2142@naver.com','email_address.xlsx')

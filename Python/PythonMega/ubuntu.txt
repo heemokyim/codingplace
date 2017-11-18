@@ -155,3 +155,5 @@ nmap localhost
 
 29. tar.gz 푸는법, 플래그 설명
 https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file
+
+30. pip install --target="YOUR_PATH" package

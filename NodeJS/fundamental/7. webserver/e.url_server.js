@@ -32,4 +32,4 @@ http.createServer(function(req, res){
     // what if no else-if?
     // == check every if, not efficient
 
-}).listen(1337,'127.0.0.1'); 
+}).listen(3000,'0.0.0.0'); 

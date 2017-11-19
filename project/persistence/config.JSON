@@ -1,0 +1,8 @@
+{
+  "CONFIG":{
+    "HOST":"",
+    "USER":"",
+    "PASSWORD":"",
+    "DATABASE":""
+  }
+}

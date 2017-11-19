@@ -7,12 +7,16 @@ let dbConn = require('../persistence/dbConnector');
 module.exports=function(app){
   app.get('/users/:name',function(req,res){
 
-    SQL = "INSERT INTO users VALUES ('wow');"
+    // SQL = "INSERT INTO users VALUES ('"++"');'"
 
-    dbConn.query(SQL,function(err,rows){
-      if(err) throw err;
-      console.log(rows);
-    });
+    console.log(req);
+    console.log(req.body);
+    console.log(req.query.qstr);
+
+    // dbConn.query(SQL,function(err,rows){
+    //   if(err) throw err;
+    //   console.log(rows);
+    // });
 
     res.send('User saved !');
   });

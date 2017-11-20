@@ -4,3 +4,6 @@
 [submodule "mongoDB/mongocast"]
 	path = mongoDB/mongocast
 	url = https://github.com/Anylee2142/MongoCasts.git
+[submodule "mongoDB/workspace/5_excercise"]
+	path = mongoDB/workspace/5_excercise
+	url = http://github.com/Anylee2142/UpStarMusic.git

@@ -11,19 +11,19 @@ module.exports=function(app){
     let SQL = `INSERT INTO users(ID,PW) VALUES('${args.id}','${args.pw}');`;
     SQL += 'SELECT pid FROM users WHERE pid = LAST_INSERT_ID();';
 
-    dbConn.query(SQL,(err,results)=>{
+    dbConn.query(SQL,(err,rows)=>{
       if(err){
         res.send(JSON.stringify({
           msg:'Error while sign up',
-          code:'000 Sign up'
+          code:'000 Sign up',
         }));
 
         throw err;
       }
-      // console.log(results)
+
       res.send(JSON.stringify({
         msg:`User sucessfully created !`,
-        pid:results[1][0].pid
+        result:rows[1][0]
       }));
     });
   });
@@ -32,9 +32,16 @@ module.exports=function(app){
     let ID = req.params.id;
     let SQL = `SELECT pid FROM users WHERE ID='${ID}';`
 
-    // results, rows 차이
+    // rows, results 차이 = results로 하면 서버가 에러를 캣치못하고 죽음
       dbConn.query(SQL,(err,rows)=>{
-        if(err) throw err;
+        if(err){
+          res.send(JSON.stringify({
+            msg:'Error while find ID = '+ID,
+            code:'001 Find user'
+          }));
+
+          throw err;
+        }
 
         res.send(JSON.stringify({
           msg:'User succecssfuly found',

@@ -5,6 +5,8 @@ const jsonParser = bodyParser.json();
 let dbConn = require('../persistence/dbConnector');
 
 module.exports=function(app){
+
+  // 000. User Sign up
   app.get('/users/',function(req,res){
     console.log(req.query);
     let args = req.query;
@@ -28,6 +30,7 @@ module.exports=function(app){
     });
   });
 
+  // 001. Find User
   app.get('/users/:id',function(req,res){
     let ID = req.params.id;
     let SQL = `SELECT pid FROM users WHERE ID='${ID}';`

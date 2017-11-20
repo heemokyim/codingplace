@@ -1,8 +1,6 @@
 {
-  "CONFIG":{
-    "HOST":"",
-    "USER":"",
-    "PASSWORD":"",
-    "DATABASE":""
-  }
+    "HOST":"localhost",
+    "USER":"root",
+    "PASSWORD":"5555",
+    "DATABASE":"initial_portfolio"
 }

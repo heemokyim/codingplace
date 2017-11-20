@@ -5,27 +5,42 @@ const jsonParser = bodyParser.json();
 let dbConn = require('../persistence/dbConnector');
 
 module.exports=function(app){
-  app.get('/users/:name',function(req,res){
+  app.get('/users/',function(req,res){
+    console.log(req.query);
+    let args = req.query;
+    let SQL = `INSERT INTO users(ID,PW) VALUES('${args.id}','${args.pw}');`;
+    SQL += 'SELECT pid FROM users WHERE pid = LAST_INSERT_ID();';
 
-    // SQL = "INSERT INTO users VALUES ('"++"');'"
+    dbConn.query(SQL,(err,results)=>{
+      if(err){
+        res.send(JSON.stringify({
+          msg:'Error while sign up',
+          code:'000 Sign up'
+        }));
 
-    console.log(req);
-    console.log(req.body);
-    console.log(req.query.qstr);
-
-    // dbConn.query(SQL,function(err,rows){
-    //   if(err) throw err;
-    //   console.log(rows);
-    // });
-
-    res.send('User saved !');
+        throw err;
+      }
+      // console.log(results)
+      res.send(JSON.stringify({
+        msg:`User sucessfully created !`,
+        pid:results[1][0].pid
+      }));
+    });
   });
 
-  app.get('/userss',function(req,res){
+  app.get('/users/:id',function(req,res){
+    let ID = req.params.id;
+    let SQL = `SELECT pid FROM users WHERE ID='${ID}';`
 
-    // dbConn.query(SQL,function(err,rows){
-    //   if(err) throw err;
-    //   console.log(rows);
-    // });
+    // results, rows 차이
+      dbConn.query(SQL,(err,rows)=>{
+        if(err) throw err;
+
+        res.send(JSON.stringify({
+          msg:'User succecssfuly found',
+          result:rows
+        }))
+      });
+
   });
 };

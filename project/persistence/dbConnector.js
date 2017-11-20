@@ -1,17 +1,24 @@
 const mysql = require('mysql');
+const config = require('./config')
 
 var dbConn = mysql.createConnection({
-  host:'localhost',
-  user:'root',
-  password:'5555',
-  database:'initial_portfolio'
+  host:config.HOST,
+  user:config.USER,
+  password:config.PASSWORD,
+  database:config.DATABASE,
+  multipleStatements:true
 });
-// config 파일 반영
 
-let Users_SQL ="CREATE TABLE IF NOT EXISTS users (name  VARCHAR(10));";
+let TableUsersSQL ="CREATE TABLE IF NOT EXISTS users (\
+  pid INT NOT NULL AUTO_INCREMENT, \
+  ID VARCHAR(30) NOT NULL,\
+  PW VARCHAR(30) NOT NULL,\
+  PRIMARY KEY (pid)\
+  );\
+";
 // let sql = "11 \ 11" 로 수정
 
-dbConn.query(Users_SQL,(err,rows)=>{
+dbConn.query(TableUsersSQL,(err,rows)=>{
   if(err) throw err;
   console.log('DB connected !');
 })

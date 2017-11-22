@@ -21,3 +21,6 @@ which is core unit of storing data inside Mongo
 2. Read     = SELECT
 3. Update   = UPDATE
 4. Delete  = DELETE
+
+** Database has several Collections
+** Collection has several Documents (each tuple)

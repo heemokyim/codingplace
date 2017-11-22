@@ -36,6 +36,15 @@ git checkout -b branch_name
 	서브모듈도 일반 repo 다루듯이 하면 됨
 	1. 서브모듈에서 commit 후 push
 	2. 부모디렉토리에서 서브모듈 add 후 commit 후 push
+
+	** 만약 서브모듈 수정 후 commit 깜빡해서 안하면 에러나서 다음에 git submodule update가 안됨
+	해결책 https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule
+	ex) a/submodule 이 서브모듈 경로라 치자
+	1. git submodule deinit -f -- a/submodule
+	2. rm -rf .git/modules/a/submodule
+	3. git rm -f a/submodule
+	4. git commit 
+	5. git push
 	
 
 6. 해당 디렉토리에 git을 없애고 싶다

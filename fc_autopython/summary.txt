@@ -1,4 +1,6 @@
-** 파이썬엔 상수가 업땅
+** Daemon 백그라운드에서 돌면서 여러 작업을 하는 프로세스
+
+** 파이썬엔 상수 키워드가 업땅
 
 ** Efficient way to put string in python?
 ==> input_str = ','.join(list)

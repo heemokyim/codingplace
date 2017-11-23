@@ -16,13 +16,13 @@ from tkinter import *
 import backend
 
 def get_selected_row(event):
-
     try:
         global selected_tuple
         # selected_tuple is result of this function
         # Two reasons for global
         # 1. Cannot get event when delete_command
         # 2. Same operation with global
+
         index = list1.curselection()[0]
 
         selected_tuple=list1.get(index)

@@ -21,6 +21,8 @@ conn = sqlite3.connect('lite.db')
 cur = conn.cursor()
 
 def create_table():
+    # automatically pk made as rowid
+    # no need to define additional primary key
     cur.execute("CREATE TABLE IF NOT EXISTS store(item TEXT, quantity INTEGER,price REAL)")
 
     conn.commit()
@@ -32,7 +34,7 @@ def insert(item,quantity,price):
     conn.commit()
 
 def select():
-    cur.execute("SELECT * FROM store")
+    cur.execute("SELECT rowid,quantity FROM store")
 
     rows = cur.fetchall()
 

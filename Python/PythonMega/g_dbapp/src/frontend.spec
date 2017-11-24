@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['frontend.py'],
-             pathex=['/home/ej/codingplace/Python/PythonMega/g_dbapp/src'],
+             pathex=['D:\\codingplace\\Python\\PythonMega\\g_dbapp\\src'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -26,4 +26,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=True )
+          console=False )

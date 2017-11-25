@@ -19,7 +19,6 @@ try:
     # iframe 태그 안으로 이동
     driver.switch_to_frame(iframe)
 
-
     curr_page = 1
     while True:
         form = driver.find_element_by_name('ArticleList')

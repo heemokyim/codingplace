@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-# driver = webdriver.Chrome('../4_crawling/chromedriver')
 driver = webdriver.Chrome('./chromedriver')
 
 try:
@@ -76,10 +75,6 @@ try:
         ac.send_keys(Keys.ESCAPE)
         ac.perform()
 
-    # 검사를 확인하기 위해 대기
-    input()
-
-except Exception as e:
     print(e)
 
 finally:

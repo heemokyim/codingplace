@@ -11,7 +11,7 @@ module.exports=function(app){
     console.log(req.query);
     let args = req.query;
     let SQL = `INSERT INTO users(ID,PW) VALUES('${args.id}','${args.pw}');`;
-    SQL += 'SELECT pid FROM users WHERE pid = LAST_INSERT_ID();';
+    SQL += 'SELECT pid,gold,lvl,exp,chr FROM users WHERE pid = LAST_INSERT_ID();';
 
     dbConn.query(SQL,(err,rows)=>{
       if(err){
@@ -33,7 +33,7 @@ module.exports=function(app){
   // 001. Find User
   app.get('/users/:id',function(req,res){
     let ID = req.params.id;
-    let SQL = `SELECT pid FROM users WHERE ID='${ID}';`
+    let SQL = `SELECT pid,gold,lvl,exp,chr FROM users WHERE ID='${ID}';`
 
     // rows, results 차이 = results로 하면 서버가 에러를 캣치못하고 죽음
       dbConn.query(SQL,(err,rows)=>{

@@ -17,10 +17,6 @@ try:
 
     time.sleep(1)
 
-    driver.switch_to_alert()
-
-    
-
     input()
 
 except Exception as e:

@@ -1,0 +1,11 @@
+** Infinite scroll down
+https://stackoverflow.com/questions/20986631/how-can-i-scroll-a-web-page-using-selenium-webdriver-in-python
+
+** Check if element exists
+https://stackoverflow.com/questions/45695874/check-if-element-exists-python-selenium
+
+elements=driver.find_elements_by_partial_link_text("text")
+if not elements:
+    print("No element found")
+else:
+    element = elements[0]  

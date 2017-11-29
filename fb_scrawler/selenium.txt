@@ -8,4 +8,6 @@ elements=driver.find_elements_by_partial_link_text("text")
 if not elements:
     print("No element found")
 else:
-    element = elements[0]  
+    element = elements[0]
+
+** 파일 쓰기는 오직 문자열만 !

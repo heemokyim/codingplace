@@ -11,10 +11,15 @@ ac = ActionChains(driver)
 HOW_MANY = 3
 
 def goAndScrawl():
+    print('fuck')
     try:
         board= driver.find_element_by_class_name('_1dwg')
         board_content = board.find_element_by_class_name('_5r69')
         deliver = board_content.find_element_by_class_name('fcg')
+
+        print('here')
+        print(len(deliver))
+
         a_tags = deliver.find_elements_by_tag_name('a')
 
         source_post = a_tags[2]
@@ -111,6 +116,8 @@ def hidePost():
     footer = popUp.find_element_by_class_name('_5lnf')
     hide = footer.find_element_by_class_name('layerConfirm')
     hide.click()
+
+
 
 try:
     # -------------------------------------------------

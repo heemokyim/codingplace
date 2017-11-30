@@ -12,6 +12,8 @@ ac = ActionChains(driver)
 
 plat = platform.system()
 
+MY_ID = 'anylee77@naver.com'
+
 win_pass_path = 'D:\password.txt'
 lin_pass_path = '/home/ej/older/password'
 pass_path = lin_pass_path if plat=='Linux' else win_pass_path
@@ -27,7 +29,7 @@ def loginFb():
     ID = driver.find_element_by_name('email')
     PW = driver.find_element_by_name('pass')
 
-    ID.send_keys('anylee77@naver.com')
+    ID.send_keys(MY_ID)
     with open(pass_path,'r') as file:
         PW.send_keys(file.read())
         if plat == 'Windows':
@@ -147,7 +149,7 @@ def colletData():
 
     time.sleep(1)
 
-    # print(post_index)
+    print(post_index)
 
     # I'm at my page
     boards = driver.find_elements_by_class_name('_1dwg')

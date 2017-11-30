@@ -30,7 +30,7 @@ class Email():
         else:
             return False
 
-    def send_mail(self,name,addr,attachment=None):
+    def send_mail(self, name, addr, attachment=None):
         if not self.is_valid_email(addr):
             print("Wrong email: "+addr)
             return

@@ -46,6 +46,10 @@ def myPage():
     clickSwh()
     my_btn = driver.find_element_by_class_name('_1vp5')
     my_btn.click()
+    time.sleep(0.2)
+    driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
+    time.sleep(0.2)
+    driver.execute_script('window.scrollTo(0,0);')
 
 def clickEtc(board):
     clickSwh()

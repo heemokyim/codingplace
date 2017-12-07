@@ -31,6 +31,7 @@ def get_target(filename):
 # Windows folder path
 base_dir = 'D:\\codingplace\\fc_autopython\\7_application\\data'
 # print(base_dir+'/result.xlsx')
+
 # wb.save(base_dir + '/result.xlsx')
 
 # Mac에서 실행

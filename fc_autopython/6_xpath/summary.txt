@@ -15,6 +15,8 @@ ex) 이걸 검색창에다 검색
   //a[@data-log-actionid-label='sellername']
 
   .//span[text()='고객응대우수']
+
+  news_list = driver.find_elements_by_xpath('//div[%id='right.ranking_contents']/ul/li')
 ------------------------------------------------------
 
 1. get_attribute('data-log-body')로 쓸 수 있나요?

@@ -1,8 +1,16 @@
+import platform
+
 def get_11st(keyword):
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
 
-    driver = webdriver.Chrome('./chromedriver')
+    driver = None
+    if platform.system() == 'Windows':
+        driver = './chromedriver.exe'
+    else:
+        driver = './chromedriver'
+
+    driver = webdriver.Chrome(driver)
     driver.maximize_window()
 
     results = []

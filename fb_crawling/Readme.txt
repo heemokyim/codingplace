@@ -3,6 +3,7 @@ Crawling shared posts on my page from FaceBook Chrome Browser
 
 1. Crawling -> Text file in designated path
 (it needs 'index' file inside of same path)
+(Note that no ':' in file path in Windows)
 
 2. Password is read from local file system
 

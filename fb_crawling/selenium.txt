@@ -30,3 +30,8 @@ _k_e _2932 img sp_d2gwupREjyA sx_ac2d31
 
 1-a. _fol 안에 자물쇠면 그냥 go
 1-b. _fol 안에 전체공개면 post_index += 1
+
+-----------------------------------------------------------------------------------------------
+element is not clickable error 뜨면 action chain으로 대체
+1. vanila selenium을 가급적 쓴다.
+2. clickable error가 나면 action chain으로 대체

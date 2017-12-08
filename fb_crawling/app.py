@@ -11,13 +11,11 @@ MY_ID = 'anylee77@naver.com'
 
 lin_driver = './linux/chromedriver'
 win_driver = './window/chromedriver.exe'
-
 driver_path = lin_driver if plat=='Linux' else win_driver
 
 driver = webdriver.Chrome(driver_path)
 driver.maximize_window()
 ac = ActionChains(driver)
-
 
 win_pass_path = 'D:\\password.txt'
 lin_pass_path = '/home/ej/older/password'
@@ -26,7 +24,6 @@ pass_path = lin_pass_path if plat=='Linux' else win_pass_path
 win_result_path = 'D:\\codingplace\\TODOL'
 lin_result_path = '/home/ej/codingplace/TODOL'
 result_path = lin_result_path if plat=='Linux' else win_result_path
-
 
 def loginFb():
     driver.get('https://www.facebook.com')
@@ -92,45 +89,84 @@ def hidePost(board):
     hide = footer.find_element_by_class_name('layerConfirm')
     hide.click()
 
-def writeFile(TEXT, IMG_LINKS, COMMENTS,link):
+def writeFile(TEXT, LINKS, IMG_LINKS, COMMENTS,link):
     now = datetime.datetime.now()
-    nowDate = now.strftime('%Y-%m-%d %H:%M:%S')
+    nowDate = now.strftime('%Y-%m-%d %H-%M-%S')
+    # 윈도우에서 파일이름에 ':' 넣지 말 것
 
-    print('\t'+'File Writing Started..')
+    print('File Writing Started..')
 
     global file_index
     file_name = str(file_index)+') '+nowDate
     f_path = result_path+'/'+file_name
-    print(f_path)
+    print('\t'+f_path)
 
     try:
-        with open(f_path+'.txt','w') as fp:
-            fp.write('\t'+'** 링크'+'\n')
-            fp.write(link+'\n\n\n')
+        # encoding을 UTF-8로 한 이유
+        # 페북에서만 쓰이는 텍스트 특수문자가 파이썬 디폴트 코덱으로는 인식안됨
+        with open(f_path+'.txt','w',encoding='UTF-8') as fp:
+            try:
+                if link:
+                    fp.write('\t'+'** 게시물 URL'+'\n')
+                    fp.write(link+'\n\n\n')
+            except Exception as e:
+                print(e)
+                print('Error while writing 게시물 URL')
+                pass
 
-            fp.write('\t'+'** 본문'+'\n')
-            fp.write(TEXT+'\n\n\n')
+            try:
+                if TEXT:
+                    fp.write('\t'+'** 본문'+'\n')
+                    fp.write(TEXT+'\n\n\n')
+            except Exception as e:
+                print(e)
+                print('Error while writing 본문')
+                pass
 
-            fp.write('\t'+'** 이미지 링크'+'\n')
-            for IMG_LINK in IMG_LINKS:
-                fp.write(IMG_LINK+'\n')
-            fp.write('\n\n')
+            try:
+                if LINKS:
+                    fp.write('\t'+'** 링크'+'\n')
+                    for LINK in LINKS:
+                        fp.write(LINK+'\n')
+                    fp.write('\n\n')
+            except Exception as e:
+                print(e)
+                print('Error while writing 링크')
+                pass
 
-            fp.write('\t'+'** 댓글'+'\n')
-            for COMMENT in COMMENTS:
-                fp.write(COMMENT+'\n')
-            fp.write('\n\n')
+            try:
+                if IMG_LINKS:
+                    fp.write('\t'+'** 이미지 링크'+'\n')
+                    for IMG_LINK in IMG_LINKS:
+                        fp.write(IMG_LINK+'\n')
+                    fp.write('\n\n')
+            except Exception as e:
+                print(e)
+                print('Error while writing 이미지 링크')
+                pass
+
+            try:
+                if COMMENTS:
+                    fp.write('\t'+'** 댓글'+'\n')
+                    for COMMENT in COMMENTS:
+                        fp.write(COMMENT+'\n')
+                    fp.write('\n\n')
+            except Exception as e:
+                print(e)
+                print('Error while writing 댓글')
+                pass
 
             updateIndex()
-    except:
-        print('Error while File Writing '+link)
+    except Exception as e:
+        print(e)
+        print('Error while opening File ! '+link)
 
-    print('File Writing Done !')
+    print('File Writing Done !\n\n')
 
 def checkScope():
+    # To crawl only non-public post
     index_count=0
 
-    # To crawl only non-public post
     fols = driver.find_elements_by_class_name('_fol')
 
     for fol in fols:
@@ -145,15 +181,12 @@ def checkScope():
     return index_count
 
 
-def colletData():
+def collectAndStore():
     clickSwh()
 
     global post_index
-
     # print('here')
-
     post_index = checkScope()
-
     # print('done')
 
     time.sleep(1)
@@ -164,74 +197,118 @@ def colletData():
 
     # 공유한 게시물은
     # 게시물, 사진, 링크, 동영상 으로 나뉨
-    post_links = [post.get_attribute('href') for post in board.find_elements_by_link_text('게시물')]
-    pic_links = [picture.get_atrribute('href') for picture in board.find_elements_by_link_text('사진')]
-    link_links = [link.get_attribute('href') for link in board.find_elements_by_link_text('링크')]
-    video_links = [video.get_atrribute('href') for video in board.find_elements_by_link_text('동영상')]
+    tags = ['게시물','링크','사진','동영상']
+    # 가능한 경우의 수
+    # 게시물 2개
+    # 게시물 1개
+    # 게시물 1개, 링크 1개
+    # 사진 1개
+    # 동영상 1개
 
-    total_links = post_links + pic_links + link_links + video_links
+    total_links = []
+    for tag in tags:
+        total_links += [each.get_attribute('href') for each in board.find_elements_by_link_text(tag)]
+
+    # 게시물 1개, 링크 1개인 경우
+    if len(total_links)==2 and total_links[0]==total_links[1]:
+        total_links.pop()
+
+    # 내가 작성한 게시물인데 비공개 = 공유하지 않은 게시물인 경우
+    if len(total_links)==0:
+        TEXT = board.text
+        print(TEXT)
+        input()
+
+
     print('total links are ' +str(total_links))
 
     hidePost(board)
 
     # What to put in file?
-    # 0. Link of post
-    # 1. Img link if there is
-    # 2. Text
-    # 3. Any Comments
-    # 4. User content (퍼간사람이 쓴 글)
+    # 1. 게시물 url
+    # 1. 링크가 있다면 링크 url
+    # 2. 이미지가 있다면 이미지 url
+    # 1. 동영상이 있다면 동영상 url
+    # 3. 텍스트
+    # 4. 게시물에 달린 댓글
 
-    print('Crawling Started !')
+    # 예외처리해서 없으면 넘어가도 되게 처리
 
+
+    # 공유한 게시물의 링크로 가서 데이터를 긁어옴
     for link in total_links:
+        print('Crawling Started !')
         print('\t'+link)
         driver.get(link)
-        time.sleep(1)
-
+        time.sleep(0.5)
         clickSwh()
+        time.sleep(0.5)
 
         board = driver.find_element_by_class_name('_1dwg')
-        # Text of post
-        TEXT = board.text
 
-        tmp = driver.find_element_by_class_name('_3x-2')
-        tmp2 = tmp.find_element_by_tag_name('a')
-        print(tmp2.get_attribute('href'))
-
-        input()
-
-        # Any link of post
+        # 텍스트가 있으면 긁어옴
         try:
-            img_area = board.find_element_by_class_name('_3x-2')
-            img_links = img_area.find_elements_by_tag_name('a')
-            IMG_LINKS = []
-
-            for img_link in img_links:
-                IMG_LINKS.append(img_link.get_attribute('href'))
-
+            TEXT = board.text
         except NoSuchElementException:
+            print('\t\t** No text')
             pass
 
-        # Any Comments on post
+        # 게시물 밑에 링크 칸이 있으면 그 URL을 긁어옴
+        try:
+            LINKS = []
+            link_area = driver.find_element_by_class_name('_3x-2')
+            links = link_area.find_elements_by_tag_name('a')
+
+            for each_link in links:
+                LINKS.append(each_link.get_attribute('href'))
+
+        except NoSuchElementException:
+            print('\t\t** No Link')
+            pass
+
+        # 이미지가 있으면 그 링크를 가져옴
+        try:
+            # img_area = board.find_element_by_class_name('_3x-2')
+            # img_links = img_area.find_elements_by_tag_name('a')
+            IMG_LINKS = []
+            img_area = board.find_element_by_class_name('_6m5')
+            img_links = img_area.find_elements_by_class_name('img')
+
+            for img_link in img_links:
+                IMG_LINKS.append(img_link.get_attribute('src'))
+
+        except NoSuchElementException:
+            print('\t\t** No Image')
+            pass
+
+        # 댓글이 있으면 댓글을 가져옴
         try:
             # Before crawling whole comments,
-            # Click 더보기, 댓글
+            # Click 달린 댓글 더보기, 댓글 더보기
             more_reply_tags = driver.find_elements_by_class_name('UFIReplySocialSentenceLinkText')
             more_content_tags = driver.find_elements_by_class_name('fss')
 
-            driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
-            time.sleep(0.5)
+            # board = driver.find_element_by_class_name('_1dwg')
+            # height = board.value_of_css_property('height')
+            # move_to_reply_height = int(height[:len(height)-2]) + 25 + 110
+            #                             # 게시물과 맨 위 사이의 거리 25, 게시물과 댓글들과의 거리 110
+            # driver.execute_script('window.scrollTo(0,%d);' % ( move_to_reply_height ))
+            # time.sleep(0.5)
 
             for each in more_reply_tags:
-                each.click()
-                time.sleep(0.1)
-
-            driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
+                ac.reset_actions()
+                ac.move_to_element(each)
+                ac.click()
+                ac.perform()
+                time.sleep(0.3)
             time.sleep(0.5)
 
             for each in more_content_tags:
-                each.click()
-                time.sleep(0.1)
+                ac.reset_actions()
+                ac.move_to_element(each)
+                ac.click()
+                ac.perform()
+                time.sleep(0.3)
 
             comments = driver.find_elements_by_class_name('UFICommentActorAndBody')
             COMMENTS = []
@@ -239,18 +316,18 @@ def colletData():
             for comment in comments:
                 comment_actor = comment.find_element_by_class_name(' UFICommentActorName')
                 comment_body = comment.find_element_by_class_name('UFICommentBody')
-                body_content = comment_body.text
-                body_content = body_content.replace('\n','\n\t')
-                comment_content = '[%s]\n\t%s\n' % (comment_actor.text, body_content)
+                comment_content = '[%s]\n\t%s\n' % (comment_actor.text, comment_body.text.replace('\n','\n\t'))
                 # print(comment_content)
                 COMMENTS.append(comment_content)
 
         except NoSuchElementException:
+            print('\t\t** No comment')
             pass
 
-        print('\t'+'Done !')
+        print('Crawling done !\n')
 
-        writeFile(TEXT,IMG_LINKS,COMMENTS,link)
+        # 긁어온 데이터를 텍스트 파일로 저장
+        writeFile(TEXT,LINKS,IMG_LINKS,COMMENTS,link)
 
     post_index=0
 
@@ -274,7 +351,7 @@ def updateIndex():
         print('Error while updating index')
 
 def autoWork():
-    colletData()
+    collectAndStore()
     myPage()
 
 try:
@@ -292,8 +369,9 @@ try:
     board_index=0
 
     # 오토 크롤링
-    for i in range(4):
-        autoWork()
+    # for i in range(4):
+    #     autoWork()
+    autoWork()
 
     # time.sleep(1)
 

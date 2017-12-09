@@ -7,10 +7,11 @@ let dbConn = require('../persistence/dbConnector');
 module.exports=function(app){
 
   // 000. User Sign up
+  //
   app.get('/users/',function(req,res){
     let args = req.query;
     let SQL = `INSERT INTO users(ID,PW) VALUES('${args.id}','${args.pw}');`;
-    SQL += 'SELECT pid,gold,lvl,exp,chr FROM users WHERE pid = LAST_INSERT_ID();';
+    SQL += 'SELECT pid,gold,level,exp FROM users WHERE pid = LAST_INSERT_ID();';
 
     dbConn.query(SQL,(err,rows)=>{
       if(err){
@@ -29,33 +30,47 @@ module.exports=function(app){
     });
   });
 
-  // 001. Find User
+  // 001. Find User (LOGIN)
   app.get('/users/:id',function(req,res){
     let ID = req.params.id;
-    let SQL = `SELECT pid,gold,lvl,exp,chr FROM users WHERE ID='${ID}';`;
+    let SQL = `SELECT pid,gold,level,exp FROM users WHERE ID='${ID}';`;
 
+    var users;
     // rows, results 차이 = results로 하면 서버가 에러를 캣치못하고 죽음
     dbConn.query(SQL,(err,rows)=>{
       if(err){
         res.send(JSON.stringify({
-          msg:'Error while find ID = '+ID,
+          msg:'Error while find user = '+ID,
           code:'001 Find user'
         }));
 
         throw err;
       }
 
+      let users = rows;
+      let PID = users[0].pid
+      let SQL1 = `SELECT pid, level, exp FROM characters WHERE user_pid = ${PID};`;
+
+      dbConn.query(SQL1,(err,rows)=>{
+        if(err){
+          throw err;
+        }
+
       res.send(JSON.stringify({
-        msg:'User succecssfully found',
-        result:rows
+        msg:'Found !',
+        user:users,
+        characters:rows
       }));
+      });
+
+
     });
   });
 
   // 002. Find user and characters
   app.get('/characters/:pid',function(req,res){
     let PID = req.params.pid;
-    let SQL = `SELECT pid, lvl, exp FROM characters WHERE user_pid = ${PID};`;
+    let SQL = `SELECT pid, level, exp FROM characters WHERE user_pid = ${PID};`;
 
     dbConn.query(SQL,(err,rows)=>{
       if(err){

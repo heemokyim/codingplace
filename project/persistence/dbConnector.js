@@ -14,9 +14,8 @@ let TableUsersSQL = "CREATE TABLE IF NOT EXISTS users (\
   ID VARCHAR(30) NOT NULL,\
   PW VARCHAR(30) NOT NULL,\
   gold INT DEFAULT 5000,\
-  lvl INT DEFAULT 1,\
+  level INT DEFAULT 1,\
   exp BIGINT DEFAULT 0,\
-  chr INT DEFAULT 101,\
   PRIMARY KEY (pid)\
   );\
 ";
@@ -25,10 +24,10 @@ let TableUsersSQL = "CREATE TABLE IF NOT EXISTS users (\
 let TableCharactersSQL = "CREATE TABLE IF NOT EXISTS characters (\
   user_pid INT NOT NULL, \
   pid INT NOT NULL AUTO_INCREMENT, \
-  lvl INT DEFAULT 1, \
+  level INT DEFAULT 1, \
   exp BIGINT DEFAULT 0,\
   PRIMARY KEY (pid),\
-  FOREIGN KEY (user_pid) REFERENCES users(pid) ON DELETE CASACDE \
+  FOREIGN KEY (user_pid) REFERENCES users(pid) ON DELETE CASCADE \
   );\
 ";
 

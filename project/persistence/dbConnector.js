@@ -12,10 +12,11 @@ var dbConn = mysql.createConnection({
 let TableUsersSQL = "CREATE TABLE IF NOT EXISTS users (\
   pid INT NOT NULL AUTO_INCREMENT, \
   ID VARCHAR(30) NOT NULL,\
-  PW VARCHAR(30) NOT NULL,\
+  PW VARCHAR(30) DEFAULT 0000,\
   gold INT DEFAULT 5000,\
   level INT DEFAULT 1,\
   exp BIGINT DEFAULT 0,\
+  nickname VARCHAR(12), \
   PRIMARY KEY (pid)\
   );\
 ";

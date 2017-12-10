@@ -1,0 +1,133 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/560318657642530/
+
+
+	** 본문
+Hwalsuk Lee님이 링크를 공유했습니다.
+관리자 · 11월 16일 오전 11:56
+안녕하세요.
+뒷북일지는 모르겠지만, 딥러닝 수업 중 제일 유명한 스탠포드의 cs231n 강좌의 강의자료는 본 적이 많은데, 이번에 처음으로 assignment쪽을 볼 일이 생겨서 봤더니 압권이네요.
+요즘 유행하는 딥러닝 툴을 쓰지 않고, numpy만 가지고 다 짜야하는 숙제들입니다.
+제가 backpropagation, L2 regularization, dropout, xavier intialization, bacth normalization 등을 numpy로 다 짜보고 있는데, cs231n에서 제공하는 소스파일들이 이 모든 것을 정말 잘 짜놨네요.
+올 해는 tensorflow나 pytorch를 활용하는 숙제들이 있지만 몇 년 전만 해도 numpy로 다 했네요.
+(심지어, rnn, lstm도 있어서 숙제가 image captioning을 numpy로만 짜는 것)
+저는 아래 링크의 소스를 참고했습니다. (2년 전에 숙제 다 한거 모아놓은 레포)
+https://github.com/cthorey/CS231
+개념을 제대로 이해하는지 확인한 것은 line by line을 짜보는게 제일 좋다고 생각하는 저로서는 정말 좋은 자료인 것 같아 공유합니다.
+cthorey/CS231
+My corrections for the Standford class assingments CS231n - Convolutional Neural Networks for Visual Recognition
+GITHUB.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fcthorey%2FCS231&h=ATOKBsuN0Jlq-0sRVY3BFT1abQmT-ea4axHlBBRA08ROQJW027QP7Mfjp5J3TaXLOQZoHqfhSDTmoW7UjL4ml4GUB-tL79qhuisXjFndrfz2U27NJr3Q9_D-jw1q52vgksboZmRg4vLkLWNaDkzIIYxS1vTw80hVvHmoRuWJxgSbkVJEM8Sv24Bj7vv8iLGLRiGb9ESmOnvkHyvkjP6RM3_DMzNzTgSypmhJEXeV0cguHury7umkVtrRpgi_CZRJwJmEqOXDy38dQw4vE_Hr8MQ
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fcthorey%2FCS231&h=ATOQ0YzmuXpdDTx4_KJnMcYK5XPUfkvQnK8pgJjDojRcahq86g2RRbB0mF08xj7GxtYuoKtAjpHHX-GO0oMHBxAXwtg_HHGu0XofYFWDfZjPvXy1K-d9r0HQh-gbbJI6tUt-0OXeqKQOrrmn5meMqeYTxhLjYaluES9I9N4Uq3iip_gJL5p0zY3977P-tp3IBx7OCVj7PhHqC8nGNsUFPfhh9fekHpWjyH-zHQafah716lCEiy--YN0T1k3yQojOL8NyzMYvQLBufwA48JTtiws
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fcthorey%2FCS231&h=ATN8qOcYkdB_yYYHr4_MUdRfger2fzbIiReKR93G5mjscHLxxqo3pAS4GJObp9vPgLHPD9UoNtwYBuj-2SKFpHFJfLA_GKX6j4aJkkqbG1_gp0FmBkWtuSs7ufls_5WSpTwKBAEzT4_XkMLVgS4UnScCJapYMOx5lVPKm28DpwwvaWoR0SI4xvqnTjcUp2-jYy3_T5tn9f68fuFl8EKicplxVGZkEvbE5TnlVoIfaDdU1PLfSkaMI-LbLHe6tHsnO6q2yfBJh0qU4wOWoT7ITQkr0YgJoRtQoFI
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQBzjWaw6TX7dabu&w=160&h=160&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F1473289%3Fs%3D400%26v%3D4&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCpYeHs4GMYlI6_
+
+
+	** 댓글
+[송호연
+그룹 관리자]
+	오오.. 저도 numpy로 공부중이에요 좋은 자료 감사해여
+
+[이주영]
+	신우진 numpy로는 안됩니까... 센세.....
+
+[Ju Son]
+	하나씩 천천히 하는 중이었는데 뒤로 갈수록 어렵죠
+
+[Hwalsuk Lee
+그룹 관리자]
+	저도 딱 batch norm부터 숨이 막히기 시작한다는 ㅋㅋ 쓸 때는 간단하게 썼는데, 막상 다 짜려니 batch norm layer에서 backpropagation 동작을 꽤고 있어야 ㄷㄷ
+
+[안남혁]
+	저도 예전에 cs231n 보고 전부 짜봤는데 하이레벨 프레임워크들에 길들여져서 이제 다시짜라하면 못짤거같아요 ㅠㅠ
+
+[Heejune Ahn]
+	그러니깐 Stanford죠.
+
+[주찬웅]
+	저도 학과수업들어보면서 다 numpy로 짜보고있는데 확실하게 어떻게 알고리즘이 동작하는지 눈에 보이네요! 공부하기에는 좋은방법인거같아요
+
+[박희원]
+	감사합니다!
+
+[박진우]
+	저도 참고했었던 자료네요. 다다익선이라고.. 제 레파지토리도 슬쩍 끼워넣겠습니다.
+	
+	https://github.com/Curt-Park/cs231n_assignments
+
+[Jungdae Kim]
+	오 잘생기셔서 Cute-Park으로 잘못 읽음.
+
+[박진우]
+	ㅋㅋㅋㅋ
+
+[김동훈]
+	감사합니다 살펴볼게요
+
+[박주형]
+	저도 이강의로 처음 공부할때 코딩 다 해볼려다가.. 시간이 너무 많이 걸려서 패스 했는데 ㅋ
+	요새 계속 해보고 싶다는 생각이 들더라구요
+	도움이 진짜 많이 될꺼 같은데 주말이나 자투리 시간 이용해서 천천히 도전중 ㅎㅎ
+
+[정산하]
+	CS 229 의 과제는 작년까지 모두 의무적으로 MATLAB 이었습니다. 올해 많은 학생들이 '징징댄' 끝에 numpy 와 matplotlib 으로 제한된 python 이 허락됐죠.
+
+[정산하]
+	그리고 CS 229 syllabus 에 deep learning 이 추가됐...
+
+[Heejune Ahn]
+	크 "징징" 매트랩으로 인공지는패키지 없이 날로 짰다는 거군요. 그게 속도가 나올까? 벡터라이제이션이나 CMEX 써야 하지 않을까요?
+
+[정산하]
+	뭐 수업에서 나오는 과제가 어마무시한 데이터처리를 필요로 하진 않거든요.
+
+[Heejune Ahn]
+	아. 다행이네요. 200단위라서 그런건가? cs231은 데이타가 어마무시할꺼 같은데. 229는 안그런가보네요. 하여간 좋은 곳에서 공부 잘하시길.
+
+[유지웅]
+	1000명 데리고 텀프로젝트 같은거 하면 재밌겠네요 가장 높은 퍼포먼스를 보인 팀에게 4.3 부여ㅋㅋㅋ
+
+[정산하]
+	팀 프로젝트 하죠... 1000명이... 3명 이하 1조로... 각자 본인들만의 idea 로...
+
+[유지웅]
+	도전! 332팀을 제쳐라!
+
+[정산하]
+	B+ 만 받으려고요...
+
+[정산하]
+	내가 뭐 CS 전공자도 아니고... 학부 때 CS 를 제대로 판 사람도 아니고... (한숨)
+
+[이민아]
+	Sanha Cheong는 A+ 받을거야 😉
+
+[정산하]
+	아냐... 시험도 별로고 과제도 별로야... 큰 일 났음 ㅋㅋㅋ
+
+[이민아]
+	Good luck 😂
+
+[Joel Kim]
+	딱 제가 찾고있던정보였어요 ㅋㅋㅋ 감사해요
+
+[손영성]
+	덜덜하네여
+
+[이으리]
+	좋습니다!!! 굳입니다
+
+[김휘영]
+	학생으로 돌아간다면 ㅠㅠ
+
+[김진수]
+	좋은정보 감사드려요~^^
+
+
+

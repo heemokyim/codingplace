@@ -1,0 +1,132 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/
+
+
+	** 본문
+장진만
+10월 8일
+Sung Kim 교수님의 모두의 RL 수업을 다 보고 나서 그 소스로 슈퍼마리오를 돌려보았습니다
+강의 자료 소스에서 아무 것도 안바꾸고 게임만 슈퍼마리오로 바꿨습니다
+공부를 하면서도 된다는게 너무 신기하네요
+열심히 공부해서 스타2에 도전해보고 싶습니다
+딥러닝 공부를 재미있게 시작하게 해주셔서 감사드립니다
+소리 끄기 취소
+
+
+	** 링크
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/settings/?tab=videos
+https://www.facebook.com/man190/videos_by
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/groups/TensorFlowKR/permalink/543190679355328/#
+https://www.facebook.com/man190/videos_by
+
+
+	** 댓글
+[Sung Kim
+그룹 관리자]
+	멋지네요. 어떤 알고리즘을 사용하신것인가요?
+
+[장진만]
+	교수님 수업 자료에서 아무 것도 안바꾸고 게임만 바꿨습니다 ㅎㅎ
+
+[Sung Kim
+그룹 관리자]
+	넵넵. 알고리즘이 여럿이라. 혹시 만드신 코드도 공유해주시면 다른분들에게 큰 도움이 될듯. 감사합니다!
+
+[장진만]
+	모두의 RL 7-2의 DQN2 (2015) 그대로 썼습니다
+	두 층 사이의 h_size(히든사이즈) 만 10이 너무 작은 것 같아서 100으로 바꿨고 층을 더 쌓는다거나 하는 건 아무것도 안했습니다
+
+[Juyoung Kim]
+	코드 공유는 가능하신가요..??
+
+[석지원]
+	진짜 작동하는게 신기하네요
+
+[정산하]
+	점수에만 based 해서 그런지 플레이가 고득점이지만 흔히 말하는 기준에서 "답답"한 플레이가 나오네요. 점수 + 주어진 거리까지의 도달 시간 (결국 평균
+	진행 속도) 을 합쳐서 트레이닝 시켜보면 더 좋을듯.
+
+[장진만]
+	네 열심히 고쳐보겠습니다 🤣
+
+[유용균]
+	오 제법 잘하는데요??
+
+[이종원]
+	혹시 마리오게임은 어떻게 실행하셨나요 참고하신자료링크가있을까요
+
+[장진만]
+	https://github.com/ppaquette/gym-super-mario
+
+[장진만]
+	이거 쓰시고 교수님 소스에서 입출력 shape 갯수만 맞춰주면 됩니다. shape 맞추고 하는 삽질법은 나중에 정리해서 올리겠습니다.
+
+[이종원]
+	장진만 감사합니다 도전해봐야겠네요
+
+[이상노]
+	Junyoung Jang
+
+[Junyoung Jang]
+	고마워 좋은글 공유 😉
+
+[Heejune Ahn]
+	수는 낮고 그냥 정확하고 빠르게만 동작하는 하는 겁니다. 저는 Atari 게임은 그런 것 같아서 실망했읍니다.
+
+[Stephen Lee]
+	잼있겠다!
+
+[송호연
+그룹 관리자]
+	https://github.com/chris-chris/gym-super-mario
+	gym-super-mario 환경 세팅을 위한 gym_pull이 동작이 안되는데다가 관리가 안되고 있고, 종종 fceux 프로그램이 좀비로 변하는 현상이 있고 A3C에서 구동하면 잘 안되는 문제들- 수정 보완한 버전입니다 :)
+	pip install git+https://github.com/chris-chris/gym-super-mario
+	
+	이렇게 설치하시면 도움이 되실듯해요 ;)
+
+[박찬우]
+	박종원 너도 이런거 가능?
+
+[박종원]
+	예전에 DQN으로 pong 한번 짜본거말고 강화학습 손도안댐 밍....
+
+[박찬우]
+	밍 해보고싶다
+
+[고준호]
+	이준호
+
+[김예철]
+	육목이나해
+
+[고준호]
+	이준호 도전!!
+
+[이준호]
+	Mcmc부터 마스터하자!
+
+[박동연]
+	와... 신기방기!
+
+[우지범]
+	혹시 어떤 강의를 보고 하셨는지 참고 할 수 있을까요?
+	저도 공부해보고 싶네요!
+
+[장진만]
+	https://youtu.be/dZ4vw6v3LcA...
+
+[우지범]
+	장진만 감사합니다!
+
+[Stephen Lee]
+	https://www.youtube.com/watch?v=2VyhmbEjs9A
+
+
+

@@ -1,0 +1,40 @@
+	** 게시물 URL
+https://www.facebook.com/sda.re.kr/posts/1550721934971326
+
+
+	** 본문
+OSSF 개발자 그룹
+11월 1일 ·
+능숙자 vs 전문가
+https://brunch.co.kr/@cleancode/4
+능숙자 vs 전문가
+3년만 하면 더 배우고, 성장할 것이 없어요 ^^ | 요즘 많이 듣는 이야기 중 한 3년 일하고 나면 더 이상 그 조직에서는 배울 것이 없다거나, 성장할 것이 안 보여서 조직이나 회사를 옮겨야겠다는 말을 많이 듣는다. 과연 3년이면 더 이상 잘 할 수 없을 만큼…
+BRUNCH.CO.KR
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40cleancode%2F4&h=ATOJAcCHz-t2HHRu27OqxG7JEOaHGYDkmEl5LlX52wLSNaFmiqf2PHidMGrIc1rZBqS0ia5SXQsNicr3Kzq9WTi8t5qz699sLebJ6SbrgC5m42axziqPsONqjUvAu5agrhTO9dXe3jy2BR4dwjv97X6Zk206VGSarLaJqjEKIHDb-rf1VnpD2jKO2KNxgvxwMLNgSF1HPtzXKrGyDuF2TN-SM1uSYn97jQgrL-c2gcEWPEL3w1ESb5C5d9SXkJ_EWO4uUAPAA4GTjtxz3S7vstVeYbN7B95faFvew_43K84
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40cleancode%2F4&h=ATNT8xterP4fiEO-1y4tKFQ6YTiUFYnnp3B4qz3Q4aYivmRBpCxushtLaQ6s4blgUMBLLfWiDFtLFYRrLnKQW7RzkybVlJVBNf9JdzBGcLPVRoHntjRbGotBMGnBywYkBa_GbToXtRwd6lHflGobjnIhDcW9k_HMWz9A-6Yc1A_5V9SIUQgYsRWv_A2O0DVE9mlNarwWSPLiwRSpbD3znvxaL7dGGurTRoQfilNGiCSUvN3i0RtHby_I1pYN_WldaEuYmUUr6pRYnnbVSmoo2Q10kqYtbeAOjh146Wb5bkc
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40cleancode%2F4&h=ATPjfc1oEP5HAqo_zcaMP5N5ExIEL_lQ2gTYS1JWhri9GBKq2ZwANwkv5tS-Q0rNoeeG9lqmKpoFhBEq1rSmCnZolfwQP-4bl1BvMLKBQFOl9zeSV64yOuap86uJ7wDDMxEW3is8U28WCqCkIa0G9wllqh0smAGPQlhSlXFgobFPYdSGVk5jsFa81mh85L3qSs-msZA-NDP5FcsXvIaxI0QzIbexARIgHYa8h7MD3021AOoT3MWNh6vcM9GXSpoHcaLCge7ofXEF0qaufdd86j_oOSSJzgDQjc0l_fDxuOQ
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQBPTzKHjS4C_eL2&w=476&h=249&url=https%3A%2F%2Ft1.daumcdn.net%2Fbrunch%2Fstatic%2Fimg%2Fhelp%2Fpc%2Fimg_share_default_800.png&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQDwvStPE6PQmWlE
+
+
+	** 댓글
+[이강인]
+	정말로 능숙자의 덫에 빠지지 않아야...
+
+[조민규]
+	코딩이 대입시험같은곳에 사용된다면 또 모를까 코딩교육 자체는 현시대를 백퍼반영한 교육혁명이라고 생각하는데요... 항상 집에서 혼자 배우고 학원가서 배우고 과외로 배우던 과목이 이젠 어릴때 충분히 원하는 만큼 배울수 있는 환경이 조성된다는게 저는 부럽습니다.
+	그리고 컴퓨터로 구현이 되는것만 믿는게 문제라고 하셨는데 지금 그 범위가 얼마나 좁게 느껴지시면 그것이 문제가 될수 있나요? 그리고 지금 현재 교육 환경에 코딩이 하나 들어가는것 뿐인데 왜 모두가 코딩만을 집중해서 할거라고 생각하시는지... 너무 극단적인 예인거 같네요.
+	저는 오히려 코딩을 통해 많은 사람들이 상상하는걸 소프트웨어로 만들수 있다는것에 열광할거같고 그 결과 다른 과목들에 비해 창의력이 더욱 돋보이는 수업이 될거같습니다.
+
+[민정원]
+	좋은 글 감사합니다. 수학과 출신으로서 정말 반가운 글입니다.
+	수학은 연속, 무한을 다루는 것이고 컴퓨터는 이산, 유한을 다루는 도구인데 컴퓨터에서 구현된다고 모두 사실이라고 믿어 버리는 건 정말 있어서는 안 되는 일이라고 생각합니다.
+	컴퓨터에서 다루는 모든 것은 컴퓨터에서 다룰 수 있도록 실용적인 범위 내에서 근사한 것인데 그걸 이해 못한다면…(도리도리)
+
+
+

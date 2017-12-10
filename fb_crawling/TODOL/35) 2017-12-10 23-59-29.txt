@@ -1,0 +1,54 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/553366218337774/
+
+
+	** 본문
+Minjae Lee님이 링크를 공유했습니다.
+10월 31일
+깔끔하게 정리돼있네요 :)
+AlphaGo Zero Explained In One Diagram – Applied Data Science – Medium
+One infographic that explains how Reinforcement Learning, Deep Learning and Monte Carlo Search Trees are used in AlphaGo Zero.
+MEDIUM.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2Fapplied-data-science%2Falphago-zero-explained-in-one-diagram-365f5abf67e0&h=ATNSTKXaTR-nrqNyj15KRwnr5a81CJj2PDejsmq1Nq-k65FnvMmnXXW7t67oO3tfWgAYR6BgSoKkdrPs7niISzXz9pbPPoq_J9GMUNSvRQWgwoRhA8ZzrLjlftjJPXVHy1CtWXyBwC8EshMKfcqo5EIifmZiu57Jyh0w96dBRc8vhHGxBXq-J3j9-9hwuoniEoAnmF-W9wJV2NShAjthx0D4XtiKAKmsEX-N9rTcLbSXTk-PqR1WHv52nT-HvN612GDT2I2_UZuDn0qA
+https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2Fapplied-data-science%2Falphago-zero-explained-in-one-diagram-365f5abf67e0&h=ATODqcWLZXpIlmYRMVlT3wvGQLrPMIJ2AR7DuMa6px_89YRgl7ZIus4Cp8BUFmB8kjTCO6Iul1C95J6vxVIHGEBollRsrkWhcqaFeX0h3y5N4VUP3VR-r1VROhpwEqy2yvnKHJBODBC-CUn7CIVuKqOKeR2AYia1N0qfDzpx7a1_eq736IgDisk1FhZ-0ngr_to6UQmt0Hx4pARiqqVSvgTvT9yhUCHzFrS6_hkfuHgi8DZwvTFFmRy_8hp7uADXNg_eFIO3Z6uCKcGa
+https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2Fapplied-data-science%2Falphago-zero-explained-in-one-diagram-365f5abf67e0&h=ATNvpifKUvr5ONQCZ5dYMD9c1yor3-xgu5I4rsrs5aTILHfNpEmcPXoWym5NAEwYEQsfX0nY0Z9yEIaHUCUu9olgfmtxje-4nWeK1PPTsPv8u1dMXrmIPdwNKgfCDGcRNEBPyqVgmks55HNpFWBOUQhOdDrs_YRKmGjmLR0kk4kDbpckmSIbtMkAYIf4-ccq4-Bk1h_CsCZ-5UHx0QC04tFI-P2EhKE4NiyoakTQvedtQoy4tsL8_YsMaptFVA30MB3sjWvxPNTJjZFe2iKJp9dgwQ
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQDgwMJTea6iUXtC&w=476&h=249&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1%2Aetz3CYFbCW_HRNNlMUwI0A.jpeg&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQDVSfcyMdXXcN-F
+
+
+	** 댓글
+[백승현]
+	와우! 감사합니다.
+
+[정기욱]
+	미디엄 검색해보면 좋은 글이 많더라구요. 감사합니다
+
+[서일근]
+	안그래도 알파고제로 논문보고 누군가 그림으로 정리해줬으면 좋겠다고 생각했었는데 정말 감사합니다
+
+[Wonwoo Park]
+	그림을 봐도 이해가 안가는데, 알파고 제로의 핵심 원리가 무엇인가요?
+
+[신제훈]
+	알파고 리/마스터에서 인간 고수들의 기보를 토대로 산출하던 것을 타뷸라 라사(백지 상태) 상테 즉 제로에서 강화학습을 토대로 배워나가는 게 핵심 같습니다.
+	핵심 원리는 고재형님의 강화학습 가이드를 한번 더 보고 나서 그 차이점을 생각해 보면 그래도 조금은 나아가겠지요 ^^
+
+[김태윤]
+	감사합니다 🙂
+
+[Wonwoo Park]
+	이런 유니크 아이템에 치트시트 라니... 발상이 재밋군요.
+
+[김동현]
+	역시 조장님. 여기서 보게되네요. 감사합니다.
+
+[Minjae Lee]
+	앗!!! 잘지내시죠?? ㅎㅎ 여기서 보니 더 반갑네요 ㅎㅎㅎ
+
+
+

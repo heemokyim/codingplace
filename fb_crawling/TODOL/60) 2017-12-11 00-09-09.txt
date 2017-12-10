@@ -1,0 +1,39 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/545760679098328/
+
+
+	** 본문
+이태영님이 링크를 공유했습니다.
+10월 14일
+Tensorflow 및 Python을 사용한 텍스트 분류에 대한 심층적 인 자습서입니다.
+Tensorflow Text Classification - Python Deep Learning - Source Dexter
+A tutorial on deep learning with python for text. You will learn how to build a Tensorflow Text Classification system for any scenario.
+SOURCEDEXTER.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fsourcedexter.com%2Ftensorflow-text-classification%2F&h=ATOm6BCj8wBUoMSyidjODjasezoIuRO4sCg7TDhpvDfhtBUcxI7WMatoLJlxgIbeF-rRgdXahSo3SZlU4eq34LgIKV8E-6GHojYr6EMwALBhu1lBVybTLaf4qf0LFyJgVeXNGnWPIdy-aAvZsxRdjIJlqwYKZDeYBU7X-84lkC2uf4yWqiUFyEBRZ6bM_epHZ4Q4q51LfD4Nbb1xSUDJouIWBOZAzXuVytU6oClGHsi3e-4WflRTOTJ0GlWmJbxvRmP7SoWOohPiH-tZI_wftN8
+https://l.facebook.com/l.php?u=https%3A%2F%2Fsourcedexter.com%2Ftensorflow-text-classification%2F&h=ATNNkYy3dAN_aMX7jf3xYEzLq_e0d8YrXBzkC5ZTwTSZq2eQU2anJVASntaqAEOHmEw65scylzyYFFYR3qqi_i9jRy6X9P0K-afw_siwTP475drswGHuZ4v6G67SUNjU06cdtvbkawxbFFgpm48D1rfU1zWYJsKnze12EKZt4dK8rL9pSdrrHxd3KyCl2p5BiczBGx0NIKZ8iOdS0ZGqoR7rxBeGKVjBhnoeOlbtSu0RMuQBEUxkzAjDs4ivWRrP57alFYlynoPPavEuP3UCVoQ
+https://l.facebook.com/l.php?u=https%3A%2F%2Fsourcedexter.com%2Ftensorflow-text-classification%2F&h=ATOY6LeJdHCV3iM1HoNoIBG9MUWy03TzcAOBMKgvCGNcHu0dvE9iwReooMbNx2n5lMap-fkiGpBArj3i4jZntxLYh-hYSGZUQiOQaFiF4_J9SvT2HxSZLnx61cjX81xw20kqZAFiGV2KWMi5_aIdlgy0rz_cWno1eSOzxRiAiMOY2d4cIG1aBydqhVwyN3KPuDzf3eslVFeoSDRrocVpsQIpyqEp9Gdspbj-VM7DhRrdsdoZzHSrdQ_Vg1o6zUkXg0uMNZD3PDI-o8khEFdOca1srWd5KH1p3Fw
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQACdFy_uDEsErw2&w=476&h=249&url=https%3A%2F%2Fsourcedexter.com%2Fwp-content%2Fuploads%2F2017%2F10%2Ftxt-classifier2.png&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQCGvvfHpMjtOBgD
+
+
+	** 댓글
+[Jaeoh Lee]
+	항상 좋은 내용 공유 감사합니다
+
+[Sung Kim
+그룹 관리자]
+	좋은 공유 감사 합니다.
+
+[이도엽]
+	일요일 아침 기념 봐야겠군요! 항상 좋은 정보를 공유해주셔서 감사합니다!!!
+
+[Cheol Park]
+	대단히 감사합니다~
+
+
+

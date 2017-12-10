@@ -1,0 +1,21 @@
+	** 게시물 URL
+https://www.facebook.com/anylee2142/posts/366722060445700
+
+
+	** 본문
+이재웅님이 링크를 공유했습니다.
+11월 11일 오전 1:18 ·
+tf.contrib.factorization.WALSMatrixFactorization  |  TensorFlow
+TENSORFLOW.ORG
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tensorflow.org%2Fversions%2Fmaster%2Fapi_docs%2Fpython%2Ftf%2Fcontrib%2Ffactorization%2FWALSMatrixFactorization&h=ATNtY1IUvugUJygTvwKnVrm2ISji7PoRC_A6z7RwGUsJX8x2htP8-xjhLOhah4DMV5KyZI4PA5oYP0W89qiV6aqPP9uqNIQdrwzUZlznWZwJUmn7PFNjyEAWM-Jt1EZSHRQ1c6yc1C0A_DF8joKJCBxLubDM5SVqown5XNKr1Nkhce-5GqvDZnJPXqp6rp_zxTH5kClmCMHFS2TnGscnxyr1vunKUAnHT9oingKqWdIoBLJUUPaFupC3DD4VDJ9sPlNNpl8eqF3ZG8jpRq1Yhj1Ik_0rGxXvuQ
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tensorflow.org%2Fversions%2Fmaster%2Fapi_docs%2Fpython%2Ftf%2Fcontrib%2Ffactorization%2FWALSMatrixFactorization&h=ATPfTJWyXVeUM6L6oMErrkhYGUt2lMS4cXyRF69-lVCODggaKBszQ65BnKLcoQqlnFJjU38RUu8mFarXJYIJ-abV5KMuws3B1dHTvT1sweFJYKGk8MOMwHVfF5553tudc78G5ms0JhsK8ftT2qNveqdP6qnJ543RDrRrGsfRXpIvLXk83VCGCWFiAQRi3HTIziWhe9kx9R7HHab_oyWJEActZYwMl5hjhueOkDUebQCYTrb0OdlGjiX7ous49NqpUgME9XrVT2-R5N-UQiCtfFIlTWxginLySw
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tensorflow.org%2Fversions%2Fmaster%2Fapi_docs%2Fpython%2Ftf%2Fcontrib%2Ffactorization%2FWALSMatrixFactorization&h=ATN9Ua98rKzbQ60XwaCoVJDY54dJTZfOvVTB7T54FsQRckTNpIkKMUqck6K4Pa0-40HsSBit8TbW2Fs1dsSRUxnk8kSeaBbSPsovGfG_vM0O1bNRD4IAiaKObSv8oOtTdi3rGNAneteTgVJuwNPoRJM5rtnjpzsWnVR8gyvE7y4pCPghn8v4d227YZUiaIAbFZ4iJf6xveyTC7mL_7rfaK2BHGJBfL8YER4-zKvN2FWx1HIZT4LJ056266bj-rsMM7qw7WoWWLQQqA7t-eVZkRDVLGgylDMODvxjg5HBeBftzA
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQADXqjprlnjo5lM&w=160&h=160&url=https%3A%2F%2Fwww.tensorflow.org%2F_static%2F75db8fc54f%2Fimages%2Ftensorflow%2Flockup.png&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQATiZeH11myaXIY
+
+

@@ -1,0 +1,23 @@
+	** 게시물 URL
+https://www.facebook.com/groups/AIKoreaOpen/permalink/1654106961290074/
+
+
+	** 본문
+정지훈님이 링크를 공유했습니다.
+9월 5일
+버클리에서 열렸던 여름 Deep RL 부트캠프에 참석했던 참석자가 중요한 팁과 트릭들을 짧게 정리한 것인데, 강화학습 공부하는 분들에게는 긴 논문보다 훨씬 도움이 될 내용들이 아닌가 합니다.
+williamFalcon/DeepRLHacks
+DeepRLHacks - Hacks for training RL systems from John Schulman's lecture at Deep RL Bootcamp (Aug 2017)
+GITHUB.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FwilliamFalcon%2FDeepRLHacks&h=ATM6zsf-GtFmjrYSNlH4jzFBYdKM7ayn8KXtZFm2BMKY3x3fdtkNjpM_RvrzbRdnmpd3bps6bLEo-axdB1pCVWzXrUzLdsnrTtmjc3DQCM2jBxDLBZp1VplLGP8ieHfZGr4H8LWjKyqsnXPgAajrxfQSX5YGJlD4TG0WqWewPc1Fg6I-cCg_Uh9MU4jGRhwSi77D0U8Ng3k1f6fUWcc2RVaT6ulGI3zBQwv50rRCzoV-hU87lu69abfbtT-xfRhuA2e-ytPCG7w3NT7L
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FwilliamFalcon%2FDeepRLHacks&h=ATOZNTYAZCUaa40ZS_qYDcAI5opqRzq8uSzDJiRmmpN0z31_E_r1akcEv_B0I27I6H-xwAJImsaiwwFgA3WEabMAvBaeeSWtpML9JzXrm-yjGPiFl4LGu2m4rIRJ8S5lYh8dCPv7R75zWTOUAkU1JeIb6XFY49pCiim9cyV8BHlyR01SyX_W6hhNtzBqfP4xh8nspYAMGDLdXaA9G6TfaTthymm9mhojXTiAT30yaxDGemEGiBRkSgPU0QPrxI-sOUOX8dywDzKXUasI
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FwilliamFalcon%2FDeepRLHacks&h=ATN5ZUZLHbV1Y76I2rdwhf8DPXfhpwRAtzPw3lXphIC-42_4pbfSGXaq8rJGRVgn9MC2mJvNtzwYXFXPYrRnrxl-5yKZGkHOKdGyWoriZ05CvW-PQKdgCX63jZ8Pi3HC6Z7zmTlm8aXL9iwbHxOPvLzArbuMF-E-HoVzo037ue97NWBgUvdU9goWFMuCpL4bIJO__0ConSctnLkSr0YrYnc86OGCsNTqhGDWdHgymTOyMW3vjoZTZRP2onmIJfSsvfj0ERTrBZ8SNcEtjMx3vz0VHA
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQCFrqwLJYkl0eGE&w=160&h=160&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F3640001%3Fv%3D4%26s%3D400&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQBcgvHSg954LbEI
+
+

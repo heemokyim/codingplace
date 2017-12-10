@@ -1,0 +1,31 @@
+	** 게시물 URL
+https://www.facebook.com/groups/bigdataanalysis/permalink/1343052169156358/
+
+
+	** 본문
+Luba Belokon님이 Statsbot님의 게시물을 공유했습니다.
+11월 24일 오후 12:17
+Graphical models provide an interpretable way to model many real-world tasks, where there are dependencies. Using graphical models gives us a way to work on such tasks in a principled manner.
+In the previous part of the PGM tutorial, we looked at the two types of graphical models, namely Bayesian networks and Markov networks. This time we will cover parameter estimation and inference, and look at the image denoising application.
+번역 보기
+Statsbot
+페이지 좋아요
+11월 24일 오전 12:21
+Probabilistic Graphical Models Tutorial — Part 2 – Stats and Bots
+Parameter estimation and inference algorithms
+BLOG.STATSBOT.CO
+
+
+	** 링크
+https://www.facebook.com/statsbot/?ref=gs&hc_ref=ART5dT8IHvfMoJuEifAkdQXiBx_n2wSSsRM8z7cikYLv9fh39CYAZj30InpTKC0HbBI&fref=gs&hc_location=group
+https://www.facebook.com/statsbot/?ref=gs&hc_ref=ARShG88j8CxXldybGk9_ZUatdiy_b3FRlCUsjuQvHIh5GT5Fu8DG6DFLHL9VQbLCeGI&fref=gs&hc_location=group
+https://www.facebook.com/statsbot/posts/859394354234476
+https://l.facebook.com/l.php?u=https%3A%2F%2Fblog.statsbot.co%2Fprobabilistic-graphical-models-tutorial-d855ba0107d1%3Futm_source%3Dfb%26utm_medium%3Dpost%26utm_campaign%3Dpgm2&h=ATO2ZWcjJe-0Ici2lPMG-_iJyqNHJsU2TnStlq8RSEQaT-1cErCRV_nBgWiCD9WkxiDOgtCIX4sE4KYT0Qtsn5BfLYctyNOOTktkzIje_9NQ-sX277MpxYbGkOeAKRXAugRHVRbQMCLz0QKNNHZ4AvaWxOcGpz6-hag80NkKnPm_OwrSr_b-XL2Ik7RzLNy9B1p-Lo55J9s0X_eVt0JlH69sleP1H2WbjNqxsQMepYQBEo-2pEnJ3thKfzjHv8tgWPBDHWICguCqfAptdU-XKwibRLb9AGEQrY6dfFfCPw
+https://l.facebook.com/l.php?u=https%3A%2F%2Fblog.statsbot.co%2Fprobabilistic-graphical-models-tutorial-d855ba0107d1%3Futm_source%3Dfb%26utm_medium%3Dpost%26utm_campaign%3Dpgm2&h=ATM-8CGDkMdL54frokF496qMfr-OqGKrXE6tQ25uurz3SOnrDanR3D2jSIkn7zQ3FlejKd1rNWwNBUMBP3xiNXYWPYOBUBRYoufDCLmMapnKYRBiUMrjaYW5CA3jHD9Xc3P1Mz_aF2Sy7zrwvLeFYQIvIEICEP3hoMoMvbk5UND4KioF2_Q0l5WlIQxuPwyuL4A6KsMC6o4Q-_CHn3XjwFB8fm0mWarIQwfVHo6rFeLc66094ZnbrgCvshAdWpB_AJUaMZV0xT0q6zkHlGoPCBuZMqWjPqqylY5KzAtpCA
+https://l.facebook.com/l.php?u=https%3A%2F%2Fblog.statsbot.co%2Fprobabilistic-graphical-models-tutorial-d855ba0107d1%3Futm_source%3Dfb%26utm_medium%3Dpost%26utm_campaign%3Dpgm2&h=ATMGU67Go0dFBNVWsHHY4FtmlJ9xH7S6rBFLzx-1HBWCUNG0euxifF-NvMsteI23gEyhSZvheLOIXP9hKZ6XEjACLMb_cVXD7gG7VtbAsh41gpts-hRzgf2kVe8Y2lRp_wChry04eMcHPsyJr2inZqo11TXVENi7xsHOfQ91h0IUtn5p2RJCW4okK7iBnyu7PKmMnxEhaB4xUug1_-KfwaRmru0whDn6lWw1GNrbYLFhv4eE-nUMaHlwl9xVXqiE3WR0DAbkPiN62fiPR7UMvH_0T6e4NlO2HwCTPTw8wg
+
+
+	** 이미지 링크
+https://scontent-hkg3-2.xx.fbcdn.net/v/t45.1600-4/c0.6.476.249/p476x249/23842270_6083647744802_1846590879330992128_n.png?oh=9ba0a281aafcfea24313373b1928cf23&oe=5AC22DDC
+
+

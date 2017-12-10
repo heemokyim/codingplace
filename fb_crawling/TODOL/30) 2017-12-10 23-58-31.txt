@@ -1,0 +1,52 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/553851368289259/
+
+
+	** 본문
+신정규님이 링크를 공유했습니다.
+11월 1일
+목소리로 style transfer를 한 TensorFlow 코드를 공개했네요. 내 목소리를 남 목소리로 바꿔줍니다. 막 공개했다고 지인의 지인이 알려왔는데, 재미있어서 공유해봅니다.
+andabi/deep-voice-conversion
+deep-voice-conversion - Deep neural networks for voice conversion (voice style transfer) in Tensorflow
+GITHUB.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fandabi%2Fdeep-voice-conversion&h=ATNGmlwQeg5SV-dKeiTYAOSseXD_09cNeI8YJM0e5VRHiRZmxxuLul-2hPSptnhxf2AiV8RbZtUzr3lqJvjASmMCHw1qf6aEMZUvZGri2W010cX1OiVw3U9wxkyFj1LaSqRCXIOSNunzM3gDYf0BQkmwVIbUJOAkl_mULNLJ3A-_Ugmx5qYO28X3kk9EDFe2SFaNCjLIQg9uVepQAVbnCiZYozab7a92pIbLJZBpXmejhyEgy8seXBLkLLgRm3P1D2-4pgHBRau9DD4wkqZCk1c
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fandabi%2Fdeep-voice-conversion&h=ATOxCdjDMZniTlaM_i2UQVWLDfx_HMl-v5pbHFEwawpCXy3ao-5JCrYvYmJByWpBSzqMW5WaRx6yk3Sr44qredAqW3Dd8LRKa4MPDBazxI9bhx8qThvgj-3YILRQwbcbqh0zpo41RcjK32kIg4lTh3VA1AcMr5jZM_WqYWor8R94zl1Ho6r_qFA2xsusDVVrV8ixgZqN0JWyiV17CsSU6SiFXdcPikbTV_ETHv4O5NdzPIb6_D33CDOcOqCkp-z6pK9hr3xx-9CLwsbHHMokD74
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fandabi%2Fdeep-voice-conversion&h=ATNje3oGwfTKJ0NCKQuh-MLFvddCKYHaxXw9fxPUmFiWG9S6lWMkCDrhRh56ifm5z2E-Mgs1275yMtvVDJ_c3s5UFPfWDgreubR5ysPREdLkrTWv3cgTSQZktNKUjGpzi6aConTHOI14rcD7VkJjR-8lPhD_RgrxESk-hFlyjjViCITXpa-vzn8K20ZRA9Xk_DYUxO___8nQmiTlWAEWHDWW3v_MLi7cP6C4wSQM4LYGFbUH732jQs3QsfdWDvePuU1yZHd3AG7SkWzQycEBQkAOJTj6Ew5pOdk
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQA9GfQQC3G8GUKg&w=160&h=160&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F4556549%3Fs%3D400%26v%3D4&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQD9BK5g9fJUSvin
+
+
+	** 댓글
+[신제훈]
+	어제도 numpy로 이곳을 달궜던 갓규봉님이 공동작업자네요. 두분 모두 대단합니다. 현재 레딧 1등 축하합니다. 저는 2등인가 일 떄 up voting ^^
+
+[안호현]
+	고동현
+
+[Hwalsuk Lee
+그룹 관리자]
+	Dabi Ahn 오. 레딧 1등 축하드립니다!! TFKR 회원분들의 활약 놀랍습니다!!
+
+[Dabi Ahn]
+	헛 관심가져 주셔서 감사합니다ㅋ 이거 묻히면 여기 스스로라도 올릴까했는데 먼저 공유해주셔서 감사할 따름이네요ㅎ
+
+[신정규]
+	흐흐 데모가 재미있었습니다~ 저도 다른 도메인에서 스타일 이전 만들어보고 싶었어요!
+
+[Sung Kim
+그룹 관리자]
+	정말 재미있네요.
+
+[신수철]
+	이해일 (Haeil Yi) 홍승환
+
+[홍성진]
+	코난 박사님..
+
+
+

@@ -9,8 +9,8 @@ import platform
 plat = platform.system()
 MY_ID = 'anylee77@naver.com'
 
-lin_driver = './linux/chromedriver'
-win_driver = './window/chromedriver.exe'
+lin_driver = './driver/chromedriver'
+win_driver = './driver/chromedriver.exe'
 driver_path = lin_driver if plat=='Linux' else win_driver
 
 driver = webdriver.Chrome(driver_path)
@@ -21,8 +21,8 @@ win_pass_path = 'D:\\password.txt'
 lin_pass_path = '/home/ej/older/password'
 pass_path = lin_pass_path if plat=='Linux' else win_pass_path
 
-win_result_path = 'D:\\codingplace\\TODOL'
-lin_result_path = '/home/ej/codingplace/TODOL'
+win_result_path = 'D:\\codingplace\\fb_crawling\\TODOL'
+lin_result_path = '/home/ej/codingplace/fb_crawling/TODOL'
 result_path = lin_result_path if plat=='Linux' else win_result_path
 
 def loginFb():
@@ -39,10 +39,12 @@ def loginFb():
 
 def clickSwh():
     # click somewhere
+    my_btn = driver.find_element_by_class_name('_1vp5')
     ac.reset_actions()
-    ac.move_by_offset(0,50)
+    ac.move_to_element_with_offset(my_btn,-50,0)
     ac.click()
     ac.perform()
+    time.sleep(0.5)
 
 def myPage():
     clickSwh()
@@ -69,7 +71,7 @@ def hidePost(board):
     # 게시물 설정 클릭
     clickEtc(board)
 
-    time.sleep(0.5)
+    time.sleep(1)
 
     # 타임라인 숨기기 클릭
     etc1 = driver.find_element_by_class_name('uiContextualLayer')
@@ -87,6 +89,7 @@ def hidePost(board):
     popUp = driver.find_element_by_class_name('_4t2a')
     footer = popUp.find_element_by_class_name('_5lnf')
     hide = footer.find_element_by_class_name('layerConfirm')
+
     hide.click()
 
 def writeFile(TEXT, LINKS, IMG_LINKS, COMMENTS,link):
@@ -181,19 +184,121 @@ def checkScope():
     return index_count
 
 
+def collectData():
+    board = driver.find_element_by_class_name('_1dwg')
+
+    # 텍스트가 있으면 긁어옴
+    try:
+        TEXT = board.text
+    except NoSuchElementException:
+        print('\t\t** No text')
+        pass
+
+    # 게시물 밑에 링크 칸이 있으면 그 URL을 긁어옴
+    try:
+        LINKS = []
+        link_area = driver.find_element_by_class_name('_3x-2')
+        links = link_area.find_elements_by_tag_name('a')
+
+        for each_link in links:
+            LINKS.append(each_link.get_attribute('href'))
+
+    except NoSuchElementException:
+        print('\t\t** No Link')
+        pass
+
+    # 이미지가 있으면 그 링크를 가져옴
+    try:
+        # img_area = board.find_element_by_class_name('_3x-2')
+        # img_links = img_area.find_elements_by_tag_name('a')
+        IMG_LINKS = []
+        img_area = board.find_element_by_class_name('_6m5')
+        img_links = img_area.find_elements_by_class_name('img')
+
+        for img_link in img_links:
+            IMG_LINKS.append(img_link.get_attribute('src'))
+
+    except NoSuchElementException:
+        print('\t\t** No Image')
+        pass
+
+    # 댓글이 있으면 댓글을 가져옴
+    try:
+        # Before crawling whole comments,
+        # Click 달린 댓글 더보기, 댓글 더보기
+        more_reply_tags = driver.find_elements_by_class_name('UFIReplySocialSentenceLinkText')
+        more_content_tags = driver.find_elements_by_class_name('fss')
+
+        # board = driver.find_element_by_class_name('_1dwg')
+        # height = board.value_of_css_property('height')
+        # move_to_reply_height = int(height[:len(height)-2]) + 25 + 110
+        #                             # 게시물과 맨 위 사이의 거리 25, 게시물과 댓글들과의 거리 110
+        # driver.execute_script('window.scrollTo(0,%d);' % ( move_to_reply_height ))
+        # time.sleep(0.5)
+
+        for each in more_reply_tags:
+            ac.reset_actions()
+            ac.move_to_element(each)
+            ac.click()
+            ac.perform()
+            time.sleep(0.3)
+        time.sleep(0.5)
+
+        for each in more_content_tags:
+            ac.reset_actions()
+            ac.move_to_element(each)
+            ac.click()
+            ac.perform()
+            time.sleep(0.3)
+
+        comments = driver.find_elements_by_class_name('UFICommentActorAndBody')
+        COMMENTS = []
+
+        for comment in comments:
+            comment_actor = comment.find_element_by_class_name(' UFICommentActorName')
+            comment_body = comment.find_element_by_class_name('UFICommentBody')
+            comment_content = '[%s]\n\t%s\n' % (comment_actor.text, comment_body.text.replace('\n','\n\t'))
+            # print(comment_content)
+            COMMENTS.append(comment_content)
+
+    except NoSuchElementException:
+        print('\t\t** No comment')
+        pass
+
+    return TEXT, LINKS, IMG_LINKS, COMMENTS
+
+
 def collectAndStore():
     clickSwh()
+    time.sleep(0.5)
 
-    global post_index
+    # global post_index
     # print('here')
-    post_index = checkScope()
+    # post_index = checkScope()
     # print('done')
-
-    time.sleep(1)
 
     # I'm at my page
     boards = driver.find_elements_by_class_name('_1dwg')
+    post_index = 0
+
+    print(len(boards))
+
+    for board in boards:
+        fol = board.find_element_by_class_name('_fol')
+        xe = fol.find_element_by_class_name('_-xe')
+        scope_icon = xe.find_element_by_class_name('img')
+        scope_value = scope_icon.get_attribute('class').split()[0]
+
+        if scope_value == '_21or':
+            post_index += 1
+        elif scope_value == '_k_e':
+            break
+
+    input(post_index)
+
     board = boards[post_index]
+    height = board.value_of_css_property('height')
+    time.sleep(0.5)
 
     # 공유한 게시물은
     # 게시물, 사진, 링크, 동영상 으로 나뉨
@@ -213,123 +318,38 @@ def collectAndStore():
     if len(total_links)==2 and total_links[0]==total_links[1]:
         total_links.pop()
 
-    # 내가 작성한 게시물인데 비공개 = 공유하지 않은 게시물인 경우
-    if len(total_links)==0:
-        TEXT = board.text
-        print(TEXT)
-        input()
-
-
     print('total links are ' +str(total_links))
 
-    hidePost(board)
+    # 내가 작성한 게시물인데 비공개 = 공유하지 않은 게시물인 경우
+    if len(total_links)==0:
+        TEXT, LINKS, IMG_LINKS, COMMENTS = collectData()
 
-    # What to put in file?
-    # 1. 게시물 url
-    # 1. 링크가 있다면 링크 url
-    # 2. 이미지가 있다면 이미지 url
-    # 1. 동영상이 있다면 동영상 url
-    # 3. 텍스트
-    # 4. 게시물에 달린 댓글
+        hidePost(board)
+        driver.execute_script('window.scrollTo(0,%d);' % (  int(height[:len(height)-2]) ))
+        time.sleep(1)
 
-    # 예외처리해서 없으면 넘어가도 되게 처리
+        writeFile(TEXT,LINKS,IMG_LINKS,COMMENTS,'My Post')
 
 
-    # 공유한 게시물의 링크로 가서 데이터를 긁어옴
-    for link in total_links:
-        print('Crawling Started !')
-        print('\t'+link)
-        driver.get(link)
-        time.sleep(0.5)
-        clickSwh()
-        time.sleep(0.5)
+    # 내가 공유한 게시물인데 비공개
+    else:
+        hidePost(board)
+        driver.execute_script('window.scrollTo(0,%d);' % (  int(height[:len(height)-2]) ))
+        time.sleep(1)
 
-        board = driver.find_element_by_class_name('_1dwg')
-
-        # 텍스트가 있으면 긁어옴
-        try:
-            TEXT = board.text
-        except NoSuchElementException:
-            print('\t\t** No text')
-            pass
-
-        # 게시물 밑에 링크 칸이 있으면 그 URL을 긁어옴
-        try:
-            LINKS = []
-            link_area = driver.find_element_by_class_name('_3x-2')
-            links = link_area.find_elements_by_tag_name('a')
-
-            for each_link in links:
-                LINKS.append(each_link.get_attribute('href'))
-
-        except NoSuchElementException:
-            print('\t\t** No Link')
-            pass
-
-        # 이미지가 있으면 그 링크를 가져옴
-        try:
-            # img_area = board.find_element_by_class_name('_3x-2')
-            # img_links = img_area.find_elements_by_tag_name('a')
-            IMG_LINKS = []
-            img_area = board.find_element_by_class_name('_6m5')
-            img_links = img_area.find_elements_by_class_name('img')
-
-            for img_link in img_links:
-                IMG_LINKS.append(img_link.get_attribute('src'))
-
-        except NoSuchElementException:
-            print('\t\t** No Image')
-            pass
-
-        # 댓글이 있으면 댓글을 가져옴
-        try:
-            # Before crawling whole comments,
-            # Click 달린 댓글 더보기, 댓글 더보기
-            more_reply_tags = driver.find_elements_by_class_name('UFIReplySocialSentenceLinkText')
-            more_content_tags = driver.find_elements_by_class_name('fss')
-
-            # board = driver.find_element_by_class_name('_1dwg')
-            # height = board.value_of_css_property('height')
-            # move_to_reply_height = int(height[:len(height)-2]) + 25 + 110
-            #                             # 게시물과 맨 위 사이의 거리 25, 게시물과 댓글들과의 거리 110
-            # driver.execute_script('window.scrollTo(0,%d);' % ( move_to_reply_height ))
-            # time.sleep(0.5)
-
-            for each in more_reply_tags:
-                ac.reset_actions()
-                ac.move_to_element(each)
-                ac.click()
-                ac.perform()
-                time.sleep(0.3)
+        # 공유한 게시물의 링크로 가서 데이터를 긁어옴
+        for link in total_links:
+            print('Crawling Started !')
+            print('\t'+link)
+            driver.get(link)
             time.sleep(0.5)
+            clickSwh()
+            time.sleep(0.5)
+            TEXT, LINKS, IMG_LINKS, COMMENTS = collectData()
+            print('Crawling done !\n')
 
-            for each in more_content_tags:
-                ac.reset_actions()
-                ac.move_to_element(each)
-                ac.click()
-                ac.perform()
-                time.sleep(0.3)
-
-            comments = driver.find_elements_by_class_name('UFICommentActorAndBody')
-            COMMENTS = []
-
-            for comment in comments:
-                comment_actor = comment.find_element_by_class_name(' UFICommentActorName')
-                comment_body = comment.find_element_by_class_name('UFICommentBody')
-                comment_content = '[%s]\n\t%s\n' % (comment_actor.text, comment_body.text.replace('\n','\n\t'))
-                # print(comment_content)
-                COMMENTS.append(comment_content)
-
-        except NoSuchElementException:
-            print('\t\t** No comment')
-            pass
-
-        print('Crawling done !\n')
-
-        # 긁어온 데이터를 텍스트 파일로 저장
-        writeFile(TEXT,LINKS,IMG_LINKS,COMMENTS,link)
-
-    post_index=0
+            # 긁어온 데이터를 텍스트 파일로 저장
+            writeFile(TEXT,LINKS,IMG_LINKS,COMMENTS,link)
 
 def getIndex():
     try:
@@ -355,12 +375,8 @@ def autoWork():
     myPage()
 
 try:
-    # -------------------------------------------------
-    # 로그인
     loginFb()
 
-    # -------------------------------------------------
-    # 내 타임라인 들어가기
     myPage()
 
     # file_name_index
@@ -369,18 +385,11 @@ try:
     board_index=0
 
     # 오토 크롤링
-    # for i in range(4):
-    #     autoWork()
-    autoWork()
+    for i in range(20):
+        autoWork()
+    # autoWork()
 
-    # time.sleep(1)
 
-    # -------------------------------------------------
-
-    # 스크롤 내리기
-    # driver.execute_script('window.scrollTo(0,50)')
-
-    # input()
 
 except Exception as e:
     print(e)

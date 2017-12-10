@@ -1,0 +1,49 @@
+	** 게시물 URL
+https://www.facebook.com/zzsza/posts/1143759559059118
+
+
+	** 본문
+변성윤
+8월 27일 ·
+주말에 캐글뽀개기란 곳을 다녀오고, 즐겨찾기에 있던 캐글 관련 자료만 따로 정리-
+- 대부분 R보단 Python 자료
+- Github 소스는 소소하게 하트 눌러주셔도 좋을 것 같아요-!
+#1. 입문자들이 보면 좋을 자료
+1) 김연민님의 실전 머신러닝 발표 자료 - 캐글이란 어떤 것이지 설명되어 있으며, 캐글 진행 Flow까지 자세히 기록되어 있어서 유익!
+https://github.com/…/Kaggle%20Competition%20%EB%8F%84%EC%A0…
+2) 이상열님의 pycon 2017 듀토리얼 자료 - 입문자들을 위해 천천히 코드와 함께 설명되어있는 자료
+https://github.com/…/pycon2017_kr/pycon_korea_2017_Kaggle_t…
+#2. 캐글 과거 솔루션
+1) 캐글 과거 솔루션들을 올려주는 사이트 - 말이 필요없어요. 사실 이 곳 하나에서 대부분 자료를 얻을 수 있습니다!
+http://ndres.me/kaggle-past-solutions/
+2) 최근 공개된 Kaggle data science bowl 2017 우승자분의 자료
+http://nbviewer.jupyter.org/…/Part%201.%20DSB17%20Preproces…
+3) 정근우님의 kaggle santander 추천 대회 자료 - 3등, 8등 소스까지 함께 작성되어 있습니다!
+https://github.com/…/kaggle_santander_product_recommendation
+참고로 제 깃허브에도 비슷한 자료가 있는데, 조금 더 설명을 덧붙인 상태(근우님께 배워서 뼈대는 동일)
+https://github.com/…/Kaggle_Santander-Product-Recommendation
+#3. 기타
+1) 캐글 경진대회의 Tip이 적혀있는 슬라이드 쉐어
+https://www.slideshare.net/…/general-tips-for-participating…
+2) 이건 작성해야되나.. 말아야하나.. 고민했는데, 제가 John park님 아래에서 짧은 기간동안 배울 때 작성했던 일기들-
+https://github.com/zzs…/Kaggle_Expedia-hotel-recommendations
+
+
+	** 댓글
+[Donghun Shin]
+	고맙습니다!
+
+[Dataking Dataking]
+	오~~ 호. 훌륭합니다.
+
+[권민재]
+	데려가주세요
+
+[변성윤]
+	민재님 해석학 스터디도 하신다면서요..? 시간되면 같이 나중에 해봐욬ㅋㅋㅋㅋㅋ
+
+[권민재]
+	ㅋㅋㅋㅋ 겹치지만 않으면 괜찮습니다 ㅋㅋㅋ
+
+
+

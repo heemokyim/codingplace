@@ -1,0 +1,49 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/548576758816720/
+
+
+	** 본문
+Sung Kim님이 링크를 공유했습니다.
+관리자 · 10월 20일
+그 유명한 3Blue1Brown님의 딥러닝 2강, "Gradient descent, how neural networks learn" 나왔습니다. 그냥 그림만 봐도 한편의 영화를 보는것 같은 멋진 비디오 입니다. 이건 정말 반드시 보셔야 하는!
+Gradient descent, how neural networks learn | Deep learning, part 2
+Subscribe for more (part 3 will be on backprop): http://3b1b.co…
+YOUTUBE.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIHZwWFHWa-w&h=ATOHEeXUuL8Zts6477Ifba96g9Ohs11DW0627FBbgu5ay14YWPFN0nYJ15b08b9tpbxfOyBr-EEF4R33S6nrDXzYY7lOnbnY2csYX9kqLREbJXmZUMtrzX55zBCO8PZqSrM2D8Y1Au67oYzyO1nVCiPbavpD_8_2VcWvsH-EDvkybjp3k_5kKft_shKfiqi66xIVjrkfmgAwSWfF8mFIj2RezToKllm3jGQ1qfgvTLelaqPyocoscHwpC4yqRKrf7ojgsa-CPax_yAI
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIHZwWFHWa-w&h=ATM3F_T6F2qjQ2T9Mf-69jkU6RkbIgvncjwB2LazCYmY_5SrQgIxP0KOTaiLdyjhvNK5MNLye7_dnwfnPPdEFctqbmH7AnqKdfBfNQcPainxBgRxwGjF3KTc-GMz8IB8ZlBBx3XCkOI8rJLm_tZOvPLYSKLdCzRFkdBChy-i_1xYW_NVmShT_996qpSgu491tGlrfhSrghY2zw0cmahKZEqo2RpNV7Oaw4hlEbdk8KSIQJTe-3g0m3FDdU1Sxag3dV7_4FMJoRqjoZs
+https://l.facebook.com/l.php?u=http%3A%2F%2F3b1b.co%2Fsubscribe&h=ATNrZUwFOTTyZiVVY6Zgfq2HIwlMoJQj1JTwdEhZqmI8TlqBiB1FUoq_VYcBaXrE9URvU5IC6GW-fPWJX2ijzVvZiKNln85dRKvvetjgFUrX1GoLaonvNpwjdNQDS6JzU6RAcuNwOMofhaMjuJKGR9vDtmiwKagdkFETqCS6271QgDdy5gdnu7j0u495pnVyWqEDGyEQppAAB0jb8--6zn_vERZftyaKcdCcrj2_ApGzdT0m3mLZiQW2VY4fGKUhYqZNx1_Xcm31TV0
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.patreon.com%2F3blue1brown&h=ATOBCSFaf4y4yV_BwzYxKtdV8Cb9tWrPRXT4NDh7NzZWmvvSeweIibDCK8gOoTHkgMPzQjgGZjeGRgb2s4pOKHW3kipPisyEMRIFgccCevESSrzXS5qZiMjTgd44GTODeOWsZvo9ok_VhWuowLEN_Vin_SP3JJY_NRzyJ9-7cWEFE_OAklsAmL236A251Fv5a9gtVyzrF2FtUx9685flweRTukDgi3vbl6oMOhUieW5pdcZuCajUB8P9RzSpF4WBIStx3m62aOn4eyM
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIHZwWFHWa-w&h=ATMzkmrZFMu3azJeCLbLHAh56b0qGZ4UIX1TjCeRasfZ7ECbkrYWJaFcthPzDF1AkyCOolSQUTbzof61bSRhscqEKBS1bLSuKSoPTF5xFHTJfLd5psRY81_2KSo3NYgTxgI-uAIEvckYfnKlFErGIN9YceDBUNY2xVMzQ9QO4MeIXhh4zeJcgDiQoXUQSo-h3TbEd-ENIx5Eaq1zHR8titQjRkuwzcJ7BzF3cgBoKzcEk2TCQhDU8tJ--VTWBGh17-Jsk3O0Igvk_BE7ilrQucDD
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQBPm1TxFRTluEfL&w=111&h=111&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FIHZwWFHWa-w%2Fmaxresdefault.jpg&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQCeYRnub5p6bXu-
+
+
+	** 댓글
+[Jaeoh Lee]
+	감사합니다
+
+[Jaesin Tristan Nam]
+	와 이자료는 정말 환상적이네요.. 조금만 더 일찍알았더라면 개념잡는데 엄청나게 도움받았을거같은데.. 암튼 감사합니다. 백프롭이 아직 안나와서 조금 아쉽네요.. 마침 공부중이라..
+
+[정현명]
+	감사합니다!
+
+[김성진]
+	제목만 봐도 근사해요.
+
+[백승현]
+	항상 감사드립니다!
+
+[심규서]
+	영상의 퀄리티 뿐만 아니라 내용도 수준급이네요
+
+[한석균]
+	정말 최고입니다. 흐릿하던것이 명확하게 눈에 그려지니까 속이 후련하네요 ^^ 감사합니다. ^^
+
+
+

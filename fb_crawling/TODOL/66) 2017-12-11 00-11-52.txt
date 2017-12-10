@@ -1,0 +1,32 @@
+	** 게시물 URL
+https://www.facebook.com/groups/AIKoreaOpen/permalink/1674644069236363/
+
+
+	** 본문
+정지훈님이 링크를 공유했습니다.
+9월 27일
+역시 대가가 다르네요. Yoshua Bengio 교수의 "The Consciousness Prior" 라는 짧은 개념 논문입니다. 개인적으로 계속 고민하고 생각하던 주제인데, 제 머릿 속을 맴도는 것을 간단한 수식과 정제된 문장으로 모두 풀어낸 느낌이네요. 이 짧은 논문을 한 문장 한 문장 모두 외워버리고 싶은 충동이 들 정도입니다. 이런 감정은 과거 Jürgen Schmidhuber 교수의 이와 비슷한 논문들을 읽었을 때 이후 처음이네요. 인지과학과 전통적인 심볼릭 AI, 그리고 딥러닝의 접점에 대한 아이디어도 많이 제시합니다. 많은 분들에게 꼭 추천하고 싶은 논문입니다. 비록 현실성과 실용성에 대해서는 이야기하기 어렵지만 말이지요 ...
+[1709.08568] The Consciousness Prior
+ARXIV.ORG
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Farxiv.org%2Fabs%2F1709.08568&h=ATP7OjH5WkAQMUMYL7zrRljGhWDPvauoIrlriKsS_68Y_qUEl3eUkY3dv3OWPUaRb8MOj_3hR2_YMyi3LI9GpKpPCZ8yl3t2a6GN7ii9_YOZS_8UIWm-VL-dCyM-Tn4OigqNJMzw9UhsFbl_xTFbQqRnjA6PwEDpFC-XqFhvMJf7Z_Rxef-GaK31OCxJR6l_Lvd17BwZPO3TDXn_D1KRgIpi3bhL1NeDSsnatcLb8YG4VRyFv3lPE7Pw32gOYwGB2k-tb40FZPhMsNoo
+https://l.facebook.com/l.php?u=https%3A%2F%2Farxiv.org%2Fabs%2F1709.08568&h=ATPlMCEnPU-u3OHmeS0mbPo83I4x7QXEdevIDnJd19v0wsnZjZKlL6DBx2QN7gVW0zJ1BhZptsdAPTqiYF2cdleDNzs5YazU5KyK5gkK8s_1cVOj78amD_ICk3PGeVjFJJMOGD7TG_YVSw4F1D7US0mBYiPTWUFfWW_3MIKxh9EYwoPtgcPUCDtXC0RaCUIpHWNFiX-mTpUxXTKpvoNk2gKc-5w9LpK4rrMkkrqyRKtcuixs6oLXFL4uqBKEsONVB4bhoVe3QwnWdca9DAcVpV7CzQ
+
+
+	** 댓글
+[Sung Kim]
+	교수님께서 이 주제로 강의해주신다면 머릿속에 오래 남을듯 합니다. ㅋㅋ
+
+[정지훈]
+	ㅎㅎ. 한번 정리해봐야겠네요
+
+[Sung Kim]
+	저도 읽어 봤는데 교수님 처럼 의학 뇌과학쪽의 이해가 있으면 정말 풍성하게 설명해주실듯. 저에게는 너무 highlevel. :-)
+
+[이현봉]
+	2 페이지 하단의 "어떤 objective function이 h_t 에서 c_t 를 추출하도록 attention 하도록 하고, representation 자체 구조도 바꿀 수 있을까" 에서 long term driving force는 뇌에서 보면 efficiency를 최대로 하기 위해서 입니다. 새로운 것을 뇌에 넣기 위해서는 그 것을 담을 그릇이 커지면 좋은데, 커질 수록 부대 비용이 커지고, dense하게 하면 발열 냉각 문제가 있고, 속도를 높이자니 만들어진 재료가 누전 잘 되는 축축한 것이라 방전없이 좀 빠르게 보내려면 전선 굵기가 square로 굵어져야 하고, 그러니 abstraction을 해야 할 수 밖에요. c_t = C(h_t, c_t-1, z_t) 에서 C (Consciousness RNN)을 구할 수 있으면 V, U는 상대적으로 쉬울 것 같은데, C가 걸리네요. 지나치게 쉽게 뭉뚱거린 것 같습니다. z_t noise를 도입해, attention이 shift 될 수 있고, 때로는 drill down도 하고, composition 해 보다 complex/abstract한 conscious state를 생성한다 하면서 간단히 처리 했네요. z_t 가 무엇을 말하는지 모르겠어요. h_t 같이 아직 conscious access가 안 된 것이면, 그냥 h_t에 포함해야 하고, 아니고 c_t-1 이 통제하지 못하면서 자발적으로 떠올랐다고 사라지는 mental state를 말하는지? C를 consciousness 를 유지하는/생성하는 장치로 나타내었는데, c_t-1이 없을 때 (자다가 깨어날 때) 어떻게 될까요? Cognitive science에서 attention은 consciousness 의 minimum 단계라고도 말하지 않는다고 본 것 같은데요. C가 어떻게 해 특정 state에 대해 우리의 attention을 trigger하고, 그 것을 access하고, 그 access를 할 수 있다는 것을 나타내는 "앎" state를 만드는 지, V를 얘기할 때 생각을 조금이라도 적었으면 더 좋았을 터인데요. 그러면 너무 나가나요? Neuroscience, Cognitive Science에서 관련 분야로 엄청난 진보가 있는데 그 것들을 참고했었으면.
+
+
+

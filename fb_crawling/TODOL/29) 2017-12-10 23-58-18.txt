@@ -1,0 +1,35 @@
+	** 게시물 URL
+https://www.facebook.com/nextobe1/posts/391234451312556
+
+
+	** 본문
+Nextobe님이 새로운 사진 3장을 추가했습니다.
+11월 1일 ·
+10장의 NVIDIA GTX 1080 Ti로 단일 루트 딥러닝 서버 만들기
+10x NVIDIA GeForce GTX 1080 Ti 11GB GPU, Mellanox Infiniband를 갖추고 있으며 소형 4.5U 폼팩터에 맞습니다.
+1. 10x NVIDIA GTX 1080 Ti 카드
+2. 고 GPU 밀도 시스템 중 하나인 Supermicro SYS-4028GR-TR2
+3. 40GbE(실험실 네트워크) 와 56Gbps Infiniband(딥러닝 네트워크)를 모두 지원하는 Mellanox ConnectX-3 Pro VPI 어댑터
+4. 실험실 네트워크를 위한 Intel Omni-Path 스위치
+5. 2x 인텔 제온 E5-2628L V4 CPU와 256GB ECC DDR4 RAM
+6. 시스템 비용
+7. 성능
+원문
+https://www.servethehome.com/deeplearning11-10x-nvidia-gtx…/
+
+
+	** 링크
+https://www.facebook.com/nextobe1/photos/pcb.391234451312556/391234397979228/?type=3
+https://www.facebook.com/nextobe1/photos/pcb.391234451312556/391234407979227/?type=3
+https://www.facebook.com/nextobe1/photos/pcb.391234451312556/391234427979225/?type=3
+
+
+	** 댓글
+[Shawn Choi]
+	Keen Dev 이거로...?
+
+[Ron Flack]
+	I want one :)
+
+
+

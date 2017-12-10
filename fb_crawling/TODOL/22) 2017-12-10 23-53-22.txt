@@ -1,0 +1,34 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/557259974615065/
+
+
+	** 본문
+김휘영님이 링크를 공유했습니다.
+11월 9일
+이 링크가 공유된 적이 있는지 확실치 않지만...
+ICCV, CVPR 발표 논문들 material 모음집입니다.
+참고하시는 데에 도움이 되었으면 합니다.
+CVF Open Access
+OPENACCESS.THECVF.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=http%3A%2F%2Fopenaccess.thecvf.com%2Fmenu.py&h=ATNVoBE3ZhzOl_1R6IQdKPmHeZUu2vTch3L8DuSRekVq-2X6ekZPu_yKcwqqEim-99K5Jg7lrDzirKbvu5ISYea98kadSlHWLs9lrfC0Ni9Bxez6x5obJ10wYtCu6mTGAFgaqd18S4l5aud8zGUalMoKrIqjv9JFy1ZgDUxKjkM9Txp4H48PyHCRo3ETW1SQcZMxYXNmkJX0DaVwF6NpEJER1OXasGQu31ZILaD5822rqvVeujTRjt7fqoW47-EzqIpsqgNuF0oIuHTx
+https://l.facebook.com/l.php?u=http%3A%2F%2Fopenaccess.thecvf.com%2Fmenu.py&h=ATOTd8on7ohOm9Uvmldx6XilgWh_YUc8FmhaqltTlTvaT9RsFL_SK4X4jyMxX6sBTQcgFnwc9SEmCCkXgkx_rJ5aCtNP1BrDJuzymP___B5_J4ii_xvFysPEoMSOU9rLpZLqvkDoMLHZC5vvq2Ic6L_J-2d6nUYJUMWFkCFX-_XFYE9VRI5RnZXocBSmCCd0peUNHujZwyaWxZTUkXapfKOnVOOAZHDao7eOHaMAVxTz33YD2KZ3LiyjWf6jR8JcQ8od7I_XXNdVicje
+https://l.facebook.com/l.php?u=http%3A%2F%2Fopenaccess.thecvf.com%2Fmenu.py&h=ATOW6Qqg3Nmi-082W1jZmynDxVFRaDBGgyj4WJVt2b6aka765HsLvH6uVQ18VvWRdUgXTR6VNpF2wQ5reRDFSaMnXs5MHW1D-rGRCzlMRbP-d6A_xyV3f3hs8mouHz6BWI3LS5GDa-vWoqRtTO286Q4m8yTVX8l95k7t1ev6AzmH0UsF7AwB5lpHiMCZitgZ_YStFrr8BkqDBae8V2EFsHJ7ODowvUcazLxQ1VXx4vrPbeqmdTpEeL8lWUoWlU0WhHVluEm1gtE7JRsuZCxAEOqGag
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQCK4jNxE-Xzo6VC&w=476&h=249&url=http%3A%2F%2Fopenaccess.thecvf.com%2Fimg%2Fcropped-cvf-s.jpg&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQAFQPnkX3kmY4-I
+
+
+	** 댓글
+[전태균
+그룹 관리자]
+	개인이 운영하는 페이지인 http://www.cvpapers.com 도 괜찮습니다. (요즘 관리가 소홀해지는 느낌이 듭니다..)
+
+[김휘영]
+	와 이거 좋네요. 감사합니다!
+
+
+

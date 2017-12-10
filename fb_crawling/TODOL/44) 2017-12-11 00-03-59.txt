@@ -1,0 +1,47 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/548738702133859/
+
+
+	** 본문
+Sung Kim님이 링크를 공유했습니다.
+관리자 · 10월 20일
+데이터야놀자에서 (민경국님으로 부터) 패널 사회를 부탁받아 어버버 하다 왔는데 이를 매우 잘 정리해주시고 참고자료까지 찾아 주신 정말 휼륭한 글이 있어서 소개 합니다. BoraShow's Pangyo News님의 적어 주신 글 https://brunch.co.kr/@borashow/173
+어떻게 이렇게 멋지게 글을 정리하실수 있으신거죠?
+유투브 무료강의는 왜하죠? 라는 답변에 조금더 첨언하자면:
+1. 딥러닝은 이제 모든 개발자들이 꼭 알아야 하는 기술이라는 생각
+2. 공부 자체가 재미 있어서
+3. 시간이 많이 남아 심심해서 (홍콩과기대 처럼 시간을 많이 주는 분위기에서 재미있는 것들이 나올수 있다는 의미.)
+다시한번 멋진글 감사합니다.
+힘내요 우리, 함께 해요 모두
+데이터야놀자 관찰기 (3) | 이 글은 ‘데이터야놀자’란 행사 관찰기다. 데이터야놀자는 2017년 10월 13일 한빛미디어 사옥에서 하루 종일 + 롬바드 게스트하우스에서 밤을 넘겨가며 열렸다. 데이터를 다루는 모든 사람의 축제란 기조로 진행되는데…
+BRUNCH.CO.KR
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40borashow%2F173&h=ATM5gaDyP29hTNeQJUQX1BqoHspNgkVY6bYspk1MoDY8P5WLjQ7x1hIvuTbSeliu4fAAPvGQrhYfzZXSKfCUXMF0clbh0EBUi0_b4WV_ixf1dqNIJTxUfmpEM9werSDggLBNdsDSufVVzl4gszpZXnhpe548Dua_nO1kU3LFIdeA4ZIlvho-nKIdNKxQ8bhyKl-z-rNdLu_DkuPvhZ1te_Zy6xsWN0QVKyYwP8_DCcO9klqhvYcNgxQWHiCYfRV4RwQOvN4qzJ03JKI
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40borashow%2F173&h=ATPskFYcH250MkyS7NS75ZXXR-oqtvv21A87Ztcj4UosSkeZifvdAeRGjUzq3Tzg6JI0e5bC35w0DNAJr09Bo97fZJT9XnbvsHoxZcS6I4oBs1iUMgM3SnrE8MO_F0zsPVZ8uZ070KZA-umIalXvSVISc1UbNgzcbFE6fhywZSQHs5aPlYoGi1oxE1RNpClVeDTusCm6rxPyp0BDXbsAnHqJPJFqHNYRFjmgNsVMBMRsEkfd40B6YYgpJ3R1BUro9d99fpeSc_o3td4
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40borashow%2F173&h=ATOj0HtYD-_zUWmQSb011-7xmBRqu3rgj922srk1RJBkd3I82kxGeN9WIx-7hQHtH8MUgYN9tH-gUAHRo0c2-l0tYrGhKL6P4KbsTMwoBWLCK6pcWSVuN6dOTMb39701--C83uikWvlhexYlCEDIilCMn3pC0S74U1rUOFNzwiXuYnek8DC_Qfq9bCpAaOJgGkQNA7KJq3zgg38D5USYgtyVsdBBih3cxY643RcXq0dPIQMD1SrrL8Q7-RphPyF7Rp3ZQeFHQttnSsiP63s8uuKy
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQCsjLfEZE3QMnFu&w=476&h=249&url=https%3A%2F%2Ft1.daumcdn.net%2Fthumb%2FR1280x0%2F%3Ffname%3Dhttp%3A%2F%2Ft1.daumcdn.net%2Fbrunch%2Fservice%2Fuser%2F3aE%2Fimage%2Fn0QaX-u-IH2jOeKfSYCTajGJweQ.jpg&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQDujOhUMw46Khqu
+
+
+	** 댓글
+[Ju Son]
+	한국의 대표 DL mooc 인거 같아요.
+
+[선우공현]
+	3. 시간이 많이 남아 심심해서 (홍콩과기대 처럼 시간을 많이 주는 분위기에서 재미있는 것들이 나올수 있다는 의미.)... 참으로 부러운 학교입니다. 항상 바쁘고, 밀어부치기만 하는 한국의 분위기와 참으로 대조적입니다.
+
+[민경국]
+	"모든 개발자" 라고 하시면 이젠 더는 피해가기 어렵네요. 오늘 부터 1강 시작하겠습니다. 처음 재미를 이야기 하셔서 패널토의에 정말 재미만 있을거라 생각했던 제상각이 당일 데수다를 준비하고 또 진행하는 모습을 보고 한없이 부끄러웠습니다. 그리고 진짜 재미있었습니다. 정말 재미는 감동에서 온다는걸 알았습니다.
+
+[정장영]
+	글이 쉽게읽히는데 내용은 기억에 잘남네요
+
+[심규서]
+	참석하지는 못했지만, 마치 참석하고 있는 듯한 생생한 후기네요. 글을 읽으면서 앞으로 무엇을 해야 할지에 대한 가이드라인이 그려지는 좋은 후기인 것 같습니다. 고맙습니다.
+
+
+

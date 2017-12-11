@@ -1,0 +1,44 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/484766678531062/
+
+
+	** 본문
+Chanwoo Jacob Lee님이 게시물을 공유했습니다.
+6월 12일
+하나 더 뿌립니다
+이번에는 구글 클라우드 분산러닝 파트입니다
+잘 아시겠지만 분산 컴퓨팅을 사용하는 가장 큰 이유는 수치연산, 운영 연산 등을 여러 클러스터에서 병렬처리 하는데 있지요.
+word2vec처럼 운영연산이 많이 필요한 모델이나 아주아주아주 큰 모델을 학습 시킬 때 좋은 학습 성능을 기대할 수 있습니다
+내용을 많이 넣진 못 했고 아주 필수적인 기본 Usage 정도 설명 해놓았으니 그정도로 참고하시면 될 것 같습니다. (이 후 update 예정)
+다음 파트는 기본적인 사용법에 대한 파트로는 마지막으로 CloudML의 꽃이라 불리는 hyperparameter tuning 기능을 소개합니다.
+작업 끝나는대로 다시 일괄적으로 공유하도록 하겠습니다.
+Chanwoo Jacob Lee
+ 님이 게시:
+ Google Cloud Platform Korea User Group
+6월 12일
+분산러닝입니다.
+말이 필요 없습니다.
+CloudML과 함께라면 진정 다 알아서 해주는 것 같습니다. 서버 하나하나에 들어가서 연산에 대한 config 해줘야 하는 번거로움을 ml-engine 의 파라메터 몇개로 해결해버리네요
+이래도 되나 싶을 정도로 쉽게 배워버렸네요 ... ㄷㄷㄷ
+공유합니다!!
+#한영어주의
+leechanwoo/Tensorflow-projects
+Contribute to Tensorflow-projects development by creating an account on GitHub.
+GITHUB.COM
+
+
+	** 링크
+https://www.facebook.com/profile.php?id=100010587663164&fref=gs&hc_location=group
+https://www.facebook.com/profile.php?id=100010587663164&fref=gs&hc_ref=ARTa412bRPnEhLd-VIxEfhELteY0jYEh6Phns5MEs8ClOGyLXBxymw65TKA37_u5nu8&dti=540095029455098&hc_location=group
+https://www.facebook.com/groups/googlecloudkorea/permalink/1017090941755502/
+https://www.facebook.com/groups/googlecloudkorea/permalink/1017090941755502/
+https://www.facebook.com/hashtag/%ED%95%9C%EC%98%81%EC%96%B4%EC%A3%BC%EC%9D%98?source=feed_text
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fleechanwoo%2FTensorflow-projects%2Fblob%2Fmaster%2Fdatalab_usage%2FCloudML%2520with%2520DataLAB%2520part5.ipynb&h=ATP8dORMgVMxw9Boe7NTrkg49QTTrw1Z6yO0oEMVufodq3OsishxhJ667XSuocVvbvTvuXJsRZo6TH9ks7NV4FhBf8vW2Hd5aCDYPoK67cPri_5VE8hc1ncQhfvfmdsfR2IXMdqAjSrjBGPGBK1-h6d8lVo3JrYdtbccBu0309vmJ7FHg7d0SQjC1FXMo3QQN0anGHDPJJ6R6RZFVp5mENM3Ph2rzEzYKSM9J_JoAr68ZaOly0yIIV8MN6-EwAkvmmme14SfC-tYtrUFvoIn_Xg
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fleechanwoo%2FTensorflow-projects%2Fblob%2Fmaster%2Fdatalab_usage%2FCloudML%2520with%2520DataLAB%2520part5.ipynb&h=ATOKijBT_K1vvwThqj5qTgG9kqiVh8Al47vUhEusl23zUi9J5tCEJkOkN02bJV0-iIQXX3cjhz0d3s0ZMSx0KB8QZyvIRzzGR7hx9_JgKApNb2NeBEur7uSLrlH6gQkPY7IGvjKEaspXtj9_Ns-fa8dzoTmNMWC0-EJ-5KF5vLalXtnXbM_cRWn1VmxVF6U6qerjnRNWCGvYOYoCZf0AJPYorvmUyemlfy4t9YoLUg5P38gKF9Lsj5oJ-cb20zLSlO-wQEdEzaiYi5DgdsuwEVw
+https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fleechanwoo%2FTensorflow-projects%2Fblob%2Fmaster%2Fdatalab_usage%2FCloudML%2520with%2520DataLAB%2520part5.ipynb&h=ATOkhHipaKR3Oq0VjPDxN3OChFrQ46_1OZnO9UjJCExjSXnc-spFEmsSoFnZ3LiJGQR4ksUKoh-_W9gAOjIyPfz2-qnuwELhdDRvaVVj0oF7ue75wqNYtiewT8gmy0NT2A5ubTgm-ayyTP_dF8ZcPSKY3firlemgniRbOjg8J96_EH2gXWdwdUg__jFwSZJnNz0gnZAMsmyVLZYWQDKtSMeXS0XVP4JNl1IKzVheJFsP2hS9hEXZqPW8K5siHpv4_tLE1haM4f5YvgxyDU1PFpvxL0hLTbHIH2A
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQB8WovpdpofPeLv&w=476&h=249&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F7783852%3Fv%3D3%26s%3D400&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQDAerS2kNoIz6g1
+
+

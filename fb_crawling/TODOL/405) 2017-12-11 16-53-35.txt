@@ -1,0 +1,494 @@
+	** 게시물 URL
+https://www.facebook.com/programminggeeks.in/photos/a.662730397199553.1073741828.662720053867254/802723743200217/?type=3&hc_ref=ARTe0Xf70StvzPjHs4xdqtREnXBNVVfdJOsSXqQL-YCTKdQsq0DK-161fxe3WPopj9c
+
+
+	** 본문
+Programming Geeks
+2월 24일 ·
+Linux alternatives for Windows applications..
+번역 보기
+
+
+	** 링크
+https://www.facebook.com/programminggeeks.in/photos/a.662730397199553.1073741828.662720053867254/802723743200217/?type=3
+
+
+	** 댓글
+[Gideon Appoh]
+	Why do people always try to black paint windows. I'm a web developer who uses Linux each day at work. I use Windows at home. You can see that Linux is no way as stable as Windows. All softwares are too old. All it helps is it allows us to set up Dev work more easily and faster
+	
+
+[Krushn Dayshmookh]
+	Old software????? Man, linux packages are way newer than Windows!!! Stabilty depends upon you. You can make linux as stable as you want or as dynamic as you like. It is always favoured because it give you total control over its working while providing you with all the tools you need to do your daily tasks without ever tinkering with a setting.
+	
+
+[Joe Lai Lim]
+	Most colleges runs Microsoft OS, u can't just convert your libre office document into Microsoft word! It just looks horrible afterwards
+	
+
+[Ignas Narbutas]
+	Never experienced: i only experienced that documents from different MS Offices versions are incompatible..
+	
+
+[Joe Lai Lim]
+	I once create a libre office document, but the fonts, colour, image size and position are all altered once opened in Microsoft office word, I have to make a lot of research how to resolve this online
+	
+
+[Joe Lai Lim]
+	For example, in libre office there is no times new Roman after I realised and I have to search online and install it, or other way command in the terminal to install the font, there are a lot of small bugs man....
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Miłosz Skaza]
+	I can agree that MS office suite is better, but I'm sure only is it was open source then folks at Libre could do something about incompatibility...
+	
+
+[Ignas Narbutas]
+	Joe Lai Lim Not in "libre office", but in your OS. On Windows LO recognizes and uses all fonts of OS.
+	
+
+[Cédric Villeneuve]
+	If you can convert from microsoft word to libroffice without problem but you cant do it from libreoffice to word, then its word the problem. In my case, I never had any problem in both way.
+	
+
+[Ignas Narbutas]
+	Solution: to write documents from Libre Office in native MS formats, because MS Office "standart" reading of Open Office Documents formats is faulty by design...
+	
+
+[Joe Lai Lim]
+	Well actually I do like to use Ubuntu, I like playing around with codes that exercises my mind a bit, but I deal with Microsoft often in College, so some transferred documents may have some incompatibility, I am looking forward how Ubuntu will advance sooner I gonna try that for sure!
+	
+
+[Krushn Dayshmookh]
+	Use WPS office
+	
+
+[Servin Sanchez]
+	Haha. Right
+	
+
+[Micheal Morrow]
+	LibreOffice is completely not a replacement for office. It is so buggy and the interface is close to opaque. I cannot use it for production work. I have to fall back to Office 2007 on a WIndows machine. VLC player can be taken out. It is also available on Windows. Not a replacement. Same program.
+	
+
+[Gilbert Gatmaitan]
+	I installed libre officd in my windows 10... and it sucks! It's not user friendly, like a hundred years gap compared to microsoft office
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Miłosz Skaza]
+	Behzad Badri Microsoft also loves you (specifically your data that they can sell to their advertisers :) )
+	
+
+[Aldriansyah Putra]
+	Use wps office.. its better
+	
+
+[Miłosz Skaza]
+	So bad they don't improve it no more :/ They've just left it..
+	
+
+[Dakota Taters Jacobs]
+	Everyone can just use Google Docs and let Skynet have all our documents
+	
+
+[Bakulár Márk Cetlis]
+	Dakota Taters Jacobs or office online? it's free too.
+	
+
+[Roman D Samuel]
+	Transmission is kinda nooby to be compared to uTorrent. uTorrent has a professional outlook. GIMP can't be compared to PS, GIMP has less features compared to PS and PS is advanced than GIMP. GIMP looks more like Paint with a bit of PS
+	
+
+[Miłosz Skaza]
+	Hell no. It's just a matter of habit, GIMP can do 100% of what PS can. What's the issue with Transmission? Personally I use Deluge, gives me everything I want (ability do download and seed torrents). I don't know about InkScape but blender is overkill.
+	
+
+[Roman D Samuel]
+	uTorrent has a good UI tbh and its easy to find torrents with from my point of view as i haven't used Transmission a lot. Is GIMP able to create 3D with a bit of ease like just click on the 3D button
+	
+
+[Dakota Taters Jacobs]
+	I will certainly agree that Transmission has less built in utility and ease of use than uTorrent. But the real problem is uTorrent's devs need to make a linux version! I mean why not? You'll get more dedicated users and more community to help with deve...더 보기
+	
+
+[Roman D Samuel]
+	Photoshop is able to create a 3d text with a simple click on the 3d extrusion
+	
+
+[Roman D Samuel]
+	Provided if you have a decent graphics card
+	
+
+[Jayson Sotto Atienza]
+	Im in windows but i use GIMP and VLC Player hahaha like it better
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Anubhav Dutta]
+	Gimp & Photoshop do not compare at all. PS is far far superior. Gimp can be compared to MS PAINT
+	
+
+[Shripad Tak]
+	Himanshu Is the alternative for Photoshop equally good ?
+	
+
+[Himanshu Nahak]
+	Haven't really tried gimp so cannot comment
+	
+
+[David Alex Martinez]
+	it's not *equally* good, but for 90% of people it does 99% of what they'd use Photoshop for anyway.
+	
+	basically, the only people who should stick to photoshop are hardcore graphics designers and photographers... or if you somehow can get Photoshop for super cheap
+	
+
+[Dakota Taters Jacobs]
+	Gimp has a slightly steeper learning curve than Photoshop, but it's definitely as capable. Certain features of Photoshop that often become the flagship in advertising are actually derived from publicly sourced Gimp plugins (content-aware fill, for exam...더 보기
+	
+
+[Esc O Bar]
+	GIMP is also free and available for Windows and Mac as well.
+	
+
+[Chaitanya Gadkari]
+	It's shit
+	
+
+[Yuri Blanc]
+	Thos softwares sucks on both sides, except vlc and Photoshop (gedit is an ide compared to notepad)
+	
+
+[أشرف مطوي]
+	Man that list was more than 10 years ago 😂😂😐
+	
+
+[Χρήστος Νικολαϊδης]
+	Scavenging for something to post. Anything.
+	
+
+[Michael DelaSerna Edaño]
+	The only good about lenux is because it's free. Free has always lower quality than !free
+	
+
+[Χρήστος Νικολαϊδης]
+	Gimp is worst than lousy. Stop reffering to it as a Photoshop alternative.
+	
+
+[Gediminas Rūkas]
+	Agree. Tried to "adopt" it - gave up.
+	
+
+[Χρήστος Νικολαϊδης]
+	I've tried noumerous times. It fails to do simple jobs that irfanview does in a flash. Comparing it to Photoshop reveals computer (linux) illiteratism.
+	
+
+[Ignas Narbutas]
+	I use Photoshop and GIMP: some tasks GIMP performs better than Photoshop (to reach result you need less steps), some - worse...
+	
+
+[Allan Mullen]
+	Gimp really needs some vector tools.
+	
+
+[정윤성]
+	but some tools only run in windows so I use both of them
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Gourav Bajaj]
+	is there any alternative for IDM (Internet Download Manager) ??
+	
+
+[Programming gags]
+	Yeah! It's called DownThemAll
+	
+
+[Programming gags]
+	And Can u please like this page (y)
+	
+
+[Gourav Bajaj]
+	done (y)
+	
+
+[Aldriansyah Putra]
+	Its Extreme download manager
+	XDM
+	
+
+[Rahul Bose]
+	uget also works fine
+	
+
+[Gourav Bajaj]
+	does it download vdos from live streaming website as well?? like youtube etc
+	
+
+[Fabian Alt]
+	VLC and WMP are both Bad
+	use MPC HC for Windows
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Michael Borden]
+	Anyone know a good Linux 3D CAD software?
+	
+
+[Aldriansyah Putra]
+	For 3d design i use blender 3d, but not a cad..
+	
+
+[Michael Borden]
+	I need something that let's me create STL objects for 3D printing.
+	
+
+[Mohammad Ebad]
+	Anyone linux expert ?
+	
+
+[Shrinjoy Biswas]
+	linux lacks professionalism
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Riddhee Dutta]
+	No
+	
+
+[Miłosz Skaza]
+	Windows lacks privacy then. Linux is more professional by the way, just for other professions not graphic designers. Do you know any developers who code on Windows ? Even C and C++ programmers mostly use Linux..
+	
+
+[Shrinjoy Biswas]
+	c# programmers code on windows u cant deny that linux lack professionalism.....and please i am not talking about the os but was talking about apps
+	
+
+[Dakota Taters Jacobs]
+	You can't make a sweeping claim about "Linux" and then say you're not talking about the OS...
+	
+
+[Shrinjoy Biswas]
+	basically linux is not a os but a kernel and yes if u take my case then i will consider linux unprofessional bcus it lacks apps that are made by professionals for the professionalism(gimp)pssststs:its not only me everybody on the internet considers the...더 보기
+	
+
+[Shrinjoy Biswas]
+	and please dont think that i hate linux and a windows fan boy i have linux and windows dual booted bcus i love linux bcus of its customization but it lacks certain features that many user wants and u guys know that and u guys should admit it
+	
+
+[Shrinjoy Biswas]
+	ade mai
+	
+
+[Riddhee Dutta]
+	lmao, I said "No" to that "Programming gags"
+	
+
+[Shrinjoy Biswas]
+	ami toke na oder bolam so called "programmer" jara ono os der soman dai na r linux k superior bhabe.
+	
+
+[Riddhee Dutta]
+	Gotta stay outta this
+	
+
+[Kevin Hill]
+	Who runs Windows movie player????
+	
+
+[Χρήστος Νικολαϊδης]
+	Not even in Microsoft main office.
+	
+
+[Shrinjoy Biswas]
+	lol
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Shrinjoy Biswas]
+	why should i like ur nooby page ?
+	
+
+[Avideep Mukherjee]
+	Kget instead of idm
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Avideep Mukherjee]
+	No! 😂
+	
+
+[Anurag Banerjee]
+	dont think kget is anyway near as good as idm though... better is using idm using wine...
+	
+
+[Avideep Mukherjee]
+	Data kyalate hobe! 😂
+	
+
+[Fatema Moharam]
+	Hey , anybody knows the alternative for ultraiso?
+	
+
+[Josh Marzi]
+	Yes because everyone in 2017 uses MSN messenger still.
+	
+
+[Djordje Mancic]
+	Clementine is also really good media player
+	
+
+[Francisco Bautista]
+	This is at least like 5 years old
+	
+
+[Teja Suru]
+	Libre Office is no match for Microsoft Office...All Hail Microsoft Office
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Rahul Bose]
+	No
+	
+
+[Teja Suru]
+	Programming gags ... done
+	
+
+[Teja Suru]
+	Rahul Bose could you tell us why you think Libre office is better...thanks
+	
+
+[Kolya Pavlov]
+	Blue fish sucks.
+	
+
+[Johbert Demayo]
+	Libre office vs MS office? Are you kidding?
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[James Soban]
+	I never think use Winamp since 2001 !!!!
+	
+
+[Rohit Roy Chowdhury]
+	Utorrent server still outperforms Transmission.
+	
+
+[Harsha Vardhan]
+	This is the best ever awesome post Till now.
+	
+
+[Lukáš Maga]
+	Lol im using these programs in Windows.
+	
+
+[Programming gags]
+	Can u please like this page (y)
+	
+
+[Richard Case]
+	I'll make it easy, emacs vs anything windows.
+	
+
+[Alex Jimborean]
+	This is so outdated
+	
+
+[Kosal OS]
+	I use mac
+	
+
+[Anudeep Srikanth]
+	Use python, print "I will not throw paper airplanes" * 5000
+	
+
+[Jaspreet Singh]
+	what if the teacher compiles it in a compiler other than turbo c? 🤣🤣
+	
+
+[Eric Milward]
+	Omg Seriously?!? Smh
+	
+
+[Yana Lopez]
+	anniversary edition
+	
+
+[Valeria Emil]
+	Another reason to never buy hp anymore.
+	
+
+[Aman Singh]
+	Another big brother is watching you #HP
+	
+
+[Eric Lind]
+	Lead dev: You created three new bugs while fixing a bug.
+	
+
+[Kris Ye Yint]
+	😂
+	
+
+[Dave Evanz]
+	does anyone here encountered an error when running a program? it beeps continuously. Im using dev c++ and a beginner .
+	
+
+[Shivam Shandilya]
+	may be ur laptop fault it can be due to ram or key of keyboard get remain pressed
+	
+
+[Dave Evanz]
+	got 4gb ram .
+	
+
+[Jamie McLay]
+	Ahahaha, read to "Iphone X is currently the best buy on market" and realised it was fake news :P
+	
+
+[Abdul RaZzaq]
+	Ahsan Hashmi
+	
+
+[Sebastien Gignac]
+	Good luck with that. With all the years and all the metane gas, this drive must be a complete wreck
+	
+
+[Eli Jops Kuan]
+	The microbes has already exchanged the bitcoin in cash.
+	
+
+
+

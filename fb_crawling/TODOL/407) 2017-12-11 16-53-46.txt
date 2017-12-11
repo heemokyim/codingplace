@@ -1,0 +1,53 @@
+	** 게시물 URL
+https://www.facebook.com/deeplearningtalk/posts/404904536528510
+
+
+	** 본문
+테리의 딥러닝 토크
+2월 21일 ·
+#15. SNS로 딥러닝 소식 팔로우 하는 법
+머신러닝 관련 최신 뉴스나 논문들을 귀신같이 접하고 페이스북 등에 공유하는 분들을 보면 '저 사람은 저런 소식을 어떻게 저렇게 빨리 아는걸까' 궁금증이 드는 경우가 많은데요, 사실 머신러닝 뉴스/논문 팔로우하기 그렇게 어렵지 않습니다.
+오늘은 제가 SNS로 머신러닝 소식 쫓는 법을 알려드리지요 ^^ 주요 내용은 arxiv-sanity, reddit, twitter 등입니다.
+[YouTube 1/2] https://youtu.be/Z1OdPpq9w0o…
+[YouTube 2/2] https://youtu.be/w1oQQmu8NKo…
+* 오늘 소개해드린 사이트들
+https://scholar.google.co.kr/
+https://arxiv.org/
+http://www.arxiv-sanity.com/
+https://www.reddit.com/r/MachineLearning/
+https://twitter.com/TerryUm_ML/
+https://www.facebook.com/terryum.io/
+https://github.com/terryum/awesome-deep-learning-papers/
+https://www.fb.com/groups/TensorFlowKR/
+https://www.fb.com/groups/AIKoreaOpen/
+https://www.fb.com/deeplearningtalk/
+#0.3. SNS로 딥러닝 소식 팔로우 하는 법 (1/2)
+머신러닝 관련 최신 뉴스나 논문들을 귀신같이 접하고…
+YOUTUBE.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FZ1OdPpq9w0o%3Flist%3DPL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&h=ATPJqdii_iBpl-hBdEVMPnihxUaGtUDaXKALKWnHVwWkkcfaTr2xAr5jtQGYwrEljeKHRi5kDpSgiDUufWVPRoj2cQVQ93zL8ONo9TXhEJcbuk6uU_wzf4mWzVSMoH_GppklwAsFdvpNS2Rz9YzT1zcuogZHO3YgfIHhcnWWpdWz5eoClmTbHPf63s96Xn8b1T7JCySrDbDWIEF1zQ_iqHmhd7Nd9ePsCB3Gz6IAtUGy9kG5iowa5YLh4X9_D8_nu2tfsRqFk8E4v9nZJyKRu2zvZqu9zlpKeA
+https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FZ1OdPpq9w0o%3Flist%3DPL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&h=ATMhOFLUPVEJbCRV8zVgUAp_9ztLZ_tHHldIPAO8M728DWbFSvA7NDBbCfjAEtjB131aWhzk0A1xHkB-NYoHk-tMFHX2-Y4SKNgrnUUUD35YgK47oUdUfP4t48qrnT4dHcmX3vBkDVZ9rp-LMCYq0_Oz3-36orWcceT4BakScP3ccymD7-Mt0gJ6UUoL3ZNhdAAzmHHJg6-mBeBdDQBtWpMhH2JhxTucUUWsrwI-mCyj-1IGdOPt_mxpr8K0snt8ibsCra7aaVbAlzHlQCRSJSkXJXhrwPANqA
+https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FZ1OdPpq9w0o%3Flist%3DPL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq&h=ATPVrn37-eqXhW3kKS43gnBHROOoJctOr4kyjUeYVsekhVMDN7i5h1zGzrRenYXWQc0kdRO_jlXMxS-t9Q4ADBhyZX8U_Ge5uYJCMv49wdn-nIWhYunKL3w3IKDv3M9PDiFuDIxoZx85U_yqiXVTaSlXm7Ll97-AHs6V3R9bjsu6Gwy3UByAJW6M7dP-a9DuBbRinMYrKHQa0gti0aILlC9EpsWDO9ExeT-clDzE0mKut34CM_J-KuVl-2fJyoJPLkfYz_UyMEaT7wrShfvC8Rsp1vrjFxo2hw
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQDF_AvL_KU-oI49&w=111&h=111&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZ1OdPpq9w0o%2Fhqdefault.jpg&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&sx=0&sy=0&sw=360&sh=360&_nc_hash=AQA9-yLTVt1aAw-Q
+
+
+	** 댓글
+[안남혁]
+	슬로우팔로어는 여길 팔로우 하면 되는건가요?
+	
+
+[테리의 딥러닝 토크]
+	넵 그렇습니다 ㅎㅎ Machine Learning for Motions - TerryUm.io 여기도요
+	
+
+[김세환]
+	정현재
+	
+
+
+

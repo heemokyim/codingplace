@@ -1,0 +1,55 @@
+	** 게시물 URL
+https://www.facebook.com/devbeginner/posts/1141150779330622
+
+
+	** 본문
+초보 개발자 모임
+4월 7일 ·
+OKKY에서 항상 좋은 기술자료를 올려주시는 하마님의 글입니다.
+최근에 많은 교육센터에서 머신러닝, IoT, 빅데이터 과정등을 개설하고 수강생 모집을 하고 있습니다.
+개발자 커리어에 대해 이야기해주시는 분들이 주변에 안계신 분들은 학원의 이야기만 듣고 섣불리 결정하실텐데요.
+하마님의 글을 보시고 다시한번 생각해보시길 바랍니다.
+감사합니다.
+https://okky.kr/article/384107
+OKKY | 머신러닝, IoT, 빅데이터 등 학원결정에 어려움을 겪는 취준생들께
+현재 IoT/머신러닝 기반의 스탓업에 종사하는 사람으로써 평소 느꼈던 바를 적어봅니다. (물론 제 경험이…
+OKKY.KR
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fokky.kr%2Farticle%2F384107&h=ATOAW7BlXH2Yf6_usWh6P5iUk7RDj_YY0HvDeNGzpthaTsObVN9UFu7zwPga64gKQBPLRJDKl6si9QL_HwOX25zcVuCaj5OSIrJHLNPo0ye9fY8A76lw_r39KGFofCo0tqlmcvyS_ZB50l8Ld4VnNEnf-zTIqDoCOjRfk9hxuhT_DkERgp6Fflr4RZ50999HeDr1KFJ8SAWWpzNRucGvWajnqDSP2SGKTCL3IWJ8U_WRjDQnsoLrHQH9j1WBakgfDlq4Jg-EQs_eGErtMNqztngJInAWLc2yP3M5i9a4M3M
+https://l.facebook.com/l.php?u=https%3A%2F%2Fokky.kr%2Farticle%2F384107&h=ATM294k2vf6_wLR3tECEGqLpTP_UjLFecuQ8bBZwfpYdRw2spg6wAnGtMeMPGnd50qBxPMsh16ZmbkmBLYvqxq0k1j0U_GJqa8XZ9948CiuwDh0EXVqydou8ZHQMuVIq5yWsV8H_5CyldfKCqwgb8oPEPbDXh4azN4uKKlWnZwnc-hvv0CEnSedN0SJjV71r2X6a6CwOv9g7tad3v5y6r8XPII4UkhMAl1emo25MDcN3fzYbBpcDIStzdKN_uQCbyNPqLrpFXHsqnpXtVphnLRDIkEgSW9RZEzmRYe_dPTw
+https://l.facebook.com/l.php?u=https%3A%2F%2Fokky.kr%2Farticle%2F384107&h=ATNxUMaJHsOcfATaTaxk2KRhX2285Bgc9XMeNsN9zonpp09gk1xeV6NudP6p2Hw1NIxavElTBaCnt1RctDpeB_wrlVqXMNUUqL8HxBpxSqVnVIpMRrlsj2iZ4vB2QxlIoXC9FMhH1CyXjeDP3zjhbxYdbKMZuZM6iRhVhnoR46m1x9ijTd7TbWYcp5V1yZrs1L6_IF-v9ZJ8bOT7IYpvFHyF_v9jiXZnWBiDLKCXYkju2uw3WyxGkgVU-zaapHQ17iMLT8S0-AeImS4kR4ZSRlNLzH9h_dc4KskEROCpxGA
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQC6USUMBbu8RhjG&w=160&h=160&url=https%3A%2F%2Fokky.kr%2Fassets%2Fokky_logo_fb-cea175ff727ef14a4d8be0e68cff730a.png&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQADmAJXbpaZu7Pd
+
+
+	** 댓글
+[이한별]
+	저도 집에서 쓰는 데스크톱은 우분투인데 만족하며 쓰고 있습니다. ㅎㅎ
+	
+
+[초보 개발자 모임]
+	오! 멋지십니다! ㅋㅋ 전 윈도우 피씨가 하나는 있어야 될것 같아서 (연말정산, 인터넷 동사무소 등등 ㅠㅠ) 어쩔수없이.. 집은 아직 윈도우입니다 ㅎㅎ; 나중에 우분투 데스크탑 쓰시면서 느낀 팁 같은거 한번 정리해서 공유 부탁드리겠습니다!
+	
+
+[허재연]
+	오래된 넷북, 노트북 살리기에는 우분투가 짱짱입니다
+	
+
+[정원준]
+	김종건
+	
+
+[이종호]
+	매번 고퀄의 유용한 자료 감사합니다.
+	
+
+[초보 개발자 모임]
+	잘봐주셔서 감사합니다^^ 취업 축하드립니다!
+	
+
+
+

@@ -1,0 +1,47 @@
+	** 게시물 URL
+https://www.facebook.com/photo.php?fbid=10154859217069417&set=gm.1495707003803164&type=3&hc_ref=ARQWELZZuB3kBWYyeJqhpiIk2B4Zml6j5U06YoVQ4QP20Yr9cEOuc1Omh3ZuFEZfyR8
+
+
+	** 본문
+Terry Taewoong Um
+ 님이 게시:
+ 생활코딩
+1월 10일 ·
+안녕하세요 테리입니다. 오랜만에 테리의 딥러닝 토크를 업데이트 해 알려드립니다ㅎㅎ
+오늘은 머신러닝 입문자분들을 위해 머신러닝의 종류들에 대해서 이야기해봤습니다. supervised, unsupervised, 그리고 그 하부엔 어떤 카테고리들이 있는지... 전문가는 스킵하셔도 되지만, 제 따스한 목소리와 드립을 듣고싶으시면 5분짜리 들이니 그냥 팟캐스트 듣는다 생각하시고 들어주셔요~
+[YouTube] https://www.youtube.com/playlist…
+[Facebook] 테리의 딥러닝 토크, https://www.facebook.com/deeplearningtalk
+지금까지 올라온 목록은 다음과 같습니다.
+#0.0. 딥러닝 토크를 시작합니다!
+#0.1. 머신러닝, 그 느낌적인 느낌
+#0.2. 머신러닝 / 딥러닝 강의 7가지 추천
+#1.0. 오버피팅(Overfitting): 누구나 처하게 될 문제
+#1.1. Training / Test / Validation Set : 오버피팅을 피하는 방법
+#1.2. 에러 해부학: Bias-Variance Trade-off
+#1.3. Ng교수의 교훈: 데이터셋만 잘 나눠도...
+#2.0. 머신러닝의 종류 - 개요
+#2.1. 머신러닝의 종류 - Supervised Learning
+#2.2. 머신러닝의 종류 - Unsupervised Learning
+그럼 즐겁게 들어주세요~ 감사합니다!
+
+
+	** 링크
+https://www.facebook.com/photo.php?fbid=10154859217069417&set=gm.1495707003803164&type=3
+
+
+	** 댓글
+[Jake Chu]
+	뜬금없으시겠지만 사진에 저거는 어떻게 만드신건가요??
+	
+
+[Terry Taewoong Um]
+	만든게 아니라 책에서 인용했습니다. "Bayesian Reasoning and Machine Learning
+	" (http://www0.cs.ucl.ac.uk/staff/d.barber/brml/) 책의 n번째 페이지입니다.
+	
+
+[Jake Chu]
+	아하 d3로 구현한 건가 해서요 ㅎㅎ 그래픽 이미지겠네요
+	
+
+
+

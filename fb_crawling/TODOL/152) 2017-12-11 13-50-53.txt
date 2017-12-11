@@ -1,0 +1,149 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/455023581505372/
+
+
+	** 본문
+전승현님이 링크를 공유했습니다.
+4월 13일
+https://fuzer.github.io/DSTL/
+쎄트렉아이 신기술개발팀의 인턴으로 Kaggle의 Dstl Satellite Imagery Feature Detection 대회에 참가했던 기록입니다.
+저희와 비슷한 방식으로 대회를 진행한 deepsense.io와 비교 해봤습니다.
+DSTL Competition
+쎄트렉아이 신기술개발팀의 인턴으로 총 8주 (1월 2일 - 2월 24일)라는 기간 동안 근무 하면서 Kaggle의
+FUZER.GITHUB.IO
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Ffuzer.github.io%2FDSTL%2F&h=ATORRA15bVfIGHNIGwWJHjNJ2V9wclTxFCwI2zRpRpzwAsrjg78_SnNYB3aZAZHWWkOmlKgl2TGfj_Z7bx8wI1wzSUyqEDKmmDmLzQDtvcrwJRfditK-zohm9bXzXuA_9njEYu4EI3YMi9NH0kti-lCkuGBYVKZnPMPpK2WXOhKeNNaoIeWTaDOIq-tJSTMI41_iq0CkE5ZmV59gqdEYvo9QclGR8-ypSG2LO-m_QIuOQw1qt6v_jsjCiGYC36M4BLwfSxmGCBWb6TjTaEvxtxM
+https://l.facebook.com/l.php?u=https%3A%2F%2Ffuzer.github.io%2FDSTL%2F&h=ATNZhuzlvsdttapQ2ILewnim4W1WweMVlaRqHQgkXQaJ72X3SGNwfZIfTtJ78TPbsgfdcA1KulETYoLKXzqpdaIhCoamtAyT1eH92KpGNgKs3nKGo5Edw2zAsQ4AOiaQnU68GywbPXicOILdtEwrkvenywaU8vrjt6yJMm4nYSLSCF_9Lfbn7-EZhCbvuMGcf3szr3bKMbq5irTxGAEgHGcSPHc2zYi5F4tygCsJEEp1S4d_TcOp6P-Lql8U6PHKWdt3ofLQ9Uza98L21jPYRJk
+https://l.facebook.com/l.php?u=https%3A%2F%2Ffuzer.github.io%2FDSTL%2F&h=ATN4gw1iM5Y_Hqb_S0DzIgw-xaWrV9oEE-PTIHvdHIPnWykFNy0r9lCYTzckhaKM5XrPGeQ9H7-QvcIisx-kNIZ6226MQ6zewlkYYTAr3RB9FeJhVXtW09-5OVZ_gbAahbCy157DK2FIbCCTCYyMFn2F3RMCTJ2o-if-HXqR1E-q73-N5TiDuo9p5FXqeAO2Lmh1pPWAPqZBgRRSvBDcmrkkrd05KFulAcEGoUdBP6uK4e8mMHXM7LeIF_aPimPrh7EXQsRwl49bmdQAkDhyqBrm0DSWPV_yfrg
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQAB7w9vCFB4YQi7&w=476&h=249&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F17673616&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&sx=0&sy=113&sw=460&sh=241&_nc_hash=AQDCpYXho3hUC_4z
+
+
+	** 댓글
+[김홍배]
+	오 대단하다 ! 오늘 내가 참조로 올린 팀의 결과와 그다지 큰 차이가 없네 굿 !
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	감사합니다 많이 부끄럽네요...ㅎㅎ
+	 '이 댓글엔 이미지 없었음' 
+
+[Andy Kyoseok Song]
+	이런 공유 너무 좋습니다. 감사합니다.
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	좋게 봐주셔서 감사합니다 :)
+	 '이 댓글엔 이미지 없었음' 
+
+[Kyung Mo Kweon
+그룹 관리자]
+	오 KaggleZeroToAll에 참여해주시죠ㅎㅎ
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	ㅎㅎ 실력이 되려나 모르겠습니다 도움이 된다면 좋겠네요
+	 '이 댓글엔 이미지 없었음' 
+
+[Sung Kim
+그룹 관리자]
+	SeungHyun Jeon 부탁드립니다!
+	 '이 댓글엔 이미지 없었음' 
+
+[이지민
+그룹 관리자]
+	우와 ㅎㅎ 멋져요!!! :)
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	감사합니다 :)
+	 '이 댓글엔 이미지 없었음' 
+
+[Sung Kim
+그룹 관리자]
+	정말 대단하십니다!
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	아닙니다 저희 팀원 분들이 잘 도와주셔서
+	잘 마쳤습니다 :)
+	 '이 댓글엔 이미지 없었음' 
+
+[김용담]
+	이호동 이분 넘나멋지심
+	 '이 댓글엔 이미지 없었음' 
+
+[김용담]
+	백지원
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	어이쿠... 그렇게 봐 주셔서 감사드립니다 ^^
+	 '이 댓글엔 이미지 없었음' 
+
+[이호동]
+	오와......진취적이고 멋잇어....
+	 '이 댓글엔 이미지 없었음' 
+
+[김용담]
+	혹시 궁금한점이 있는데 페매 드려도될까요??
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	김용담 네 편하게 해주세요 :)
+	 '이 댓글엔 이미지 없었음' 
+
+[Seungil Kim]
+	최고예요!!!!!
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	감사합니다 ㅎㅎ
+	 '이 댓글엔 이미지 없었음' 
+
+[정기욱]
+	private public 은 퍼센티지 말고 다른차이는 무엇인가요?
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	Private은 대회가 끝나기 전까지 공개가 되지 않습니다
+	 '이 댓글엔 이미지 없었음' 
+
+[정기욱]
+	감사합니다
+	 '이 댓글엔 이미지 없었음' 
+
+[정기욱]
+	하나 더 여쭈면 이렇게 하는 이유가 경쟁팀에게 최종결과를 들키지 않으려는 것인가요?
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	네 그런듯 합니다
+	 '이 댓글엔 이미지 없었음' 
+
+[정기욱]
+	감사합니다.
+	 '이 댓글엔 이미지 없었음' 
+
+[이승현]
+	멋지네요 좋은 글 감사합니다.
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	고맙습니다
+	 '이 댓글엔 이미지 없었음' 
+
+[장동인]
+	대단합니다. 자랑스럽네요
+	 '이 댓글엔 이미지 없었음' 
+
+[전승현]
+	감사합니다..ㅎㅎ
+	 '이 댓글엔 이미지 없었음' 
+
+
+

@@ -5,6 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 import datetime
 import time
 import platform
+import sys
 
 plat = platform.system()
 MY_ID = 'anylee77@naver.com'
@@ -44,26 +45,28 @@ def clickSwh():
     ac.move_to_element_with_offset(my_btn,-50,0)
     ac.click()
     ac.perform()
-    time.sleep(0.5)
+    time.sleep(0.2)
+
+def scrollDown():
+    driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
+    time.sleep(2)
+    driver.execute_script('window.scrollTo(0,0);')
+    time.sleep(1)
 
 def myPage():
     clickSwh()
     my_btn = driver.find_element_by_class_name('_1vp5')
     my_btn.click()
-    time.sleep(0.2)
-    driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
-    time.sleep(0.2)
-    driver.execute_script('window.scrollTo(0,0);')
 
 def clickEtc(board):
     clickSwh()
     # click etc of Post
     etc_btn = board.find_element_by_class_name('_4xev')
-    # ac.reset_actions()
-    # ac.move_to_element(etc_btn)
-    # ac.click()
-    # ac.perform()
-    etc_btn.click()
+    ac.reset_actions()
+    ac.move_to_element(etc_btn)
+    ac.click()
+    ac.perform()
+    # etc_btn.click()
 
 def hidePost(board):
     clickSwh()
@@ -74,14 +77,18 @@ def hidePost(board):
     time.sleep(1)
 
     # 타임라인 숨기기 클릭
-    etc1 = driver.find_element_by_class_name('uiContextualLayer')
-    etc2 = etc1.find_element_by_class_name('_54nq')
-    etc3 = etc2.find_element_by_class_name('_54ng')
-    etc4 = etc3.find_element_by_class_name('_54nf')
+    # etc1 = driver.find_element_by_class_name('uiContextualLayer')
+    # etc2 = etc1.find_element_by_class_name('_54nq')
+    # etc3 = etc2.find_element_by_class_name('_54ng')
+    # etc4 = etc3.find_element_by_class_name('_54nf')
     # etc_btns = etc4.find_elements_by_class_name('_54ni')
 
-    hideFromTimeline_btn = etc4.find_element_by_link_text('타임라인에서 숨기기')
-    hideFromTimeline_btn.click()
+    hideFromTimeline_btn = driver.find_element_by_link_text('타임라인에서 숨기기')
+    ac.reset_actions()
+    ac.move_to_element(hideFromTimeline_btn)
+    ac.click()
+    ac.perform()
+    # hideFromTimeline_btn.click()
 
     time.sleep(1)
 
@@ -91,6 +98,8 @@ def hidePost(board):
     hide = footer.find_element_by_class_name('layerConfirm')
 
     hide.click()
+
+    time.sleep(1)
 
 def writeFile(TEXT, LINKS, IMG_LINKS, COMMENTS,link):
     now = datetime.datetime.now()
@@ -166,7 +175,32 @@ def writeFile(TEXT, LINKS, IMG_LINKS, COMMENTS,link):
 
     print('File Writing Done !\n\n')
 
+def writeException(link, error):
+
+    print('******************* Post deprecated while crawling !')
+
+    global file_index
+
+    file_name = 'exception'
+    f_path = result_path+'/'+file_name
+    print('\t'+f_path)
+
+    try:
+        with open(f_path+'.txt','a',encoding='UTF-8') as fp:
+            now = datetime.datetime.now()
+            nowDate = now.strftime('[%Y-%m-%d %H:%M:%S]')
+            fp.write('****************************************************************************\n')
+            fp.write('%s\n%s\nfile_index = %s\n\n' % (nowDate, link, file_index))
+            fp.write('%s\n\n' % (str(error)))
+
+    except Exception as e:
+        print(e)
+        print('Error while writing Exception !')
+
+    print('******************* Writing exception completed !')
+
 def checkScope():
+    # Deprecated function
     # To crawl only non-public post
     index_count=0
 
@@ -184,8 +218,9 @@ def checkScope():
     return index_count
 
 
-def collectData():
-    board = driver.find_element_by_class_name('_1dwg')
+def collectData(board=None):
+    if board == None:
+        board = driver.find_element_by_class_name('_1dwg')
 
     # 텍스트가 있으면 긁어옴
     try:
@@ -251,13 +286,23 @@ def collectData():
             ac.perform()
             time.sleep(0.3)
 
-        comments = driver.find_elements_by_class_name('UFICommentActorAndBody')
+        comments = driver.find_elements_by_class_name('UFICommentContent')
         COMMENTS = []
 
         for comment in comments:
             comment_actor = comment.find_element_by_class_name(' UFICommentActorName')
             comment_body = comment.find_element_by_class_name('UFICommentBody')
-            comment_content = '[%s]\n\t%s\n' % (comment_actor.text, comment_body.text.replace('\n','\n\t'))
+            comment_img_link = ""
+
+            # 댓글 중 이미지의 링크까지
+            try:
+                comment_img= comment.find_element_by_class_name('_2rn3')
+                comment_img_link = comment_img.get_attribute('href')
+            except NoSuchElementException as e:
+                pass
+
+
+            comment_content = '[%s]\n\t%s\n\t%s\n' % (comment_actor.text, comment_body.text.replace('\n','\n\t'),comment_img_link)
             # print(comment_content)
             COMMENTS.append(comment_content)
 
@@ -268,6 +313,7 @@ def collectData():
     return TEXT, LINKS, IMG_LINKS, COMMENTS
 
 
+
 def collectAndStore():
     clickSwh()
     time.sleep(0.5)
@@ -276,80 +322,123 @@ def collectAndStore():
     # print('here')
     # post_index = checkScope()
     # print('done')
+    global scroll_down_count
+    global former_board_count
 
-    # I'm at my page
+    for i in range(scroll_down_count):
+        # driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
+        # time.sleep(2)
+        scrollDown()
+
+    # for i in range(100):
+    #     ac.reset_actions()
+    #     ac.send_keys(Keys.SPACE)
+    #     ac.perform()
+    #     time.sleep(0.1)
+
+    time.sleep(1)
+
     boards = driver.find_elements_by_class_name('_1dwg')
-    post_index = 0
+    target_boards=[]
 
-    print(len(boards))
+    print('the number of total boards are %d' % (len(boards)))
 
-    for board in boards:
-        fol = board.find_element_by_class_name('_fol')
-        xe = fol.find_element_by_class_name('_-xe')
-        scope_icon = xe.find_element_by_class_name('img')
-        scope_value = scope_icon.get_attribute('class').split()[0]
+    for idx,board in enumerate(boards):
+        # fol = board.find_element_by_class_name('_fol')
+        # xe = fol.find_element_by_class_name('_-xe')
+        try:
+            xe = board.find_element_by_class_name('_-xe')
+            scope_icon = xe.find_element_by_class_name('img')
+            scope_value = scope_icon.get_attribute('class').split()[0]
 
-        if scope_value == '_21or':
-            post_index += 1
-        elif scope_value == '_k_e':
-            break
+            if scope_value == '_k_e':
+                target_boards.append(board)
+        except Exception as e:
+            # print('When post is created from friend, tags are different')
+            # print('In this case, just skip that post')
+            pass
 
-    input(post_index)
+    print('the number of target boards are %d' % (len(target_boards)))
 
-    board = boards[post_index]
-    height = board.value_of_css_property('height')
-    time.sleep(0.5)
+    print('former = %d' % (former_board_count))
+    print('current = %d' % (len(boards)))
 
-    # 공유한 게시물은
-    # 게시물, 사진, 링크, 동영상 으로 나뉨
-    tags = ['게시물','링크','사진','동영상']
-    # 가능한 경우의 수
-    # 게시물 2개
-    # 게시물 1개
-    # 게시물 1개, 링크 1개
-    # 사진 1개
-    # 동영상 1개
+    # 만약 (이전 단계의 전체 게시물 개수)와 (현재 단계 전체 게시물 개수)가 같다면
+    # 더이상 크롤링 할 비공개 게시물이 없음을 의미
+    # 그럼 종료
+    if former_board_count == len(boards) and len(target_boards) == 0:
+        print('There is no post to crawl')
+        print('Crawling Successfully completed')
+        sys.exit()
+
+    former_board_count = len(boards)
+
+    if len(target_boards)==0:
+        scroll_down_count += 1
+        return
+
+    if len(target_boards) < 5:
+        scroll_down_count += 1
 
     total_links = []
-    for tag in tags:
-        total_links += [each.get_attribute('href') for each in board.find_elements_by_link_text(tag)]
+    # 비공개 게시물을 대상으로만 크롤링
+    for board in target_boards:
+        tags = ['게시물','링크','사진','동영상']
 
-    # 게시물 1개, 링크 1개인 경우
-    if len(total_links)==2 and total_links[0]==total_links[1]:
-        total_links.pop()
+        links=[]
 
-    print('total links are ' +str(total_links))
+        for tag in tags:
+            links += [each.get_attribute('href') for each in board.find_elements_by_link_text(tag)]
+            # 태그가 동영상이면 같은 url이 2개 들어가므로
+            # 하나 빼야함
+            if tag == '동영상' and len(links) == 2:
+                links.pop()
 
-    # 내가 작성한 게시물인데 비공개 = 공유하지 않은 게시물인 경우
-    if len(total_links)==0:
-        TEXT, LINKS, IMG_LINKS, COMMENTS = collectData()
+
+        # 링크가 아예 없으면 내가 작성한 비공개 게시물
+        if len(links)==0:
+            try:
+                TEXT, LINKS, IMG_LINKS, COMMENTS = collectData(board)
+                writeFile(TEXT,LINKS,IMG_LINKS,COMMENTS,'My Post')
+                height = board.value_of_css_property('height')
+                driver.execute_script('window.scrollTo(0,%d);' % ( int(height[:len(height)-2]) ))
+
+            except NoSuchElementException as e:
+                print(e)
+                pass
+
+        # 게시물 1개, 링크 1개 URL이 있으면 둘 중 하나만 해도 됨
+        if len(links)==2 and links[0] == links[1]:
+            links.pop()
+
+        print(links)
+
+        total_links += links
 
         hidePost(board)
-        driver.execute_script('window.scrollTo(0,%d);' % (  int(height[:len(height)-2]) ))
-        time.sleep(1)
 
-        writeFile(TEXT,LINKS,IMG_LINKS,COMMENTS,'My Post')
+    print('target total links are ' +str(total_links))
 
+    for link in total_links:
+        print('Crawling Started !')
+        print('\t'+link)
+        driver.get(link)
+        time.sleep(0.5)
+        clickSwh()
+        clickSwh()
 
-    # 내가 공유한 게시물인데 비공개
-    else:
-        hidePost(board)
-        driver.execute_script('window.scrollTo(0,%d);' % (  int(height[:len(height)-2]) ))
-        time.sleep(1)
-
-        # 공유한 게시물의 링크로 가서 데이터를 긁어옴
-        for link in total_links:
-            print('Crawling Started !')
-            print('\t'+link)
-            driver.get(link)
-            time.sleep(0.5)
-            clickSwh()
-            time.sleep(0.5)
+        try:
             TEXT, LINKS, IMG_LINKS, COMMENTS = collectData()
             print('Crawling done !\n')
 
             # 긁어온 데이터를 텍스트 파일로 저장
             writeFile(TEXT,LINKS,IMG_LINKS,COMMENTS,link)
+
+        # 링크타고 넘어가서 크롤링하려는데 없어진 페이지인 경우
+        except NoSuchElementException as e:
+            print(e)
+            writeException(link, e)
+            pass
 
 def getIndex():
     try:
@@ -381,15 +470,23 @@ try:
 
     # file_name_index
     file_index = getIndex()
-    # board_post_index
-    board_index=0
 
-    # 오토 크롤링
-    for i in range(20):
+    # 만약 현재 페이지가 전부 공개 게시물이다
+    # -> 비공개 게시물을 찾을 때까지 스크롤 다운
+    scroll_down_count = 1
+
+    # 이전 단계의 전체 게시물 갯수를 셈
+    # 만약 이전 단계 == 현재 단계 라면
+    # 크롤링 할 비공개 게시물이 없음으로 간주
+    # 프로그램 종료
+    former_board_count = 0
+
+    # 전체 타임라인의 게시물 크롤링
+    while True:
         autoWork()
+
+    # 위에 있는 타임라인의 게시물 크롤링
     # autoWork()
-
-
 
 except Exception as e:
     print(e)

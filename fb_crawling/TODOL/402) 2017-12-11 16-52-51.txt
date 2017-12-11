@@ -1,0 +1,63 @@
+	** 게시물 URL
+https://www.facebook.com/iamprogrammer.io/posts/1380229305331923
+
+
+	** 본문
+나는프로그래머다
+2월 28일 ·
+game server를 구축하기 위한 가장 쉬운 방법이 바로 AWS 게임리프트를 이용하는 것입니다.
+장점
+1. 서버와 관리자, 통계 등이 통합되어 있다.
+2. 아마존 인스턴스에 서비스를 추가한 모델로 서버 관리가 거의 필요 없다.
+3. 쉽게 멀티 플레이어용 게임을 만들 수 있다.
+4. 프리티어가 있어 작은 용량은 공짜로 사용 가능.
+단점
+1. 중국은 차단될 수 있다.
+2. 아직 개선할 것이 많음. 그러나 쓸만함.
+https://aws.amazon.com/ko/gamelift/
+Amazon GameLift – 전용 게임 서버 호스팅 – AWS
+Amazon GameLift는 세션 기반 멀티플레이어 게임용 전용 게임 서버를 배포, 운영 및 확장하기 위한 관리형 서비스입니다.
+AWS.AMAZON.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Faws.amazon.com%2Fko%2Fgamelift%2F&h=ATPdjCFB2p0I-L5ams6g8AUL0K5ktRvFFX8uVN-7a7cVyYBwG-9TS7dCPvLO8zsL7Ij_oo_Qu1za3gU6a093Qei5RSOAf6M1IJNXdvEmZUyHRVGN6F6sOGhq3QVh6kzWBTAc2zOpBjYi8kLXrfhy7A8B3A-jgWT2lPin_qdvpFUV5bLJ0nlvEmTKOKFuJgkG-Fflngm1i7O1zb8pBvjDjkDk73XdJp16KZogpwuG6ppm56v7vONrgGbjXI3hVCxREcS6pRKjNLiN63AIKl6iUmHy-TpQ7EDjB2IzCelpDXo
+https://l.facebook.com/l.php?u=https%3A%2F%2Faws.amazon.com%2Fko%2Fgamelift%2F&h=ATNkCzedL_CKv3DaN3WR_3qOAOpu3-oAHcfpD3JEQ6Ow4tZZ2rs8HOtPZRYLg1ogcHJjgPDtM0gmOKtDp9N61G2b1Af2B4CIGzk-qdUq9PkWjdCi_N6uIT1LUEFcIcj-tr4vxG3fYv5zAp3jJqZUsMJGbbNRaHsbQNgXGgWJCouUJeIwaXJiKPvTKfhvqRGq7EFFAymnk0crV0JdFWAWBNhrPM2s-3wKZW1PD4IdzS3W-5qlKm3TbLnF1qDbMcMcTiNlrAuF1KmFBkWAlYtilFtgMGyUPB1282HtRLMPcAU
+https://l.facebook.com/l.php?u=https%3A%2F%2Faws.amazon.com%2Fko%2Fgamelift%2F&h=ATMbSKpCeWGSkqGoTINGW8DISmB_ZRdNtwlfJB5xeMKA3KZVBLc5ix3R6J3lP42NgttTjtE1zdUZR_vJPtyT6CNFsFjP_V9QQArv3hL78ey31G68eqPnf7fiIKKhiTMorUATEqlQYGPgB72m4xHnhuSAzxSKwZEH_BHFP-eHPbaZQu3lHEGe-Sopxu7kWplhUb4o5zqDDdD-yUe1JDbdsUGRgwP21MPRoSa1Vd4YCXb7fM93SWS0lXGw8njczfM_q1GlIAf7urUnGjEBsutu9nMX_cb67F9XFLKR55046I8
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQBv6R2K6ijt3OSD&w=476&h=249&url=https%3A%2F%2Fd0.awsstatic.com%2Fgamedev%2Fpage-graphics%2FGL_Computer_v3.png&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQA1qf9GlTBlDWKc
+
+
+	** 댓글
+[한광양]
+	너무 아쉽네요!
+	
+	그래도 나프다 덕분에...더 보기
+	
+
+[MinYoung Cho]
+	많이 아쉽지만...
+	한국인의 한국어 개발자 방송의 큰 방향을 제시하지 않았나 생각합니다. ...더 보기
+	
+
+[김봉겸]
+	강연 재밌었어요. 그리고 게임 리프트의 강점도 볼 수 있었구요.
+	
+
+[Jimmy Kim]
+	ㅎㅅㅎ 그놈의 액티브엑스 언제까지...도태되어야할게 도태되지 않으니 생태계 교란을 넘어 자라는 새싹을 죽여버렸네. 이제 중국이나 미국에 타이틀 뺏기고 카피캣 소리 들으며 따라가느라 가랭이 찢어지겠지
+	
+
+[최홍범]
+	주현수 ㅋㅋㅋㅋ김치맨만큼 웃김
+	개발자들 너무불쌍....
+	
+
+[주현수]
+	ㅋㅋㅋ... 김치워리워는... ㄹㅇ루다가
+	
+
+
+

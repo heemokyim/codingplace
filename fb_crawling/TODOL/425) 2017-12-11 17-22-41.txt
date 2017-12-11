@@ -1,0 +1,209 @@
+	** 게시물 URL
+https://www.facebook.com/jaesik.hwang.54/videos/1775134149476360/?hc_ref=ARS5pdzGZhDvg1XsNbudfXo7omFiRW6FyqkDqR_s8dVsFLujGPfKwTiPRT3hknH6XYU
+
+
+	** 본문
+Jaesik Hwang
+1월 9일
+안녕하세요.
+C#으로 Unity3D 에디터에서 사용할 수 있는 모델링 툴을 개발하고 있는 1인 개발자 입니다.
+만들고 있는 툴 이름은 UModeler이고 스케치업과 블랜더의 장점을 잘 살려 유니티 내에서 모델링 초보자부터 숙련자까지 정적인 메쉬나 레벨을 쉽고 빠르게 만들 수 있도록 하는 것을 목표로 개발 중에 있습니다.
+매일 생활 코딩에서 눈팅만 하다가 한번 제 결과물을 공유하고 싶어 이렇게 글을 써봅니다.
+아래 비디오는 UModeler를 이용해서 집을 모델링하는 과정을 보여주는 비디오입니다.
+그럼 즐감하세요.
+UModeler에 더 관심있으신 분은
+https://www.facebook.com/umodeler/ 에 방분해 주시면 됩니다.
+감사합니다.
+소리 끄기 취소
+
+
+	** 링크
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/settings/?tab=videos
+https://www.facebook.com/jaesik.hwang.54/videos_by
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/groups/codingeverybody/permalink/1493371507370047/#
+https://www.facebook.com/jaesik.hwang.54/videos_by
+
+
+	** 댓글
+[장은준]
+	와 대단하시네요! 역시 유니티는 안되는게 없는것 같습니다
+	
+
+[김영남]
+	와... 대박이네요 ㄷㄷ;;
+	
+
+[박성오]
+	존경합니다...
+	
+
+[최현진]
+	헐...!?
+	엄청납니다!!
+	
+
+[조지훈]
+	스케치업 느낌이네요 ㅇㅅㅇ!!! 멋지심!
+	
+
+[S.Y. Bak]
+	오... 대단하십니다
+	
+
+[오민규]
+	와 대박...
+	
+
+[조영태]
+	와
+	
+
+[Saehun Sean Oh]
+	호오... 베타나 릴리즈 계획은 어떻게 되시나요? 사용해보고 싶네요 ㅎㅎㅎ
+	
+
+[Jaesik Hwang]
+	현재 하고 있는 메뉴얼 작업이 끝나는대로 유니티 엣셋 스토어에 출시 될 예정입니다. 아마도 오래 걸리지는 않을 것 같습니다.
+	
+
+[허승원]
+	대박..기대됩니다..
+	
+
+[손승호]
+	오와... 대박
+	
+
+[강웅규]
+	대단하네요..
+	
+
+[Yongjun Heo]
+	존경합니다..
+	
+
+[홍지훈]
+	스케치업급이네요
+	
+
+[조용근]
+	와 대박
+	
+
+[김도근]
+	아무것도 보이지 않네요.
+	
+
+[정재혁]
+	와우
+	
+
+[김재창]
+	허종백
+	
+
+[이승우]
+	C#으로 만드신거에요? 우와 저런건 어떻게 만드는지 궁금하네요 저도 c#개발자인데 저걸 어떻게 만들어야할지 전혀 감도 안오네요 대단
+	
+
+[김종건]
+	오 좋네여
+	
+
+[민병길]
+	대박입니다~
+	
+
+[Seung Hun Han]
+	대단하군요
+	
+
+[김대성]
+	렌더링 속도가 걱정되는 것은 아니겠죠
+	
+
+[Jaesik Hwang]
+	렌더러블 메쉬를 생성할 때 이미 존재하는 버텍스만 이용하기 때문에 폴리곤이 불필요하게 생기거나 하지는 않습니다. 맥스나 마야에서 작업한 메쉬의 경우도 폴리곤 수가 많다면 렌더링 속도에 영향을 줄수 있는 것처럼 UModeler로 작업한 메쉬도 생성되는 폴리곤수가 많다면 저사양 디바이스에서 렌더링 할 때 영향을 줄 수 있겠지요. 하지만 이것은 다른 여러 테크닉을 이용해서 극복 가능한 부분이라 생각합니다.
+	
+
+[정재련]
+	우와;;; 대박이네요
+	
+
+[김세송]
+	맥스 망하는 소리 들린다
+	
+
+[정재련]
+	도대체 내가 보고있는게 뭔지 전혀 모르겠음;;;
+	
+
+[김세송]
+	너 3d맥스 안써봤나?? 거기 폴리 에딧터랑 비슷함 ㅋㅋㅋ
+	
+
+[정재련]
+	아니 ㅋㅋㅋ 나도 아는데
+	
+
+[정재련]
+	그만큼 신기하고 쇼킹이란얘기 ㅋㅋ
+	
+
+[Geun Moon Ryu]
+	당신을 응원합니다.^^
+	
+
+[Sangjin Sim]
+	와 정말 대박인데요!!
+	
+
+[백승철]
+	윤지용 (Jiyong Youn) 님이 보이네요 .....
+	
+
+[김천화]
+	와우...
+	
+
+[김건형]
+	멋있으세요... 대박
+	
+
+[심현보]
+	박병근 (Byung Geun Park) 여기서뭐함?\
+	
+
+[박병근]
+	오잉??????
+	
+
+[심현보]
+	박병근 오이이이이이이이잉?
+	
+
+[박병근]
+	현보여기서뭐해??
+	
+
+[조범희]
+	C#에서 혹시 다른 3D 엔진을 쓰신건가요?? 너무 궁금해서 댓글 답니다!
+	
+
+[김만규]
+	개잘만들었다
+	
+
+[Jaesik Hwang]
+	유니티 플러그인으로 제작되고 있습니다. 따라서 유니티 엔진 API를 기본적으로 사용할 수가 있죠. 그리고 유니티는 C#을 기본 스크립트 언어로 지원하고 있습니다.
+	
+
+
+

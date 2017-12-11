@@ -1,0 +1,61 @@
+	** 게시물 URL
+https://www.facebook.com/groups/TensorFlowKR/permalink/496803670660696/
+
+
+	** 본문
+송호연님이 게시물을 공유했습니다.
+관리자 · 7월 3일
+챗봇 서버를 30분 안에 개발해보는 튜토리얼입니다 :)
+그림 위주로 따라하기 쉬우니 초보 개발자 분들에게 도움이 되었으면 합니다~
+송호연
+ 님이 게시:
+ AzureML
+7월 3일
+30분 안에 챗봇 서버 개발하는 글을 작성해보았어요-
+숙제 화이팅이에요~!
+30분 안에 챗봇 만들기 1편
+챗봇 서버 개발, 어렵지 않아요- | 사용해볼 프레임워크 - Bot Framework 개발 언어 - Python Python 라이브러리 - microsoftbotframework API 서버 - Heroku App 선행 조건(Prerequisites) - Heroku 계정 - github 계정 실용주의 머신러닝…
+BRUNCH.CO.KR
+
+
+	** 링크
+https://www.facebook.com/ai.chris.chris?fref=gs&hc_location=group
+https://www.facebook.com/ai.chris.chris?fref=gs&hc_ref=ARRcWxd-wLUcKo9wc4LQte595c79DuWbNA-xvHoGCwQprFVEYHq4Mer3uP_JJ2Z_Qck&dti=634363263421303&hc_location=group
+https://www.facebook.com/groups/634363263421303/permalink/658842234306739/
+https://www.facebook.com/groups/634363263421303/permalink/658842234306739/
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40chris-song%2F28&h=ATOKFYDIVkl3BEVZAzutTILsQE7lZT0qH89ZOCaiyVqk2KrfSFeZ38mgNinngmQs_5Gbfz76oaGPmHseDsoTow617nni-losRN-EY0XrgeUWnC9ZIDIVMPC9-PFgrpQkpNMY4RXTTE8h_ugesI4OaRGPBiSpDQkYy32ENdK33Vdk7zaZdRPUPJpymJbWl6wM3BQnB6Mu_oSCyXnMgoRyKvJo6uh2YJQ40DWjPoC30VC1gqiRSTldMdqiCjeFRIl7R1OLRXZhIeNkYhPn
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40chris-song%2F28&h=ATPUffE6HTiVKZWY8ESLBAoOZg_6ABj7EKNQpzrFq8QtCCVVNNRwHqtrnrKzWo0avnF36Y_ZDR15vIq6RQSrWPtV7p7uOzVnH8lpmD8f6CvjpbEpxUiBiBcbeUkJWGd3X7RSjS3FupvgrxdteyxQqSh64U8Z2QBN2g2luaKWZdEDqEddVNYeY2wu35JFTEYvf4b-HwtEBnyoKtl3KAhi7MrsH9shHoj25nUM6Z3SqJ1-mYd8P7f-9dYc0NWjDjZXJ7xVrk53kAv-JS1F
+https://l.facebook.com/l.php?u=https%3A%2F%2Fbrunch.co.kr%2F%40chris-song%2F28&h=ATNgxcdkGQ6_YQLQJ5jIVr9d_a6S7UNTdJPO7LHaowfC-5glnsgRRF7Pq9U_lGiiZRWw6LeqfGz_FfFimWJ31t1B9cmz-mAzOquEJi6aMZ9sg6m4I2CZ7ig04LJ53uTD5286nozZFLhO7m6X5CotluhYJg_qWtbsxamSaU-49cJ_ejU0F42dEkmM-2WRH7IpLqT7V0hG-8BH5iukVSzb1DTY2JPKr4wuBbzVlXuD2uxikTChBT1Ol9Po3LiE7_yoZPUcpLKufGhdhvWVCsEyLO0jdA
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQDUI9Nj7pq2O4Fo&w=476&h=249&url=https%3A%2F%2Ft1.daumcdn.net%2Fthumb%2FR1280x0%2F%3Ffname%3Dhttp%253A%252F%252Ft1.daumcdn.net%252Fbrunch%252Fservice%252Fuser%252FIgT%252Fimage%252FsD-TXKLXV_jC3lStAXP4Y-aywXg.jpeg&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQAtaXolKkwfjORa
+
+
+	** 댓글
+[안창섭]
+	내일 오전 제출인 NLP 과제중인데 이제서야 봤네요 ㅠㅠ
+	 '이 댓글엔 이미지 없었음' 
+
+[김성우]
+	자연어 처리 ㄷㄷ
+	 '이 댓글엔 이미지 없었음' 
+
+[안창섭]
+	기껏해야 계절임 ㅋㅋㅋ
+	 '이 댓글엔 이미지 없었음' 
+
+[Sean Oh]
+	으아아 감사합니다!!
+	 '이 댓글엔 이미지 없었음' 
+
+[최완석]
+	너무 감사합니다 ^^;
+	 '이 댓글엔 이미지 없었음' 
+
+[Jee Ljsotec]
+	오 고맙습니다. 후..,,,,
+	 '이 댓글엔 이미지 없었음' 
+
+
+

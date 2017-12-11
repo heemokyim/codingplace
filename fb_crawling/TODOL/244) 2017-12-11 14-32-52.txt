@@ -1,0 +1,73 @@
+	** 게시물 URL
+https://www.facebook.com/hanbitmedia/posts/1287342187969093
+
+
+	** 본문
+한빛미디어
+4월 17일 ·
+► C#과 데이터베이스로 누구나 쉽게 <주식 자동매매 시스템 만들기>
+✔ 키움 증권에서 제공하는 Open API를 연동하여 주식을 자동으로 거래할 수 있는 자동매매 시스템을 구축하는 방법을 알려드립니다.
+✔ C# 윈폼 프로그램으로 Open API 모듈을 연동 구현하고 오라클 DBMS로 데이터를 관리
+C#과 데이터베이스로 누구나 쉽게 ✔ <주식 자동매매 시스템 만들기>
+개발자를 위한 전차책, RealTime
+
+
+	** 링크
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATMcDwOENKeG1bpAeFD0qSmpZVE4KhczErT9S6CIde-ezzsZ_CbJJ9J_X4OrpcoLlb3kLVET99fu5Rn1nJp0T1pMxCydz8zSDMEl3qeoSmQp7lid4WRnV-GApzgeZ0kLItRDGM38H5MK1VzNjo9h0ymER8BOnaMEohzPykDghlrSfK7HbuKN9I3Nh0lIaMQznG-Gak8pM117Q4n7MuLgPlleioRQPFpX0zrncnUu1EVem0Lvnl2bDNCa7CIl-BduID8PdAEAYOm34MIvfNi1Dtr-FnPtDxZU53_SQajzlRsbXivK5dv7VtplJ9b1EdwTN0ry6i2Y_F8m-hukcM8
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATMcDwOENKeG1bpAeFD0qSmpZVE4KhczErT9S6CIde-ezzsZ_CbJJ9J_X4OrpcoLlb3kLVET99fu5Rn1nJp0T1pMxCydz8zSDMEl3qeoSmQp7lid4WRnV-GApzgeZ0kLItRDGM38H5MK1VzNjo9h0ymER8BOnaMEohzPykDghlrSfK7HbuKN9I3Nh0lIaMQznG-Gak8pM117Q4n7MuLgPlleioRQPFpX0zrncnUu1EVem0Lvnl2bDNCa7CIl-BduID8PdAEAYOm34MIvfNi1Dtr-FnPtDxZU53_SQajzlRsbXivK5dv7VtplJ9b1EdwTN0ry6i2Y_F8m-hukcM8
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATMcDwOENKeG1bpAeFD0qSmpZVE4KhczErT9S6CIde-ezzsZ_CbJJ9J_X4OrpcoLlb3kLVET99fu5Rn1nJp0T1pMxCydz8zSDMEl3qeoSmQp7lid4WRnV-GApzgeZ0kLItRDGM38H5MK1VzNjo9h0ymER8BOnaMEohzPykDghlrSfK7HbuKN9I3Nh0lIaMQznG-Gak8pM117Q4n7MuLgPlleioRQPFpX0zrncnUu1EVem0Lvnl2bDNCa7CIl-BduID8PdAEAYOm34MIvfNi1Dtr-FnPtDxZU53_SQajzlRsbXivK5dv7VtplJ9b1EdwTN0ry6i2Y_F8m-hukcM8
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATMsirLd6KerizHZK4BbVJUfoqys9CFr9WmcfvjqH4sF7SaEKG2GJRvjL7KHR4BFnIMmjn5lBlegSQbHUbfQOIlO5ZsYgCzKUWXwsHHmZLkm0CIUwUnkQivdvifOm9hz63XxGVCAXKrxaeXizWaPBbN0YxMpadCUjKSBTT_Y7R-gOoKL5IQTl2Uf04k1jqsB5XssMjkui0_IemcA44vgDU9bQzKbSCREv5KDutO2TeffH6Do6xa8JxHgBtUzTuWMvV00rbsrxDhubRAVii7y2rrCbNzRA63RGs1UJuo5mWNGHle8HZvwQowet354CtM40iGRsAsz5Zc_JqFRm_w
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATOUOpuCJn19h7SsXzphdEs5lS8lT7NziTW1__8M0ApfoMwBTCIsDmoRKKaQFTxHi2tzpXAf2TkoqNW4yYDgCRIyQpukzmz1yMv5PZwZfRMTPUwyGLwz02G3j7hh0KRoUb-lPkGrS7doLucKvJ5tjn6mUammL8-ehteNco9-Ap_QgoO--sJPbgdHY6c_SF5BZc1TlbzDFpgcn75KC_teMFFOzyrsYFDwioje-MOLqMG7GgIbpUA1s-UF3DVX2zuUF1cmCmANe7ZVKwHZY5KWGpxf83jLzmfppfpG1BNtERvzRL2kMYWoRlx_vmk_D43Tol_YxoFBbD7VEdE1smw
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATOUOpuCJn19h7SsXzphdEs5lS8lT7NziTW1__8M0ApfoMwBTCIsDmoRKKaQFTxHi2tzpXAf2TkoqNW4yYDgCRIyQpukzmz1yMv5PZwZfRMTPUwyGLwz02G3j7hh0KRoUb-lPkGrS7doLucKvJ5tjn6mUammL8-ehteNco9-Ap_QgoO--sJPbgdHY6c_SF5BZc1TlbzDFpgcn75KC_teMFFOzyrsYFDwioje-MOLqMG7GgIbpUA1s-UF3DVX2zuUF1cmCmANe7ZVKwHZY5KWGpxf83jLzmfppfpG1BNtERvzRL2kMYWoRlx_vmk_D43Tol_YxoFBbD7VEdE1smw
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATOUOpuCJn19h7SsXzphdEs5lS8lT7NziTW1__8M0ApfoMwBTCIsDmoRKKaQFTxHi2tzpXAf2TkoqNW4yYDgCRIyQpukzmz1yMv5PZwZfRMTPUwyGLwz02G3j7hh0KRoUb-lPkGrS7doLucKvJ5tjn6mUammL8-ehteNco9-Ap_QgoO--sJPbgdHY6c_SF5BZc1TlbzDFpgcn75KC_teMFFOzyrsYFDwioje-MOLqMG7GgIbpUA1s-UF3DVX2zuUF1cmCmANe7ZVKwHZY5KWGpxf83jLzmfppfpG1BNtERvzRL2kMYWoRlx_vmk_D43Tol_YxoFBbD7VEdE1smw
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATMu-Nk7PGgzOdM3SN4l5UHssdA8dNdCqqGY8PjWzhyIXxyyyncEhZNVz-qhS2jgcPsB0NpoYp2_xHAy6akyUnDMkPuSqjUAgFoao3iLZPOZuDpjOrl7WPrL_FgmQrHDf_fhmSLCbqFb5H2IVkDvcdZ8c4PTd7NI1BFwdF3O3oT-afhym_JFyG7kyUyHubZtPp0fnpLG0-5ggzZ3c2vo54cJJKtNvA5K9fe1L2fWp8-zwweiSXcxqOzymrZJu0GTK3cwB9nYsQ3dM9uqroc5dWq3dWGJuXqS6-s8Ks98nuZR6w00MquhyuHjcAgt-qPryMg_U0GiiM7Nps_GZCc
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATP-_dN_6IiLXeq6Bq-ul4BccBrSd6Qy2dPeDnegRglNRI8z5cFTxj2XyvYkNsAJ8uMzzXZK9HvaoLjqR4_zl6CkuX3m50Dc9ONNWvjLkR_c3K_g2DS-aNyIlHyBaxh4N4I8jOI5LLSLDPF1iWECucfYrIfP4ZWeYTLMUwun9J9WlNF5P6DancvQtXqLApqDsASCr10qeuhcIoxlUAH6dbk7O8Bd_6SP4AsjOd2ThOgqp_MQ6rcmUKRtD6zrF6U9zNYG2S0-qydW1sz6TSzRAHw_K4KuzPQNYcVlhKaMX1QubWd3-5UpfUdeoOK_4gCNcKRdcZnfydT0V0TGCf6EP6AXiw
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATP-_dN_6IiLXeq6Bq-ul4BccBrSd6Qy2dPeDnegRglNRI8z5cFTxj2XyvYkNsAJ8uMzzXZK9HvaoLjqR4_zl6CkuX3m50Dc9ONNWvjLkR_c3K_g2DS-aNyIlHyBaxh4N4I8jOI5LLSLDPF1iWECucfYrIfP4ZWeYTLMUwun9J9WlNF5P6DancvQtXqLApqDsASCr10qeuhcIoxlUAH6dbk7O8Bd_6SP4AsjOd2ThOgqp_MQ6rcmUKRtD6zrF6U9zNYG2S0-qydW1sz6TSzRAHw_K4KuzPQNYcVlhKaMX1QubWd3-5UpfUdeoOK_4gCNcKRdcZnfydT0V0TGCf6EP6AXiw
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATP-_dN_6IiLXeq6Bq-ul4BccBrSd6Qy2dPeDnegRglNRI8z5cFTxj2XyvYkNsAJ8uMzzXZK9HvaoLjqR4_zl6CkuX3m50Dc9ONNWvjLkR_c3K_g2DS-aNyIlHyBaxh4N4I8jOI5LLSLDPF1iWECucfYrIfP4ZWeYTLMUwun9J9WlNF5P6DancvQtXqLApqDsASCr10qeuhcIoxlUAH6dbk7O8Bd_6SP4AsjOd2ThOgqp_MQ6rcmUKRtD6zrF6U9zNYG2S0-qydW1sz6TSzRAHw_K4KuzPQNYcVlhKaMX1QubWd3-5UpfUdeoOK_4gCNcKRdcZnfydT0V0TGCf6EP6AXiw
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATN8gnxhCN1Tfm1zyR8VGsX6SGl6N6DF8dMzO8Ri4-Cjyn8z9t57t7pdAoxCaZDZFeNJBz9o0b7gu0PUwaXeLtoKWHM1dSx8uecgSmAljnDFYF4QhahisMHGSr47e_AjX_wa7BiVkjiwbfnOVTDOyVf6fISOdCwuWS6TF84SOfSGOJgDYjwW8qe0I2HUxSKkXLrWcUX0oCiMiHzpEM-8JJ0Vv8FHNjRqiq6Dn9P_R_kKHiDz7vVEbRAF030qHZEW9wS33b9wVGtOHvpI7mgJ9SEcx3mgBt5Q9oJwnlvTpN_0zvfJ9_Eqzy1l0HTJRXTo8cR84cnVtR_7Rnx3h2c
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanbit.co.kr%2Frealtime%2Fbooks%2Fbook_view.html%3Fp_code%3DE1054933296&h=ATM90R9HmSndWZPyUr-aI7EmymrOLPTy-7OHCyg8_A5rA1KOgP0dHakABcPRW_fJ-uVVCuUii7wrl92L1FCzz9j2KsNO3AKmVIpIflJzRKnYFFPpRslC0nCWQ-EZsWY-3Bf1Wq1Rz2rlw3JbcXO_RBohB6ba66bcAkAi4dYi1jj-xdUnd--hxaa7BOAPwwyRUtv5guWYTWEYFWa7UsfyZVDKZClj1WzqtmemBueCqRrPT0bxNPJigDJ602lFa2gvXgUFuFjrCT_KI6jXTSAUcE0zP5XczEBe0APxHiNoRmPUqi5KSIyuT6uNWR6HWD35r-x5-_Hyq5U-qyn0Hfc
+https://www.facebook.com/hanbitmedia/posts/1287342187969093#
+https://www.facebook.com/hanbitmedia/posts/1287342187969093#
+https://www.facebook.com/hanbitmedia/posts/1287342187969093#
+https://www.facebook.com/hanbitmedia/posts/1287342187969093#
+
+
+	** 댓글
+[윤원석]
+	ai 를 붙이면 대박이네요.
+	
+
+[이승현]
+	이정환
+	
+
+[이정환]
+	오오
+	
+
+[송병준]
+	강은선 정미희
+	
+
+[강은선]
+	디자인 기엽네 감성돋고
+	
+
+[윤인성]
+	
+	
+
+[조주현]
+	신용국
+	
+
+[고우람]
+	이게 하드코어해지면 이 책이 됨
+	https://www.facebook.com/photo.php?fbid=1357400891038481&set=p.1357400891038481&type=3
+
+[오봉근]
+	조우진 (Woojin Joe) ㅎㅎㅎ
+	
+
+
+

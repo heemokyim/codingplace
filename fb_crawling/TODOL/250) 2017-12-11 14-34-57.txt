@@ -1,0 +1,55 @@
+	** 게시물 URL
+https://www.facebook.com/inflearn/posts/1250345145061123
+
+
+	** 본문
+인프런 - 기술을 배우고 나눠요.
+4월 6일 ·
+머신러닝+딥러닝 무료강좌
+홍콩과학기술대학교 김성훈 교수님이 쉽게 풀어 설명해 주시는 #머신러닝, #딥러닝 강좌!! 요즘 그 어떤 주제보다도 뜨거운 머신러닝에 대해서 학습해보세요.
+머신러닝, 딥러닝 강좌는 수학이나 컴퓨터 공학적인 지식이 없이도 쉽게 볼수 있도록 만들려고 노력하였습니다.
+https://www.inflearn.com/course/기본적인-머신러닝-딥러닝-강좌/
+모두를 위한 딥러닝 - 기본적인 머신러닝과 딥러닝 강좌
+더 많은 분들이 머신 러닝과 딥러닝에 대해 더 이해하고 본인들의 문제를 이 멋진 도구를 이용해서 풀수 있게 하기위해 비디오 강의를 준비하였습니다. 더 나아가 이론에만 그치지 않고 최근 구글이 공개한 머신러닝을 위한 오픈소스인 TensorFlow를…
+더 알아보기
+INFLEARN.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.inflearn.com%2Fcourse%2F%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%95%EC%A2%8C%2F&h=ATM_5u8SuD0Q0kknoN45foyC0voxjE-_cEUZhQ6MDzN8TWCf5QhzJXRsNHwIv-E55P7_lLibTQYu5vl4efrP3KYGklsFok2iDcPjJvCxiYPhlXHIz6ojFI6FaHnmPWrIOhludxtCRJWFTYWEseY2t_o0RaA16ahSRPcU1fx-P7WRUhwEivhvwJk921j2lmwJfoZLNMQpLZn2Y5PwB2pxHkSQMH7SUCm-3Qu_N9Arf5oupcdSonKkdf_Fkfu-TDMQ0e5WkCVG_w739uQhgTeii0bPTM-S75dgOaasiKpmVzA
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.inflearn.com%2Fcourse%2F%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%95%EC%A2%8C%2F&h=ATP5aWkrXtTEQ4iA9-n7_u2MuRy4PL05Wj5ePz0OaWS4yEMHuILz2FP86bwFK4HfMyBme6xhm2QL3iD73fYCMkxUiAA0AllpoSogGSNjLIW0kUkh8mJyVbnU74iJ49Hz4ObNWzweXlZhyH2tPS89gGnF2xrVkppIw5TL-KPXyusql8COEPe1rSW7YtbA1W5wmb1MlPoEhpOg_BG_6x8ecIwijOxTtgsPa7Z0jRc5heKi2Ihwf3WREZ4hWsjuVIBbvmwzoO_D7TDNrSuCwYbB2tYWa8L9Oc31wPrco_Jh33E
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.inflearn.com%2Fcourse%2F%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%95%EC%A2%8C%2F&h=ATOaSjCXX8pFckdtzyQcNxgu4lbArUBCrKB8OLmBisGv4qQycSFPXDKDlk_dUJyKZPWVRkP_EThOlHBgVRrLdT9RLWv21mKOr5LR8YdcNcK-oVJqYwmcmLIL5AiJtRiMejcbsbhuSNlbSGvYbKyS5xxIZ8ORufAyKmoXT9mUxXONifVMVx4LId6XtGcJLBpib827TFbOQHc5yaEds03RbBHpc9C_NowMDl7VeAGrqixDAx034bM6vVmDThVMkMyhXesN7EZuox6AqJzMsjuuQGsNiZLuo-9nxq1xNx05XRw
+https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.inflearn.com%2Fcourse%2F%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%95%EC%A2%8C%2F&h=ATMm5kBMxBRixt0Ac3HZqa-PVlPfpYxwg78XfW5YixpFVRMzFKMuMvsU6H7eS1ekJ4c9DxSo2ol7SMVqTQxIXIJWuYbQ__UcGD3r1SkfNwpV7PLb15nQSsI5Yebl3qDOBHEQLcJPPRAqX0XgRi0lxXem-vXKibQdpgIxT_WGfnuaj-dr8jFhiHh-yGW4haALENvrjGbJdJDo1uerDr4mfYy7RCyl0VMojkkI6QbwUg7zSd-RRpXMDw66hM9IcQYCmmE-v7Z3HMKA2votctoQ6y4ktbTysY9Q1JPQKI16USg
+
+
+	** 이미지 링크
+https://scontent-hkg3-2.xx.fbcdn.net/v/t45.1600-4/c0.30.476.249/p476x249/17508780_6071181196184_151465019580612608_n.png?oh=5d5c7d9b825a40e7d4cd8877b2b558a5&oe=5A8FE7C5
+
+
+	** 댓글
+[신용환]
+	여기 좋은 강의 많더군요..
+	
+
+[김종건]
+	강현우 갓 교수님입니다
+	
+
+[강현우]
+	마자여
+	
+
+[최재원]
+	이상욱 (Sang Wook Lee)
+	
+
+[김홍석]
+	Sung Kim 교수님 강의를 정리했군요 ..
+	
+
+[김주환]
+	윤기동
+	
+
+
+

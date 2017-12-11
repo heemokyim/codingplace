@@ -1,0 +1,71 @@
+	** 게시물 URL
+https://www.facebook.com/iamprogrammer.io/posts/1358815257473328
+
+
+	** 본문
+나는프로그래머다
+2월 9일 ·
+이제와 어디가서 물어보기 뻘쭘한 Java의 작동원리!
+http://d2.naver.com/helloworld/1230
+JVM Internal
+자바를 이용하여 개발하는 개발자라면 누구나 자바 바이트코드가 JRE 위에서 동작한다는 사실을 잘 알고 있습니다. 이 JRE에서 가장 중요한 요소는 자바 바이트코드를 해석하고 실행하..
+HELLOWORLD.NAVER.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=http%3A%2F%2Fd2.naver.com%2Fhelloworld%2F1230&h=ATNQF6jM1yS9uwqlzV2oLwSRh97CRq5icgMsDYmg_cJqMtFPxMKs7Wz0MS_VMY3pGP93stLPnxU_dcaCJWy9E_XVb8tPUrqSo9mTLLGVVtQ7Oh1bclPlEDJpw41s9AsUo6vJ0SgsI6EhNZBmCsp202g2Ybc6oxW5kaYkHoQFy72_4M_6BG2Eu7KTT2phktx3W_qidAGQhp_KPqxmx3gBUat8vtIcPht0YCsyF3_4K8_1gRhiZa23m4V2Vb_s1S-GNdMjCwguUe0fgT2cDXCzt4kUh-LoPifTPsZj_d48Cko
+https://l.facebook.com/l.php?u=http%3A%2F%2Fd2.naver.com%2Fhelloworld%2F1230&h=ATOOserLOPseghTqFd1tbrwZTSSd_nuWt1Qvr3qCUtoI--BKVIZ_eSmX90s9S1ZZpg0ruC_3uv38LyUpU2sCVsQfr7awKmSzhqqqbDFIIrMHlbj41IXjR28B4P3rZsCWkpZNgVJHIfPpqm2oqc3qRjstK6UTBnfDJPkI2XWgjhRTgVNS1vEXPs2bTHZkNbSETDtcCBKZ_1_LcK3lxhUguUhGOp_hfqWND6z9X75fwJtEK6DDDNMMjGFS8YA1Vm1Q-m9jHD5bfe1Yddy2BRusqT25cAUUBFaIgsFszNCEK1c
+https://l.facebook.com/l.php?u=http%3A%2F%2Fd2.naver.com%2Fhelloworld%2F1230&h=ATPsCh6XFOtGnZxPGXJ_6tBbXWEDuFN-g01Abgx-c4zKYznUknB8oI-iTpUVAGOSau3Vs-PKjjUpJedcpBQ6FJ_d9qgBv-o2KliFVGE9_SjUN2FwEufYXr5jRdt-HePv-BxaPVZ01SP6UN7w4__s50pDj0TBw1yrtYHbYabqrBihIuPArbDg_JpBwJrR8juml5xP-wXaLNEGpDtAcEW4e-ZyMKwFWWbviICahDIwPX5Oi42PMpPehhfh-KtxngH1ckolz9B8MtYZmHAgwh_QSO9rDSU1ckqsNZ9lJv6KIjM
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQD1vnWWp19Xwbi3&w=160&h=160&url=http%3A%2F%2Fd2.naver.com%2Fcontent%2Fimages%2F2015%2F07%2F1230.PNG&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQDlBZgv45nzaEyX
+
+
+	** 댓글
+[임정호]
+	http://www.cubrid.org/.../understanding-jvm-internals/ 이 글에서 정말 많이 참고한거같네요~
+	
+
+[강병수]
+	이거 같은 사람이 쓴걸걸요
+	
+
+[이동헌]
+	이근식
+	
+
+[Se Ra Cheon]
+	Jaehwan Kim
+	
+
+[한광양]
+	너무 아쉽네요!
+	
+	그래도 나프다 덕분에...더 보기
+	
+
+[MinYoung Cho]
+	많이 아쉽지만...
+	한국인의 한국어 개발자 방송의 큰 방향을 제시하지 않았나 생각합니다. ...더 보기
+	
+
+[김봉겸]
+	강연 재밌었어요. 그리고 게임 리프트의 강점도 볼 수 있었구요.
+	
+
+[Jimmy Kim]
+	ㅎㅅㅎ 그놈의 액티브엑스 언제까지...도태되어야할게 도태되지 않으니 생태계 교란을 넘어 자라는 새싹을 죽여버렸네. 이제 중국이나 미국에 타이틀 뺏기고 카피캣 소리 들으며 따라가느라 가랭이 찢어지겠지
+	
+
+[최홍범]
+	주현수 ㅋㅋㅋㅋ김치맨만큼 웃김
+	개발자들 너무불쌍....
+	
+
+[주현수]
+	ㅋㅋㅋ... 김치워리워는... ㄹㅇ루다가
+	
+
+
+

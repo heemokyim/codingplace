@@ -1,0 +1,93 @@
+	** 게시물 URL
+https://www.facebook.com/bookareum/posts/678498222310662
+
+
+	** 본문
+더알음-쓸모많은 지혜를 알아가는곳
+1월 16일 ·
+[ 여태껏 정말 이런 머신러닝 입문 책은 없었습니다! ]
+이글은 홍보글 이지만 미래와 머신러닝에 관심 있다면 꼭 봐주세요!
+앞으로 머신러닝이 대세가 될거 같아서 배우고 싶은데
+책이 너무 어려워서 포기한 분들과
+배워서 어디에 써먹을지 몰라 포기한 분들께
+이 책을 강력 추천해 드립니다.
+먼저보신 독자님들께서 평가해 주신 이 책의 가장 큰 특징은
+머신러닝을 배우기 위해 꼭 필요한다양한 이론들을
+쉽게 설명하고 있는것과 실생활에 어떻게 활용할 수 있는지를 다양한 사례로 설명하고 있는 것입니다.
+==========================================
+* 학원 원장님: 학생들의 반 배치를 어떻게 할까?
+* 순대국집 사장님: 메뉴를 어떻게 결정할까?
+* 화장품 가게 새미씨: 고객 할인쿠폰을 누구에게 줄까?
+==========================================
+위 사례들은 이 책에서 다양한 머신러닝 기법을 설명하면서
+사용한 예의 일부입니다.
+이 책은 머신러닝과 관련된 중요한 다양한 내용들을
+일상생활에서 쉽게 만나는 상황을 제시하고
+그 문제를 해결할 수 있는 알고리즘과 배경지식을 설명후
+실제 R 이나 파이썬을 활용하여 코딩으로 보여줍니다.
+이 책을 먼저 보신 독자님들의 평가를 봐도 머신러닝의
+전체 그림을 그리면서 입문하기에 아주 좋다고 추천하고
+머신러닝과 빅데이터 분야에서 유명하신 교수님들께서도
+아주 적극적으로 추천하고 계신 책이기도 합니다!!!
+이 책을 보고 공부하신 후에는
+"나도 머신러닝을 이렇게 활용하면 되겠구나!!"
+라고 자신감을 가지실 것입니다!
+이 책의 예제는 모두 R 언어와 파이썬 언어로 작성되어서
+직접 실습을 하면서 공부를 할 수 있으며
+코딩이 어려우신 분들을 위해서 모든 실습용 소스코드를
+출판사 홈페이지에서 제공하고 있습니다.
+머신러닝은 기본적으로 수학적 배경 지식과 프로그래밍 지식이 절대적으로 많이 필요한 분야입니다.
+이 책 역시 독자님의 수학적인 배경 지식과
+R이나 파이썬 에 대한 기본 지식은 필요합니다.
+혹시라도 R 언어나 파이썬 언어가 생소하신 분들은
+아래의 링크에 있는 책을 보시길 추천해 드립니다.
+도서 링크 안내 입니다.
+===========================================
+1.최고의 머신러닝 입문 및 활용 도서
+어서와~머신러닝은 처음이지?
+(http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=99084501)
+2. R을 처음 배우시는 분이시라면 아래 책을 추천!
+최고의 R 입문서인 [R라뷰 - 서진수 저]
+(http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=55255591)
+3. 파이썬을 처음 배우시는 분이시라면 아래 책을 추천!
+왕초보~파이썬배워 크롤러 DIY하다!
+(http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=79657889)
+===========================================
+독자님께서도 이미 아시다시피
+2017년은 명실공히 빅데이터와 머신러닝이 아주
+중요하게 될 것입니다.
+이 책들로 독자님의 미래를 잘 준비하시길 진심으로 바랍니다!
+내꺼하자! 머신러닝! 어서와~ 머신러닝은 처음이지?
+머신 러닝 기법들을 설명하기 위해 우리 주변에서 흔히 일어나는 일들 - 액세서리 가게 운영하는 사례, 식당을 운영하면서 메뉴를 결정하는 사례 , 반찬가게 운영하며 매출 패턴을 분석하는 사례 등 - 을 머신 러닝 ...
+ALADIN.CO.KR
+
+
+	** 링크
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.aladin.co.kr%2Fshop%2Fwproduct.aspx%3FItemId%3D99084501&h=ATOhBORlagvKHKkrpPfSFdw3j7D5eGbjWKYMa2sHVgBiHwwIA_Qgs8otZOfR4uWhKm8F9H5dlvQR_GKsonUZtL01jcHU9E1074nkj_1fGttj5PtQSwisW--P5pdj2DuIvsjok5095MF0fT8B7sYFK92RsAlvUnYoGCXiaLnEjgvYONrPTqvHXrLvi_jWsccK8jzYkQlooxfDHy4Now4HGilVc5Rc8Hm8EGpdfqvprIHwyD9gcKLNMPz4ZioQiT_KVv-vo6SLkr9obONzLgcldmXM6-emm7QBLg
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.aladin.co.kr%2Fshop%2Fwproduct.aspx%3FItemId%3D99084501&h=ATOZjF6BXn7pYTr__zf_ZTwppxEztejfplilx3zFTAr1Ebhtvs4zWAmDMpzo_w7nYMz2uix5rePnFe3fE5nMuSQ4U_ilQLW3VdIK4LACIy2UJ_LZ8GJnIzYn7kgnXHiy08gOTVMOdeDGCc1W9xwkRkPWTKR78pxBPSBrGqIxnGUieB4t8EEYwst91mH46cppenClL0kJ1mDfNFpVvc4UutDKGQnT3xX1oqqMXXN5PWGju22tSbA1uS1OzYrJtOTDhE_Pn7SHaImXMF1QZXrxLzXcu76bVjV9wQ
+https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.aladin.co.kr%2Fshop%2Fwproduct.aspx%3FItemId%3D99084501&h=ATOYhJr1gp1GslYC2rCG2_o7coHRySTq9sl80e8lw0hSu-aTdP5_tXgqRv8rGDBFR81ixGxVg00CIrkPJKNl9f2pOEqB1eZLxxGtRqbvqALIQA5_-iVbjq7o-dQFW3HMIeDjux-D9XoEQ48MYB-qgfus0lx6Gj8_PxIoM6rq_N883bC5FO39TL2PL5OimAtOvnd2PMJiofwefzOl4-Wur_K-E5Rinb8nqyO6po_e99XzMDo_8ulFqgnp0KwR8mrUmWTZV5IMo7rGhObYigxDPOJxhYiIIqknGw
+
+
+	** 이미지 링크
+https://scontent-hkg3-2.xx.fbcdn.net/v/t45.1600-4/c0.21.160.160/p160x160/15729780_6058673634722_4539378160940089344_n.png?oh=39ad222b66434b39e90132ef35bc1081&oe=5AC344DC
+
+
+	** 댓글
+[박한빛]
+	이번에 이 글 보고 책 구매했는데 파이썬 코드는 정말 일부분이더군요. 거의 없는거나 마찬가지 ;; 파이썬 코드를 따로 올려주시거나 아니면 소개 글에 파이썬 코드에 대해선 말을 안하는게 나을거 같군요 !!!
+	
+
+[더알음-쓸모많은 지혜를 알아가는곳]
+	안녕하세요 서진수입니다.
+	파이썬을 많이 기대하고 보셨는데 그 내용이 많지 않아서 실망을 하신거같아서 죄송합니다ㅠㅜ
+	이번 입문책은 R언어를 주로 사용해서 코드를 만들었습니다.말씀하신대로 파이썬 내용은 일부만 넣었습니다. 그리고 이 책 다음책이 파이썬을 활용한 딥러닝 내용으로 작업을 하고 있습니다.
+	다음책 나오면 박한빛님을 꼭 리뷰어로 모시고 싶습니다~빨리 작업해서 좋은 책으로 다시 인사드리겠습니다.
+	감사드립니다.
+	
+
+[이동욱]
+	김도환 니가생각나서
+	
+
+
+

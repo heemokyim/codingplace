@@ -1,0 +1,86 @@
+	** 게시물 URL
+https://www.facebook.com/iamprogrammer.io/posts/1335401523148035
+
+
+	** 본문
+나는프로그래머다
+1월 16일 ·
+이제와 어디가서 물어보기 뻘쭘한 스레드와 프로세스
+10분의 투자로 기본기를 탄탄하게!
+http://mooneegee.blogspot.kr/2015/01/os-thread.html
+http://mooneegee.blogspot.kr/2015/01/os-process.html
+[OS]메모리 관점에서 본 쓰레드(thread)
+IT, Game, C++, Code, Graphics, Programming, Operation System에 대한 블로그입니다.
+MOONEEGEE.BLOGSPOT.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=http%3A%2F%2Fmooneegee.blogspot.kr%2F2015%2F01%2Fos-thread.html&h=ATMW8kMqcW9BbCG75XTYeuzrHUqubiVavkAlxHJn_9kuiQ4ZYVD2vdeXjijXemZARgvakIYHvkesFatHlu0ipGN-ulgObwaXtmsb4RZze9TuKAqj6CXxeLu7QzKeYEBDqoPesLIrNX6oR0P9BU95PcXz3gH6EZF9nF8PCNQIXZ9RT1tmGk26hDPUu9vuU51YSfIszIkTIiiHexwOtu1S1oJwSuZtoSxfRdSnVBrt5KM8cTJ3qCgl0b_CjCXKk5EmFmHWACCXnqRyLev673iXZy3Y5zgSJH5qLlmC1CWHFxk
+https://l.facebook.com/l.php?u=http%3A%2F%2Fmooneegee.blogspot.kr%2F2015%2F01%2Fos-thread.html&h=ATPmyJ24GiIzuLs-_ruFHj3Mv9w1velo4Y-X4r98vmqyduo9ZdYHSmC9C-20Wsd2j7sSSRF3SiTkATJSmI8eKY3a122Or-fKtX4tEVM_Z63830AtJ0Er0DhSA6o7OFZT9RbPq-870xB5QfU1FFniMuSzz7SCz4LBCaadr7ikxhBYchrkQlt87wPVpHymvnq1sT3-Asct8oxgMDz_QGHAzud1NURs2mOanxkhrku4CRF8YCUI4ukBWJbFRVC23fheR72skGYe4f02ZiB0q4E8m4iABzmk39n1oT20Z0DH_cg
+https://l.facebook.com/l.php?u=http%3A%2F%2Fmooneegee.blogspot.kr%2F2015%2F01%2Fos-thread.html&h=ATNGmbe9kc5oQLxKGCqLTfkwXHfj5niB7fsQO00BPtOnSzpYi6IKVCmCO_OijgBBhBwhT0uQ39uNA0PoVKnhVPLiTGXwXcFcXQtOfqnWvqlf-HbwmJNgQ1D8kyD_Fcm69rBgGm8O3gGSUcUgss_GU6-4om2hCCWv9AKOqrWWWqXjTiej-5Rm5D8wqtudYqA0sEvY8DdIxrllbI234U9uAIn30YFIIODK6vnnfv4Rw8lHhuHxhRU914JxshoI74W0yU13MDIHbenpKqQqauizv9p7a8IIMjhkxbMhwC-uIcc
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?w=476&h=249&url=http%3A%2F%2F1.bp.blogspot.com%2F-tqy_yWzqWas%2FVMUJhhPADJI%2FAAAAAAAAABE%2FvN3AFzFtb-8%2Fw1200-h630-p-k-nu%2Fprocess_memory_organization.png&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQDHYEkP3DWFSL_a
+
+
+	** 댓글
+[이사무엘]
+	왜 공룡책에서는 힙이랑 스택은 쓰레드 별로 있다고 했었는데....
+	
+
+[오상민]
+	저도 힙영역이랑 스택영역 이 나눠져있다고 배웠는데 잘모르겠네요......
+	
+
+[이용석]
+	힙은 프로세스별로 나뉘지 않나요? 쓰레드간에는 공유...
+	
+
+[DoHyun Jung]
+	이 글에서 설명하고 있는대로 스택 영역을 제외한 메모리 영역은 공유하고 있습니다.
+	http://stackoverflow.com/.../do-threads-have-a-distinct-heap
+	
+
+[김성진]
+	강진모크으으으으으
+	
+
+[김성진]
+	난이만자러
+	
+
+[강진모]
+	ㅂㅂ
+	
+
+[한광양]
+	너무 아쉽네요!
+	
+	그래도 나프다 덕분에...더 보기
+	
+
+[MinYoung Cho]
+	많이 아쉽지만...
+	한국인의 한국어 개발자 방송의 큰 방향을 제시하지 않았나 생각합니다. ...더 보기
+	
+
+[김봉겸]
+	강연 재밌었어요. 그리고 게임 리프트의 강점도 볼 수 있었구요.
+	
+
+[Jimmy Kim]
+	ㅎㅅㅎ 그놈의 액티브엑스 언제까지...도태되어야할게 도태되지 않으니 생태계 교란을 넘어 자라는 새싹을 죽여버렸네. 이제 중국이나 미국에 타이틀 뺏기고 카피캣 소리 들으며 따라가느라 가랭이 찢어지겠지
+	
+
+[최홍범]
+	주현수 ㅋㅋㅋㅋ김치맨만큼 웃김
+	개발자들 너무불쌍....
+	
+
+[주현수]
+	ㅋㅋㅋ... 김치워리워는... ㄹㅇ루다가
+	
+
+
+

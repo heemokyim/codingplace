@@ -1,0 +1,55 @@
+	** 게시물 URL
+https://www.facebook.com/iamprogrammer.io/posts/1375441145810739
+
+
+	** 본문
+나는프로그래머다
+2월 25일 ·
+CES를 뜨겁게 달궜던 음성 인식 비서 알렉사 API
+게임과 앱 서비스에서 알렉사 API를 이용하여 고객의 경험을 증진 시킬 수 있습니다.
+https://developer.amazon.com/…/ale…/content/avs-api-overview
+Alexa Voice Service API Overview - Amazon Apps & Games Developer Portal
+(v20160207)
+DEVELOPER.AMAZON.COM
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.amazon.com%2Fpublic%2Fsolutions%2Falexa%2Falexa-voice-service%2Fcontent%2Favs-api-overview&h=ATMdtUwkJffwCAZl8kkKdjeK_hFNEKL7XjFf3msvXMRd7zOlKfnU1sl7VWqk2C2JRAK59L6KDXPbdOLYXQ-6pdHHkqdJmRMrqdOcm48A9jdtZr_fRX4kN_r6-06gK1N_ODwLfcuW3W3Ci3m4rQSjDsVLc230eU_NtKG-I0R_aywiSBvwIbW_GtkCBLwKDdz_PS9tEmT3COa5HPFWoeHEVP1gXPctjmUf-7x-IRLnlM1OVj2C1Wr2xNtvxmgsoZA0hXBc4sTx2cjALk6AJ0WaIi-R040f2m17ppoqYs-p4TY
+https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.amazon.com%2Fpublic%2Fsolutions%2Falexa%2Falexa-voice-service%2Fcontent%2Favs-api-overview&h=ATM4xmFbtMRxiJ231AWEgxoPnoZyggjZDLceDrw02MZXcNbr0uhYPipiH45iftt7pnoi53QTBiegvsTybwFs1-Xk3lvRI3DB4s4anZNypfdEceBAQG8j7EIL6S1hRJnigia1V-ecXG1FE53bz1UbLdQS6lA9IpB0A8aUSMf_RFIoMsKZUVXNSaMd4RemOHJdbtiVq6-mdfN7wK3XX144YgcBVs3lgI0KBhiQ9lrzdFxEpVVWvYVPqcsd-A-tiuFa7Wj-2z54quXLrh4N5r8MRqONo_p_GO_7gr3Kc3_oYdw
+
+
+	** 댓글
+[JinHwa Kim]
+	이걸 어떻게 연결해야 하나요??
+	
+
+[한광양]
+	너무 아쉽네요!
+	
+	그래도 나프다 덕분에...더 보기
+	
+
+[MinYoung Cho]
+	많이 아쉽지만...
+	한국인의 한국어 개발자 방송의 큰 방향을 제시하지 않았나 생각합니다. ...더 보기
+	
+
+[김봉겸]
+	강연 재밌었어요. 그리고 게임 리프트의 강점도 볼 수 있었구요.
+	
+
+[Jimmy Kim]
+	ㅎㅅㅎ 그놈의 액티브엑스 언제까지...도태되어야할게 도태되지 않으니 생태계 교란을 넘어 자라는 새싹을 죽여버렸네. 이제 중국이나 미국에 타이틀 뺏기고 카피캣 소리 들으며 따라가느라 가랭이 찢어지겠지
+	
+
+[최홍범]
+	주현수 ㅋㅋㅋㅋ김치맨만큼 웃김
+	개발자들 너무불쌍....
+	
+
+[주현수]
+	ㅋㅋㅋ... 김치워리워는... ㄹㅇ루다가
+	
+
+
+

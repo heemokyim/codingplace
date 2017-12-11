@@ -1,0 +1,63 @@
+	** 게시물 URL
+https://www.facebook.com/groups/DeepLearnng/permalink/1949170975316551/
+
+
+	** 본문
+Saikat Basak
+4월 16일
+We are currently able to use Artificial Intelligence to recreate the missing contents of an image. So, next time you have an old and rusty image that needs some touch-up, consider your non-human friend.
+https://github.com/saikatbsk/ImageCompletion-DCGAN
+번역 보기
+
+
+	** 링크
+https://www.facebook.com/photo.php?fbid=1270103299772189&set=gm.1949170975316551&type=3&ifg=1
+
+
+	** 댓글
+[Eugene Paul Ramirez]
+	This is useful
+	
+
+[Ignacio Meza]
+	Siraj raval (youtuber) just upload a quick demo of that algorithm
+	
+
+[Saikat Basak]
+	No, he's using a variable auto-encoder.
+	
+
+[정용우]
+	Good, it could be useful for super resolution, too.
+	
+
+[Saikat Basak]
+	There are some papers if I'm not wrong.
+	
+
+[Saikat Basak]
+	https://arxiv.org/abs/1609.04802
+	
+
+[정용우]
+	Some are using a frame based RNN(they need a movie, not an image)
+	
+
+[Massimo Caccia]
+	Lucas Caccia?
+	
+
+[Lucas Caccia]
+	Implemented this paper I think : https://arxiv.org/abs/1607.07539. Works well for datasets whose border is roughly the same (e.g. faces), not so well for high variance data like ImageNet
+	
+
+[Saikat Basak]
+	Yes.
+	
+
+[Saikat Basak]
+	And as pointed out, it works well with faces, not so with high variance data like ImageNet, CIFAR-100 and such.
+	
+
+
+

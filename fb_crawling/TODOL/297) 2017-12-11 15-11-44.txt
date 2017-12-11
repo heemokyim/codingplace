@@ -1,0 +1,22 @@
+	** 게시물 URL
+https://www.facebook.com/anylee2142/posts/277664739351433
+
+
+	** 본문
+이재웅님이 링크를 공유했습니다.
+4월 11일 ·
+학습과정과 데이터셋 이야기
+본 강좌에서는 딥러닝 모델 학습과정과 어떻게 데이터셋을 구성하는 지에 대해서 알아보겠습니다. 딥러닝을 공부할수록 딥러닝 모델이 학습하는 과정이 사람이 학습하는 과정과 유사하다는 느낌을 많이 받습니다. 딥러닝 학습과정을 이해하기 위해…
+TYKIMOS.GITHUB.IO
+
+
+	** 링크
+https://l.facebook.com/l.php?u=https%3A%2F%2Ftykimos.github.io%2FKeras%2F2017%2F03%2F25%2FDataset_and_Fit_Talk%2F&h=ATNYbAFtIz_BLgKdkDfwjF-Qg7CmKaEHZofKFOlipVc-35cga22Bwx63TA8lZYrppHannlq9jj8wcibHuY4fnWoOrx9ives0-58jDdz-cWh70aJEh5MFzhlfXVmkUP3euVDdpiKXC4STy7kIf8kFSijp7zeKyJay9L_xR03o1oS6o4NmVcjxITjMfUDFxpM5ENb1Tj5UtzqYmhODmaW3s45ljVbdTRC9OFS5y9tkVIJNYHf9IcXLmyXInt_IgcslBi-zb1ikALRmY4tHoicIazl3Wk2hvyrMvw
+https://l.facebook.com/l.php?u=https%3A%2F%2Ftykimos.github.io%2FKeras%2F2017%2F03%2F25%2FDataset_and_Fit_Talk%2F&h=ATOpNlBVcJM3VWpcWmEe9u44ZrcrFKkRy6TDKBP2QiWTNvNhZvUyy5rnEN1Hi--8qesG1QYQYabiy2eN6qKpxx0w_2F5engH-1d7S43GEMWoJMVNtL6-gdLnbtW2N0mnsr6XOY_JsNehpgEWBFLk9jJFfIql-25B4-5itSkdzqQPRfxB45Qr94HbimZIByVMKq4MgR-I5ae4hYjc5q92QD6GX3scBNm-50inW8S-nfciYMgLk_J9qhaGctZc5Jqrz7bzaa4P-SYJ4cbZ4Xh2Jgy0FE0ot0WKvA
+https://l.facebook.com/l.php?u=https%3A%2F%2Ftykimos.github.io%2FKeras%2F2017%2F03%2F25%2FDataset_and_Fit_Talk%2F&h=ATOFw0c7Kov7Iu1Y8LdG1VRRyL0xRrZjNumKnY_oV7ED4RTTuRKmdXLxLetwXoD9J88Hf7jIS7wEXAqzNnEKxXBRU6Ji2STXxD6A3eU8eSqLA_ZYb7qhRrH0KkgVIlJvkCOPJn-ZJcPnGWDUJd6wOhVENHbvj6jb8KtLooPzoD-jnpApZjHV1HXz_JhSamdTaM0Fhy0d_7NBBqyvP0f_C4ctTE71vqsfmhZHcToEGe4SPTm9aAIL_nQ6V6UBlyjSe280JNr2zgn3nfACPFjB-5_8Zgt6Xhc65hRkRZG9TKVv4w
+
+
+	** 이미지 링크
+https://external-hkg3-2.xx.fbcdn.net/safe_image.php?d=AQDhfhOnWBnctSoQ&w=476&h=249&url=http%3A%2F%2Ftykimos.github.com%2FKeras%2Fwarehouse%2F2017-3-25-Dataset_and_Fit_Talk_plot2.png&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQBbxeZP3Ta_tEE0
+
+

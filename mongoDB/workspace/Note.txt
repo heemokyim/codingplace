@@ -12,6 +12,7 @@ nodemon = reflect changes automatically while running
 mongoose = library to work with mongoDB
 
 2. "directories":"test" in package.json
+    npm run test
 
 3. When modifying some to test,
 you should reload mocha everytime.

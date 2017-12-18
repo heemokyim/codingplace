@@ -14,9 +14,12 @@ lin_driver = './driver/chromedriver'
 win_driver = './driver/chromedriver.exe'
 driver_path = lin_driver if plat=='Linux' else win_driver
 
+print(lin_driver)
+
 driver = webdriver.Chrome(driver_path)
 driver.maximize_window()
 ac = ActionChains(driver)
+
 
 win_pass_path = 'D:\\password.txt'
 lin_pass_path = '/home/ej/older/password'

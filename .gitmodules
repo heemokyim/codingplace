@@ -1,6 +1,6 @@
 [submodule "Python/PythonMega/worldjson"]
 	path = Python/PythonMega/worldjson
 	url = https://github.com/Anylee2142/world.geo.json.git
-[submodule "mongoDB/workspace/5_excercise"]
-	path = mongoDB/workspace/5_excercise
-	url = http://github.com/Anylee2142/UpStarMusic.git
+[submodule "mongoDB/workspace/5_upstar_music"]
+	path = mongoDB/workspace/5_upstar_music
+	url = https://github.com/Anylee2142/UpStarMusic.git

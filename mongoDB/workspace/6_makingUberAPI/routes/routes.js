@@ -10,4 +10,9 @@ module.exports = (app) => {
 
   app.post('/api/drivers', DriversController.create);
 
+  app.put('/api/drivers/:id', DriversController.edit);
+  // By convention, modifier ID is putted in URL
+  // But we can also put in http body
+
+  app.delete('/api/drivers/:id', DriversController.delete);
 };

@@ -1,0 +1,12 @@
+What if we formerly created DB
+and after that, running test,
+
+test helper will wipe out collections in DB
+If existing DB is needed, it can be huge issue.
+
+So how can we deal with this?
+==> Separate two databases by 'NODE_ENV'
+
+------------------------------------------------------
+npm run test
+"test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"

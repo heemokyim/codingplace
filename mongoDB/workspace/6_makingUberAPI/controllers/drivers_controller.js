@@ -7,6 +7,23 @@ module.exports = {
     res.send({hi:'there'})
   },
 
+  index(req, res, next) {
+    // 1. http://google.com?lng=80&lat=100
+    // 2. and they are string
+    const { lng, lat } = req.query;
+
+    // Look at the driver Collection
+    // and search any documents matching passed conditions
+    Driver.geoNear(
+      // Just like defined in driver.js
+      { type: 'Point', coordinates: [parseFloat(lng), parseFloat(lat)]},
+      { spherical: true, maxDistance: 200000 }
+                          // meters
+    )
+      .then(drivers => res.send(drivers))
+      .catch(next);
+  },
+
   create(req, res, next) {
     const driverProps = req.body;
 

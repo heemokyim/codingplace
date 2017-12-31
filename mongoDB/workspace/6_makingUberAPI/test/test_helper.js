@@ -14,6 +14,9 @@ before(done => {
 beforeEach(done => {
   const { drivers } = mongoose.connection.collections;
   drivers.drop()
+    .then(() => drivers.ensureIndex({ 'geometry.coordinates': '2dsphere'}))
+    // After dropping driver collection, recreate index like this
+    // Refer to last test of driver_controller
     .then(() => done())
     // then promise will be executed if no error
     .catch(() => done());

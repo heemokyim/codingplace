@@ -1,3 +1,17 @@
+--------------------------------------------------------------------------------
+Here's another solution as a cross platform option.
+
+Command line/terminal:
+
+npm install cross-env --save
+
+Then add to package.json:
+
+"test": "cross-env NODE_ENV=test ..."
+Linux : "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+Windows : "SET NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+--------------------------------------------------------------------------------
+
 0. what is 'faker' package?
 ==> package generating dump data
 Refer to 5_excercise/src/seeds.createArtist

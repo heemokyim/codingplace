@@ -1,10 +1,10 @@
 {
   "name": "6_makinguberapi",
   "version": "1.0.0",
-  "description": "",
+  "description": " Linux NODE_ENV=test nodemon --exec 'mocha --recursive -R min' Window ",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+    "test": "cross-env NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
   },
   "author": "",
   "license": "ISC",

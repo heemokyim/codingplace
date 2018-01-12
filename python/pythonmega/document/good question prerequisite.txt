@@ -1,0 +1,7 @@
+1. what coder expects to get
+
+2. entire code (in text)
+
+3. entire traceback
+
+4. emphasize 2 and 3 in code-text (curly bracket)

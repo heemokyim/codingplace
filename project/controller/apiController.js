@@ -37,7 +37,7 @@ module.exports = {
         // 회원이 있으면 그 회원의 캐릭터 정보를 return
         if (rows.length != 0){
           const USER_INFO = rows[0]
-          USER_INFO['UserParty'] = [1,2,3]
+          USER_INFO['UserParty'] = [3,5,4]
           // 원래는 UserParty 테이블에서 User_pk의 값으로 전부 불러와야 함
 
           const USER_PK = rows[0].user_pk;

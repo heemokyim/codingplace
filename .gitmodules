@@ -4,3 +4,6 @@
 [submodule "mongoDB/workspace/5_upstar_music"]
 	path = mongoDB/workspace/5_upstar_music
 	url = https://github.com/Anylee2142/UpStarMusic.git
+[submodule "fastcampus/dss/script/git_guide"]
+	path = fastcampus/dss/script/git_guide
+	url = https://github.com/Anylee2142/fss-linux-git.git

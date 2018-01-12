@@ -1,0 +1,23 @@
+데이터 분석 라이브러리는 대부분 C로 작성되있어서 api만 파이썬임.
+따라서 파이썬으로 보여도 성능은 좋다 !
+
+파이썬의 종류
+1. Cpython
+    C로 작성된 파이썬 -> 데이터 분석을 위한 라이브러리
+
+2. Jython
+    JVM에서 동작하는 파이썬
+
+3. IronPython
+    C#
+
+4. Pypy
+    pypy.org
+
+
+cmd에서 jupyter notebook 할 수 있는데
+노트북이 콜러의 cli를 따르므로 되도록 git bash를 쓰는게 좋다 !
+
+
+time = 프로세스를 한번 실행시킬 때 걸리는 시간
+timeit = 프로세스의 평균 수행속도

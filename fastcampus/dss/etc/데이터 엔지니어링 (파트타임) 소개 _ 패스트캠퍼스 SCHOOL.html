@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]><html lang="ko-KR" class="ie9"><![endif]-->
+<!--[if !IE]><!--><html lang="ko-KR"><!--<![endif]-->
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="UTF-8">
+<title>데이터 엔지니어링 (파트타임) 소개 | 패스트캠퍼스 SCHOOL</title> <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
+<meta name="Robots" content="all">
+<link rel="shortcut icon" href="https://d1z1a3q7uy2q8k.cloudfront.net/icon/favicon.ico">
+
+<!-- SEO Metas -->
+<meta name="description" content="패스트캠퍼스의 SCHOOL 과정(웹프로그래밍,프론트엔드,안드로이드개발,ios개발,디지털마케팅,데이터사이언스,컴퓨터공학,UX/UI)은 원하는 방향으로 커리어를 변경하고자 하는 강한 열망을 가진 분들을 돕기 위해 탄생한 3개월간의 부트캠프 과정입니다.">
+<meta name="keyword" content="취직,스타트업,커리어,패스트,패스트캠퍼스,fastcampus,패캠,패스트캠퍼스스쿨,스쿨,교육,웹프로그래밍,프론트엔드,안드로이드개발,ios개발,디지털마케팅,데이터사이언스,컴퓨터공학,UX/UI,디자인">
+
+<!-- Twitter og -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@fastcampus" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:creator" content="" />
+
+<!-- Facebook og -->
+<meta property="og:title" content="데이터 엔지니어링 Extension SCHOOL | 패스트캠퍼스 SCHOOL" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://d1z1a3q7uy2q8k.cloudfront.net/profile_images/default/dafault-profile.png" />
+<meta property="og:url" content="http://school.fastcampus.co.kr/data_des/" />
+<meta property="og:description" content="" />
+
+<!-- Goolge Analytics  -->
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-N45LZDZ':true});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-92589619-1', 'auto');
+  ga('require', 'GTM-N45LZDZ');  
+  ga('send', 'pageview');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQCV6ZL');</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1648117745465194'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1648117745465194&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://cdn.quilljs.com/1.1.5/quill.snow.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css">
+
+<!--[if lte IE 9]><link href="https://d1z1a3q7uy2q8k.cloudfront.net/css/school-ie9.1a7a647d26cb.css" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if !IE 8]><!-->
+<!-- School-Web-Style -->
+<link href="https://d1z1a3q7uy2q8k.cloudfront.net/css/school.f162826d0965.css" rel="stylesheet" type="text/css" />
+<!-- School-Web-Custom-Style -->
+
+<style>
+  
+</style>
+
+<!--<![endif]-->
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQCV6ZL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!--[if lte IE 9]>
+<div class="alert-old-browser">
+<em>현재 사용하고 계신 브라우저는 <strong>지원이 종료된 구버전 브라우저</strong>로<br>정상적인 이용이 어렵습니다.</em><a class="link" href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">최신 브라우저를 무료로 다운</a>받으셔서 더 빠르고 안전하게 패스트캠퍼스 사이트를 이용하세요.</div>
+<![endif]-->
+
+
+<header class="header">
+  <div class="wa-container">
+    <a class="wa-link" href="#gnb">메뉴 바로가기 <span class="ion-chevron-right"></span></a>
+    <a class="wa-link" href="#main">본문 바로가기 <span class="ion-chevron-right"></span></a>
+  </div>
+  <div class="header__container-util">
+    <div class="header__container-inner">
+      <ul class="util-list">
+        <li class="util-item"><a class="facebook-link" href="https://www.facebook.com/fastcampusschool/" target="_blank">SCHOOL facebook</a></li>
+        <li class="util-item"><a class="fastcampus-link" href="http://fastcampus.co.kr" target="_blank">패스트캠퍼스 홈</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header__container-top">
+      <a class="header__logo-link" href="/"><h1 class="header__logo">Fast campus School</h1></a>
+    <button class="header__btn-gnb" type="button"></button>
+  </div>
+  <div class="header__container-bottom">
+    <div class="header__container-inner">
+      <ul id="gnb" class="header__gnb-list" data-style="display: flex; justify-content: space-between;">
+        <li class="header__gnb-fixed-item"><a class="fixed-logo" href=""></a></li>
+        <li class="header__gnb-item" data="is-submenu">
+            <a class="header__gnb-link desktop" href="/#school-category"><span>풀타임 교육과정</span></a>
+            <a class="header__gnb-link mobile" href="#" onclick="return false;"><span>풀타임 교육과정</span></a>
+            <ul class="header__gnb-dropdown" data-style="display: flex; justify-content: space-between;">
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/data_das/"><span>R 데이터 사이언스 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/data_dss/"><span>Python 데이터 사이언스 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/mktg_dms/"><span>디지털 마케팅 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/mktg_cms/"><span>브랜드 마케팅 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/dgn_uds/"><span>UX/UI 디자인 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/dgn_sps/"><span>서비스 기획 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/dev_css/"><span>컴퓨터공학 입문 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/dev_ads/"><span>안드로이드 개발 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/dev_ids/"><span>iOS 개발 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/dev_fds/"><span>프론트엔드 개발 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/dev_wps/"><span>웹 프로그래밍 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/mktg_adop/"><span>광고 운영 실무 마스터 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/extension_intro/"><span>파트타임 Extension 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/extension_cs/"><span>컴퓨터 사이언스 (파트타임) 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/extension_quant/"><span>금융공학 / 퀀트 (파트타임) 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/extension_da/"><span>데이터 사이언스 (파트타임) 스쿨</span></a></li>
+              
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/data_des/"><span>데이터 엔지니어링 (파트타임) 스쿨</span></a></li>
+              
+            </ul>
+        </li>
+        <li class="header__gnb-item " data="is-submenu">
+            <a class="header__gnb-link desktop" href="/students/all/"><span>수료생 현황</span></a>
+            <a class="header__gnb-link mobile" href="#" onclick="return false;"><span>수료생 현황</span></a>
+            <ul class="header__gnb-dropdown" data-style="display: flex; justify-content: space-between;">
+              <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/all/"><span>전체</span></a></li>
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/dev_gds/"><span>Unity 게임 개발 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/data_dss/"><span>Python 데이터 사이언스 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/mktg_dms/"><span>디지털 마케팅 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/dgn_uds/"><span>UX/UI 디자인 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/dev_ads/"><span>안드로이드 개발 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/dev_ids/"><span>iOS 개발 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/dev_fds/"><span>프론트엔드 개발 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/dev_wpsn/"><span>Node.js 웹 프로그래밍 스쿨</span></a></li>
+                
+              
+                
+                  <li class="header__gnb-sublist"><a class="header__gnb-sublink" href="/students/dev_wps/"><span>웹 프로그래밍 스쿨</span></a></li>
+                
+              
+            </ul>
+        </li>
+        <li class="header__gnb-item">
+            <a class="header__gnb-link" href="/outcomes/all/"><span>프로젝트 결과물</span></a>
+        </li>
+        <li class="header__gnb-item">
+          <a class="header__gnb-link" href="/blog/all/"><span>블로그</span></a>
+        </li>
+        <li class="header__gnb-item-last"><a class="header__gnb-link" href="/partners/"><span>채용 연계 기업</span></a></li>
+        
+        <li class="header__unb-item" data-usecase="login"><a class="header__btn-login" href="/account/login/"><span>Log in</span></a></li>
+        <li class="header__unb-item" data-usecase="signin"><a class="header__btn-signin" href="/account/signup/"><span>Sign up</span></a></li>
+        
+        <li class="header__unb-item-last"><a class="header__btn-fastcampus" href="http://fastcampus.co.kr" target="_blank"><span>Fastcampus</span><span class="mobile-show">.co.kr</span></a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="main">
+  
+
+<!--관리자 편집 버튼-->
+
+
+<div class="content-wrapper data_des" data-ng-init="editSchoolCtrl.school_id = 22">
+  <!--리모콘 버튼-->
+  <div class="school-nav-container">
+    <div class="school-nav">
+      <ol class="school-nav-list">
+        <!--콘텐츠에 따라 동적으로 목록추가 됨-->
+      </ol>
+      <div class="school-nav-footer">
+        <button class="btn-category-list" title="전체 목록 보기">
+          <span class="ion-navicon"></span><span class="text-hidden">목록보기</span>
+        </button>
+        <a class="btn-school-apply" href="/data_des/apply">상담 신청하기</a>
+      </div>
+    </div>
+  </div>
+  <!--커스텀 콘텐츠 영역-->
+  
+	  <style>
+/*********************
+상세페이지 스타일 설정
+*********************/
+
+
+/* 신청 버튼 폰트 색상 설정 : 
+버튼의 기본색상은 #fff입니다. 가독성문제로 색상을 어둡게 하려면 아래 주석 해제하시면 됩니다. 
+그러면 페이지 내의 신청버튼(btn-school-apply)의 색상 모두 변경됩니다.  */
+
+.btn-school-apply {
+/*color: #151515 !important;*/
+}
+
+
+/* 콘텐츠 헤더 비주얼 영역 데스크탑 배경 : x 
+용량이 최대 400kb를 넘지 않도록 주의해주세요. 1440 * 240 */
+
+.content-header__visual {
+background-image: url("https://d1z1a3q7uy2q8k.cloudfront.net/school_content_images/school-header__vision.jpg");
+}
+
+
+/* 콘텐츠 헤더 비주얼 영역 모바일 배경 : x
+용량이 최대 400kb를 넘지 않도록 주의해주세요. */
+
+@media screen and (max-width: 750px) {
+.content-header__visual {
+background-image: url("https://d1z1a3q7uy2q8k.cloudfront.net/school_content_images/school-header__vision.jpg");
+}
+}
+</style>
+<!-- 
+## 콘텐츠 헤더 영역 : 
+
+이 영역은 전체 스쿨이 스타일을 통일성있게 가져가는 것이 필요합니다.
+일부 영역 내에서 자유로운 표현이 가능하지만, 정말 중요한 내용만 포함시키고 나머지는 콘텐츠 영역에서 강조해주세요.
+그래야 사용자들이 첫 진입시 교육을 통해 얻을 수 있는 것을 한 눈에 알기 쉽습니다.
+
+### content-header__title의 data-school-typo 속성 : 
+상세페이지 상단의 비주얼 요소를 타이포그래피로 표현할 수 있도록 해줍니다.
+스쿨에 관계없이 영문 대문자로 통일하여 사용하는 것이 시각적으로 보기 좋고, 띄어쓰는 부분이 내려쓰기의 일반적인 기준이 됩니다.
+화면 크기에 따라 다른 지점에서 내려쓰기 될 수도 있으나 의미전달보다 시각적인 목적에서 사용하는 부분으로 크게 신경쓰지 않으셔도 됩니다.
+
+예 : data-school-typo="JAVA PROGRAMING"
+-->
+<div class="content-header">
+    <div class="content-header__title" data-school-typo="Data Engineer">
+        <h2 class="school-title">
+            <strong>데이터 엔지니어링</strong> <!-- 스쿨이름이 길 경우 <br>으로 내려쓰기 해주세요. -->
+            <span>Extension SCHOOL</span>
+        </h2>
+        <div class="school-desc">
+        <!-- 이곳에 자유롭게 콘텐츠 입력이 가능합니다. (시작) : 필요한 템플릿의 주석을 활성화하여 사용하세요.-->
+            <!-- 기본 템플릿 : school-desc__text -->
+            <p class="school-desc__text">
+                Linux와 Hadoop부터 Spark까지 심도있게 학습하고
+                <br class="desktop-br"> 데이터 플로우의 처음부터 끝까지 직접 핸들링하는 데이터 엔지니어로 성장하세요!
+            </p>
+            <!--그리드 템플릿 : school-desc__grid-->
+            <!--<div class="school-desc__grid">-->
+            <!--    <div class="lg-4 md-4 sm-12">a</div>-->
+            <!--    <div class="lg-4 md-4 sm-12">b</div>-->
+            <!--    <div class="lg-4 md-4 sm-12">c</div>-->
+            <!--</div>-->
+        <!-- 이곳에 자유롭게 콘텐츠 입력이 가능합니다. (끝) -->
+        </div>
+    </div>
+    <!--.
+    ## .content-header__summary : 스쿨에 대한 핵심 요약정보를 목록 형태로 박스 영역입니다. 
+
+    .content-header__summary > .summary-box > .summary-title + .summary-list > .summary-item의 기본 구조를 유지해주세요.
+    .summary-item 내부에는 기본적으로 span.icon과 p.text 요소가 존재합니다. 
+    데스크탑에서는 이미지가 왼쪽 정렬, 모바일에서는 상단으로 정렬되도록 기본 설정되있습니다.
+    박스 내부 레이아웃은 summary-item 요소에 그리드 컬럼 클래스를 추가함으로 조정이 가능합니다. (ex) lg-12 md-6 sm-6
+    -->
+    <div class="content-header__summary">
+        <div class="summary-box">
+            <!--<h3 class="summary-title">요약 제목</h3>-->
+            <ul class="summary-list">
+                <li class="summary-item lg-12 md-6 sm-6">
+                    <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/08/target.png" alt="Placeholder"></span>
+                    <p class="text">실무 핵심 역량만 담은
+                    <br class="mobile-br"> 정확한 커리큘럼</p>
+                </li>
+                <li class="summary-item lg-12 md-6 sm-6">
+                    <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/08/teamwork.png" alt="Placeholder"></span>
+                    <p class="text">프로젝트로 완성하는
+                    <br class="mobile-br"> 실습형 강의</p>
+                </li>
+                <li class="summary-item lg-12 md-6 sm-6">
+                    <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/08/sort-a-to-z.png" alt="Placeholder"></span>
+                    <p class="text">Spark 기초부터 심화까지
+                    <br class="mobile-br"> Spark의 A to Z</p>
+                </li>
+                <li class="summary-item lg-12 md-6 sm-6">
+                    <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/08/presentation.png" alt="Placeholder"></span>
+                    <p class="text">현업 전문가가 가르치는
+                    <br class="mobile-br"> Up-to-date 기술</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--
+    .content-header__apply와 content-header__visual의 기본 구조를 유지해주세요.
+    텍스트와 링크 부분만 수정해주시고, 필요해따라 해당 영역을 주석처리하여 사용하시면 됩니다.
+    -->
+    <div class="content-header__apply">
+        <div class="lg-3 md-12 sm-12 push-lg-1">
+            <a class="btn-apply btn-apply--consult" href="/data_des/apply/" style="background-color:#000000;">수강신청<br>( 11월 30일 1차 모집 마감됩니다. )</a>
+        </div>
+        <div class="lg-3 md-12 sm-12 push-lg-1">
+            <a class="btn-apply btn-apply--explain" href="http://school.fastcampus.co.kr/extension_intro/#1110" target="blank">입학설명회 참가신청 <br>( 11/10 금 저녁 8시 )</a>
+        </div>
+
+        <div class="lg-12 md-12 sm-12 push-lg-1">
+            <p class="text">선착순으로 조기마감될 수 있으니
+            <br class="mobile-br">고민 전에 먼저 상담부터 받아보세요!</p>
+            <em class="contact"><a href="tel:025186529">문의 박지은 매니저 02-518-6529</a></em>
+        </div>
+    </div>
+    <div class="content-header__visual">
+        <div class="container">
+            <p class="visual-text">데이터 엔지니어가 되기 위한 <br>가장 정확한 로드맵을 제시합니다.</p>
+        </div>
+    </div>
+</div>
+
+<div class="content-body" style="margin-top:0px; padding-top:0px;">
+
+
+    <div class="content-section-column  has-background" style="background-color: #424242; color: #ffffff; padding-top:60px; margin-top:0px;">
+        <div class="school-container-inner">
+            <ul class="row text-left">
+                <hr>
+                <p style="font-size:30px; font-weight:800; text-align:left;" ><em>Extension SCHOOL</em></p>
+                <p style="font-size:14px; line-height:1.8em; margin-top:10px;">패스트캠퍼스 Extension SCHOOL은 새로운 분야를 체계적이고 심도있게 배워 자신의 커리어 영역을 개발하고 확장하기 원하는 분들을 위해 태어났습니다. 빠르게 변화하는 디지털 시대에 맞춰 대학원에 준하는 여러 디지털 영역의 실질적인 직무 역량을 배양할 수 있도록 기초부터 심화까지 레벨별로 구성된 정교한 커리큘럼과 로드맵을 제시합니다.</p>
+                <li class="lg-4 md-4 sm-12" style="margin-top:50px;">
+                    <div style="text-align:center;">
+                    <span class="ion-checkmark" style="font-size:25px;"></span><br>
+                    </div>
+                    <p style="font-size:17px; text-align:center;"><b>단계별로 차근차근</b></p>
+                    <p style="line-height:1.8em; font-size:12px; margin-top:10px; font-weight:200;">차근차근 진학하는 단계별 구성을 통해 해당 분야의 기초 지식부터 심화 이론, 최신 기술과 트렌드까지 커리어 확장을 위한 전반적인 지식을 학습합니다.</p>
+                </li>
+                <li class="lg-4 md-4 sm-12" style="margin-top:50px;">
+                    <div style="text-align:center;">
+                    <span class="ion-checkmark" style="font-size:25px;"></span><br>
+                    </div>
+                    <p style="font-size:17px; text-align:center;"><b>회사 다니면서</b></p>
+                    <p style="line-height:1.8em; font-size:12px; margin-top:10px; font-weight:200;">익스텐션 스쿨은 평일 저녁과 주말에 진행하는 과정으로 일을 하면서도 장기적으로 다음 커리어에 대한 준비를 해나가실 수 있습니다.</p>
+                </li>
+                <li class="lg-4 md-4 sm-12" style="margin-top:50px;">
+                    <div style="text-align:center;">
+                    <span class="ion-checkmark" style="font-size:25px;"></span><br>
+                    </div>
+                    <p style="font-size:17px; text-align:center;"><b>Hard Training System</b></p>
+                    <p style="line-height:1.8em; font-size:12px; margin-top:10px; font-weight:200;">출결, 과제, Test, 프로젝트를 디테일하게 평가하여 일정 점수 미만 시 다음 학기 수강이 불가하도록 관리하여 레벨별 수업 수준을 엄격하게 유지합니다.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    <div class="content-section-column" style="margin-top: 70px;">
+        <div class="school-container-inner">
+            <h3 class="section-title line-style" style="margin-bottom: 50px;" data-nav-title="1. Why 데이터 엔지니어링"><span>Why 데이터 엔지니어링</span></h3>
+            
+            <ul class="row text-left">
+                <li class="lg-6 md-6 sm-12 text-left">
+                    <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/wanted.png" alt="" width="100%">
+                </li>
+                <li class="lg-6 md-6 sm-12 text-left">
+                    <h4 style="text-align:left; margin-top:10px;">
+                    <br>모든 산업에서
+                    <br>데이터 전문가를 찾지만
+                    <br>빅데이터 엔지니어 전문 인력은 너무나 부족해
+                    <br>기업이 서로 모셔가고 있는 실정입니다.</h4>
+                </li>
+                <li class="lg-12 md-12 sm-12 text-left">
+                    <p class="mentor-history" style="margin-top: 20px; margin-bottom: 20px;">
+                        - Hadoop, Hive, Spark 등을 통한 large-scale data processing 경험
+                        <br>- AWS 클라우드 인프라 활용능력
+                        <br>- sql, nosql 오픈소스 사용
+                        <br>- 리눅스 환경에서의 개발 경험
+                        <br>- Java, Python, Scala 언어 중 최소 1개 활용능력
+                        <br>- 머신러닝 기법에 대한 이해와 적용</p>
+                </li>
+            </ul>
+            <ul class="row text-left">
+                <li class="lg-12 md-12 sm-12 text-left">
+                    <h4 style="text-align:left; margin-top:10px; font-weight:300">채용공고에서 확인할 수 있는 기업들이 데이터 엔지니어에게 요구하는 공통 역량은 꽤나 명확한데
+                    <br>현직자의 스킬업을 위한 단기과정 혹은 불필요한 내용까지 흐름없이 몰아넣은 얕고 넓은 강의만 있을 뿐,<br>
+                    <br><span style="padding: 1px; background-color: #E0F2F7; font-weight: bold;">데이터의 생성, 저장, 추출 및 가공이라는 일련의 흐름을 이해하고 구조화하는 것은 물론
+                    <br>Hadoop 설치부터 클러스터 구성, 에코시스템 설계, Spark를 이용한 전처리와 분석을 직접 경험해보는
+                    <br>'데이터 엔지니어링의 핵심'을 가르치는 명확한 기본 교육 과정은 지금까지 없었기 때문입니다.</h4>
+                </li>
+            </ul>
+            </div>
+
+    </div>
+    
+    <div class="content-section-column  has-background" style="background-color: #EFF5FB; color: #424242; padding-top:10px;">
+        <div class="school-container-inner">
+            <ul class="row text-left">
+                <li class="lg-12 md-12 sm-12 text-left">
+                    <h2 style="text-align:left; margin-top:50px">데이터 엔지니어링 Extension SCHOOL은</h2>
+                    <h3 style="font-size:17px; color: #156692; margin-top: 10px; margin-bottom: 60px;">✔ 데이터 엔지니어링을 위해 꼭 선행되어야 할 데이터베이스 기반 지식은 물론
+                    <br>✔ Hadoop 프레임워크와 함께 최근 각광받고 있는 Spark를 매우 심도있게 다루는 국내 유일 과정입니다.</h3>
+                </li>
+                <li class="lg-6 md-6 sm-12 text-left">
+                    <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/des_ksw.png" alt="Placeholder" width="95%">
+                    <p class="column-text"><span class="ion-quote"></span>
+                        Spark는 최근에 나왔고 많은 인기를 얻고 있는 프레임워크답게 사용법이 보다 쉽고 간단합니다. 그러면서도 강력한 기능을 가지고 있다는 점이 매력적이죠. 또한 SQL, Streaming, Machine Learning 등으로 손쉽게 확장이 가능하기 때문에 데이터 분석을 처음 접하는 엔지니어 입장에서는 정말 좋은 프레임워크입니다. 데이터 엔지니어링 익스텐션 스쿨은 Spark 프레임워크를 업무에 바로 사용할 수 있게 만들어주는 이론 교육 및 실습 과제들로 구성되어 있습니다.
+                        <br><a class="btn-school-border full" href="http://blog.fastcampus.co.kr/221102221336" style="padding:5px; margin-top:15px;" target="_blank">인터뷰 자세히보기 >></a>
+
+                    </p>
+
+                </li>
+                <li class="lg-6 md-6 sm-12 text-left">
+                    <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/des_manager.png" alt="Placeholder" width="95%">
+                    <p class="column-text"><span class="ion-quote"></span>
+                        데이터 엔지니어에 대해 정확히 파악하고 필요한 교육을 제공하는 기관이 미미합니다. 국비지원과정의 경우 데이터 엔지니어링을 위한 핵심적인 스킬보다는 프로그래밍 언어 자체, 웹 개발 또는 데이터 엔지니어링의 핵심에서는 벗어난 내용을 다뤄 시간만 길어지고, 중요한 부분에 대해서는 깊이있게 다루지 못하고 있습니다. 데이터 엔지니어링 익스텐션 스쿨은 국내 다양한 기업에서 활발한 활동 중인 데이터 엔지니어분들을 만나뵙고 많은 대화를 통해 꼭 필요한 과정만을 담아 현재 커리큘럼을 구성하였습니다.
+                        <br><a class="btn-school-border full" href="http://blog.fastcampus.co.kr/221097744315" style="padding:5px; margin-top:15px;" target="_blank">인터뷰 자세히보기 >></a>
+
+                    </p>
+                </li>
+                <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/des_mix.png" alt="Placeholder" width="100%">
+                <p class="column-text" style="font-size:16px; color:#DF0101; margin-top: 10px; margin-top:50px; margin-bottom: 5px;">
+                        <b>본 과정을 원활하게 수강하시기 위해서는 아래 조건 중 최소 2가지를 충족하셔야 합니다.</b></p>
+                <p class="mentor-history" style="margin-top: 10px;">
+                        - 객체 지향 언어가 어떤 것인지 설명할 수 있다.
+                        <br>- Java 또는 Python으로 자유롭게 객체를 생성하고, 함수를 짜고, 클래스를 구현할 수 있다.
+                        <br>- 절차 지향 코드를 객체 지향 코드로 자유롭게 구현하고 효율화할 수 있다.
+                        <br>- 객체 지향 언어를 이용해 알고리즘 기초 수준의 문제는 섭렵했다.</p>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="content-section-column" style="margin-top: 100px;">
+            <div class="school-container-inner">
+                <h3 class="section-title line-style" data-nav-title="2. 추천 대상"><span>이런 분에게 추천합니다.</span></h3>
+                <ul class="row text-left" style="margin-top: 20px;">
+                    <li class="lg-2 md-2 sm-12">
+                        <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/10/des_programmer2.png" alt="" width="80%" style="text-align:">
+                    </li>
+                    <li class="lg-10 md-10 sm-12">
+                        <h4 style="color: #156692">데이터를 처리하는 모든 과정을 이해하여 본격 데이터 분야로 옮겨가고자 하는
+                        <br class="desktop-br">백엔드 개발자/서버 개발자</h4>
+                        <p class="column-text" style="font-size:14px;">현재 데이터에 관련된 업무를 직접하고 있진 않지만 평소에 데이터를 처리하는 과정에 관심을 두고 있는 분, 급하게 데이터 관련 일을 담당하게 되어 주먹구구식으로 일하면서 데이터 플로우에 대한 깊이 있는 이해가 간절했던 분, 현재 나의 프로그래밍 역량을 기반으로 빅데이터 파이프라인을 구축/구현하기 위한 역량을 쌓아 데이터 엔지니어로 직무 전환을 원하는 '개발자'에게 추천합니다.  </p>
+                    </li>
+                </ul>
+                <ul class="row text-left" style="margin-top: 20px;">
+                    <li class="lg-2 md-2 sm-12">
+                        <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/10/des_programmer.png" alt="" width="80%" style="text-align:">
+                    </li>
+                    <li class="lg-10 md-10 sm-12">
+                        <h4 style="color: #156692">핫하다는 머신러닝 딥러닝 공부해봤지만 분석 그 전에,
+                        <br class="desktop-br">데이터 생성부터 시작하여 데이터의 모든 처리과정을 차근차근 알고 싶은 분</h4>
+                        <p class="column-text" style="font-size:14px;">분석 업무를 담당하고 있거나 데이터 관련 직무에 대한 관심으로 머신러닝 딥러닝을 공부하고 분석 프로젝트도 해보았지만 지금 내 손에 떨어진 이 데이터가 어떻게 처리되고 어떻게 분류된 데이터인지에 대한 의구심이 남는 분, 데이터 플로우, 인프라 구축에 대한 이해가 필요한 분에게 추천합니다.</p>
+                    </li>
+                </ul>
+                <ul class="row text-left" style="margin-top: 20px;">
+                    <li class="lg-2 md-2 sm-12">
+                        <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/10/des_graduated.png" alt="" width="80%" style="text-align:">
+                    </li>
+                    <li class="lg-10 md-10 sm-12">
+                        <h4 style="color: #156692">카카오, 네이버, 쿠팡, 티켓몬스터와 같은 
+                        <br class="desktop-br">데이터의 흐름이 굵직한 기업의 데이터 전문가로 취업하고 싶은 대학생/취준생</h4>
+                        <p class="column-text" style="font-size:14px;">컴퓨터공학, 산업공학을 전공하고 개발을 공부했으니 당연하게 개발자의 길로 나가야한다고 생각하고 계시나요? 많은 회사들이 데이터 처리의 중요성을 인식하고 프로그래머를 찾듯 데이터 엔지니어를 상시 채용하고 있습니다. 데이터 관련 직무가 뜨고 있다고는 하는데 어떤 것부터 어떻게 공부해야 할 지 모르겠는 분에게 추천합니다.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+
+    
+    
+    
+    <div class="content-section-column" style="margin-top: 100px;">
+            <div class="school-container-inner">
+            <h3 class="section-title line-style" data-nav-title="3. 강의 특징"><span>강의 특징</span></h3>
+                <ul class="row">
+                    <li class="lg-4 md-4 sm-12">
+                        <div class="text-center" style="margin-bottom: 30px;"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/instructor-giving-a-lecture-with-circular-graphic-on-screen.png"alt=""max-width="100px" width="30%"> <h4 class="column-title" style="font-size:17px">현업 최고 데이터 전문가가<br>직접 강의합니다.</h4>
+                        </div>
+                        <p class="column-text"style="font-size:14px"> 데이터를 다루는 현업자들은 많지만 '빅데이터'라고 부를만한 대용량 데이터를 실제 현업에서 매일 만나고 그 프로세스를 리드하는 전문가는 쉽게 만나기 어렵습니다.<br><b>본 과정은 20M 다운로드를 이끈 글로벌 커플앱서비스 Between의 데이터팀 리드를 맡고 계신 김상우 강사님은 물론 Java부터 Hadoop, 머신러닝까지 전부 다루는 풀스텍 개발자 박성백 강사님, 국내 최고의 Scala 전문가인 김흥진 강사님을 모시고, 강사님이 직접 피드백하는 실습 중심으로 구성된 과정입니다. </b></p>
+                    </li>
+                    <li class="lg-4 md-4 sm-12">
+                        <div class="text-center"style="margin-bottom: 30px;"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/그림1.png" alt="" max-width="100px" width="30%">
+                        <h4 class="column-title" style="font-size:17px">로드맵을 제시하는 <br>체계적인 과정입니다.</h4>
+                        </div>
+                        <p class="column-text"style="font-size:14px">빅데이터의 인기에 힘입어 우후죽순 생기고 있는 국비지원과정이나 대학, 대학원의 강의들은 교육과정과 관련실습이 체계적으로 관리되지 않고 일방적으로 지식을 전달하기만 하는 경우가 많습니다.<br><b> 데이터 엔지니어링 익스텐션 스쿨에서는 데이터의 생성, 저장, 추출 및 가공이라는 데이터 플로우를 직접 핸들링할 수 있는 모든 핵심 역량을 핵심별로 학습할 수 있도록 정교하게 짜여진 교육과정을 수강생들에게 제공합니다.</b></p>
+                    </li>
+                    <li class="lg-4 md-4 sm-12">
+                        <div class="text-center"style="margin-bottom: 30px;"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/tap.png" max-width="100px" width="30%">
+                        <h4 class="column-title" style="font-size:17px">기초부터 심화까지 <br>꼭 필요한 것만 가르칩니다.</h4>
+                        </div>
+                        <p class="column-text"style="font-size:14px">데이터 엔지니어링 전체 프로세스를 이해하기 위해 필수적으로 알아야 할 Linux와 Infra를 먼저 학습하고 Hadoop과 SQL, NoSQL 관련 컴포넌트까지 다룹니다. 그리고 최근 가장 떠오르는 프레임워크인 Spark를 기초부터 심화까지 깊이있게 학습합니다. 모든 수업은 이론 학습 후 바로 진행되는 실습을 통해 완전한 내 기술로 만들 수 있습니다.<br> <b>국내 다양한 기업에서 활발한 활동 중인 데이터 엔지니어분들과의 인터뷰를 통해 꼭 필요하고 중요한 내용들만을 커리큘럼에 담았습니다.</b></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    
+    
+    
+    <div class="content-section-accordion" style="margin-bottom:100px;">
+        <div class="school-container-inner">
+            <h3 class="section-title line-style" data-nav-title="4. 자주묻는 질문"><span>코스매니저가 직접<br>궁금증을 해결해드립니다.</span></h3>
+            <ul class="accordion-list">
+                <li class="accordion-item">
+                    <button class="title"><span class="ion-android-add-circle"></span> 데이터 엔지니어는 무슨 일을 하는 사람인가요?</button>
+                    <div class="content">
+                        <p>한마디로 `데이터의 흐름을 관장하는 사람`이라고 표현할 수 있을 것 같습니다. 데이터가 넘쳐나는 시대에 다양한 데이터 소스로부터 의미있는 데이터를 추출, 변환하고 적재하는 시스템을 설계하고 구현하여 운영하는 사람이 바로 데이터 엔지니어입니다. 최근에는 이렇게 데이터 플로우를 핸들링하는 것에 더해 분석까지도 할 수 있는 데이터 엔지니어를 원하고 있습니다.</p>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <button class="title"><span class="ion-android-add-circle"></span> 데이터 엔지니어에게 요구하는 역량은 어떤 것이 있나요?</button>
+                    <div class="content">
+                        <p>현 시장에서 원하는 데이터 엔지니어는 대체로 Java 또는 Python을 능숙하게 다루는 것을 기본으로 RDBMS와 NoSQL, Hadoop 및 Spark를 이해하고 이를 실제 다뤄본 경험을 가지고 있는 사람입니다. 데이터 엔지니어링 익스텐션 스쿨에서는 이 모든 핵심적인 역량들을 체계적인 로드로 학습하며 수료 후, 데이터의 플로우를 관장하는 데이터 엔지니어로 한 발 내딛을 수 있습니다.</p>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <button class="title"><span class="ion-android-add-circle"></span> 커리큘럼 초반에 Linux, Infra는 왜 학습하나요?</button>
+                    <div class="content">
+                        <p>빅데이터 분산 처리 시스템인 Hadoop과 Spark를 잘 다루는 것도 물론 중요하지만, 이들은 결국 Linux와 infra를 기반으로 그 위에서 움직이는 것이기에 데이터 엔지니어링의 프로세스를 이해하기 위해서는 Linux, Infra에 대한 기반 지식이 필수적입니다. 기초를 튼튼히 해야 그 위에 얹을 지식들도 단단하게 세워질 수 있습니다.</p>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <button class="title"><span class="ion-android-add-circle"></span> 본 과정을 듣기 위한 사전 지식으로 어떤 것이 필요한가요?</button>
+                    <div class="content">
+                        <p>기본적으로 Java, Python 또는 C, C++등의 프로그래밍 언어 하나에 능숙하신 분이면 본 과정을 원활하게 수강하실 수 있습니다. 다만 현업에서 빅데이터 플랫폼을 다룰 때나 성능 개선을 위해 Hadoop과 Spark의 기반 언어인 Java를 이용하기 때문에 가급적이면 Java의 학습이 선행된 분에게 더 적합한 과정일 수 있습니다. 그 일환으로 수강신청 후 부여될 사전과제는 Java에 대한 기반 지식을 쌓는 것이며, 미션을 통과하시면 본 과정을 수강하실 수 있습니다.</p>
+                    </div>
+                </li>
+                <li class="accordion-item">
+                    <button class="title"><span class="ion-android-add-circle"></span> 데이터 엔지니어가 머신러닝도 알고 있어야 하나요?</button>
+                    <div class="content">
+                        <p>데이터 엔지니어는 데이터의 흐름을 이해하고 처리하는 사람입니다. 그렇기에 데이터 엔지니어링 작업을 거친 후, 깔끔하게 다듬어진 데이터들을 분석할 수 있는 능력까지 있다면 금상첨화겠지요! 따라서 본 과정은 현 시장에서 핫한 키워드로 떠오른 머신러닝에 대한 학습도 함께하여 분석력까지 더한 데이터 엔지니어로 성장할 수 있도록 커리큘럼이 구성되어있습니다. 데이터 엔지니어링 익스텐션 스쿨을 통해 경쟁력 있는 데이터 엔지니어로 거듭나세요.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+    
+    
+
+
+    
+    
+    <div class="content-section-column" style="margin-top: 40px;">
+        <div class="school-container-inner">
+            <h3 class="section-title line-style" style="margin-bottom: 50px;" data-nav-title="5. 커리큘럼"><span>커리큘럼</span></h3>
+            <ul style="margin-top:50px; margin-bottom:20px;">
+                <li class="lg-6 md-6 sm-12" style="margin-top:30px;">
+                    <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:12px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:12px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xi5i{background-color:#166692;color:#ffffff;vertical-align:top}
+.tg .tg-azrr{font-weight:bold;background-color:#424242;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-azra{background-color:#166692;color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-c57o{background-color:#ecf4ff;vertical-align:top; line-height:1.8em;}
+.tg .tg-yw4l{vertical-align:top; font-size:13px; line-height:1.8em;}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+<colgroup>
+<col style="width: 90px">
+<col style="width: 410px">
+</colgroup>
+  <tr>
+    <th class="tg-azrr" colspan="2">1학기</th>
+  </tr>
+  <tr>
+    <td class="tg-c57o" colspan="2"><b>학습목표</b><br>데이터 엔지니어 기반 지식 함양을 위한 Linux, Infra(Network, DB), SQL & NoSQL 부터 데이터 아키텍처 구현을 위한 Hadoop과 각종 컴포넌트를 학습하고 실습해봅니다.</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Intro<br>데이터 엔지니어링이란?</td>
+    <td class="tg-yw4l">- 빅데이터 개념 및 발전 추세<br>- 빅데이터 처리 기술의 종류와 특징<br>- 빅데이터 프로세스 : 데이터 수집, 저장, 분석, 응용</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Linux &amp; Infra (1)<br>: Network</td>
+    <td class="tg-yw4l">- 리눅스의 기본 개념과 설치<br>- 리눅스 관리자의 역할 및 사용자 관리<br>- 웹 서버 설치와 운영<br>- 데이터베이스 서버 설치와 운영<br>- 실무형 환경 구성 실습<br>- 네트워크 구성 이해 및 환경 구성 실습</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">GIT</td>
+    <td class="tg-yw4l">- 버전 관리 개념 이해<br>- Git 기초 개념 이해 및 설치<br>- Git 저장소 만들기<br>- 분산 환경에서의 Git, Git 명령<br>- github.com 활용</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Infra (2)<br>: Database &amp; SQL</td>
+    <td class="tg-yw4l">- 데이터베이스 개념 및 종류별 특징 이해<br>- 데이터베이스 설치 및 설정과 모델링<br>- SQL 핵심 이해 및 DDL, DCL, DML 실습<br>- SQL 고급 기법</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">NoSQL</td>
+    <td class="tg-yw4l"><span style="font-size:14px; font-weight:800;">MongoDB</span><br>- 몽고디비 핵심 개념 및 설치<br>- 스키마 설계 원리<br>- document 생성, 갱신, 삭제, 쿼리<br><br><span style="font-size:14px; font-weight:800;">Redis</span><br>- 레디스 이해 및 설치<br>- 레디스 데이터 타입<br>- 레디스 운영과 관리 <br><br><span style="font-size:14px; font-weight:800;">Cassandra</span><br>- 카산드라 이해 및 설치<br>- 카산드라 데이터 모델<br>- 카산드라 아키텍처</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Hadoop_Cluster<br>/HDFS<br>/MapReduce</td>
+    <td class="tg-yw4l">- 하둡 클러스터 환경 구성 이해<br>- 하둡 클러스터 환경 실습<br>- NameNode 관리와 DataNode 구성<br>- 아파치 하둡과 하둡 에코 시스템 이해<br>- 하둡 분산 파일 시스템 이해<br>- 하둡 설치<br>- 맵리듀스 프로그래밍 이해<br>- 하둡 개발 환경 구성</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Hive</td>
+    <td class="tg-yw4l">- 하이브 개요<br>- 하이브 환경 설정<br>- 하이브의 데이터 타입 이해<br>- 하이브 데이터 선택과 범위<br>- HiveQL 다루기</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Cloud - AWS</td>
+    <td class="tg-yw4l">- Intro &amp; EC2<br>- S3, RDS + NoSQL<br>- ELB &amp; EMR</td>
+  </tr>
+  <tr>
+    <th class="tg-azra" colspan="2">Mid-Project</th>
+  </tr>
+</table></div>
+                </li>
+                <li class="lg-6 md-6 sm-12" style="margin-top:30px;">
+                <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:12px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:12px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xi5i{background-color:#166692;color:#ffffff;vertical-align:top}
+.tg .tg-azrr{font-weight:bold;background-color:#424242;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-azra{background-color:#166692;color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-c57o{background-color:#ecf4ff;vertical-align:top; line-height:1.8em;}
+.tg .tg-yw4l{vertical-align:top; font-size:13px; line-height:1.8em;}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+<colgroup>
+<col style="width: 90px">
+<col style="width: 410px">
+</colgroup>
+  <tr>
+    <th class="tg-azrr" colspan="2">2학기</th>
+  </tr>
+  <tr>
+    <td class="tg-c57o" colspan="2"><b>학습목표</b><br>최근 높은 효율성으로 각광받고 있는 프레임워크 Spark를 업무에 바로 사용할 수 있도록 심화레벨까지 실습을 통해 학습하며 전처리와 분석을 직접 경험합니다. 이에 더해 Machine Learning(with Python &amp; PySpark)과 Deep Learning을 이해하고 적용해보는 과정까지 거친 후, 지금까지 학습한 모든 내용을 활용하여 Text NLP & 추천시스템 Project를 진행합니다.</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Spark</td>
+    <td class="tg-yw4l">- Spark이 탄생하기까지의 빅데이터 히스토리<br>- Hadoop 생태계<br>- Apache Spark 개요<br>- Functional Programming과 Scala <br>- Spark Demo<br>- Spark core concept<br>- Spark 실습환경 구축<br>- Spark 실습</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Spark_plus</td>
+    <td class="tg-yw4l"><span style="font-size:14px; font-weight:800;">Spark SQL</span><br>- Spark SQL 개요<br>- Dataframe API<br>- Spark SQL 실습<br><br><span style="font-size:14px; font-weight:800;">Spark Streaming</span><br>- Spark Streaming 실습환경 구축<br>- 트위터 실시간 분석 실습<br><br><span style="font-size:14px; font-weight:800;">Spark Cluster</span><br>- Spark cluster 실습환경 구축<br>- 클러스터링 실습</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Scala</td>
+    <td class="tg-yw4l">- Introduction<br>- A Scalable Language<br>- First Steps in Scala<br>- Next Steps in Scala<br>- Classes and Objects<br>- Basic Types and Operations<br>- Functional Objects<br>- Built-in Control Structures<br>- Functions and Closures<br>- Control Abstraction<br>- Composition and Inheritance <br>- Scala's Hierarchy<br>- Traits<br>- Packages and Imports<br>- Case Classes and Pattern Matching<br>- Working with Lists<br>- Collections<br>- Type Parameterization<br>- Abstract Members<br>- Implicit Conversions and Parameters<br>- Annotations<br>- Object Equality<br>- Combining Scala and Java<br>- Scala And Spark</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Machine Learning<br>ㅡ<br>with<br>Python &amp; PySpark<br></td>
+    <td class="tg-yw4l">- Pyspark 소개 및 실습<br>- Pandas Basics<br>- Numpy Arrays<br>- ML Intro<br>- Demo with Spark MLLib<br>- Supervised &amp; Unsupervised Learning<br>- Linear Regression<br>- Multi Var Linear Regression<br>- Logistic Regression<br>- Regularization<br>- Neural Network,- Unsupervised Learning<br>- Text NLP / Recommendation System</td>
+  </tr>
+  <tr>
+    <td class="tg-xi5i">Deep Learning</td>
+    <td class="tg-yw4l">* 상세 커리큘럼 업데이트 예정</td>
+  </tr>
+    <tr>
+    <th class="tg-azra" colspan="2">Final-Project</th>
+  </tr>
+</table></div>
+                
+                
+                
+                
+                
+                
+                </li>
+                <!--<li class="lg-12 md-12 sm-12" style="margin-top:30px;">
+                    <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/08/des_1.jpg" alt="Placeholder" width="100%">
+                </li>-->
+                
+            </ul>
+            <div class="text-center" style="padding-top:20px;">
+                <!--<a class="btn-school-normal" href="http://www.fastcampus.co.kr/wp-content/uploads/2017/08/UXUI_디자인_스쿨_상세커리큘럼_FAQ_170821.pdf" target="_blank" width="100%">상세 커리큘럼 & FAQ 확인하기</a>-->
+            </div>
+        </div>
+    </div>
+    
+        <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>현업 실무자가 말하는<br>데이터 엔지니어링 Extension SCHOOL</span></h3>
+        <ul class="row text-left">
+          <li class="lg-6 md-6 sm-12">
+            <h3 style="color: #424242; padding: 10px; margin-bottom:10px; background-color: #eaeaea; border-radius: 0.5em; text-align: left;"><span class="ion-quote"></span><br>데이터 분석에 앞선 일련의 과정을 <br class="desktop-br">절반으로 줄여주는 강의네요.</h3>
+            <h4 style="font-size:13px;">이** /<br><span style="background-color:yellow;">데이터 마이닝 개발자, 데이터 솔루션 개발 관련 기업</span></h4>
+            <p class="column-text" style="font-size:14px;"><b>현실에서는 데이터를 다루는데 있어서 가장 중요한 것이 알고리즘이 아니더군요. 수 기가부터 테라 단위의 데이터를 적절히 정제해 얼마나 깨끗한 데이터를 만들까. 어떤 데이터가 필요할까 등 데이터 수집부터 관리까지에 80% 이상의 시간을 할애합니다.이 과정은 이 80%의 시간을 40%로 줄여줄 수 있을 만큼 파워풀한 툴과 데이터 분야의 트렌드를 잘 담아내고 있네요.</b></p>
+          </li>
+          <li class="lg-6 md-6 sm-12">
+          <h3 style="color: #424242; padding: 10px; margin-bottom:20px; background-color: #eaeaea; border-radius: 0.5em; text-align: left;"><span class="ion-quote"></span><br>기업에서 먼저 찾는 <br class="desktop-br">데이터 엔지니어로 성장할 수 있는 과정이네요.</h3>
+          <h4 style="font-size:13px;">이**/<br><span style="background-color:yellow;">데이터 분석가, 여행 관련 플랫폼 서비스 스타트업</span>/데이터 사이언스 스쿨 수료</h4>
+            <p class="column-text" style="font-size:14px;">현업에서 데이터 분석도 중요하지만, 작은 규모의 회사에서는 분석가가 엔지니어링 및 기타 데이터 관련 제반 업무를 진행하기도 합니다. <b>Spark 뿐만 아니라 데이터 엔지니어링에서 널리 쓰이는 것들을 집중적으로 배울 수 있어서</b> 현업에서 먼저 찾는 데이터 엔지니어로 성장할 수 있을 것 같습니다.</p>
+           </li>
+          <li class="lg-6 md-6 sm-12">
+          <h3 style="color: #424242; padding: 10px; margin-bottom:10px; background-color: #eaeaea; border-radius: 0.5em; text-align: left;"><span class="ion-quote"></span><br>진짜 데이터 엔지니어가 <br class="desktop-br">되고싶은 사람에게 추천합니다.</h3>
+          <h4 style="font-size:13px;">강** /<br><span style="background-color:yellow;"> 백엔드 개발자, O2O 서비스 스타트업</span> /데이터 사이언스 스쿨 수료생</h4>
+          <p class="column-text" style="font-size:14px;">대부분의 강의들은 데이터의 '분석'부분만을 중시하고 '데이터를 어떤 방법으로 이렇게 쌓아놓게 되었는지'에 대해서는 다루지 않았습니다. 단순히 데이터 엔지니어링 도구를 배우는 강의를 넘어서 <b>여러 종류의 데이터를 필요한 상황에 따라서 알맞게 구축하고 팀원 모두가 쉽게 활용할 수 있는 데이터 환경을 만드는 진짜 데이터 엔지니어가 되고 싶다면</b> 본 강의를 기대해도 좋을 것 같습니다.</p>
+          </li>
+          </li>
+          <li class="lg-6 md-6 sm-12">
+            <h3 style="color: #424242; padding: 10px; margin-bottom:10px; background-color: #eaeaea; border-radius: 0.5em; text-align: left;"><span class="ion-quote"></span><br>머신러닝까지 다루는 <br class="desktop-br">커리큘럼이 좋네요.</h3>
+            <h4 style="font-size:13px;">박** /<br><span style="background-color:yellow;">챗봇 개발, 인공지능 관련 서비스 스타트업</span> /컴퓨터공학 석사 졸</h4>
+            <p class="column-text" style="font-size:14px;">데이터 엔지니어링 뿐만 아니라 머신러닝까지 학습하는 커리큘럼이 인상적입니다. <b>다양한 스택의 기술과 함께 머신러닝까지 한 자리에서 배울 수 있다는 점이 매력적이네요.</b> 특히, 자연어 처리 부분은 많은 사람들이 상당히 관심있어하는 분야이기에 이 과정에서 화룡정점이 될 것으로 보이네요.</p>
+        
+        </ul>
+      </div>
+    </div>
+    
+    
+    
+    <div class="content-section-column" style="margin-top: 70px;">
+    <div class="school-container-inner">
+        <h3 class="section-title line-style" data-nav-title="6. 강사진"><span>강사 소개</span></h3>
+        <ul class="row text-left" style="margin-top: 30px;">
+            <li class="lg-12 md-12 sm-12" style="margin-top: 20px;">
+                <h3 style="text-align:center;">현업에서 직접 빅데이터를 다루는 <br class="mobile-br">최고 전문가가 강의합니다.</h3>
+            </li>
+            <li class="lg-6 md-6 sm-12" style="margin-top: 20px;">
+                <h5><span style="padding: 1px; background-color: #E0F2F7; font-weight: bold;">2000만 다운로드를 기록한 커플앱서비스 비트윈에서 데이터팀 리드를 맡고있는 김상우 강사님</span>이 올해 dublin에서 진행되는 <span style="padding: 1px; background-color: #E0F2F7; font-weight: bold;">SPARK SUMMIT EUROPE 2017에서 POWERING A STARTUP WITH APACHE SPARK 세션</span>을 담당합니다.</h5>
+            </li>
+            <li class="lg-6 md-6 sm-12 text-right" style="margin-top: 20px;">
+                <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/sparksummint.png" alt="Placeholder" width="100%">
+                <a href="https://spark-summit.org/eu-2017/events/powering-a-startup-with-apache-spark/" target="blank"><span style="font-size:12px;">김상우 강사님 세션 소개 자세히보기 ▷</span></a>
+            </li>
+        </ul>
+        <ul class="row text-center" style="margin-top: 30px;">
+            <li class="lg-4 md-4 sm-12" style="margin-top: 20px;">
+                <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/ksw.png" alt="Placeholder" width="50%">
+                <strong class="mentor-name text-center">Spark 파트</strong>
+                <hr>
+                <p><b>김상우 / 비트윈(VCNC)</b></p>
+                <hr>
+                <p class="mentor-history" style="margin-top: 10px; text-align:left;">커플앱서비스 '비트윈'을 만드는 VCNC에서 제품 개발과 데이터 분석을 해오고 있으며 수많은 비트윈 사용자들에게 그리고 더 나아가 사회에 도움이 되는 일을 하기 위해 계속해서 고민하고 있습니다. 대용량 데이터 분석과 머신러닝 분야에 관심이 많으며 한국 스파크 사용자 모임 운영진으로, 또 Apache Zeppelin 프로젝트의 Committer 겸 PMC로도 활동하고 있습니다.</p>
+            </li>
+            <li class="lg-4 md-4 sm-12" style="margin-top: 20px;">
+                <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/aaa.png" alt="Placeholder" width="50%">
+                <strong class="mentor-name text-center">Linux ~ AWS 파트</strong>
+                <hr>
+                <p><b>박성백</b></p>
+                <hr>
+                <p class="mentor-history" style="margin-top: 10px; text-align:left;">풀스택 개발자 및 강사로 처음에는 자바 개발 및 강의로 시작했지만 그 영역을 넓혀서 다양한 프로그래밍 언어들과 빅데이터 하둡 에코 시스템, 스파크 그리고, 머신 러닝 까지 다루는 개발 언어 욕심이 많은 개발자이자 강사입니다.</p>
+            </li>
+            <li class="lg-4 md-4 sm-12" style="margin-top: 20px;">
+                <img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/09/aaa.png" alt="Placeholder" width="50%">
+                <strong class="mentor-name text-center">Scala</strong>
+                <hr>
+                <p><b>김흥진 (성큼이)</b></p>
+                <hr>
+                <p class="mentor-history" style="margin-top: 10px; text-align:left;">Scala의 간결하고 일관성있는 문법과 타입 안정성에 매료되어 2013년부터 본격적으로 Scala를 익히기 시작해 국내 대표 Scala 사용자 커뮤니티인 라스칼라 코딩단에서 2014년 초부터 계속 스터디를 운영하고 있습니다. 그루터, 엔쵸비, 우아한형제들, 툭탁, 아이로보 등의 스타트업들을 거쳐, 현재는 AllStock Exchange라는 곳에서 블록체인 기술을 기반으로 미술품, 부동산 등을 증권화해 안전하고 투명하게 거래하는 서비스를 개발중입니다.</p>
+            </li>
+        </ul>
+    </div>
+    
+   
+    
+    <div class="content-section-column" style="margin-top: 100px;">
+      <div class="school-container-inner">
+          <h3 class="section-title line-style" data-nav-title="7. 학기별 구성"><span>학기별 구성</span></h3>
+        <ul class="row" style="margin-top:40px;">
+          <li class="lg-12 md-12 sm-12" style="margin-bottom:80px;">
+ <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:8px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:8px 12px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-p8y8{font-weight:bold;background-color:#424242;color:#ffffff;text-align:center}
+.tg .tg-j4kc{background-color:#efefef;text-align:center}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg" style="undefined;table-layout: fixed; width: 100%">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 45%">
+<col style="width: 45%">
+</colgroup>
+  <tr>
+    <th class="tg-j4kc">학기</th>
+    <th class="tg-p8y8">1학기</th>
+    <th class="tg-p8y8">2학기</th>
+  </tr>
+  <tr>
+    <td class="tg-j4kc">기간</td>
+    <td class="tg-s6z2">10주 과정<br>2018.01.09 (화) ~ 2018.03.24 (토)<br>*설연휴 휴강</td>
+    <td class="tg-s6z2">13주 과정<br>2018.04.24 (화) ~ 07.28 (토)</td>
+  </tr>
+  <tr>
+    <td class="tg-j4kc">일정</td>
+    <td class="tg-s6z2" colspan="2">매주 화요일 오후 7 ~ 10시<br>매주 토요일 오후 1or2 ~ 6시</td>
+  </tr>
+  <tr>
+    <td class="tg-j4kc" rowspan="2">등록금</td>
+    <td class="tg-s6z2">210만 원</td>
+    <td class="tg-s6z2">270만 원</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2" colspan="2">총 480만 원</td>
+  </tr>
+  <tr>
+    <td class="tg-j4kc">비고</td>
+    <td class="tg-s6z2" colspan="2">- 2학기 수강을 위해서는 1학기를 수강하셔야 합니다.<br>- 전체 학기 등록 수강생을 우선 선발합니다.
+</td>
+  </tr>
+</table></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+       
+  
+ 
+
+    
+
+
+</div>
+</div>
+
+<div class="content-footer">
+    <div class="school-container-inner">
+        <div class="content-footer-summary">
+            <h3 class="title">개요</h3>
+            <ul>
+            <li class="summary-item">
+                <strong class="summary-title"><span>기간</span></strong>
+                <span class="summary-desc">1학기 / 전체학기 선택 등록 접수중<br><strong>2018.01.09 (화) 
+                <br>~ 2018.07.28 (토)</strong></span>
+            </li>
+            <li class="summary-item">
+                <strong class="summary-title"><span>일정</span></strong>
+                <span class="summary-desc"><b>매주 화 오후 7 ~ 10시<br>매주 토 오후 1or2 ~ 6시</b><br><span style="font-size:12px;">*일정은 일부 변동될 수 있습니다.</span></span>
+            </li>
+            <li class="summary-item">
+                <strong class="summary-title"><span>장소</span></strong>
+                <span class="summary-desc">패스트캠퍼스 강의장</span>
+            </li>
+            <li class="summary-item">
+                <strong class="summary-title"><span>준비물</span></strong>
+                <span class="summary-desc">개인 노트북<br><span style="font-size:12px;">(Core i5, RAM 8GB, 여유용량 100GB 이상)</span></span>
+            </li>
+            <li class="summary-item">
+                <strong class="summary-title"><span>인원</span></strong>
+                <span class="summary-desc">최대 25명</span>
+            </li>
+            </ul>
+        </div>
+        <div class="content-footer-price">
+            <h3 class="title">등록금</h3>
+            <div class="price-info" style="padding-top:0px;">
+                <p class="normal-price" style="margin-top:5px;">1학기 (10주)</p>
+                <p class="special-price"><strong>210만 원</strong></p>
+                <br>
+
+                
+            </div>
+            <div class="sub-info">
+                <ul>
+                    <li>온라인 카드 결제 시<br>12개월 무이자 할부!
+                    </li>
+                    <li class="last">※ 수강인원에 따라 폐강될 수 있습니다.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="school-container-apply footer">
+        <div class="school-container-inner">
+            <div class="lg-6 md-12 sm-12">
+                <a class="btn-school-apply" href="/data_des/apply/" style="background-color:#000000; border:#ed234b 1px solid;">수강신청 <br class="mobile-br">(11월 30일 1차 모집 마감됩니다.)</a>
+            </div>
+            <div class="lg-6 md-12 sm-12">
+                <a class="btn-school-seminar" href="http://school.fastcampus.co.kr/extension_intro/#1110" target="blank">입학설명회 참가신청 <br class="mobile-br">( 11/10 금 저녁 8시 )</a>
+            </div>
+
+        </div>
+        <div class="school-container-inner">
+            <p class="desc">※선착순으로 조기마감될 수 있습니다.</p>
+        </div>
+        <p class="manager-info">박지은 매니저  02-518-6529
+        <br class="mobile-br">/ jepark@fastcampus.co.kr</p>
+    </div>
+</div>
+	 
+
+  <!--브랜드 슬로건 푸터-->
+  <div class="brand-footer">
+	  <h3 class="title">인생을 바꾸는 교육, 패스트캠퍼스 SCHOOL</h3>
+	  <p class="text">Change your career,<br>Challenge your dreams!</p>
+	</div>
+  
+	<!--컬리큘럼 받기, 모달 영역-->
+  <div class="modal">
+	  <div class="modal-box">
+	    <form action="/data_des/curriculum-file/" method="POST">
+	    <input type='hidden' name='csrfmiddlewaretoken' value='iyUixcrdL8n2kfVv3txkqgszN5wEbGlj' />
+	      <div class="modal-box__header">
+	        <h2 class="modal-title">커리큘럼 받아보기</h2>
+	        <button class="modal-close-btn" type="button"><span class="ion-close"></span>창닫기</button>
+	      </div>
+	      <div class="modal-box__content">
+	        <div class="lg-12 md-12 sm-12">
+	          <div class="form-group">
+	            <input type="email" name="recipient" placeholder="받으실 메일" required>
+	          </div>
+            <strong class="notice-small">※ 작성해주신 메일 정보는 패스트캠퍼스 신규 강의 안내 등의 마케팅에 활용될 수 있습니다.</strong>
+	        </div>
+	      </div>
+	      <div class="modal-box__footer">
+	        <input class="btn-confirm-default" type="submit" value="보내기" onclick="changeModal('요청 메일이 발송되었습니다.', false);">
+	      </div>
+	    </form>
+	  </div>
+	</div>
+</div>
+
+
+  <!-- 상세페이지 헤더 영역 시작 -->
+  <!--<div class="content-header">
+    <div class="content-header__title" data-school-typo="NODEJS PROGRAMING">
+      <h2 class="school-title">
+        <strong>NODE.JS <br>웹 프로그래밍</strong>
+        <span>SCHOOL</span>
+      </h2>
+      <div class="school-desc">
+        <p class="school-desc__text">
+          UX/UI 디자이너로 커리어전환을 하고 싶지만<br class="desktop-br">
+          포트폴리오를 만들자니 막막하고, 구성할 콘텐츠가 없어 답답하신가요?<br class="desktop-br">
+          UX/UI 디자인 SCHOOL을 수강하셔서 꿈에 다가가세요!
+        </p>
+      </div>
+    </div>
+    <div class="content-header__summary">
+      <div class="summary-box">
+        <h3 class="summary-title">기업이 내는 모든 메시지를 책임지는<br class="desktop-br"> 브랜드 마케터가 되기 위한 모든 것</h3>
+        <ul class="summary-list">
+          <li class="summary-item">
+            <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/06/behance.png" alt="포트폴리오"></span>
+            <p class="text">프로젝트로 완성하는 포트폴리오</p>
+          </li>
+          <li class="summary-item">
+            <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/06/%EC%82%AC%EB%B3%B8-reunion.png" alt="채용서비스"></span>
+            <p class="text">채용매니저가 함께하는 커리어 서비스</p>
+          </li>
+          <li class="summary-item">
+            <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/06/%EC%82%AC%EB%B3%B8-teamwork.png" alt="실무노하우"></span>
+            <p class="text">10인 이상 현직 전문가의 실무 노하우</p>
+          </li>
+          <li class="summary-item">
+            <span class="icon"><img src="http://www.fastcampus.co.kr/wp-content/uploads/2017/07/presentation.png" alt="소프트스킬"></span>
+            <p class="text">디자이너에게 꼭 필요한 소프트 스킬</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-header__apply">
+      <div class="lg-3 md-12 sm-12 push-lg-1">
+        <a class="btn-apply btn-apply--consult" style="color: #333" href="/">방문상담 신청하기 ( 9월 11일 개강 )</a>
+      </div>
+      <div class="lg-3 md-12 sm-12 push-lg-1">
+        <a class="btn-apply btn-apply--explain" href="/">설명회 신청하기 ( 8월 14일 저녁 )</a>
+      </div>
+      <div class="lg-12 md-12 sm-12 push-lg-1">
+        <p class="text">선착순으로 조기마감될 수 있으니 고민 전에 먼저 상담부터 받아보세요!</p>
+        <em class="contact"><a href="tel:025170694">문의 조찬일 매니저 (02-517-0694)</a></em>
+      </div>      
+    </div>
+    <div class="content-header__vision" data-bg-src="http://lorempixel.com/300/200" data-bgm-src="http://lorempixel.com/300/200">
+      <div class="container">
+        <p class="vision-text">
+          디자이너로서 당신의 경쟁력, <br>UX/UI 디자인 스쿨에서 만들 수 있습니다.
+        </p>
+      </div>
+    </div>
+  </div>-->
+  <!--<div class="content-body">
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>웹 프로그래밍 스쿨은<br>이런 분들께 추천합니다!</span></h3>
+        <p class="section-copy">"나는 열정을 끝없는 노력으로 발현내는 사람이다!"</p>
+        <ul class="row text-center">
+          <li class="lg-4 md-4 sm-12 text-left">
+            <img src="http://lorempixel.com/300/200" alt="그러하다"  max-width="150px" width="100%">
+            <h4 class="column-title">비전공자이지만, 웹 개발자로서 제2의 인생을 시작하고픈 직장인</h4>
+            <p class="column-text">소프트웨어의 중요성이 부각되면서, 개발직무 주변 직군에서 프로그래머로 커리어를 전환하고자 하는 분들이 많아졌습니다. 이들은 기존에 갖고 있던 자신의 전문 분야 지식과 컴퓨팅 사고력을 융합하여, 이전에는 없던 새로운 가치를 창출해낼 수 있습니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12 text-left">
+            <img src="http://lorempixel.com/300/200" alt="그러하다"  max-width="150px" width="100%">
+            <h4 class="column-title">학원에서 개발을 배웠지만 자신이 없는 취업준비생</h4>
+            <p class="column-text">여러 학원들과 국비지원교육을 받으면서 개발을 배웠지만, 도무지 ‘개발자’라고 부르기에는 어색한 분들. 프로젝트는 진행했는데 변변한 Github Repository 하나 없다면 잘못 배운 것입니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12 text-left">
+            <img src="http://lorempixel.com/300/200" alt="그러하다"  max-width="150px" width="100%">
+            <h4 class="column-title">구상한 웹 서비스를 스스로 만들어 세상에 내고 싶은 예비 창업자</h4>
+            <p class="column-text">현재, 그리고 미래에는 웹을 빼놓고는 비즈니스를 논할 수가 없습니다. 그러나 실력 있는 개발자를 구하는 것은 하늘의 별 따기나 마찬가지이며, 창업자 스스로가 개발할 수 있다면 이러한 고민이 사라집니다.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-tab">
+      <div class="school-container-inner">
+        <h3 class="section-title"><span>웹 프로그래밍 스쿨은<br>이런 분들이 함께 했습니다.</span></h3>
+        <div class="tab-container">
+          <ul>
+            <li data-tab-title="첫번째 탭">
+              <div class="lg-6 md-6 sm-12">
+                <img src="http://lorempixel.com/500/300" alt="Placeholder" width="100%" max-width="280">
+              </div>
+              <div class="lg-6 md-6 sm-12">
+                <h4 class="tab-title">홍지수</h4>
+                <strong class="tab-sub-title">깐깐하게 쓰는 영어일기 팀</strong>
+                <p class="tab-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <a class="btn-school-normal" href="#">인터뷰 보기</a>
+              </div>
+            </li>
+            <li data-tab-title="두번째 탭">
+              <div class="lg-6 md-6 sm-12">
+                <img src="http://lorempixel.com/500/300" alt="Placeholder" width="100%" max-width="280">
+              </div>
+              <div class="lg-6 md-6 sm-12">
+                <h4 class="tab-title">김인환</h4>
+                <strong class="tab-sub-title">travel Maker 팀</strong>
+                <p class="tab-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <a class="btn-school-normal" href="#">인터뷰 보기</a>
+              </div>
+            </li>
+            <li data-tab-title="세번째 탭">
+              <div class="lg-6 md-6 sm-12">
+                <img src="http://lorempixel.com/500/300" alt="Placeholder" width="100%" max-width="280">
+              </div>
+              <div class="lg-6 md-6 sm-12">
+                <h4 class="tab-title">33333무엇이다 무엇이다</h4>
+                <strong class="tab-sub-title">누가 만들었다 누구랑 누구랑 회사</strong>
+                <p class="tab-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <a class="btn-school-normal" href="#">인터뷰 보기</a>
+              </div>
+            </li>
+            <li data-tab-title="네번째 탭">
+              <div class="lg-6 md-6 sm-12">
+                <img src="http://lorempixel.com/500/300" alt="Placeholder" width="100%">
+              </div>
+              <div class="lg-6 md-6 sm-12">
+                <h4 class="tab-title">44444무엇이다 무엇이다</h4>
+                <strong class="tab-sub-title">누가 만들었다 누구랑 누구랑 회사</strong>
+                <p class="tab-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a class="btn-school-normal" href="#">인터뷰 보기</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content-section-grid">
+      <div class="school-container-inner">
+        <h3 class="section-title"><span>취업후기/수강후기</span></h3>
+        <ul class="row">
+          <li class="lg-6 md-6 sm-12">
+            <h4 class="grid-title">"난 내가 이렇게 될 줄 알았다!" 유정식님 수강후기</h4>
+            <a href="http://school.fastcampus.co.kr" target="_blank">
+              <img src="http://lorempixel.com/400/200" alt="Placeholder" width="100%">
+            </a>
+          </li>
+          <li class="lg-6 md-6 sm-12">
+            <h4 class="grid-title">Travel Maker 팀</h4>
+            <a href="http://school.fastcampus.co.kr" target="_blank">
+              <img src="http://lorempixel.com/400/200" alt="Placeholder" width="100%">
+            </a>
+          </li>
+          <li class="lg-6 md-6 sm-12">
+            <h4 class="grid-title">Travel Maker 팀</h4>
+            <a href="http://school.fastcampus.co.kr" target="_blank">
+              <img src="http://lorempixel.com/400/200" alt="Placeholder" width="100%">
+            </a>
+          </li>
+          <li class="lg-6 md-6 sm-12">
+            <h4 class="grid-title">깐깐하게 쓰는 영어일기 팀</h4>
+            <a href="http://school.fastcampus.co.kr" target="_blank">
+              <img src="http://lorempixel.com/400/200" alt="Placeholder" width="100%">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>비타민 SCHOOL은<br>이런 분을 찾습니다.</span></h3>
+        <ul class="row text-left">
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+            <p class="column-text">동산에는 가치를 위하여 있다. 놀이 웅대한 목숨을 말이다. 인간이 위하여 이 것이다. 만물은 무엇을 눈이 교향악이다. 천하를 피어나기 밝은 뿐이다.피고 속에서 꽃이 뼈 이 거친 그리하였는가? 그들은 하였으며, 긴지라 못할 있는 이상을 아니다. 얼마나 청춘의 품었기 자신과 듣는다.전인 인간의 얼마나 그림자는 피다. 설산에서 보내는 열매를 교향악이다. 웅대한 구할 더운지라 품었기 운다. 평화스러운 않는 돋고, 있을 봄날의 같이 아니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+            <p class="column-text">동산에는 가치를 위하여 있다. 놀이 웅대한 목숨을 말이다. 인간이 위하여 이 것이다. 만물은 무엇을 눈이 교향악이다. 천하를 피어나기 밝은 뿐이다.피고 속에서 꽃이 뼈 이 거친 그리하였는가? 그들은 하였으며, 긴지라 못할 있는 이상을 아니다. 얼마나 청춘의 품었기 자신과 듣는다.전인 인간의 얼마나 그림자는 피다. 설산에서 보내는 열매를 교향악이다. 웅대한 구할 더운지라 품었기 운다. 평화스러운 않는 돋고, 있을 봄날의 같이 아니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+            <p class="column-text">동산에는 가치를 위하여 있다. 놀이 웅대한 목숨을 말이다. 인간이 위하여 이 것이다. 만물은 무엇을 눈이 교향악이다. 천하를 피어나기 밝은 뿐이다.피고 속에서 꽃이 뼈 이 거친 그리하였는가? 그들은 하였으며, 긴지라 못할 있는 이상을 아니다. 얼마나 청춘의 품었기 자신과 듣는다.전인 인간의 얼마나 그림자는 피다. 설산에서 보내는 열매를 교향악이다. 웅대한 구할 더운지라 품었기 운다. 평화스러운 않는 돋고, 있을 봄날의 같이 아니다.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>비타민 SCHOOL은<br>요러한 분을 찾습니다아.</span></h3>
+        <ul class="row text-left">
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/300/100" alt="그러하다" width="100%">
+            <p class="column-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/300/100" alt="그러하다" width="100%">
+            <p class="column-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/300/100" alt="그러하다" width="100%">
+            <p class="column-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-schedule">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>스쿨의 하루</span></h3>
+        <p class="section-desc">빡시당 3개월은 겁나게 짧다 길어져라길어져라 길어져라ㅏㅇ람아니ㅓ라ㅣ머ㅏ</p>
+        <ul class="schedule-list">
+          <li class="schedule-item">
+            <h4 class="schedule-title">xam-xam</h4>
+            내용을 입력합니다오오오오
+          </li>
+          <li class="schedule-item">
+            <h4 class="schedule-title">xam-xam</h4>
+            내용을 입력합니다오오오오
+          </li>
+          <li class="schedule-item">
+            <h4 class="schedule-title">xam-xam</h4>
+            내용을 입력합니다오오오오
+          </li>
+        </ul>
+        <ul class="link-list">
+          <li class="link-item"><a href="https://www.facebook.com/fastcampusschool/" target="_blank"><span class="icon-cafe"></span> 스쿨 페이스북</a></li>
+          <li class="link-item"><a href="http://cafe.naver.com/fastcampusschool/" target="_blank"><span class="icon-facebook"></span> 스쿨 카페</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>비타민 SCHOOL은<br>이런 분을 찾습니다.</span></h3>
+        <p class="section-desc">빡시당 3개월은 겁나게 짧다 길어져라길어져라 길어져라ㅏㅇ람아니ㅓ라ㅣ머ㅏ</p>
+        <ul class="row text-center">
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"><span class="ion-checkmark"></span><br>그렇다. 짧디 짧도다.</h4>
+            <p class="column-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"><span class="ion-checkmark"></span><br>그렇다. 짧디 짧도다.</h4>
+            <p class="column-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"><span class="ion-checkmark"></span><br>그렇다. 짧디 짧도다.</h4>
+            <p class="column-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+	<div class="content-section-column  has-background" style="background-color: #bb4bff; color: #fff">
+		<div class="school-container-inner">
+			<h3 class="section-title">
+				<span class="section-subtitle">현업에 바로 뛰어들 수 있는 '실전력'까지'</span>
+				안드로이드/iOS, 프론트엔드/백엔드 4개의 개발 스쿨이 협업하는<br class="desktop-br">Team Project
+			</h3>
+			<p class="section-desc text-center no-weight">다수의 국비지원교육은 Local 부분이 커리큘럼의 대부분을 차지하고 네트워크와 통신에 투자하는 시간은 정말 작기 때문에 혼자서 의미 있는 결과를 내는 것이 어렵습니다. 패스트캠퍼스의 안드로이드/iOS, 프론트엔드/백엔드 4개의 개발 스쿨 수강생들이 함께 하나의 서비스를 만들어보는 4주간의 팀 프로젝트를 통해 협업 경험을 기르고 차별화된 결과물로 포트폴리오의 퀄리티를 높이는 국내 유일 과정입니다.</p>
+			<div class="row plus-type">
+				<div class="col text-center">
+					현업 개발자의<br class="desktop-br"> Tech-Mentoring
+				</div>
+				<div class="gutter">
+					<span class="ion-plus"></span>
+				</div>
+				<div class="col text-center">
+					개발 생산성을 높이는<br class="desktop-br"> Agile Coaching
+				</div>
+				<div class="gutter">
+					<span class="ion-plus"></span>
+				</div>
+				<div class="col  text-center">
+					프로젝트를 완성시키는<br> 담당 강사님의 트러블 슈팅
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>현업 개발자의<br>Tech-Mentoring</span></h3>
+        <ul class="row text-left">
+          <li class="lg-4 md-4 sm-12">
+					<div class="box-style text-center">
+						<img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+						<p class="column-text">멘토 개발자가<br>신입 개발자를 평가하는<br>기준에 따른 냉철한 피드백</p>
+					</div>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+					<div class="box-style text-center">
+						<img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+						<p class="column-text">실무였다면 무엇을 <br>가장 먼저 고려했을까?<br>현업 개발자로서의 조언</p>
+					</div>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+					<div class="box-style text-center">
+						<img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+						<p class="column-text">프로젝트를 완성시키는<br>강사님의 트러블 슈팅</p>
+					</div>
+          </li>
+        </ul>
+			<p class="section-desc text-center margin-top margin-bottom">SCHOOL 과정을 통해 개인의 실력을 빠르게 올릴 수 있지만, 현업의 속도는 그보다 더 빠르고 변화무쌍한 것이 사실입니다.<br class="desktop-br">
+				 1개월 간 진행되는 팀 프로젝트에서는 회당 3시간씩, 총 4회 진행되는 현업 개발자의 Tech-Mentoring을 통해<br class="desktop-br">
+				 빠르게 변화하고 있는 현업의 스탠다드를 파악하고 주니어 개발자로서 현업으로 나아갈 준비를 마칠 수 있습니다.</p>
+			<ul class="row">
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="mentor-category">안드로이드 개발 멘토</h4>
+					<div class="mentor-picture">
+						<img src="http://lorempixel.com/460/460" alt="Placeholder">
+					</div>
+					<strong class="mentor-name text-center">김태호</strong>
+					<p class="mentor-history"><strong>레진코믹스 Developer</strong> GDE(Google Developers Experts) Android</p>
+				</li>
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="mentor-category">iOS 개발 멘토</h4>
+					<div class="mentor-picture">
+						<img src="http://lorempixel.com/460/460" alt="Placeholder">
+					</div>
+					<strong class="mentor-name text-center">장인수</strong>
+					<p class="mentor-history"><strong>쏘카 기술개발본부</strong> 전 DramePlus, OpenTide Korea, Lassoh Inc(Canada) 등</p>
+				</li>
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="mentor-category">프론트엔드 개발 멘토</h4>
+					<div class="mentor-picture">
+						<img src="http://lorempixel.com/460/460" alt="Placeholder">
+					</div>
+					<strong class="mentor-name text-center">조은</strong>
+					<p class="mentor-history">
+						우아한형제들 프론트엔드 개발자<br>
+						전 NHN Technology Services<br>
+						전 SK Communications UI<br>
+						GDG Korea WebTech 운영자<br>
+						한국 웹표준 프로젝트 멤버
+					</p>
+				</li>
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="mentor-category">웹 프로그래밍 멘토</h4>
+					<div class="mentor-picture">
+						<img src="http://lorempixel.com/460/460" alt="Placeholder">
+					</div>
+					<strong class="mentor-name text-center">정경업</strong>
+					<p class="mentor-history">
+						전 스마트스터디 Software Engineer – 핑크퐁 북스토어 개발<br>
+						전 게임동아 팀장(웹 개발/운영)<br>
+						전 알파카 코믹스 개발<br>
+						PYCON APAC 2016 발표
+					</p>
+				</li>
+			</ul>
+    </div>
+	<div class="content-section-column margin-top">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>Agile Coach의<br>팀 코칭</span></h3>
+        <ul class="row text-center">
+          <li class="lg-6 md-6 sm-12">
+					<div class="box-style text-center">
+            	<img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+            	<p class="column-text">Agile의 목적은 ‘개발 생산성’을 높이는 것!<br class="desktop-br">성공적인 협업은 원활한 프로젝트 진행은 물론보다 높은 퀄리티의 결과물로 이어집니다.</p>
+					</div>
+				</li>
+          <li class="lg-6 md-6 sm-12">
+					<div class="box-style text-center">
+            	<img src="http://lorempixel.com/500/100" alt="그러하다" width="100%">
+            	<p class="column-text">실무였다면 무엇을 <br>가장 먼저 고려했을까?<br>현업 개발자로서의 조언</p>
+					</div>
+          </li>
+        </ul>
+			<p class="section-desc text-center margin-top margin-bottom">다른 개발자들과 협업을 할 줄 아는 것은 아주 중요한 일이지만, 주니어 개발자에게 결코 쉬운 일은 아닙니다.<br class="desktop-br">
+				 1개월간 진행되는 팀 프로젝트에서는 Agile Coach가 각각의 팀을 직접 코칭하여 최고의 결과를 만들 수 있도록 합니다.</p>
+			<h4 class="section-title text-center">Agile Coach</h4>
+			<ul class="row">
+				<li class="lg-6 md-6 sm-12">
+					<h4 class="mentor-category">안드로이드 개발 멘토</h4>
+					<div class="mentor-picture">
+						<img src="http://lorempixel.com/460/460" alt="Placeholder">
+					</div>
+					<strong class="mentor-name text-center">김창준</strong>
+					<p class="mentor-history">
+						애자일 컨설팅 대표<br>
+						한국에 애자일(agile) 방법론을 도입<br>
+						삼성전자, NHN, LG CNS, 삼성 SDS, 육군본부 등<br> 대기업, 스타트업과 공공기관을 15년간 컨설팅, 코칭<br>
+						AC2 코스를 통해 8년간 200여명 코칭<br>
+						http://agile.egloos.com
+					</p>
+				</li>
+				<li class="lg-6 md-6 sm-12">
+					<h4 class="mentor-category">iOS 개발 멘토</h4>
+					<div class="mentor-picture">
+						<img src="http://lorempixel.com/460/460" alt="Placeholder">
+					</div>
+					<strong class="mentor-name text-center">변신철</strong>
+					<p class="mentor-history">
+						소프트웨어 개발 방법론(Agile) 관련 강의 다수<br>
+						효과적인 개발 문화 개선을 위한 조직 컨설팅 다수 경험<br>
+						AC2 코칭 과정 수료(Level 1, 2, 3)<br>
+						NVC 갈등 중재 과정 수료(1년 과정)<br>
+						임베디드 분야 애자일 적용 경험
+					</p>
+				</li>
+			</ul>
+		</div>
+    </div>
+	<div class="content-section-column has-background">
+		<div class="school-container-inner">
+			<h3 class="section-title impact-title text-center">3+1 개월의 웹 프로그래밍 개발 SCHOOL 과정을 통해<br class="desktop-br">현업 2년차 수준의 백엔드 개발자가 될 수 있습니다.</h3>
+			<strong class="section-subtitle text-center">아무나에게 약속드리지 않습니다.<br class="dektop-br">자신의 열정을 끝없는 노력으로 발현해내시는 분에게만 기회가 옵니다.</strong>
+			<ul class="row text-center">
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="column-title"><img src="" alt="이미지 설명" style="width: 120px; height: 120px;"><br>성실한 수업 참여</h4>
+					<p class="column-text text-left">열심히 하는 것 전에 성실함이 기본입니다. 본 과정은 3개월의 오래달리기에 맞게 짜인 교육과정입니다. <strong>지각/결석과 실력 상승은 절대 같이 갈 수 없습니다.</strong></p>
+				</li>
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="column-title"><img src="" alt="이미지 설명" style="width: 120px; height: 120px;"><br>특강 & 추가 액티비티</h4>
+					<p class="column-text text-left">강의가 전부일 수 없습니다. 정규 강의 시간외에 스터디를 통해 완전한 자기 것으로 만드는 것은 물론 해커톤 참여, 특강 참여 등 3개월 동안 모든 시간을 본 과정에 투자하는 노력은 필수입니다.</p>
+				</li>
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="column-title"><img src="" alt="이미지 설명" style="width: 120px; height: 120px;"><br>팀 프로젝트</h4>
+					<p class="column-text text-left">매력적인 포트폴리오를 위해서는 남들과는 차별화된 경험이 필수입니다. 완전한 개발팀의 구성으로 협업해보는 국내 유일 팀 프로젝트에 참여하여 나의 실력을 제대로 표현하는 결과물을 만드세요.</p>
+				</li>
+				<li class="lg-3 md-3 sm-12">
+					<h4 class="column-title"><img src="" alt="이미지 설명" style="width: 120px; height: 120px;"><br>적극적 구직 준비</h4>
+					<p class="column-text text-left">적극적인 구직의 주체는 여러분이 되어야 합니다. 이력서를 매력적으로 업데이트하고 기업을 설득하는 면접 노하우를 익혀야합니다. 물론 패스트캠퍼스의 채용매니저가 밀착 서포트해드립니다.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+    <div class="content-section-table">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>커리큘럼</span></h3>
+          <table>
+            <colgroup>
+            <col style="width: 90px">
+            <col style="width: auto">
+            <col style="width: auto">
+            </colgroup>
+            <tbody><tr>
+              <th>주차</th>
+              <th>대주제</th>
+              <th>세부 내용</th>
+            </tr>
+            <tr>
+              <td class="row-th" rowspan="3">1주차<br>(3.27-3.31)</td>
+              <td class="point-td" colspan="2"><strong>안그래도 낯선 프로그래밍. 쉬운 언어로 먼저 친해지자!<br>▷ 입문자에게 가장 적합하고 범용성이 높은 Python을 활용하여 프로그래밍의 기본 개념인 변수, 상수, 조건문, 반복문, 함수에 대해 학습합니다.</strong></td>
+            </tr>
+            <tr>
+              <td>Python Basic</td>
+              <td style="text-align:left">- Python 개발 환경 설정<br>- 자료형, List 1<br>- List 2, Tuple, Dictionary and Set<br>- 함수(call by assignment)<br>- 분기문, 반복문<br>- 내장함수, 외장함수, File I/O<br>(실습) Simple text-based game 제작</td>
+            </tr>
+            <tr>
+              <td>Python을 활용한 OOP1</td>
+              <td>- Class, object<br>- 캡슐화의 개념</td>
+            </tr>
+            <tr>
+              <td class="row-th" rowspan="4">2주차<br>(4.3-4.7)</td>
+              <td class="point-td" colspan="2"><strong>컴퓨터는 어떻게 움직일까?<br>▷ 컴퓨터가 우리가 알고 있는 데이터를 어떻게 판단, 인식하고 저장하는지에 대해서 배웁니다. 0과 1 밖에 모르는 컴퓨터가 정수, 실수, 그리고 문자를 저장하는 방법을 익히고 메모리에 어떻게 저장하는지, 가상 메모리란 무엇인지, 또한 컴파일러와 인터프리터의 의미와 차이점에 대해 공부합니다.</strong></td>
+            </tr>
+            <tr>
+              <td>수 체계와 데이터 표현</td>
+              <td>- 2진수와 16진수, 진수 변환<br>- 문자표현 (ASCII)<br>- 정수 표현 (2의 보수)</td>
+            </tr>
+            <tr>
+              <td>데이터 표현과 OS1 (메모리)</td>
+              <td>- 실수 표현 (부동소수점)<br>- 메모리 영역의 종류<br>- 메모리 저장방식(빅엔디언, 리틀엔디언)<br>- 가상 메모리의 이해</td>
+            </tr>
+            <tr>
+              <td>프로그래밍 언어 및 OS2 (시스템)</td>
+              <td>- 컴파일러와 인터프리터<br>- 컴파일 과정<br>- Call by reference와 Call by value<br>- 멀티 프로세스와 멀티스레드<br>- 공유자원과 경합조건</td>
+            </tr>
+            <tr>
+              <td class="row-th" rowspan="3">3주차<br>(4.10-4.14)</td>
+              <td class="point-td" colspan="2"><strong>'객체'가 뭐지? 무엇이 객체지향이고 무엇이 아니지?<br>▷ Python을 활용해 객체지향 프로그래밍(OOP)의 개념에 대해 이해합니다.</strong></td>
+            </tr>
+            <tr>
+              <td>Python을 활용한 OOP2 (상속)</td>
+              <td>- 상속과 다형성</td>
+            </tr>
+            <tr>
+              <td>Python Advanced</td>
+              <td>- 비트연산자와 비트마스크의 활용<br>- 재귀 함수의 구현과 활용<br>- 모듈 사용법<br>- 파이썬을 활용한 멀티스레딩<br>(실습) 하노이 타워, 피보나치 수열</td>
+            </tr>
+            <tr>
+              <td class="row-th" rowspan="3">4주차<br>(4.17-4.21)</td>
+              <td class="point-td" colspan="2"><strong>똑같은 결과를 더 빠르고 정확하게 내기 위한 필수 개념<br>▷자료구조와 알고리즘을 통해 효율적인 프로그래밍을 만드는 방법을 연습합니다.</strong></td>
+            </tr>
+            <tr>
+              <td>자료구조</td>
+              <td>- 자료구조 개념, 배열과 링크드 리스트<br>- 스택과 큐<br>- 후위 표기법 변환 알고리즘<br>- 후위 표기법 계산기 구현<br>- 힙과 우선순위 큐<br>(실습)<br>링크드 리스트 구현<br>후위 표기법 계산기 구현<br>힙과 우선순위 큐 구현</td>
+            </tr>
+            <tr>
+              <td>알고리즘</td>
+              <td>- bubble 정렬, insertion 정렬, selection 정렬<br>- 시간 복잡도와 빅오- 분할 정복 기법이란?<br>- 힙소트, 머지소트, 퀵소트- 퀵소트의 빅오 구하기<br>(실습)<br>각종 정렬 구현<br>버블 정렬 빅오 구하기<br>Divide and Conquer 전화번호부 찢기</td>
+            </tr>
+            <tr>
+              <td class="row-th" rowspan="5">5주차<br>(4.24-4.27)</td>
+              <td class="point-td" colspan="2"><strong>나 혼자 쓰는 껍데기 소프트웨어만 만들건가요?<br>▷ 상용 소프트웨어를 만드는 데 반드시 필요한 데이터베이스, 네트워크에 대해 학습합니다.<br><br>코드치기=개발? 개발을 '되게' 하는 방법이 따로 있다!<br>▷소프트웨어를 '잘' 개발하기 위한 소프트웨어 공학에 대해서 학습합니다.<br><br>내가 정말 개발자가 될 수 있을까?<br>▷개발자로서의 커리어 패스에 대해 함께 고민하고 토론하며 미래를 설계하는 시간을 가져봅니다.</strong></td>
+            </tr>
+            <tr>
+              <td>데이터베이스</td>
+              <td>- 관계형 데이터베이스, SQL, NoSQL (DB 스키마와 데이터 모델을 중점으로)</td>
+            </tr>
+            <tr>
+              <td>네트워크</td>
+              <td>- OSI 7 layers, TCP/IP<br>- HTTP<br>(실습) 파이썬을 활용한 크롤링 예제</td>
+            </tr>
+            <tr>
+              <td>소프트웨어 공학</td>
+              <td>- 전통적 개발 방법론 vs. Agile<br>(실습) 플래닝포커, 스프린트 액티비티</td>
+            </tr>
+            <tr>
+              <td>개발자로서의 길</td>
+              <td>- Android, iOS, Web Front-end, Back-end<br>(실습) 각 개발자의 역할과 업무롤 정하기, 협업 팁</td>
+            </tr>
+            </tbody>
+        </table>
+        <button class="btn-school-feature get-curriculum-btn" type="button">커리큘럼 자세히 보기</button>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>콘텐츠를 넘어<br>사람만이 할 수 있는 일에 집중하였습니다.</span></h3>
+        <p class="section-desc">아무리 좋은 강사도 실력을 실제로 올려줄 수 없다면 수강생이 따라갈 수 없다면 소용없습니다. 우리는 패스트캠퍼스 스쿨을 선택한 수강생들의 간절함과 그 기대를 잘 알고 있습니다. 그래서 iOS 개발 스쿨의 강사는 그저 많은 지식을 빠르게 수강생에게 주입하는 것이 아니라 주니어 iOS 개발자에게 요구하는 분명한 그 수준에 필요한 내용를 엄선하여 소화할 수 있도록 가르치는데 집중합니다. 코스매니저는 실시간으로 수강생들의 피드백을 받으며 개선할 점을 끊임없이 찾고 수강생의 페이스를 관리합니다. 풀타임으로 수업시간에 상주하는 조교는 수강생들의 기술적인 문제를 실시간으로 해결하여 놓치는 것 본 과정을 따라올 수 있도록 도와드립니다.</p>
+        <div class="fotorama lecturer" data-width="960">
+          <div class="lectureer-container">
+            <div class="lg-6 md-6 sm-12">
+              <img src="http://cdn.www.fastcampus.co.kr/wp-content/uploads/2016/12/ids_ins.jpg" alt="Placeholder" width="100%">
+            </div>
+            <div class="lg-6 md-6 sm-12">
+              <h4 class="column-title">주영민 강사님</h4>
+              <p class="column-text">현업 7년차 iOS 개발자 강사님이 직접 전체적인 강의와 프로젝트 관리를 담당합니다. 이를 통해 현업에서 사용하는 업무 프로세스를 가까이서 배울 수 있고, 최신의 개발 트렌드가 반영된 지식을 습득할 수 있습니다. 단순 강사와 수강생의 관계가 아닌 앞으로 개발자로 가는 길의 최고의 멘토가 되어드립니다.</p>
+              <a class="btn-school-normal" href="#">홈페이지 바로가기</a>
+            </div>
+          </div>
+          <div class="lectureer-container">
+            <div class="lg-6 md-6 sm-12">
+              <img src="http://cdn.www.fastcampus.co.kr/wp-content/uploads/2016/12/ids_ins.jpg" alt="Placeholder" width="100%">
+            </div>
+            <div class="lg-6 md-6 sm-12">
+              <h4 class="column-title">야곰 강사님</h4>
+              <p class="column-text">현업 7년차 iOS 개발자 강사님이 직접 전체적인 강의와 프로젝트 관리를 담당합니다. 이를 통해 현업에서 사용하는 업무 프로세스를 가까이서 배울 수 있고, 최신의 개발 트렌드가 반영된 지식을 습득할 수 있습니다. 단순 강사와 수강생의 관계가 아닌 앞으로 개발자로 가는 길의 최고의 멘토가 되어드립니다.</p>
+              <a class="btn-school-normal" href="#">홈페이지 바로가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="manger-container">
+          <div class="lg-6 md-6 sm-12">
+            <h4 class="column-title">코스매니저 강성우</h4>
+            <p class="column-text">코스매니저는 오로지 수강생의 입장에서 본 과정을 디자인하였습니다. 현업의 개발자들을 만나 신입 iOS 개발자에게 어떤 수준을 기대하는지, 그 수준을 충족하려면 어떤 지식을 알야야하는지, 우리가 놓치고 있는 트렌드는 없는지 발로 뛰어다니며 확인합니다. 그리고 강사님들과 어떤 순서로 어떻게 가르쳐야 그 지식을 수강생들이 가장 잘 습득할 수 있을지 연구합니다. 그렇게 iOS 개발 스쿨이 탄생하였습니다.</p>
+          </div>
+          <div class="lg-6 md-6 sm-12">
+            <img src="http://cdn.www.fastcampus.co.kr/wp-content/uploads/2016/12/manager_ksw.jpg" alt="Placeholder" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="school-container-apply hook">
+    <div class="school-container-inner">
+      <div class="lg-6 md-6 sm-12">
+        <a class="btn-school-apply" href="#">방문상담 신청 <br class="mobile-br">(선착순 추가 모집 중 - 12/29 마감)</a>
+      </div>
+      <div class="lg-6 md-6 sm-12">
+        <a class="btn-school-seminar" href="#">프로그래밍 스쿨 설명회 (12/27)</a>
+      </div>
+    </div>
+    <div class="school-container-inner">
+      <p class="desc">선착순 신청으로, 조기마감 될 수 있으니 서둘러 신청해주세요!</p>
+    </div>
+    <p class="manager-info">강성우 매니저 010-1234-1234</p>
+  </div>
+  <div class="content-body">
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>액티비티 1</span></h3>
+        <p class="section-desc">9주차부터 진행되는 기업 연계 프로젝트에서는 실제 스타트업의 Raw Data와 집행 예산을 부여받아, 그동안 배운 내용을 바탕으로 기업의 서비스/제품을 분석 후 실제 마케팅을 집행해보고 성과 측정/보고하는 프로세스까지 진행해봅니다.</p>
+        <ul class="row">
+          <li class="lg-6 md-6 sm-12">
+            <img src="http://lorempixel.com/960/400" alt="Placeholder" width="100%">
+          </li>
+          <li class="lg-6 md-6 sm-12">
+            <img src="http://lorempixel.com/960/400" alt="Placeholder" width="100%">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>액티비티 2</span></h3>
+        <p class="section-desc">9주차부터 진행되는 기업 연계 프로젝트에서는 실제 스타트업의 Raw Data와 집행 예산을 부여받아, 그동안 배운 내용을 바탕으로 기업의 서비스/제품을 분석 후 실제 마케팅을 집행해보고 성과 측정/보고하는 프로세스까지 진행해봅니다.</p>
+        <ul class="row text-left">
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"># 해커톤</h4>
+            <img src="http://lorempixel.com/960/400" alt="Placeholder" width="100%">
+            <p class="column-text">배웠으면 만들어봐야죠. SCHOOL 과정 중에 밤샘 개발 event인 Hackathon을 진행합니다. 최소한의 기획만 세우고 기능 구현에 집중하여 Xcode에서 제공하는 프레임워크나 함수도 사용해보고 적용 가능한 외부 라이브러리도 뒤져보며 하루만에 앱을 만들어냅니다. 자기 자신과의 싸움이라고 불리는 마라톤처럼 정신력과 끈기의 결과물과 그 뿌듯함을 경험할 수 있습니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"># Scrum Workshop</h4>
+            <img src="http://lorempixel.com/960/400" alt="Placeholder" width="100%">
+            <p class="column-text">개발자들이 개발을 시작하게 되면, ‘무엇을 어떤 순서로 어떻게 개발할 것인가?’ 라는 질문에 반드시 답을 해야합니다. 스크럼 워크샵을 통해 개발자로써 효율적인 커뮤니케이션, 팀 운영 방식 등에 대해서 간접적으로 체험 할 수 있으며, 애자일 스크럼을 활용해서 스타트업의 개발 문화에 익숙해 질 수 있도록 도와드리는 과정입니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"># Git 특강</h4>
+            <img src="http://lorempixel.com/960/400" alt="Placeholder" width="100%">
+            <p class="column-text">채용담당자가 가장 많이 보는 것은? 바로 Git (채용지원자의 코드 저장소) 그만큼 Git을 관리하는 역량은 꼭 필요합니다. 패스트캠퍼스만이 제공하는 Git특강에서 Git 전문가가 될 수 있는 기회를 가져보세요.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>취업 지원 프로그램</span></h3>
+        <div class="row">
+          <div class="lg-4 md-4 sm-12">
+            <img src="http://cdn.www.fastcampus.co.kr/wp-content/uploads/2016/12/rejmkang_160614_300x300-300x225-300x225.jpg" alt="Placeholder" width="100%">
+          </div>
+          <div class="lg-8 md-8 sm-12">
+            <h4 class="recruit-title">패스트캠퍼스 스쿨의 채용매니저를 소개합니다.</h4>
+            <p class="recruit-manager-name"><strong>강종무</strong>, Recruitment Adviser</p>
+            <p class="column-text">매 달 20개 이상의 기업 인사담당자와 채용 연계 협업을 하고 있으며 1기 부터 지금까지 300여명 이상의 수강생의 커리어 코칭을 해왔습니다. <strong>“모든 수강생이 원하는 회사에, 원하는 직무로”</strong> 라는 사명을 가지고 <strong>수강생 한 분 한 분의 인생의 전환점</strong>을 만들고자 합니다.</p>
+            <a class="btn-school-normal" href="#">채용매니저가 함께하는 채용 연계 시스템 자세히 보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>선발 프로세스</span></h3>
+        <p class="section-desc">수강료나 먼 통학거리로 커리어 전환을 망설이시는 분들을 패스트캠퍼스가 지원합니다.</p>
+        <ul class="row text-center">
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"><span class="ion-chatboxes"></span><br>방문상담</h4>
+            <p class="column-text text-left">신청서를 작성해주시면 담당자가 유선연락을 드려 방문 상담 시간을 잡습니다. <strong>방문상담에서는 자세한 커리큘럼의 소개와 함께 선배 수료생들의 프로젝트 결과물과 취업 현황을 알려드립니다.</strong> 이수 가능 여부를 진단해드림은 물론 여러분이 꿈꾸는 커리어의 방향을 듣고 어떻게 실현해나갈 수 있을지 상담해드립니다. UX/UI 디자이너를 꿈꾸고 있는 모든 분들의 상담 신청을 환영합니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"><span class="ion-document-text"></span><br>사전 과제</h4>
+            <p class="column-text text-left">방문 상담 후 담당 코스매니저가 사전 과제를 부여합니다. <strong>사전 과제는 선발의 당락을 결정하기 위한 것이 아니라, 본 과정을 수료하기 위해 필요한 최소한의 디자인 베이스를 확인하고 수강에 대한 의지를 확인하기 위한 것입니다.</strong> 또한, 사전 과제를 통해 파악한 지원자들의 백그라운드를 바탕으로 커리큘럼의 구성 및 난이도를 조정합니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title"><span class="ion-heart"></span><br>선발 완료 및 수업시작</h4>
+            <p class="column-text text-left">사전 과제 제출 5일 안에 합격 여부를 알려드리고 여러분의 꿈을 이뤄드릴 SCHOOL 과정을 시작하게 됩니다. 합격하신 분들께는 강의 시작 전에 미리 학습해오면 좋을 만한 영상, 책, 자료 등을 자세히 안내해드립니다.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <ul class="row">
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title">참여 기업 특강</h4>
+            <img src="http://lorempixel.com/150/60" alt="Placeholder" max-width="150px" width="100%">
+            <p class="column-text">스타트업의 대표님/HR담당자가 직접 강의장으로 찾아옵니다! 인터넷만으로는 알 수 없는 채용 정보들과 구체적으로 각 회사들이 원하는 디테일한 역량들까지 제대로 알고 준비할 수 있습니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title">네트워킹 데이</h4>
+            <img src="http://lorempixel.com/150/60" alt="Placeholder" max-width="150px" width="100%">
+            <p class="column-text">7개 스쿨의 사람들이 모여 궁금했던 서로의 영역에 대해 공유하고 좋은 파트너까지 얻을 수 있습니다. 또한, 수료생들이 스쿨을 수강할 때 그리고 수료 이후의 다양한 경험들을 들어보며 현재 수강생들이 진행 중인 프로젝트나 포트폴리오 준비, 면접 준비과정에서 실질적인 도움을 받을 수 있습니다.</p>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <h4 class="column-title">Hiring Day</h4>
+            <img src="http://lorempixel.com/150/60" alt="Placeholder" max-width="150px" width="100%">
+            <p class="column-text">3개월간 자신이 진행했던 개인 프로젝트를 스타트업의 대표님/HR담당자님 앞에서 발표하는 행사입니다. 발표 후, 1:1 인터뷰를 통해 자신이 쌓아온 역량을 마음껏 펼칠 수 있는 적극적인 구직의 기회입니다.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>전문 HR 기업과의 연계를 통한 취업지원</span></h3>
+        <ul class="row">
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/150/60" alt="Placeholder" max-width="150px" width="100%">
+            <p class="column-text">로켓펀치의 스타트업 데이터를 활용하여 수강생들에게 최적의, 최신의 정보를 제공하고 스쿨 수료생의 정보를 로켓펀치에 공개해 스타트업과 인재를 효율적으로 연결합니다. 또한, 로켓펀치와 연계하여 스쿨 수료생을 위한 채용 행사인 하이어링데이를 개최합니다.</p>
+            <a class="btn-school-news" href="#">[보도자료] 패스트캠퍼스, 로켓펀치와 인재 연결 업무 협약 체결 <span class="ion-link"></span></a>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/150/60" alt="Placeholder" max-width="150px" width="100%">
+            <p class="column-text">겟링크스는 각 글로벌 테크기업 구인 공고를 실시간으로 전달하고, 패스트캠퍼스는 공고에 부합하는 수료생을 찾아 소개하여 태국, 인도네시아, 말레이시아, 일본, 중국 등 아시아 전역의 글로벌 스타트업으로 취업을 연결합니다.</p>
+            <a class="btn-school-news" href="#">[보도자료] 패스트캠퍼스, 겟링크스와 수강생 '글로벌 취업' 돕는다 <span class="ion-link"></span></a>
+          </li>
+          <li class="lg-4 md-4 sm-12">
+            <img src="http://lorempixel.com/150/60" alt="Placeholder" max-width="150px" width="100%">
+            <p class="column-text">지인을 소개해 주고, 채용시 보상받는 서비스를 제공하고 있는 원티드와 연계하여 수료생분들에게 최적의 회사/직무를 추천하고 있습니다. 패스트캠퍼스는 고정 추천인으로서 패스트캠퍼스 수료생 각각에게 적합한 회사에 추천서를 발송합니다.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-section-column">
+      <div class="school-container-inner">
+        <h3 class="section-title line-style"><span>SCHOOL 지원 서비스</span></h3>
+        <p class="section-desc">수강료나 먼 통학거리로 커리어 전환을 망설이시는 분들을 패스트캠퍼스가 지원합니다.</p>
+        <ul class="row">
+          <li class="lg-6 md-6 sm-12">
+            <h4 class="column-title"><span class="ion-person-stalker"></span><br>인재 추천 장학금</h4>
+            <p class="column-text">경제적 어려움에도 꿈을 잃지 않고 꾸준히 해당 분야에 도전해왔던 분들께 드립니다. 교육을 통해 커리어 전환할 수 있는 잠재력이 크고 기본 자질이 우수한 분들께 본 장학금 혜택을 제공합니다.</p>
+          </li>
+          <li class="lg-6 md-6 sm-12">
+            <h4 class="column-title"><span class="ion-ios-bookmarks"></span><br>학습 환경 장학금</h4>
+            <p class="column-text">수도권 이외 지역에 거주하여 수강료와 더불어 주거비, 생활비까지 부담해야 하는 분들께 안정적인 학습 환경을 제공 드리고자 합니다.</p>
+          </li>
+          <li class="lg-12 md-12 sm-12">
+            <a class="btn-school-feature" href="#">장학생 지원하기</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>-->
+
+  
+  <!--<div class="content-footer">
+    <div class="school-container-inner">
+      상세페이지 푸터 개요 영역 시작
+      <div class="content-footer-summary">
+        <h3 class="title">개요</h3>
+        <ul>
+          <li class="summary-item">
+            <strong class="summary-title"><span>기간</span></strong>
+            <span class="summary-desc">2017. 1 .9 ~ 4 . 7<br>총 13주 (Break Week 1주 포함)</span>
+          </li>
+          <li class="summary-item">
+            <strong class="summary-title"><span>일정</span></strong>
+            <span class="summary-desc">월 ~ 금, 오전 10시 ~ 오후 6시<br>(저녁/주말에 강의가 잡힐 수 있음)</span>
+          </li>
+          <li class="summary-item">
+            <strong class="summary-title"><span>장소</span></strong>
+            <span class="summary-desc">서울시 강남구 논현동<br>패스트캠퍼스 강의장</span>
+          </li>
+          <li class="summary-item">
+            <strong class="summary-title"><span>준비물</span></strong>
+            <span class="summary-desc">개인 노트북 (맥북 권장)</span>
+          </li>
+          <li class="summary-item">
+            <strong class="summary-title"><span>수강인원</span></strong>
+            <span class="summary-desc">최대 30명 (선착순으로 조기 마감될 수 있음)</span>
+          </li>
+        </ul>
+      </div>
+      <div class="content-footer-price">
+        <h3 class="title">수강료</h3>
+        <div class="price-info">
+          <p class="normal-price">일반 등록<br>월 160만 원</p>
+          <p class="special-price">4기 특별 할인가<br><strong>월 120만 원</strong></p>
+        </div>
+        <div class="sub-info">
+          <ul>
+            <li>
+              3개월 총 360만원
+            </li>
+            <li>
+              카드 결제 및 무통장 입금 가능
+            </li>
+            <li class="last">
+              온라인 결제 시<br>12개월 무이자 할부 지원!
+            </li>
+          </ul>
+        </div>
+        <div class="text-info">
+          <p>선착순으로 마감합니다.<br>조기마감 될 수 있으니 서둘러 신청해주세요!</p>
+        </div>
+      </div>
+    </div>
+    <div class="school-container-apply footer">
+      <div class="school-container-inner">
+        <div class="lg-6 md-6 sm-12">
+            <a class="btn-school-apply" href="/data_des/apply/">방문상담 신청 (선착순 추가 모집 중 - 12/29 마감)</a>
+        </div>
+        <div class="lg-6 md-6 sm-12">
+          <a class="btn-school-seminar" href="#">프로그래밍 스쿨 설명회 (12/27)</a>
+        </div>
+      </div>
+      <div class="school-container-inner">
+        <p class="desc">선착순 신청으로, 조기마감 될 수 있으니 서둘러 신청해주세요!</p>
+      </div>
+      <p class="manager-info">강성우 매니저 010-1234-1234</p>
+    </div>
+  </div>
+</div>-->
+<!-- 상세페이지 푸터 영역 끝 -->
+
+</main>
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__container-sitemap">
+      <h3 class="text-hidden">Site Map Index</h3>
+      <ul class="footer-sitemap">
+        <li class="footer-sitemap-list">
+          <h4>About</h4>
+          <ul class="footer-sitemap__2depth">
+            <li><a class="footer-link" href="/about">SCHOOL 소개</a></li>
+            <li><a class="footer-link" href="http://www.fastcampus.co.kr/about-fc/" target="_blank">패스트캠퍼스 소개</a></li>
+            <li><a class="footer-link" href="http://www.fastcampus.co.kr/recruiting/" target="_blank">직원 채용</a></li>
+          </ul>
+        </li>
+        <li class="footer-sitemap-list">
+          <h4>More</h4>
+          <ul class="footer-sitemap__2depth">
+            <li><a class="footer-link" href="http://www.fastcampus.co.kr/agreement/" target="_blank">이용약관</a></li>
+            <li><a class="footer-link" href="http://www.fastcampus.co.kr/refund/" target="_blank">환불규정</a></li>
+            <li><a class="footer-link" href="http://www.fastcampus.co.kr/personal_policy/" target="_blank">개인정보 취급방침</a></li>
+          </ul>
+        </li>
+        <li class="footer-sitemap-list">
+          <h4>SNS / Press</h4>
+          <ul class="footer-sitemap__2depth">
+            <li><a class="footer-link" href="http://blog.naver.com/PostThumbnailList.nhn?blogId=fastcampus&from=postList&categoryNo=43&parentCategoryNo=43" target="_blank">블로그</a></li>
+            <li><a class="footer-link" href="http://cafe.naver.com/schoolfastcampus" target="_blank">네이버 카페</a></li>
+            <li><a class="footer-link" href="https://www.facebook.com/fastcampusschool/" target="_blank">페이스북</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__container-info">
+      <div class="footer__container-inner--top">
+        <h3 class="footer-logo">Fast Campus</h3>
+        <p class="footer-info-address">
+          서울시 강남구 논현1동 2-9 대기빌딩 B2<br>
+          대표전화 : 02-518-4811
+         </p>
+      </div>
+      <p class="footer__container-inner--bottom">
+        패스트캠퍼스(주) 대표 : 박지웅, 이강민 <span>/</span><br class="mobile-br"><br>
+        사업자번호 : 810-86-00658 <span>/</span><br class="mobile-br"> 통신판매업 신고번호 : 제 2017-서울강남-01977호<br>
+        개인정보책임관리자 : 이강민
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Vendors-js -->
+<script defer type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script defer type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script defer type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script defer type="text/javascript" src="http://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=74Qg06CsrVwJSgis5P1n&submodules=geocoder"></script>
+<!-- Channel Plugin Scripts -->
+<script>
+  window.channelPluginSettings = {
+    "plugin_id": "b48d5904-d721-4559-ba0f-0f875714bcb2"
+  };
+  (function() {
+    var node = document.createElement('div');
+    node.id = 'ch-plugin';
+    document.body.appendChild(node);
+    var async_load = function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//cdn.channel.io/plugin/ch-plugin-web.js';
+      s.charset = 'UTF-8';
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    };
+    if (window.attachEvent) {
+      window.attachEvent('onload', async_load);
+    } else {
+      window.addEventListener('load', async_load, false);
+    }
+  })();
+</script>
+<!--네이버 프리미엄 로그 분석 스크립트-->
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"> </script> 
+<script type="text/javascript"> 
+  if (!wcs_add) var wcs_add={};
+  wcs_add["wa"] = "s_577292fba7a7";
+  if (!_nasa) var _nasa={};
+  wcs.inflow();
+  wcs_do(_nasa);
+</script>
+<!-- End Channel Plugin -->
+<!-- School-web-js -->
+<script defer type="text/javascript" src="https://d1z1a3q7uy2q8k.cloudfront.net/js/school-script.1e70aed72c0f.js" charset="utf-8"></script>
+<!-- School-web-Custom-js -->
+
+
+</body>
+</html>

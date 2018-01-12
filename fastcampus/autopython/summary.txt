@@ -1,0 +1,50 @@
+** Daemon 백그라운드에서 돌면서 여러 작업을 하는 프로세스
+
+** 파이썬엔 상수 키워드가 업땅
+
+** Efficient way to put string in python?
+==> input_str = ','.join(list)
+
+** How to \n without '\n' character in python?
+==> """ """  or ''' '''
+
+
+** 특정 디렉토리에서 cmd여는 법
+1. Shift + 오른쪽 클릭
+2. 주소창에서 cmd
+
+** 문자열에 특정 인덱스 문자 바꿀 때
+str = str.replace(old,new)
+
+** break, continue pattern
+while True:
+  if data== 없음:
+    break
+
+**
+emails = ['a','b','c']
+for e in emails:
+  if is_not_valid(e):
+    continue
+  send_email(e)
+
+set, multiset/bag, sequence
+
+** Where to find e-books?
+== Wikidocs
+
+** 함수이름 지을 때 reserved된 애들이랑 안겹치게 !
+ex) count는 str.count에 빌트인으로 구현되있음.
+따라서 count라는 이름은 함수로 지으면 안되겠지?
+
+** What is __pycache__ ?
+To make import faster once executed
+
+** How to import folder/folder2/lib.py ?
+from folder.folder2.lib import something
+
+
+** Sending a email From A to B
+1. A requests to service proviers' server
+2. server receives request
+3. Respond to B with A's email

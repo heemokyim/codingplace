@@ -1,0 +1,27 @@
+나노 에디터에서 밑에 꺽쇠표시 -> 컨트롤
+
+---------------------------------------------
+
+import string, os
+
+base_dir = os.path.dirname(os.path.realpath(__file__))
+print(base_dir)
+
+---------------------------------------------
+
+today = datetime.now()
+today_file_name = '%d_%d_%d.xlsx' % (today.year, today.month, today.day)
+file_path = '%s/%s' % (base_dir, today_file_name)
+
+if exists(file_path):
+    result_xlsx = load_workbook(file_path)
+else:
+    result_xlsx = Workbook()
+
+---------------------------------------------
+# 셀레니움 백그라운드에서 실행시키는 옵션
+      opts = webdriver.ChromeOptions()
+
+      opts.add_argument('headless')
+
+      driver = webdriver.Chrome('./chromedriver', chrome_options=opts)

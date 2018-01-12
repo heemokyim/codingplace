@@ -1,7 +1,0 @@
-** syntax error = error occuring when complie
-ex) print(a+
-==> invalid parenthesis
-
-** runtime error = error occuring during execution
-ex) a = 10, b="hi", print(a+b)
-==> int + str??

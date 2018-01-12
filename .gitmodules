@@ -1,3 +1,6 @@
 [submodule "fastcampus/dss/script/dss-linux-git"]
 	path = fastcampus/dss/script/dss-linux-git
 	url = https://github.com/Anylee2142/dss-linux-git.git
+[submodule "python/pythonmega/worldjson"]
+	path = python/pythonmega/worldjson
+	url = https://github.com/Anylee2142/world.geo.json.git

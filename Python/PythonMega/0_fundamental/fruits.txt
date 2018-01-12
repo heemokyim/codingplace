@@ -1,5 +1,0 @@
-pear
-orange
-watermelon
-apple
-banana

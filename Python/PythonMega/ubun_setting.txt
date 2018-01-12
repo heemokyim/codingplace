@@ -1,7 +1,0 @@
-1. Ctrl + E -> 탐색기
-
-2. Ctrl + ~ -> gnome-system-monitor
-
-3. Super + 위 -> window max
-
-4. Supler + 아래 -> window min

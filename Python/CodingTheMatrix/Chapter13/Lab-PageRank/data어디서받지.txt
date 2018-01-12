@@ -1,8 +1,0 @@
-coihttp://resources.codingthematrix.com/
-The Eigenvector
-
-data 
-	- indexindex.txt
-	- inverseindex
-	- links.bin
-	- titles.txt

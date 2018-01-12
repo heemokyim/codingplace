@@ -4,3 +4,6 @@
 [submodule "python/pythonmega/worldjson"]
 	path = python/pythonmega/worldjson
 	url = https://github.com/Anylee2142/world.geo.json.git
+[submodule "mongoDB/workspace/5_upstarmusic"]
+	path = mongoDB/workspace/5_upstarmusic
+	url = https://github.com/Anylee2142/UpStarMusic.git

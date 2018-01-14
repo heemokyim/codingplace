@@ -1,4 +1,5 @@
 import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import numpy as np
 import scipy as sp
 import pandas as pd
@@ -21,5 +22,3 @@ import seaborn as sns
 sns.set()
 sns.set_style("whitegrid")
 sns.set_color_codes()
-
-warnings.simplefilter(action='ignore', category=FutureWarning)

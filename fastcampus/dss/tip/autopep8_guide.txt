@@ -1,0 +1,27 @@
+** 설치	
+1. pip install autopep8
+
+2. conda install -c conda-forge jupyter_nbextensions_configurator
+
+3. 차례대로
+jupyter nbextension install https://github.com/kenkoooo/jupyter-autopep8/archive/master.zip --user
+jupyter nbextension enable jupyter-autopep8-master/jupyter-autopep8
+
+4. 전부 설치하고 새로고침 or 노트북 재시작
+
+5.주피터 노트북 메뉴화면 탭에서 Nbextension이라고 생긴걸 확인가능
+여기서 확장플러그인, 툴바같은 기능 on/off 가능
+
+6. Nbextension에서 Jupyter autopep8이 있으면 설치완료 !(단축키를 여기서 설정가능 !)
+
+** 실행
+1. 코드 열기
+
+2. 셀 클릭 후 편집모드
+
+3. 툴바에 추가된 Code formatting 클릭 or Ctrl L
+
+** 참고 사이트
+http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_autopep8.html
+https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator
+https://github.com/kenkoooo/jupyter-autopep8/blob/master/README.md

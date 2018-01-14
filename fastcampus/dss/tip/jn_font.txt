@@ -1,0 +1,13 @@
+1. jupyter notebook 설정 폴더 들어가기
+ex) 우분투면 유저 디렉토리에서 cd .jupyter
+
+2. custom폴더로 이동
+
+3. 텍스트 에디터로 custom.css 열기
+
+5. 아래 입력
+.CodeMirror pre {font-family: Courier New; font-size: 12pt; line-height: 120%;}
+
+	* font-family = 글자체
+	* font-size = 폰트 크기
+	* line-height = 줄간격

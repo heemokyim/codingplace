@@ -56,3 +56,6 @@ http://aroundck.tistory.com/1180
 2. .git/config에서 해당 서브모듈 제거
 3. git rm --cached path
 4. commit
+
+8. pull request가 아니라 직빵으로 push를 하고 싶다
+리포지터리 주인으로부터 초대를 받아야함

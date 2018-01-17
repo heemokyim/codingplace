@@ -7,3 +7,6 @@
 [submodule "mongoDB/workspace/5_upstarmusic"]
 	path = mongoDB/workspace/5_upstarmusic
 	url = https://github.com/Anylee2142/UpStarMusic.git
+[submodule "anylee2142.github.io"]
+	path = anylee2142.github.io
+	url = https://github.com/Anylee2142/anylee2142.github.io.git

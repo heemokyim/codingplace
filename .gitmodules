@@ -10,3 +10,6 @@
 [submodule "anylee2142.github.io"]
 	path = anylee2142.github.io
 	url = https://github.com/Anylee2142/anylee2142.github.io.git
+[submodule "fb_crawling"]
+	path = fb_crawling
+	url = https://github.com/Anylee2142/fb_crawling.git

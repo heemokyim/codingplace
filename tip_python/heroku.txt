@@ -1,0 +1,96 @@
+** Heroku == PaaS (you can upload process to run, usually server)
+(based on Git)
+
+** Suppose we need belows in virtual enviornment
+1. flask
+2. gunicorn (middleware webserver like apache)
+(load balancing, security etc)
+
+
+0. install heroku-toolbelt
+wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
+** How to check installed properly?
+heroku --version
+
+1. sign up to Heroku
+
+2. create new app in dashboard
+
+3. locate to source directory
+ex) cd d_website/
+
+4. heroku login
+
+5. heroku create yourappname
+(yourappname is set as domain, so should not be occupied by someone)
+
+6. heroku apps (to check list of your apps)
+
+7. we need three files in demo (upload folder)
+	a. requirements.txt
+	b. Procfile ( no extension)
+	c. runtime.txt
+
+7-a. requirements.txt (=list of dependencies to tell heroku required libs)
+1. go to os_virtual/
+2. pip freeze | grep -v "pkg-resources"> requirements.txt
+3. demo/requirements.txt
+4. delete pkg-resource line and save it
+(reason for virtual enviornment == exactly find out what dependencies for app)
+** pkg-resources ? == error from ubuntu's pip freeze, you can delete it)
+
+7-b. Procfile (=connect middleware with source script to tell heroku what webserver to use)
+web: middleware_server your_source:main function name
+ex) web: gunicorn script1:app
+** be careful indent.. web:*gunicorn
+
+
+7-c. runtime.txt (== desired python version heroku execute to tell heroku)
+https://devcenter.heroku.com/articles/python-support
+python-3.6.2
+
+8. After 7, locate to demo/
+
+9. git init
+
+10. git add *
+
+11. git commit -m 'some notes'
+
+12. heroku git:remote --app yourappname
+ex) heroku git:remote --app leesweb
+
+13. git push herouku master
+** if git push errors,
+1. git config --global user.email "youremail"
+2. git config --global user.name "any ID you want"
+
+14. heroku open
+
+in that direcotry,
+15. heroku info
+
+16. heroku ps
+
+17. heroku ps:scale web=n
+stop = heroku ps:scale web=0
+restart = heroku ps:scale web=1
+
+
+18. heroku logs
+----------------------------------------------------------------------
+1. requirements.txt, Procfile, runtime.txt
+
+2. git push
+
+3. heroku open
+---------------------------------------------------------------------
+** How to save changes?
+1. save chagnes
+
+2. git push heroku master
+
+3. heroku open
+
+

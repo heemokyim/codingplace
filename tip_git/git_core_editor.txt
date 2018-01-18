@@ -1,0 +1,5 @@
+git config --global user.name "YOUR NAME"
+
+git config --global user.email "User email"
+
+git config --global core.editor "vim"

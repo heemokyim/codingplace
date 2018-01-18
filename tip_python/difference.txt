@@ -1,0 +1,12 @@
+MySQL = Popular RDMBS
+Server side
+
+PostgreSQL = Open-source RDBMS
+Server side
+
+SQLite = not RDBMS, stores only one .dot file
+Client side light database
+
+* MySQL vs PostgreSQL ?
+If large quantity, complicated SQL
+==> PostgreSQL win !

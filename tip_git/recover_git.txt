@@ -1,0 +1,5 @@
+1. git rev-list -n 1 HEAD
+
+2. git checkout $(git rev-list -n 1 HEAD)^
+
+3. Go find files to recover 

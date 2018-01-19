@@ -1,0 +1,22 @@
+A, B 두 사용자가 한 repo를 쓰고 있음
+
+1. 어떤 코드에 대해 작업하고 있다
+
+2. B가 1번 줄에 코드를 짜고 repo에 push함
+
+3. 이 때 A가 1번 줄에 대해 B와 다르게 코드를 짜고 pull을 하면 merge conflict가 발생함
+
+** 해결방법 (A 입장에서)
+1. git status (어떤 파일이 merge conflict 났는지)
+
+2. merge conflict 난 파일을 보면 어디가 어떻게 conflict 났는지 보여준다
+
+3. A와 B가 상의해서 누구껄 쓸건지 결정함
+
+4. 결정된 것만 코드에 남김
+
+5. git add *
+
+6. git commit
+
+7. git pull origin master

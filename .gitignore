@@ -1,3 +1,4 @@
 node_modules
 chromedriver*
 cred.json
+client_secret.json

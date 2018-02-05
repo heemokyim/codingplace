@@ -10,3 +10,5 @@
 embedded sql
 
 언어 별로 DDL이 조금 상이할 수 있음
+
+qwerqwerqwer

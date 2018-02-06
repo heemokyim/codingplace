@@ -1,0 +1,11 @@
+1. Ctrl Shift I
+
+2. Click tag you wanna scraping
+
+3. Right click
+
+4. Copy -> Copy Selector
+
+5. Paste
+
+6. It is Selector

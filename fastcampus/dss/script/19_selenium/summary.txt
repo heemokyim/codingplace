@@ -9,3 +9,10 @@
 5. Paste
 
 6. It is Selector
+
+-----------------------------------------------------------------------------------
+when to use BS?
+    => Scraping static pages
+    
+when to use Selenium?
+    => Scraping dynamic pages

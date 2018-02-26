@@ -1,0 +1,11 @@
+1. touch ssh.sh
+
+2. vi ssh.sh
+
+3.
+#!/bin/bash
+ssh -i YOUR_KEY.pem ubuntu@YOUR_IP
+
+4. chmod +x ssh.sh
+
+5. sudo ./ssh.sh

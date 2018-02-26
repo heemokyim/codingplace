@@ -2,5 +2,6 @@ refer to /usr/local folder
 
 pyspark
 spark-shell
+spark-submit code.py
 
 (Notice that spark creates folder, files in current working directory)

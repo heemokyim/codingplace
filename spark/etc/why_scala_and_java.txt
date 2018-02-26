@@ -1,0 +1,2 @@
+Spark runs on Scala
+Scala runs on JDK

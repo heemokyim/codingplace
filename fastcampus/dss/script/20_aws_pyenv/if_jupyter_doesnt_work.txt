@@ -1,2 +1,5 @@
-sudo apt-get install libsqlite3-dev sqlite3
+1. sudo apt-get install libsqlite3-dev sqlite3
 
+2. reinstall pyenv, pyenv-virtualenv
+
+3. reconstruct python enviornment

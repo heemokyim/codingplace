@@ -16,7 +16,7 @@ fault tolerance => (Resilience)
 4. Components of Spark
     a. Spark streaming = real-time analysis
     b. Spark SQL = query for spark, way to treat Spark as data warehouse
-    c. MLLIb = Machine Learnign Library
+    c. MLLIb = Machine Learning Library
     d. GraphX = managing graph information (networks, higher property of graph)
     
 5. coding in scala is more faster for spark

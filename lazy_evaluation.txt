@@ -1,0 +1,5 @@
+why lazy evaluation is efficient?
+	ex) generator with yield
+	ex) the way spark does
+
+= Same reason why buffering is efficient for CPU

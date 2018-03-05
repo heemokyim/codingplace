@@ -1,0 +1,47 @@
+grep CRON /var/log/syslog
+sudo apt-get install postfix
+cat /var/mail/ubuntu
+sudo apt install mailutils
+
+1. syslog -> show me every log with crontab
+2. postfix -> create buckets(repo dir) for mail
+3. cat /var/mail/ubuntu
+4. sudo apt install mailutils
+-> install software that read sorted list of mail
+5. mail
+-> read sorted mails
+
+-------------------------------------------------------------
+how to pyenv in crontab?
+1. cat .bash_profile, this is list of default config including pyenv in terminal
+2. that config isn't set for crontab
+3. To do crontab with pyenv, import config for crontab
+
+bash_profile = executed when ssh
+bashrc = executed when local (more frequent config)
+
+------------------------------------------------------------------
+
+in bash_profile
+    1. modify alias in bash_profile
+    2. source .bash_profile
+    3. use command via alias
+
+-----------------------------------------------------------------------
+
+To set vim config,
+    1. vi .vimrc
+    2. vim
+    3. :source /path/to/.vimrc
+
+
+-----------------------------------------------------------------------
+
+why use MQ
+    = resilience for multiple clusters
+
+-----------------------------------------------------------------------
+
+1. incoming webhook = 슬랙 서버입장에서 인커밍
+
+2. outgoing webhook = 슬랙 서버입장에서 아웃고잉

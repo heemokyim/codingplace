@@ -28,4 +28,4 @@ def slack():
     return Response(), 200
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=False)
+    app.run(host='172.31.8.164',port=5000, debug=False)

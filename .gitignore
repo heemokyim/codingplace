@@ -4,7 +4,10 @@ cred.json
 client_secret.json
 .ipynb_checkpoints
 
+*/nohup.out
 nohup.out
+*.out
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,5 @@
+1. port forward via router
+
+2. ngrok (server located at US)
+
+3. nginx, gunicorn for Python

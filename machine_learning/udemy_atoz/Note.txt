@@ -1,0 +1,12 @@
+** Where can i get whole datasets?
+https://www.superdatascience.com/machine-learning/
+
+** independent variable -> dependent variable
+(input -> output)
+
+Machine Learning
+== Inferring dependent variable from independent variable
+
+** No need to explicitly import in R
+(But activate it)
+

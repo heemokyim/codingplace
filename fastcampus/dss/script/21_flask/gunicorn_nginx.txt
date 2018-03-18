@@ -1,0 +1,4 @@
+gunicorn to execute python web server
+    = In compare with JAVA, gunicorn is Apache TOMCAT
+
+nginx to connect internal and external ip

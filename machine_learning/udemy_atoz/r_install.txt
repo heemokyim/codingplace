@@ -1,0 +1,2 @@
+* install R
+http://igotit.tistory.com/entry/R-%EC%9A%B0%EB%B6%84%ED%88%AC%EC%97%90-R-%EC%84%A4%EC%B9%98

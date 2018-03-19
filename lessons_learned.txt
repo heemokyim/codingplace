@@ -1,0 +1,58 @@
+1. When CV, use same model for each iteration
+
+2. When EDA plotting, set to final model
+ex) if final model is log(y) ~ X1 + X2 ..
+plot with log(y)
+
+3. OLS is about minimize RSS with RMSLE
+-> then set dependent formula to log(p+1)
+because RMSLE uses log(p+1), optimization comes with finding proper formula
+So when OLS, set formula to evaluation function
+
+4. There is  fixed way for unfolding QQ plot,
+consider its own dist, and apply proper function or something
+
+5. Walmart
+	-> units are sensitive to particular day
+	-> like black friday or sales
+	-> So consider some celemonial date
+	ex) Black friday, Thanksgiving day
+
+6. EDA if really important and have good skills for it
+
+7. Specify what insight we get from each plotting EDA
+
+8. Class cleaning = 제일 비슷한 애들끼리 묶어라
+
+9. 컨디션넘버가 높으면 테스트가 그냥 쓰레기임
+스케일링으로 컨디션넘버를 낮춰야 함
+
+10. 결론부터 말하고 왜 그렇게 했는지, 이유를 설명
+
+11. censored data = 왜곡된 데이터
+왜곡된 데이터가 있을 수 있는 경우 따로 빼서 처리해라
+
+12. 인터랙션을 쓰면 변수가 많아지는 단점이 있지만
+중요한 영향,법칙을 끼칠 것 같은 조합은 해줘라
+ex) C(item_nbr):C(day)
+
+13. 잔차가 정규성 띈다 안띈다는 별로 안 중요함
+정규성을 안 띄는데 어떤 모양으로 안 띄는가
+안 따르면 그 모양으로부터 어떤 법칙을 도출할 수 있는지 알아보려고 분포를 보는거임
+
+14. 큐큐플롯에서 정규성을 따르게 하고 싶다
+두가지 방법이 있음
+x, y가 꼭 정규분포를 안따라도 되지만 정규분포를 따르게 취해줘서 성능이 향상되는 경우가 있다.
+1. Box-Cox = lambda값으로 분포의 폭을 얼마나 줄이고 늘릴지 결정
+	Scaling
+
+
+2.  log(x+c) = 상수값 c를 조절함으로써 로케이셔닝을 한다.
+	Locationing, Scaling by configuring c
+
+15. feature들 중 p-value 낮은 애들은 전부 하나로 묶으면 정규화 효과가 있따.
+
+16. OLS 결과에서 나온 어떤 수치보다 어떤 특정결과보다 테스트성능이 가장 중요하다.
+다만 OLS 결과에서 힌트를 얻어 방향을 찾는데 도움을 얻어야 한다.
+
+17. 우리는 인터랙션에 주말이냐 주중이냐, 블랙 프라이데이냐 아니냐 정도

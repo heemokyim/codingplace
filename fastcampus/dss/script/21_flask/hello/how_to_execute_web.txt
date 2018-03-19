@@ -1,0 +1,7 @@
+1. Configure Nginx
+
+2. gunicorn FILE_NAME:APP_NAME
+ex) gunicorn aws:app
+
+** Conclusion
+nohup gunicorn aws:app &

@@ -1,0 +1,4 @@
+1. IBM Visual recognition
+
+2. GCP vision api
+

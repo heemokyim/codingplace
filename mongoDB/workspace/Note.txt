@@ -1,4 +1,11 @@
 --------------------------------------------------------------------------------
+1. Go to folder
+
+2. npm install
+
+3. node index.js or app.js
+
+--------------------------------------------------------------------------------
 Here's another solution as a cross platform option.
 
 Command line/terminal:

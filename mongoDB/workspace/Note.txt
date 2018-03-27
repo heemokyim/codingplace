@@ -1,3 +1,13 @@
+** npm run test로 mocha를 쓸 때, 왜 test_helper에서 mongoose를 export안하나
+= test_helper에서 한번 연결시키면 그 연결객체가 코드상에서 공유되는듯
+
+--------------------------------------------------------------------------------
+1. Go to folder
+
+2. npm install
+
+3. node index.js or app.js
+
 --------------------------------------------------------------------------------
 Here's another solution as a cross platform option.
 

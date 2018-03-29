@@ -1,0 +1,13 @@
+1) 타겟 분류 및 쿠폰 사용 예측
+2) 할인율에 따른 데이터 예측(회귀분석)
+3) 기타(근대 이건 여느 중소기업에서 보듯이 잡일 ... 개발관련된거였음)
+
+그냥 타겟분류 관련되서는
+LDA(latent dirichlet allocation) 짱 좋다
+
+DBSCAN(Density-bases spatial clustering of applications with noise) 도 좋은데 좋은 이유가 
+내가 집단을 따로 안 정해줘도 모델이 잡아준다
+
+회귀분석할때는 XGBoost 라는걸로 성능 조절 해야한다
+
+하지만 실제 현실에서는 선형회귀로 분석할 수 있는게 많지 않음

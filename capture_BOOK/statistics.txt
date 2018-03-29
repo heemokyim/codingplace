@@ -1,1 +1,4 @@
 행동과학을 위한 통계학
+the elements of statistical learning
+machine learning by murphy
+pattern match and recognition

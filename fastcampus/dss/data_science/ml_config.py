@@ -9,6 +9,7 @@ import statsmodels.stats.api as sms
 import sklearn as sk
 import matplotlib as mpl
 import matplotlib.pylab as plt
+import matplotlib.font_manager as fm
 from mpl_toolkits.mplot3d import Axes3D
 import seaborn as sns
 sns.set()

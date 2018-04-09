@@ -11,7 +11,7 @@ import matplotlib as mpl
 import matplotlib.pylab as plt
 import matplotlib.font_manager as fm
 from mpl_toolkits.mplot3d import Axes3D
-import seaborn as sns
+import seaborn as snsd
 sns.set()
 sns.set_style("whitegrid")
 sns.set_color_codes()

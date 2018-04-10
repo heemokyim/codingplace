@@ -1,0 +1,25 @@
+Celery는 작업을 비동기로 처리하는 분산처리 파이썬 프레임워크
+
+Task -> Broker -> (Worker1, Worker2, Worker3..)
+
+1. Task가 Broker에게 전달되면 이를 Worker(Celery)가 처리한다
+(그러니까 Celery가 분산프로세스를 생성하는 역할을 한다)
+
+2. 여기서 Broker는 MQ다. RabbitMQ나 Redis를 사용한다.
+
+3. 원래 Redis는 인메모리 데이터 storage지만 메시지 브로커용으로도 활용가능
+
+비동기 작업이 필수적인 곳이 있는데, 바로 은행 전산 시스템이다. 
+전국의 은행 지점에서 돈이 오고 가는 것이 전산적으로 어딘가의 중앙 시스템에 기록이 된다. 
+동시다발적으로 거래가 일어날 텐데, 전산 작업 중 일부가 충돌해서 문제가 발생한다면 은행 입장에서는 재앙과 같은 일이 된다. 
+이런 위험을 해소해주는 것이 메시지 브로커를 이용한 비동기 작업 큐를 구축하는 것이다.
+
+http://dgkim5360.tistory.com/entry/python-celery-asynchronous-system-with-redis
+http://bcho.tistory.com/654
+https://heavenkong.blogspot.kr/2017/02/celery.html
+http://ngee.tistory.com/540
+https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
+
+** 사용법
+http://flask.pocoo.org/docs/0.12/patterns/celery/
+http://egloos.zum.com/killins/v/3094705

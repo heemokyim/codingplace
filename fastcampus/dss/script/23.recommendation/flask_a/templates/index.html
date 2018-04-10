@@ -48,6 +48,8 @@
                 request = {
                     sentence:txt
                 }
+                // 서버로 /predict API에 request를 넘긴 다음
+                // 결과를 data에 받아옴
                 $.post("/predict/", request).done(function(data){
                     var result_data = []
 

@@ -32,7 +32,8 @@ def predict():
     return jsonify(result)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+	app.run(host='192.168.0.40', port=5000)
+#    app.run(debug=True)
 
 # for windows
 # $ python3 dss.py

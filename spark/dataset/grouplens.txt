@@ -1,3 +1,0 @@
-grouplens.org -> datasets
-
-you can get sample data from here

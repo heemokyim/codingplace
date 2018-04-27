@@ -9,16 +9,6 @@
 transform = map (정제)
 action = reduce (결과도출)
 
---------------------------------------
-
-RDD.collect() = 현재 진행상황을 보여줘
-
-RDD.flatMap(func) = 하나를 쪼개서 여러개로 만들어줘
-
-RDD.filter(func) = 조건에 맞는 애들만 골라서 보여줘 (func에 조건정의)
-
---------------------------------------
-
 sn3, hdfs, parallize
 
 https://data-flair.training/blogs/spark-rdd-operations-transformations-actions/
@@ -27,3 +17,42 @@ https://data-flair.training/blogs/spark-rdd-operations-transformations-actions/
 
 2. RDD.reduce(func) = transformed된 행에 대해 action 수행
 
+
+
+--------------------------------------
+
+RDD.collect() = 현재 진행상황을 보여줘
+
+RDD.map(func) = [A,B,C] -> [A',B',C']
+
+RDD.flatMap(func) = [A,B,C] -> [D]
+
+RDD.filter(func) = [A,2A,3A,4A] -> [2A,4A]
+
+--------------------------------------
+
+broadcast
+
+accumulator
+
+cache = cache result on memory
+
+persist = store result on disk
+
+
+--------------------------------------
+
+User based CF -> 취향이 비슷한 유저가 산 걸 추천
+
+Item based CF -> 비슷한 아이템을 추천 (비슷한 걸 계산하는 기준 -> 코사인 유사도 + 평점)
+
+** 추천 시스템 유사도 계산하는 두가지 방법
+1. 두 개씩(유저,아이템) 짝지어서 [[first,second],[sim_score, numpairs]]로 표현
+2. 유사도 행렬
+
+--------------------------------------
+
+
+--------------------------------------
+--------------------------------------
+--------------------------------------s

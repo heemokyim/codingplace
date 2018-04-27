@@ -50,7 +50,7 @@ Actions for RDD
 2. reduce = reduce every data into one scala by given labmda and datasets
 
 Lazy evaluation
-    = Nothing really happens until Actions get started
+    = Nothing really happens until 'Action' get started
     = Once it happens on Spark, it will computes DAG for optimized workflow path
     
 ==============================================================================   

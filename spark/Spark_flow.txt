@@ -1,0 +1,29 @@
+1. Create RDD from SparkContext
+
+2. Transform, Action on RDD
+
+3. Lazy Evaluation
+
+--------------------------------------
+
+transform = map (정제)
+action = reduce (결과도출)
+
+--------------------------------------
+
+RDD.collect() = 현재 진행상황을 보여줘
+
+RDD.flatMap(func) = 하나를 쪼개서 여러개로 만들어줘
+
+RDD.filter(func) = 조건에 맞는 애들만 골라서 보여줘 (func에 조건정의)
+
+--------------------------------------
+
+sn3, hdfs, parallize
+
+https://data-flair.training/blogs/spark-rdd-operations-transformations-actions/
+
+1. RDD.map(func) = 모든 행에 대해 transform을 수행 
+
+2. RDD.reduce(func) = transformed된 행에 대해 action 수행
+

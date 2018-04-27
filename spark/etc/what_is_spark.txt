@@ -1,0 +1,9 @@
+Spark
+    =fast, easy way for analyze data with clusters
+   
+Don't install JAVA9,
+Install JAVA8
+
+==============================================================================   
+
+Spark is Memory-based streaming data framework

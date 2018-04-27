@@ -1,1 +1,0 @@
-https://stackoverflow.com/questions/44311982/difference-between-spark-submit-vs-sparksession-in-python-script

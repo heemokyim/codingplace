@@ -17,8 +17,6 @@ https://data-flair.training/blogs/spark-rdd-operations-transformations-actions/
 
 2. RDD.reduce(func) = transformed된 행에 대해 action 수행
 
-
-
 --------------------------------------
 
 RDD.collect() = 현재 진행상황을 보여줘
@@ -31,14 +29,13 @@ RDD.filter(func) = [A,2A,3A,4A] -> [2A,4A]
 
 --------------------------------------
 
-broadcast
+broadcast = shared data to be processed over clustser
 
-accumulator
+accumulator = global varaible like signal over cluster
 
 cache = cache result on memory
 
 persist = store result on disk
-
 
 --------------------------------------
 
@@ -52,7 +49,18 @@ Item based CF -> 비슷한 아이템을 추천 (비슷한 걸 계산하는 기�
 
 --------------------------------------
 
+sc.textFile('s3n://..')
+= s3는 amazon simple data storage service다 (can be used as distributed file system)
+= EMR이랑 같이 쓰기 좋음
 
 --------------------------------------
+
+Hadoop이 fault tolerance하긴 하지만
+설계를 잘못해서 생긴 fault에 대해선 tolerated하지 못하다.
+=> executor한테 얼마나 일을 줄지, 몇개나 쓸지, 메모리는 얼마나 줄 지 잘 결정해라
+
 --------------------------------------
+
+https://stackoverflow.com/questions/31460079/spark-ui-on-aws-emr
+
 --------------------------------------s

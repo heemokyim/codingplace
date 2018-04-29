@@ -1,0 +1,32 @@
+* 4040포트로 Spark 진행상황을 Web UI로 확인가능, EMR에서도 확인하고 싶으면?
+=> proxy를 따로 설정해야 한다. EMR 콘솔에서 가이드라인 확인가능. 근데 돈내야함
+https://docs.aws.amazon.com/ko_kr/emr/latest/ManagementGuide/emr-connect-ui-console.html
+
+* EMR 웹인터페이스 리스트
+https://docs.aws.amazon.com/ko_kr/emr/latest/ManagementGuide/emr-web-interfaces.html
+
+--------------------------------
+
+* spark-submit 파라미터
+https://www.alibabacloud.com/help/doc-detail/28124.htm
+
+--------------------------------
+
+* spark configuraiton
+/usr/local/spark/conf
+https://spark.apache.org/docs/latest/running-on-yarn.html
+
+--------------------------------
+
+* 언제 cache, persist를 써야 하나
+https://stackoverflow.com/questions/28981359/why-do-we-need-to-call-cache-or-persist-on-a-rdd
+
+코드가 lazy evaluation될 때, 똑같은 걸 새로 불러오는 경우
+cache를 쓰면 다시 불러오지 않고 메모리에 cache한 놈을 쓴다
+
+http://localhost:8888/notebooks/codingplace/spark/1_advanced/3_CACHE_PERSIST.ipynb를 예로 들면,
+filteredResults를 구할 때 moviesim은 이전에 cache된 애인데,
+filter는 lazy evaluation이므로 filter할 때마다 moviesim을 불러오지 않고
+메모리에 한 번 올려놓은 cache된 애를 계속 쓴다
+
+--------------------------------

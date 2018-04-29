@@ -1,0 +1,12 @@
+* Movie similarity recommend 성능테스트
+
+spark-submut --executor-memory 4g code.py
+
+1. i7-6700hq, 16GB, Ubuntu 17.10, single node = 12분
+
+2. m4.large cluster, 마스터 1개 + 슬레이브 4개 = 6분 30초
+
+3. c4.large cluster, 마스터 1개 + 슬레이브 4개 = 5분 30초
+
+* 결론 = Spark는 확실히 cluster 덕을 본다
+

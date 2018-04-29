@@ -73,3 +73,13 @@ local[*] = 현재 머신의 코어를 다 써라
 
 No file system for s3n error
 spark-submit --packages com.amazonaws:aws-java-sdk-pom:1.10.34,org.apache.hadoop:hadoop-aws:2.6.0 code.py
+
+--------------------------------------
+
+* Spark 로그 줄이는 방법
+https://stackoverflow.com/questions/25193488/how-to-turn-off-info-logging-in-spark
+
+--------------------------------------
+
+* Spark DataFrame
+-> RDD를 DataFrame화시키면 내부적으로 최적화함

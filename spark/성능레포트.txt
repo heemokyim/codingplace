@@ -8,5 +8,10 @@ spark-submut --executor-memory 4g code.py
 
 3. c4.large cluster, 마스터 1개 + 슬레이브 4개 = 5분 30초
 
-* 결론 = Spark는 확실히 cluster 덕을 본다
+-------------------------------------------------------------
 
+** cache를 쓸 땐 같은 RDD가 여러번 쓰일 때
+
+** executor의 core에 대해 partition 너무 많이 주면 I/O 오버헤드때문에 오히려 느려짐
+
+** 

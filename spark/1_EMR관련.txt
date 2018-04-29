@@ -21,12 +21,22 @@ https://spark.apache.org/docs/latest/running-on-yarn.html
 * 언제 cache, persist를 써야 하나
 https://stackoverflow.com/questions/28981359/why-do-we-need-to-call-cache-or-persist-on-a-rdd
 
+
+
 코드가 lazy evaluation될 때, 똑같은 걸 새로 불러오는 경우
 cache를 쓰면 다시 불러오지 않고 메모리에 cache한 놈을 쓴다
 
-http://localhost:8888/notebooks/codingplace/spark/1_advanced/3_CACHE_PERSIST.ipynb를 예로 들면,
-filteredResults를 구할 때 moviesim은 이전에 cache된 애인데,
-filter는 lazy evaluation이므로 filter할 때마다 moviesim을 불러오지 않고
-메모리에 한 번 올려놓은 cache된 애를 계속 쓴다
+not needed when linear lineage
 
 --------------------------------
+
+* persist vs cache
+https://stackoverflow.com/questions/26870537/what-is-the-difference-between-cache-and-persist
+
+--------------------------------
+
+movie sim 예제에서
+왜 MovieSimil에 cache, persist를 해줬나
+1. 바로 밑에서 MovieSimil을 저장하고
+2. 그 밑에서 filter시키는,
+같은 RDD에 대해 2번 action을 취하므로 cache를 쓴거다

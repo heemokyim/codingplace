@@ -52,11 +52,12 @@ nameDict = loadMovieNames()
 
 data = sc.textFile("s3n://sundog-spark/ml-1m/ratings.dat")
 
-zzzzratings = data.map(lambda l: l.split("::")).map(lambda l: (int(l[0]), (int(l[1]), float(l[2]))))
+ratings = data.map(lambda l: l.split("::")).map(lambda l: (int(l[0]), (int(l[1]), float(l[2]))))
 
 # Emit every movie rated together by the same user.
 # Self-join to find every combination.
-ratingsPartitioned = ratings.partitionBy(100)
+ratingsPartitioned = ratings.partitionBy(300)
+ratingsPartitioned.cache()
 joinedRatings = ratingsPartitioned.join(ratingsPartitioned)
 
 # At this point our RDD consists of userID => ((movieID, rating), (movieID, rating))
@@ -65,7 +66,9 @@ joinedRatings = ratingsPartitioned.join(ratingsPartitioned)
 uniqueJoinedRatings = joinedRatings.filter(filterDuplicates)
 
 # Now key by (movie1, movie2) pairs.
-moviePairs = uniqueJoinedRatings.map(makePairs).partitionBy(100)
+moviePairs = uniqueJoinedRatings.map(makePairs)
+moviePairs = moviePairs.partitionBy(300)
+moviePairs.cache()
 
 # We now have (movie1, movie2) => (rating1, rating2)
 # Now collect all ratings for each movie pair and compute similarity
@@ -73,7 +76,8 @@ moviePairRatings = moviePairs.groupByKey()
 
 # We now have (movie1, movie2) = > (rating1, rating2), (rating1, rating2) ...
 # Can now compute similarities.
-moviePairSimilarities = moviePairRatings.mapValues(computeCosineSimilarity).persist()
+moviePairSimilarities = moviePairRatings.mapValues(computeCosineSimilarity)
+moviePairSimilarities.cache()
 
 # Save the results if desired
 moviePairSimilarities.sortByKey()

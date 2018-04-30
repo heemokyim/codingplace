@@ -1,5 +1,0 @@
-* When error while calling apache spark
-https://stackoverflow.com/questions/39882218/py4jjavaerror-an-error-occurred-while-calling-zorg-apache-spark-api-python-pyt
-
-* Multiple spark-contexts error
-https://stackoverflow.com/questions/23280629/multiple-sparkcontexts-error-in-tutorial

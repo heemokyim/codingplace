@@ -1,3 +1,0 @@
-What if certain executor needs additional table?
-
-= send data once and executor keeps it there

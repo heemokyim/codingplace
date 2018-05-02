@@ -1,0 +1,7 @@
+1. security enable하면 등록된 유저가 아니면 접속을 못함
+
+2. 단, admin이라고 모든 DB에 접속가능한 건 아니다.
+각 DB에 대해서 유저권한을 따로 생성해야 함
+
+ex) admin이라는 DB에 root user를 만들었다고
+다른 DB에 해당 authentication으로 접근불가

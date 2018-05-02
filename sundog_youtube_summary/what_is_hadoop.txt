@@ -1,0 +1,9 @@
+Hadoop vs Spark
+* 공통점 = Big data를 효율적으로 handling함
+        = In resilience, distributed manner
+
+* 차이점
+    1. Hadoop = 분산저장
+    2. Spark = 분산처리
+    
+ 

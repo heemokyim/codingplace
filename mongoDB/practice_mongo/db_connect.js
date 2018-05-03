@@ -1,17 +1,11 @@
 const mongoose = require('mongoose')
 const config = require('./get_config')
 
-const User = require('./models/person')
+const User = require('./models/user')
 
 mongoose.Promise = global.Promise;
 mongoose.connect(config.getAdminConnection());
 
-var joe = new User({ name:'Joe'})
+var joe = new User({ name:'Jo'})
 
-joe.save()
-  .then(()=>{
-    console.log('User saved successfully !')
-  })
-  .catch(()=>{
-    console.log('Error occured')
-  })
+console.log(joe._id)

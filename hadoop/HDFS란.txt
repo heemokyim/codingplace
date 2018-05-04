@@ -1,0 +1,51 @@
+HDFS ?
+    = Big file -> small blocks -> distribute them over HDFS cluster
+
+HDFS Architecture
+    = 데이터를 NameNode와 DataNode로 처리함
+    = DataNode들끼리 resilience를 위해 data들의 backup본을 서로 공유한다
+
+1. Name Node = Cluster 내에 데이터가 어디 있는지, 디렉토리는 어떻게 생겼는지 아는 놈
+                = Keep track of everything within HDFS
+                
+2. Data Node = 실제로 Data가 적재되있는 놈
+
+---------------------------------------------------------
+
+* Reading a file
+
+ex) Client가 HDFS에서 파일을 찾고 싶다
+1. ClientNode asks NameNode where they are
+2. NameNode tells ClientNode which DataNode to go find
+3. ClientNode goes to DataNode NameNode told to ClientNode
+
+---------------------------------------------------------
+
+* Writing a file
+
+ex) Client가 HDFS에 new entry를 넣고 싶다
+1. Client가 NameNode에게 어떤 data를 저장하고 싶다고 얘기함
+2. NameNode가 Client에게 알았다, 가서 저장해라 라고 얘기함
+3. Client가 DataNode에 가서 저장할 data를 알려줌
+4. DataNode들끼리 해당 data의 replication을 서로 공유함
+5. 성공적으로 완료되면 DataNode가 Client에게 다 됐다고 얘기함
+6. Client가 NameNode에게 자기가 저장하고 싶은 data가 성공적으로 저장됬다고 얘기함
+
+---------------------------------------------------------
+
+HDFS를 써서 데이터를 하나도 잃지 않는게 아니라 피해를 최소화하는 것
+
+----------------------------------------------------------
+
+HDFS high availability
+    = 동시성을 위해 한 번에 한 NameNode만 작동하게끔 함, 다른 Node들의 전원을 꺼버림
+    = 이걸 보고 Extreme measure라 한다
+    
+----------------------------------------------------------
+
+HDFS eco system의 거의 모든 component가 JAVA로 만들어짐
+
+----------------------------------------------------------
+
+ssh로 접속 후,
+hadoop fs 실행

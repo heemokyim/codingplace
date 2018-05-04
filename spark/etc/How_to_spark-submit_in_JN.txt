@@ -1,4 +1,0 @@
-%%sh
-spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.10:2.0.0 script.py
-
-Just use shell magic command from JN

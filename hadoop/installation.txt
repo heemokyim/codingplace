@@ -1,0 +1,9 @@
+http://www.admintome.com/blog/installing-hadoop-on-ubuntu-17-10/
+or
+Docker image of Hortonworks
+
+
+------------------------------------------------------------
+Hadoop server bind address
+https://stackoverflow.com/questions/25135183/hadoop-binding-multiple-ip-addresses-to-a-cluster-namenode
+https://hadoop.apache.org/docs/r2.8.0/hadoop-project-dist/hadoop-hdfs/HdfsMultihoming.html

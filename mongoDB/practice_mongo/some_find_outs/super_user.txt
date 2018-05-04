@@ -1,0 +1,5 @@
+# In Shell
+mongo -u ID -p PWD --authenticationDatabase 'admin' SERVER_ADDR/YOUR_DB
+
+# In Mongoose
+'mongodb://ID:PWD@SERVER_ADDR/YOUR_DB?authSource=admin'

@@ -1,1 +1,4 @@
 https://stackoverflow.com/questions/44311982/difference-between-spark-submit-vs-sparksession-in-python-script
+
+1. spark-shell = single cluster
+2. spark-submit = multiple clustsers

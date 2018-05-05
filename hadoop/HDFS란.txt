@@ -49,3 +49,11 @@ HDFS eco system의 거의 모든 component가 JAVA로 만들어짐
 
 ssh로 접속 후,
 hadoop fs 실행
+
+----------------------------------------------------------
+
+hadoop fs -ls
+hadoop fs -mkdir YOUR_PATH
+hadoop fs -copyFromLocal file path/file
+hadoop fs -rmdir
+hadoop fs -rm

@@ -1,0 +1,23 @@
+1. VM포트포워딩 시 bind address 0.0.0.0으로 (안되면 ambari server bind address도 체크)
+
+2. ssh 비번 변경
+    = 접속 후 해당 계정에서 passwd
+    (ambari에서 admin페이지로 들어가서 변경가능)
+    
+3. ambari 로그인 비번 변경
+    a. su root
+    b. ambari-admin-password-reset
+    c. ambari-agent restart
+    d. admin 계정에서 유저관리 (비번 etc)
+    
+-----------------------------------------  
+
+SSH 로그인 시,
+ssh로 HDFS에 등록된 유저네임으로 접속할 수 있다.
+ambari에 admin으로 로그인 후 Admin 페이지에서 확인가능
+
+ex) ssh SERVER_IP -p YOUR_PORT -l YOUR_NAME
+
+
+-----------------------------------------
+

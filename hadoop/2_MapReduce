@@ -1,0 +1,67 @@
+MapReduce?
+    = 일을 처리하는 방법론임. 자바를 OOP라 부르는 것처럼.
+    
+ex) 일을 처리하기 위해서..
+1. Map (적절한 형태로 transform하고)
+2. Reduce (원하는 결과로 aggregate함)
+
+위 두 과정을 Cluster 내의 모든 Machine들이 거친다
+
+-----------------------------------------
+
+Cluster에 속한 모든 Machine들이
+Massive input을 따로 mapping처리 후,
+aggregate 시 모든 Machine들이 관여,
+    => 분산처리
+    
+-----------------------------------------
+
+1. ClientNode가 할 일을 YARN에게 전달
+2. YARN이 할 일을 보고 resource plan을 짜서 NodeManager에게 넘김
+3. NodeMagner(Application Master)가 worker node들에게 일을 시키고 관리
+4. 각 worker node는 Map task, Reduce task를 수행한다
+(각 node들이 데이터를 처리 시 가장 가까운 network에 있는 애들로 YARN이 배정함)
+
+-----------------------------------------
+
+YARN watches Application Master(AM)
+Application Master watches Worker Node
+
+만약, YARN이 shut down된다면?
+    => Zookeeper's hot standby resource manager를 set한다 (second backup resource manager)
+    => HDFS의 mapreduce process들이 failure시 Zookeeper에게 살아있는 resource manager가 어딨는지 확인
+
+-----------------------------------------
+
+* HDP Sandbox에선 hadoop이 파일을 알아서 못찾으므로 parameter로 명시해야 함
+python file.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
+    = file.py를 hadoop에서 돌려라
+    
+* Amazon Hadoop cluster는 알아서 찾음
+python file.py
+
+
+* Running script on HDFS
+python hdfs://YOUR_FILE
+
+-----------------------------------------
+
+RatingsBreakdown.py에
+왜 return을 안쓰고 yield를 썼나?
+    => lazy evaluation으로 CPU 최적화
+
+좋은 최적화 예시가 될듯
+
+-----------------------------------------
+
+
+
+-----------------------------------------
+
+
+
+-----------------------------------------
+
+
+
+-----------------------------------------

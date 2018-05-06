@@ -35,7 +35,7 @@ Spark
 TEZ
 	1. MapReduce단에 있고 동작방식은 Spark와 비슷함. DAG를 사용
 	2. SQL 최적화되있고 보통 Hive랑 같이 쓴다 (두 놈 다 SQL Query에 최적화된 놈인듯)
-	3. TEZ와 Hive는 같이 쓰면 좋댄다
+	3. TEZ와 Hive는 같이 쓰면 좋댄다 (Pig도 같이 잘 섞어쓰는듯)
 
 HBASE
 	1. NoSQL Database

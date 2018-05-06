@@ -24,8 +24,8 @@ aggregate 시 모든 Machine들이 관여,
 
 -----------------------------------------
 
-YARN watches Application Master(AM)
-Application Master watches Worker Node
+YARN watches-> Application Master(AM)
+Application Master-> watches Worker Node
 
 만약, YARN이 shut down된다면?
     => Zookeeper's hot standby resource manager를 set한다 (second backup resource manager)

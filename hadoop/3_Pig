@@ -16,14 +16,6 @@ Pig = Pig Latin이라는 script language로 MapReduce작성가능하게 해줌
 
 -----------------------------------------
 
-FOREACH 릴레이션의행 GENERATE 릴레이션의컬럼(속성)
-
-
-JOIN한 후 어떻게 구분?
-릴레이션이름::릴레이션컬럼 = 릴레이션의 컬럼
-
------------------------------------------
-
 Ambari에서 Pig를 쓸 때 더 빠르게하는 방법 = TEZ를 사용
 
 * 왜 더 빠른가?
@@ -31,7 +23,57 @@ Ambari에서 Pig를 쓸 때 더 빠르게하는 방법 = TEZ를 사용
 
 -----------------------------------------
 
+GROUP 릴레이션이름 BY 컬럼이름
+	= 릴레이션을 BY 컬럼 기준으로 Grouping함
 
+-----------------------------------------
+
+LOAD = 읽기
+STORE = 쓰기
+DUMP = 화면에 출력
+
+MAPREDUCE =
+STREAM = 다른 process에 stdin, stdout처럼 data를 streaming함 (pipeline인듯)
+SAMPLE = Relation에서 random하게 몇개 뽑음
+CROSS = 두 relation의 cartesian product
+CUBE = 두 column의 cartesian product
+
+JOIN = 같은 key를 기준으로 두 relation을 연결시킴
+COGROUP = FULL OUTER JOIN + 결과를 iterable interface형식으로 return함 (lazy evaluation)
+
+RANK = Relation 각 행에 번호부여
+
+ORDER = 내림|오름차순으로 정렬
+
+-----------------------------------------
+
+DESCRIBE = relation의 schema
+EXPLAIN = query의 execution plan을 보여줌
+ILLUSTRATE = relation의 sample을 받으면 각 sample들을 어떻게 사용하는지 보여줌
+
+-----------------------------------------
+
+REGISTER = UDF가 들어있는 jar파일 IMPORT
+DEFINE = UDF에 naming을 함
+IMPORT = pig macro파일을 import함
+
+-----------------------------------------
+
+AVG, CONCAT, COUNT, MAX, MIN, SIZE, SUM
+
+
+
+-----------------------------------------
+
+FOREACH 릴레이션의행 GENERATE 릴레이션의컬럼(속성)
+
+ex) FOREACH ratingsByMovie GENERATE group AS movieID, AVG(ratings.rating) AS avgRating;
+= ratingsByMovie릴레이션에서 movieID, avgRating 컬럼을 가져와라
+
+-----------------------------------------
+
+JOIN한 후 어떻게 구분?
+릴레이션이름::릴레이션컬럼 = 릴레이션의 컬럼
 
 -----------------------------------------
 
@@ -42,6 +84,11 @@ Ambari에서 Pig를 쓸 때 더 빠르게하는 방법 = TEZ를 사용
 
 
 -----------------------------------------
+
+
+
+-----------------------------------------
+
 
 
 

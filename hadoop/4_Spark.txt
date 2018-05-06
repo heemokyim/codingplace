@@ -1,0 +1,55 @@
+Spark = fast, resilient, distributed processing framework
+        = RDD를 사용
+        = SparkContext가 RDD를 생성
+        
+----------------------------------
+
+Spark 2.0부터 SparkSession (SparkContext + SQL Query) 사용가능
+
+Spark 2.0이 아닌데 SparkSession을 사용하고 싶으면
+cli에서 export SPARK_MAJOR_VERSION=2
+
+----------------------------------
+
+DataFrame은 Row object들을 여러개 받아서 만들 수 있다.
+
+ex)
+movies = data.map(Row(movieID = int(), rating = int()))
+spark.createDataFrame(movies)
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+
+----------------------------------
+
+
+

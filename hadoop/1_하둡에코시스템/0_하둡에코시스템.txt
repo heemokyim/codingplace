@@ -10,6 +10,7 @@ YARN
 
 MAPREDUCE
 	1. 프로그래밍 방법론임 Map 후 Reduce
+	2. 방법론 아닐 수도 있고 소프트웨어프레임워크일수도..
 
 Pig
 	1. 프로그래밍 언어 없이 SQL 비스무리한 애들로 다양한 쿼리를 날리는 high level API

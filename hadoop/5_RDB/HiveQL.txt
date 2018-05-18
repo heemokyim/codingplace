@@ -1,0 +1,86 @@
+Hive = MapReduce + Tez 위에서 도는 HDFS Query엔진
+    = Hive에 SQL 날리면 HDFS내에서 distribute하게 처리해서 결과 return
+    = Thrift server를 가동시켜 Hive외부에서 Hive와 통신가능
+    
+* Schema On Read, 실제로 테이블이 아닌 metastore를 저장함
+
+* 장점
+1. Interactive SQL 
+2. Make OLAP easy
+3. Map SQL to MapReduce
+
+* 단점
+1. latency가 높아서 OLTP엔 부적합
+2. 기능이 SQL에 제한됨 (피그나 스파크와 비교하면 확실히 적다)
+3. 데이터를 테이블형태로 다루긴 하는데 실제로 저장된 형태는 그렇지 않음 
+    = stores de-normalized data (denormalized = 테이블,스키마 형식대로 정의되지 않았다)
+    = 비정형데이터에서 테이블형식으로 저장하는 metastore라는 파일을 따로 저장한다
+
+4. 테이블형식으로 저장하지 않으니 transaction을 지원하지 않음
+(실제 데이터는 테이블형식으로 저장되지 않기 때문에 record-level SQL실행불가)
+
+* OLAP = 데이터를 분석해서 insight를 얻는 과정
+* OLTP = 실시간으로 transaction해서 유저에게 서비스하는 과정
+
+-------------------------------
+
+table = 실제 데이터
+view = table이 동굴 벽에 투영된 그림자
+
+-------------------------------
+
+LOAD DATA = HDFS에 있는 파일의 Ownership을 Hive로 옮김 (Hive가 DROP하면 HDFS에서도 없어짐)
+LOAD DATA LOCAL = 로컬에 있는 파일의 copy를 Hive로 옮김
+
+* Hive로 LOAD DATA한, 원래의 파일과 연결된 테이블
+= Managed TABLE
+
+* Hive로 LOAD DATA했는데 원래의 파일과 별도로 취급하고 싶다
+= EXTERNAL TABLE
+
+CREATE EXTERNAL TABLE = outside of Hive에 있는 파일에서 만든 테이블 (HDFS내의)
+                        HDFS에 있는 Ownership을 받은 파일에서 만들더라도
+                        원래 파일과는 별도로 취급하겠다 (DROP해도 영향안받음)
+
+따라서 VIEW를 쓰는게 안전하다 !
+
+-------------------------------
+
+Partitioning in Hive
+    = subdirectory로 처리하여 해당 dir에 있는 데이터만 search한다
+
+    ex) ../customers/컬럼이름=value1/
+        ../customers/컬럼이름=value2/
+
+    = 전부가 아닌 해당 dir에 있는 데이터만 search한다 (빠름)
+
+-------------------------------
+
+* STRUCT 타입 in Hive
+ex)
+CREATE TABLE customers(
+    name STRING,
+    address STRUCT<street:STRING, city:TRING, state:STRING, zip:INT>
+)
+
+    = C에서 구조체랑 똑같음. 위와 같이 선언
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+SQOOP으로 RDB와 HDFS 간 데이터 import, export를 할 수 있다
+
+MySQL -> HDFS
+MySQL -> Hive
+Hive -> MySQL
+
+-------------------------------
+
+
+
+-------------------------------
+
+
+
+-------------------------------

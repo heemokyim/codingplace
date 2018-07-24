@@ -1,3 +1,0 @@
-ipython
-jupyter
-pip install -r requirements.txt

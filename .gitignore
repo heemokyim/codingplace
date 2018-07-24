@@ -3,7 +3,7 @@ chromedriver*
 cred.json
 client_secret.json
 .ipynb_checkpoints
-
+.idea
 */nohup.out
 nohup.out
 *.out

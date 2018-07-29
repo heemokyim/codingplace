@@ -7,7 +7,7 @@ client_secret.json
 */nohup.out
 nohup.out
 *.out
-
+r_example
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

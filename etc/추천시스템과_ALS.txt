@@ -1,0 +1,35 @@
+--------------------------------------
+
+** Alternating Least Squares?
+=> 특정 행렬 R을 U,P로 MF시, R과 R'의 오차를 최소화하는 최적화과정이 필요하다
+=> 이 때 최적화 과정에서 U,R 한 부분을 fix시키고 최적화하는 과정을 각각에 대해 해주는게 ALS다
+=> 한 쪽이 fix되고 다른 쪽을 구하면 최적화문제가 OLS가 된다
+
+장점)
+    1. implicit dataset에서도 추천가능. 즉, 직접적인 점수가 아닌 간접적인 지표로 rating을 도출해서 추천해도 성능이 잘 나온다는 뜻
+    2. Non-convex optimization을 easy하게 바꾸는 역할을 함 = parallize를 잘 할 수 있다
+    
+--------------------------------------
+
+다양한 종류의 추천 시스템이 존재한다.
+User-based, Item-based 코사인 유사도를 사용한 방법,
+우리가 지금 살펴볼 추천 시스템은 Matrix Factorization(행렬 분하)을 통한 평점예측이다.
+
+1. row 벡터(user의 각 item에 대한 rating)을 뽑는다
+2. 그 벡터의 빈 칸을 기존 평점행렬 R을 U,R로 MF하여 예측해야 할 R'로 채워야 한다
+3. R'는 예측이 되므로 R과의 오차가 최소화되야 한다
+4. R'로 예측한 빈 칸의 값들을 큰 순서로 item columns별로 정렬
+5. 예측한 평점이 큰 item을 추천
+6. 이 때 R을 통해 R'를 MF해서 구해야 하는데, 실제로 explicit feedback이 없는 경우가 있다.
+7. 이럴 땐 implicit(간접적인) feedback으로부터 R의 rating을 도출(가정)해야 하는데,
+이 때 쓰일 수 있는 방법이 ALS다.
+
+-------------------------------------
+
+대표적인 추천 시스템 분류
+    => Collaborative Filtering
+    1. Neighborhood Model
+        => User, Item based해서 특정 similarity를 기준으로 제일 비슷한 애를 추천
+    
+    2. Latent Factor Model
+        => MF를 통해 아직 평점을 매기지 않은 Item에 대해 rating을 예측하여 User에게 추천

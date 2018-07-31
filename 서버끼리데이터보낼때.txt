@@ -1,3 +1,0 @@
-1. Server to Cluster
-
-2. Send Spark-broadcast-object

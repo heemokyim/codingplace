@@ -1,3 +1,0 @@
-1. everything in world is connected within six steps of relationship
-
-2. We can apply BFS

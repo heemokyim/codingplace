@@ -1,9 +1,0 @@
-일관성이란? = 일종의 약속
-
-
-특정 테이블에 대해 튜플을 넣고 싶다면 미리 정의한 조건을 만족시켜야 한다.(column, constarint, trigger etc)
-이런 미리 정의한 조건들을 일종의 약속이라 해석한다면, 일관성이란 데이터베이스에 대해 항상 약속을 지켜주는 과정이라 할 수 있다.
-그리고 이 약속은 DDL, Constarint, Trigger로 구현할 수 있다.
-1. DDL = 테이블 내에서 각 Column들에 대한 자료형, 변수명
-2. Constarint = 제약조건 (PK, FK, UNIQUE etc)
-3. Trigger = 주민등록번호 형태, 이메일 형태

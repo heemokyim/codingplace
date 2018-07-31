@@ -1,0 +1,8 @@
+Deep NN
+RNN
+GAN
+Bayesian
+AutoEncoder
+Deep Q network
+RBM
+RBM's NN = DBN (Deep Belief Network)

@@ -13,3 +13,6 @@
 [submodule "fb_crawling"]
 	path = fb_crawling
 	url = https://github.com/Anylee2142/fb_crawling.git
+[submodule "books/dl_from_scratch/deep-learning-from-scratch"]
+	path = books/dl_from_scratch/deep-learning-from-scratch
+	url = https://github.com/Anylee2142/deep-learning-from-scratch

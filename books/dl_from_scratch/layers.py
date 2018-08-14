@@ -271,6 +271,7 @@ class Pooling:
         return out
 
     def backward(self, dout):
+        
         dout = dout.transpose(0, 2, 3, 1)
         
         pool_size = self.pool_h * self.pool_w

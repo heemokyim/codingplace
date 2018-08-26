@@ -8,23 +8,25 @@ def bring_me_password(path='../tmp'):
     return pw + '\n'
 
 def teamviewer_stop():
-    teamviewer('stop')
+    teamviewer_shell('stop')
 
 def teamviewer_start():
-    teamviewer('start')
+    if not is_teamviewer_running():
+        teamviewer_shell('start')
 
 def teamviewer_restart():
-    teamviewer('restart')
+    teamviewer_shell('restart')
 
-def teamviewer(mode='restart'):
-    for each in psutil.process_iter():
-        if 'TeamViewer' in each.name():
-            break
-        else:
-            command = ['sudo', '-S', 'service', 'teamviewerd', mode]
-            proc = Popen(command, stdin=PIPE, stdout=PIPE)
-            proc.communicate(str.encode(bring_me_password()))
-            break
+def teamviewer_shell(mode='restart'):
+    command = ['sudo', '-S', 'service', 'teamviewerd', mode]
+    proc = Popen(command, stdin=PIPE, stdout=PIPE)
+    proc.communicate(str.encode(bring_me_password()))
+
+def is_teamviewer_running():
+    ps_list = [each.name() for each in psutil.process_iter()]
+    if 'TeamViewer' in ps_list:
+        return True
+    return False
 
 if __name__ == '__main__':
-    teamviewer_restart()
+    teamviewer_start()

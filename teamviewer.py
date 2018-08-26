@@ -2,7 +2,7 @@ import psutil
 from subprocess import Popen, PIPE
 import pickle
 
-def bring_me_password(path='../tmp'):
+def bring_me_password(path='YOUR/PATH/TO/PASSWORD'):
     with open(path, 'rb') as f:
         pw = pickle.load(f)
     return pw + '\n'
